@@ -16,7 +16,7 @@ function editFiles(err, files, dirPath) {
                 console.error(`Error: Could not open file: ${filePath}`)
                 process.exit(1);
             }
-            
+
             var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
 
             $('SkillData').find('Skill').each((i, element) => {
@@ -32,7 +32,7 @@ function editFiles(err, files, dirPath) {
 }
 
 if(process.argv.length != 6) {
-    console.error('Error: 4 arguments are required:\nFolder\nSkill ID\nAttribute\nValue');
+    console.error('Error: 4 arguments are required:\nJSON option: i.e. Warrior\nSkill ID: i.e. 10100\nAttribute: i.e. totalAtk\nValue: i.e. 3.3');
     process.exit(1);
 }
 
