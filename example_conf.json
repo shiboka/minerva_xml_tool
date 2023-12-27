@@ -1,0 +1,16 @@
+{
+    "Warrior": {
+        "datasheet": "C:\\Path\\to\\datasheet\\warrior",
+        "database": "C:\\Path\\to\\database\\warrior"
+    },
+
+    "Sorcerer": {
+        "datasheet": "C:\\Path\\to\\datasheet\\sorcerer",
+        "database": "C:\\Path\\to\\database\\sorcerer"
+    },
+
+    "Engineer": {
+        "datasheet": "C:\\Path\\to\\datasheet\\engineer",
+        "database": "C:\\Path\\to\\database\\engineer"
+    }
+}
