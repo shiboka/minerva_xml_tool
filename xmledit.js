@@ -3,7 +3,7 @@ const path = require('path');
 const cheerio = require('cheerio');
 
 if(process.argv.length != 6) {
-    console.error('Error: 4 arguments are required\nFolder\nSkill ID\nAttribute\nValue');
+    console.error('Error: 4 arguments are required:\nFolder\nSkill ID\nAttribute\nValue');
     process.exit(1);
 }
 
