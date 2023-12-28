@@ -1,5 +1,5 @@
 {
-    "Datasheet": "C:\\Users\\daubi\\OneDrive\\Documents\\Code\\js\\Minerva_XML_Tool\\UserSkillData",
+    "Datasheet": "C:\\path\\to\\datasheet",
     "Database": "C:\\path\\to\\database",
     "Skills": {
         "10100": ["10200", "10300"],
