@@ -45,35 +45,54 @@ if(confCategory != 'skill') {
 function editSkill($, file, id, attribute, value) {
     $('SkillData').find('Skill').each((i, e) => {
         if($(e).attr('id') == id) {
+            let changed = false;
+
             if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
                 $(e).find('TargetingList').each((i, e) => {
                     $(e).find('Targeting').each((i,e) => {
                         $(e).find('Cost').each((i,e) => {
-                            $(e).attr(attribute, value);
+                            if($(e).attr(attribute) != undefined) {
+                                $(e).attr(attribute, value);
+                                changed = true;
+                            }
                         });
                     });
                 });
 
                 $(e).find('Precondition').each((i, e) => {
                     $(e).find('Cost').each((i, e) => {
-                        $(e).attr(attribute, value);
+                        if($(e).attr(attribute) != undefined) {
+                            $(e).attr(attribute, value);
+                            changed = true;
+                        }
                     });
                 });
             } else if(attribute == 'coolTime') {
                 $(e).find('Precondition').each((i, e) => {
-                    $(e).attr(attribute, value);
+                    if($(e).attr(attribute) != undefined) {
+                        $(e).attr(attribute, value);
+                        changed = true;
+                    }
                 });
             } else if(attribute == 'startCancelEndTime' || attribute == 'rearCancelStartTime' || attribute == 'moveCancelStartTime') {
                 $(e).find('Action').each((i, e) => {
                     $(e).find('Cancel').each((i, e) => {
-                        $(e).attr(attribute, value);
+                        if($(e).attr(attribute) != undefined) {
+                            $(e).attr(attribute, value);
+                            changed = true;
+                        }
                     });
                 });
             } else if(attribute == "totalAtk" || attribute == "timeRate" || attribute == 'attackRange' || attribute == 'pushTarget') {
-                $(e).attr(attribute, value);
+                if($(e).attr(attribute) != undefined) {
+                    $(e).attr(attribute, value);
+                    changed = true;
+                }
             }
 
-            console.log(`Changed skill id ${id} ${attribute}="${value}" in file: ${file}`);
+            if(changed) {
+                console.log(`Changed skill id ${id} ${attribute}="${value}" in file: ${file}`);
+            }
         }
     });
 }
