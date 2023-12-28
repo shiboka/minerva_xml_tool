@@ -41,7 +41,7 @@ Edits all large monsters in the given area to have +20% hp and +20% def:
 
 Edits ALL monsters in the given area to have +20% hp and +20% def:
 
-`node xmltool.js area 1 large maxHp="+0.2 def="+0.2""`
+`node xmltool.js area 1 maxHp="+0.2 def="+0.2""`
 
 Supported attributes are:
 

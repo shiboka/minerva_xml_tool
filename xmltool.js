@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 /***********************************************/
 /* Process and validate command line arguments */
 /***********************************************/
-if(process.argv.length < 6) {
+if(process.argv.length < 5) {
     console.error('Error: At least 4 arguments are required.');
     process.exit(1);
 }
