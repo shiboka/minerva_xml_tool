@@ -1,0 +1,18 @@
+{
+    "Datasheet": "C:\\Users\\daubi\\OneDrive\\Documents\\Code\\js\\Minerva_XML_Tool\\UserSkillData",
+    "Database": "C:\\path\\to\\database",
+    "Skills": {
+        "10100": ["10200", "10300"],
+        "20100": ["20200", "20300"]
+    },
+    "Attributes": {
+        "totalAtk": {
+            "10100": ["+0.1", "+0.5"],
+            "20100": ["+0.1", "+0.5"]
+        },
+        "timeRate": {
+            "10100": ["+0.1", "+0.5"],
+            "20100": ["+0.1", "+0.5"]
+        }
+    }
+}
