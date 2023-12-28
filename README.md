@@ -14,3 +14,7 @@ Edits just this one skill with the given values:
 Edits this skill, and applies modifiers to linked skills (specified in the conf):
 
 `node xmltool.js skill warrior 10100 y totalAtk="100" mp="50"`
+
+Supported attributes are:
+
+totalAtk, timeRate, attackRange, pushTarget, coolTime, mp, hp, anger, startCancelEndTime, rearCancelStartTime, moveCancelStartTime.
