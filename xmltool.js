@@ -104,7 +104,7 @@ function editSkills(err, files, dir, conf) {
                         const modFloat = parseFloat(conf.Attributes[value[0]][skillId][i]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
                         
-                        editSkill($, file, skill, value[0], modifiedValue)
+                        editSkill($, file, skill, value[0], modifiedValue.toFixed(2));
                     });
                 }
             });
