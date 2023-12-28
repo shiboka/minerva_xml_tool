@@ -1,16 +1,20 @@
 {
-    "Datasheet": "C:\\path\\to\\datasheet",
-    "Database": "C:\\path\\to\\database",
+    "Datasheet": "C:\\path\\to\\datasheet\\warrior",
+    "Database": "C:\\path\\to\\database\\warrior",
     "Skills": {
         "10100": ["10200", "10300"],
         "20100": ["20200", "20300"]
     },
     "Attributes": {
         "totalAtk": {
-            "10100": ["+0.1", "+0.5"],
+            "10100": ["+0.1", "-0.1"],
             "20100": ["+0.1", "+0.5"]
         },
         "timeRate": {
+            "10100": ["+0.1", "+0.5"],
+            "20100": ["+0.1", "+0.5"]
+        },
+        "mp": {
             "10100": ["+0.1", "+0.5"],
             "20100": ["+0.1", "+0.5"]
         }
