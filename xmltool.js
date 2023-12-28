@@ -52,6 +52,7 @@ function editSkill($, file, id, attribute, value) {
                     $(e).find('Targeting').each((i,e) => {
                         $(e).find('Cost').each((i,e) => {
                             if($(e).attr(attribute) != undefined) {
+                                value = Math.floor(value);
                                 $(e).attr(attribute, value);
                                 changed = true;
                             }
@@ -62,6 +63,7 @@ function editSkill($, file, id, attribute, value) {
                 $(e).find('Precondition').each((i, e) => {
                     $(e).find('Cost').each((i, e) => {
                         if($(e).attr(attribute) != undefined) {
+                            value = Math.floor(value);
                             $(e).attr(attribute, value);
                             changed = true;
                         }
@@ -70,6 +72,7 @@ function editSkill($, file, id, attribute, value) {
             } else if(attribute == 'coolTime') {
                 $(e).find('Precondition').each((i, e) => {
                     if($(e).attr(attribute) != undefined) {
+                        value = Math.floor(value);
                         $(e).attr(attribute, value);
                         changed = true;
                     }
@@ -78,13 +81,15 @@ function editSkill($, file, id, attribute, value) {
                 $(e).find('Action').each((i, e) => {
                     $(e).find('Cancel').each((i, e) => {
                         if($(e).attr(attribute) != undefined) {
+                            value = Math.floor(value);
                             $(e).attr(attribute, value);
                             changed = true;
                         }
                     });
                 });
-            } else if(attribute == "totalAtk" || attribute == "timeRate" || attribute == 'attackRange' || attribute == 'pushTarget') {
+            } else if(attribute == "totalAtk" || attribute == "timeRate" || attribute == 'attackRange') {
                 if($(e).attr(attribute) != undefined) {
+                    value = value.toFixed(2);
                     $(e).attr(attribute, value);
                     changed = true;
                 }
@@ -123,7 +128,7 @@ function editSkills(err, files, dir, conf) {
                         const modFloat = parseFloat(conf.Attributes[value[0]][skillId][i]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
                         
-                        editSkill($, file, skill, value[0], modifiedValue.toFixed(2));
+                        editSkill($, file, skill, value[0], modifiedValue);
                     });
                 }
             });
@@ -177,4 +182,4 @@ fs.readFile(`conf/${confCategory}/${confFile}.json`, 'utf8', (err, data) => {
     fs.readdir(databasePath, (err, files) => editSkills(err, files, databasePath, conf));
 });
 
-/*****************************************************/
+/*****************************************************/ 

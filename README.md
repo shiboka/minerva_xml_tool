@@ -17,4 +17,4 @@ Edits this skill, and applies modifiers to linked skills (specified in the conf)
 
 Supported attributes are:
 
-totalAtk, timeRate, attackRange, pushTarget, coolTime, mp, hp, anger, startCancelEndTime, rearCancelStartTime, moveCancelStartTime.
+totalAtk, timeRate, attackRange, coolTime, mp, hp, anger, startCancelEndTime, rearCancelStartTime, moveCancelStartTime.
