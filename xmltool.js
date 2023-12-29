@@ -5,25 +5,46 @@ const cheerio = require('cheerio');
 /***********************************************/
 /* Process and validate command line arguments */
 /***********************************************/
-if(process.argv.length < 5) {
-    console.error('Error: At least 4 arguments are required.');
+if(process.argv.length < 3) {
+    console.error('Error: No category given.');
     process.exit(1);
 }
 
 const confCategory = process.argv[2].toLowerCase();
-const confFile = process.argv[3].toLowerCase();
-const skillId = process.argv[4];
-let skillLink = process.argv[5].toLowerCase();
+let confFile;
+let skillId;
+let skillLink;
 let values;
 
+// node xmltool.js skill warrior 10100 hp
 if(confCategory == 'skill') {
+    if(process.argv.length < 6) {
+        console.error('Error: At least 4 arguments are required for skill category.');
+        process.exit(1);
+    }
+
+    confFile = process.argv[3].toLowerCase();
+    skillId = process.argv[4];
+    skillLink = process.argv[5].toLowerCase();
+
     if(skillLink == 'y' || skillLink == 'n') {
         values = process.argv.slice(6)
     } else {
         values = process.argv.slice(5);
         skillLink = 'n';
     }
+// node xmltool.js area 1 hp
 } else if(confCategory == 'area') {
+    if(process.argv.length < 5) {
+        console.error('Error: At least 3 arguments are required for area category.');
+        process.exit(1);
+    }
+
+    confFile = process.argv[3].toLowerCase();
+    skillId = process.argv[4];
+    skillLink = 'n';
+
+
     if(skillId.includes('=')) {
         values = process.argv.slice(4);
         skillId = 'all';
@@ -134,7 +155,7 @@ function editSkills(err, files, dir, conf) {
                         const modFloat = parseFloat(conf.Attributes[value[0]][skillId][i]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
                         
-                        editSkill($, file, skill, value[0], modifiedValue.toFixed());
+                        editSkill($, file, skill, value[0], modifiedValue.toFixed(2));
                     });
                 }
             });
