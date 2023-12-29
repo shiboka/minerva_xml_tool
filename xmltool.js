@@ -173,27 +173,43 @@ function editNpcStat($, e, attribute, value, area) {
         process.exit(1);
     }
 
-    $(e).find('Stat').each((i, e) => {
-        if(value[0] == '+' || value[0] == '-') {
-            const base = parseFloat($(e).attr(attribute));
-            const modifier = parseFloat(value);
-            modifiedValue = base + base * modifier;
-        } else {
-            modifiedValue = value;
-        }
-
-        if(attribute == 'atk' || attribute == 'def') {
+    if(attribute == 'str' || attribute == 'res') {
+        $(e).find('Critical').each((i, e) => {
             if($(e).attr(attribute) != undefined) {
+                if(value[0] == '+' || value[0] == '-') {
+                    const base = parseFloat($(e).attr(attribute));
+                    const modifier = parseFloat(value);
+                    modifiedValue = base + base * modifier;
+                } else {
+                    modifiedValue = value;
+                }
+
+
                 modifiedValue = parseInt(modifiedValue)
                 $(e).attr(attribute, modifiedValue);
             }
-        } else {
+        });
+    } else {
+        $(e).find('Stat').each((i, e) => {
             if($(e).attr(attribute) != undefined) {
-                modifiedValue = parseFloat(modifiedValue).toFixed(2);
-                $(e).attr(attribute, modifiedValue);
+                if(value[0] == '+' || value[0] == '-') {
+                    const base = parseFloat($(e).attr(attribute));
+                    const modifier = parseFloat(value);
+                    modifiedValue = base + base * modifier;
+                } else {
+                    modifiedValue = value;
+                }
+
+                if(attribute == 'atk' || attribute == 'def') {
+                    modifiedValue = parseInt(modifiedValue)
+                    $(e).attr(attribute, modifiedValue);
+                } else {
+                    modifiedValue = parseFloat(modifiedValue).toFixed(2);
+                    $(e).attr(attribute, modifiedValue);
+                }
             }
-        }
-    });
+        });
+    }
 
     return modifiedValue;
 }
@@ -216,36 +232,31 @@ function editArea(err, files, dir) {
             var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
 
             values.forEach(value => {
-                if(value[0] != 'maxHp' && value[0] != 'atk' && value[0] != 'def') {
+                if(value[0] != 'maxHp' && value[0] != 'atk' && value[0] != 'def' && value[0] != 'str' && value[0] != 'res') {
                     console.error(`Error: Unsupported attribute ${value[0]}.`);
                     process.exit(1);
                 }
 
                 $('NpcData').find('Template').each((i, e) => {
-                    let changed = false;
+                    let modifiedValue;
 
                     if(skillId == 'all') {
-                        const modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                        console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                        modifiedValue = editNpcStat($, e, value[0], value[1], true);
                     } else if(skillId == 'small') {
                         if($(e).attr('size') == 'small') {
-                            const modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                            console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
                     } else if(skillId == 'medium') {
                         if($(e).attr('size') == 'medium') {
-                            const modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                            console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
                     } else if(skillId == 'large') {
                         if($(e).attr('size') == 'large') {
-                            const modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                            console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
                     } else if(skillId == 'elite') {
                         if($(e).attr('elite').toLowerCase() == 'true') {
-                            const modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                            console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
                     } else {
                         if(!skillId.includes('-')) {
@@ -256,9 +267,12 @@ function editArea(err, files, dir) {
                         const ids = skillId.split('-');
 
                         if($('NpcData').attr('huntingZoneId') == ids[0] && $(e).attr('id') == ids[1]) {
-                            const modifiedValue = editNpcStat($, e, value[0], value[1], false);
-                            console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                            modifiedValue = editNpcStat($, e, value[0], value[1], false);
                         }
+                    }
+
+                    if(modifiedValue != undefined) {
+                        console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
                     }
                 });
             });

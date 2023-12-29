@@ -45,4 +45,4 @@ Edits ALL monsters in the given area to have +20% hp and +20% def:
 
 Supported attributes are:
 
-maxHp, def, atk.
+maxHp, def, atk, str (crit), res (crit).
