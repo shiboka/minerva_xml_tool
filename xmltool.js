@@ -10,21 +10,21 @@ if(process.argv.length < 3) {
     process.exit(1);
 }
 
-const confCategory = process.argv[2].toLowerCase();
-let confFile;
-let skillId;
+const category = process.argv[2].toLowerCase();
+let selector;
+let id;
 let skillLink;
 let values;
 
 // node xmltool.js skill warrior 10100 hp
-if(confCategory == 'skill') {
+if(category == 'skill') {
     if(process.argv.length < 6) {
         console.error('Error: At least 4 arguments are required for skill category.');
         process.exit(1);
     }
 
-    confFile = process.argv[3].toLowerCase();
-    skillId = process.argv[4];
+    selector = process.argv[3].toLowerCase();
+    id = process.argv[4];
     skillLink = process.argv[5].toLowerCase();
 
     if(skillLink == 'y' || skillLink == 'n') {
@@ -34,25 +34,26 @@ if(confCategory == 'skill') {
         skillLink = 'n';
     }
 // node xmltool.js area 1 hp
-} else if(confCategory == 'area') {
+} else if(category == 'area') {
     if(process.argv.length < 5) {
         console.error('Error: At least 3 arguments are required for area category.');
         process.exit(1);
     }
 
-    confFile = process.argv[3].toLowerCase();
-    skillId = process.argv[4];
+    selector = process.argv[3].toLowerCase();
+    id = process.argv[4];
     skillLink = 'n';
 
 
-    if(skillId.includes('=')) {
+    if(id.includes('=')) {
         values = process.argv.slice(4);
-        skillId = 'all';
+        id = 'all';
     } else {
         values = process.argv.slice(5)
     }
+// node xmltool.js base warrior effectValue="10"
 } else {
-    console.error(`Error: ${confCategory} is an invalid category.`);
+    console.error(`Error: ${category} is an invalid category.`);
     process.exit(1);
 }
 
@@ -70,9 +71,9 @@ values = values.map(value => {
 /************************/
 /* Function Definitions */
 /************************/
-function editSkill($, file, id, attribute, value) {
+function editSkill($, file, skill, attribute, value) {
     $('SkillData').find('Skill').each((i, e) => {
-        if($(e).attr('id') == id) {
+        if($(e).attr('id') == skill) {
             let changed = false;
 
             if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
@@ -123,7 +124,7 @@ function editSkill($, file, id, attribute, value) {
             }
 
             if(changed) {
-                console.log(`Changed skill id ${id} ${attribute}="${value}" in file: ${file}`);
+                console.log(`Changed skill id ${skill} ${attribute}="${value}" in file: ${file}`);
             }
         }
     });
@@ -147,12 +148,12 @@ function editSkills(err, files, dir, conf) {
             var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
 
             values.forEach(value => {
-                editSkill($, file, skillId, value[0], value[1]);
+                editSkill($, file, id, value[0], value[1]);
 
                 if(skillLink == 'y') {
-                    conf.Skills[skillId].forEach((skill, i) => {
+                    conf.Skills[id].forEach((skill, i) => {
                         const baseFloat = parseFloat(value[1]);
-                        const modFloat = parseFloat(conf.Attributes[value[0]][skillId][i]);
+                        const modFloat = parseFloat(conf.Attributes[value[0]][id][i]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
                         
                         editSkill($, file, skill, value[0], modifiedValue.toFixed(2));
@@ -240,31 +241,31 @@ function editArea(err, files, dir) {
                 $('NpcData').find('Template').each((i, e) => {
                     let modifiedValue;
 
-                    if(skillId == 'all') {
+                    if(id == 'all') {
                         modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                    } else if(skillId == 'small') {
+                    } else if(id == 'small') {
                         if($(e).attr('size') == 'small') {
                             modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
-                    } else if(skillId == 'medium') {
+                    } else if(id == 'medium') {
                         if($(e).attr('size') == 'medium') {
                             modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
-                    } else if(skillId == 'large') {
+                    } else if(id == 'large') {
                         if($(e).attr('size') == 'large') {
                             modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
-                    } else if(skillId == 'elite') {
+                    } else if(id == 'elite') {
                         if($(e).attr('elite').toLowerCase() == 'true') {
                             modifiedValue = editNpcStat($, e, value[0], value[1], true);
                         }
                     } else {
-                        if(!skillId.includes('-')) {
-                            console.error(`Error: Invalid id ${skillId}.`);
+                        if(!id.includes('-')) {
+                            console.error(`Error: Invalid id ${id}.`);
                             process.exit(1);
                         }
                         
-                        const ids = skillId.split('-');
+                        const ids = id.split('-');
 
                         if($('NpcData').attr('huntingZoneId') == ids[0] && $(e).attr('id') == ids[1]) {
                             modifiedValue = editNpcStat($, e, value[0], value[1], false);
@@ -287,9 +288,9 @@ function editArea(err, files, dir) {
 /**************************************/
 /* Read conf file and begin execution */
 /**************************************/
-fs.readFile(`conf/${confCategory}/${confFile}.json`, 'utf8', (err, data) => {
+fs.readFile(`conf/${category}/${selector}.json`, 'utf8', (err, data) => {
     if(err) {
-        console.error(`Error: conf/${confCategory}/${confFile}.json does not exist.`);
+        console.error(`Error: conf/${category}/${selector}.json does not exist.`);
         process.exit(1);
     };
 
@@ -297,11 +298,11 @@ fs.readFile(`conf/${confCategory}/${confFile}.json`, 'utf8', (err, data) => {
     const datasheetPath = conf.Datasheet;
     const databasePath = conf.Database;
 
-    if(confCategory == 'skill') {
+    if(category == 'skill') {
         // Validate conf file if Y given
         if(skillLink == "y") {
-            if(conf.Skills[skillId] == undefined) {
-                console.error(`Error: Invalid conf. Y given but no skill chain specified for Skill ID "${skillId}" in the conf.`);
+            if(conf.Skills[id] == undefined) {
+                console.error(`Error: Invalid conf. Y given but no skill chain specified for Skill ID "${id}" in the conf.`);
                 process.exit(1);
             }
 
@@ -311,12 +312,12 @@ fs.readFile(`conf/${confCategory}/${confFile}.json`, 'utf8', (err, data) => {
                     process.exit(1);
                 }
 
-                if(conf.Attributes[value[0]][skillId] == undefined) {
-                    console.error(`Error: Invalid conf. Y given but no Skill ID "${skillId}" specified for Attribute "${value[0]}" in the conf.`)
+                if(conf.Attributes[value[0]][id] == undefined) {
+                    console.error(`Error: Invalid conf. Y given but no Skill ID "${id}" specified for Attribute "${value[0]}" in the conf.`)
                     process.exit(1);
                 }
 
-                if(conf.Attributes[value[0]][skillId].length != conf.Skills[skillId].length) {
+                if(conf.Attributes[value[0]][id].length != conf.Skills[id].length) {
                     console.error(`Error: Invalid conf. Y given but length of list for "${value[0]}" does not equal length of list for Skill ID "${id}" in the conf.`);
                     process.exit(1);
                 }
@@ -325,7 +326,7 @@ fs.readFile(`conf/${confCategory}/${confFile}.json`, 'utf8', (err, data) => {
 
         fs.readdir(datasheetPath, (err, files) => editSkills(err, files, datasheetPath, conf));
         fs.readdir(databasePath, (err, files) => editSkills(err, files, databasePath, conf));
-    } else if(confCategory == 'area') {
+    } else if(category == 'area') {
         fs.readdir(datasheetPath, (err, files) => editArea(err, files, datasheetPath));
         fs.readdir(databasePath, (err, files) => editArea(err, files, databasePath));    
     }
