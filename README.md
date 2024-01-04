@@ -1,12 +1,12 @@
 # Minerva XML Tool
-Tool for editing Tera xml files, currently supports SkillData and NpcData. There are example configs in the conf folder.
+Tool for editing Tera xml files, currently supports editing skills, npc data, and base stats. There are example configs in the conf folder.
 
 
-### SkillData
+### Skills
 
 Usage:
 
-`node xmltool.js [conf category] [conf file] [skill id] [apply linked skills y/n (optional)] [attributes]`
+`node xmltool.js [category] [class] [skill id] [apply linked skills y/n (optional)] [attributes]`
 
 Edits just this one skill with the given values:
 
@@ -23,11 +23,11 @@ Supported attributes are:
 totalAtk, timeRate, attackRange, coolTime, mp, hp, anger, startCancelEndTime, rearCancelStartTime, moveCancelStartTime.
 
 
-### NpcData
+### Npc Data
 
 Usage:
 
-`node xmltool.js [conf category] [conf file] [mob id/size/elite/nothing for all] [attributes]`
+`node xmltool.js [category] [area number] [mob id/size/elite/nothing for all] [attributes]`
 
 Edits just one mob of the given id (formated as: huntingZoneId-npcId):
 
@@ -46,3 +46,21 @@ Edits ALL monsters in the given area to have +20% hp and +20% def:
 Supported attributes are:
 
 maxHp, def, atk, str (crit), res (crit).
+
+### Base Stats
+
+Usage:
+
+`node xmltool.js [category] [class] [race/nothing for all] [attributes]`
+
+Edits maxMp for Human Warrior:
+
+`node xmltool.js warrior human maxmp="1500"`
+
+Edits mana effectValue and managementType for Warrior all races:
+
+`node xmltool.js warrior effectValue="50" managementType="TypeA"`
+
+Supported attributes are:
+
+maxMp, managementType, tickCycle, effectValue, decayStartTime, decayStartTimeMpFull, recoveryStartTime

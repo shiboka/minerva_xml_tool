@@ -15,6 +15,7 @@ let selector;
 let id;
 let skillLink;
 let values;
+let confPath;
 
 // node xmltool.js skill warrior 10100 hp
 if(category == 'skill') {
@@ -33,6 +34,8 @@ if(category == 'skill') {
         values = process.argv.slice(5);
         skillLink = 'n';
     }
+
+    confPath = `conf/${category}/${selector}.json`;
 // node xmltool.js area 1 hp
 } else if(category == 'area') {
     if(process.argv.length < 5) {
@@ -42,8 +45,6 @@ if(category == 'skill') {
 
     selector = process.argv[3].toLowerCase();
     id = process.argv[4];
-    skillLink = 'n';
-
 
     if(id.includes('=')) {
         values = process.argv.slice(4);
@@ -51,7 +52,26 @@ if(category == 'skill') {
     } else {
         values = process.argv.slice(5)
     }
-// node xmltool.js base warrior effectValue="10"
+
+    confPath = `conf/${category}/${selector}.json`;
+// node xmltool.js base warrior castanic effectValue="10"
+} else if(category == "base") {
+    if(process.argv.length < 5) {
+        console.error('Error: At least 3 arguments are required for base category.');
+        process.exit(1);
+    }
+
+    selector = process.argv[3].toLowerCase();
+    id = process.argv[4].toLowerCase();
+
+    if(id.includes('=')) {
+        values = process.argv.slice(4);
+        id = 'all';
+    } else {
+        values = process.argv.slice(5)
+    }
+
+    confPath = `conf/${category}.json`;
 } else {
     console.error(`Error: ${category} is an invalid category.`);
     process.exit(1);
@@ -311,12 +331,76 @@ function editArea(err, files, dir) {
     });
 }
 
+function editBaseStats(file) {
+    let fileName = file.replace(/^.*[\\/]/, '');
+
+    fs.readFile(file, 'utf8', (err, data) => {
+        if(err) {
+            console.error(`Error: Could not open file: ${file}`)
+            process.exit(1);
+        }
+
+        var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+
+        values.forEach(value => {
+            if(value[0] != 'maxMp' && value[0] != 'managementType' && value[0] != 'tickCycle' && value[0] != 'effectValue'
+            && value[0] != 'decayStartTime' && value[0] != 'decayStartTimeMpFull' && value[0] != 'recoveryStartTime') {
+                console.error(`Error: Unsupported attribute ${value[0]}.`);
+                process.exit(1);
+            }
+
+            $('UserData').find('Template').each((i, e) => {
+                if($(e).attr('class') == selector && ($(e).attr('race') == id || id == 'all')) {
+                    let race = $(e).attr('race');
+                    let changed = false;
+
+                    if(value[0] == 'maxMp') {
+                        $(e).find('StatByLevelTable').each((i, e) => {
+                            $(e).find('StatByLevel').each((i, e) => {
+                                if($(e).attr('maxMp') != undefined) {
+                                    $(e).attr('maxMp', parseInt(value[1]));
+                                    changed = true;
+                                }
+                            });
+                        });
+                    } else {
+                        $(e).find('ManaPoint').each((i, e) => {
+                            if(value[0] == 'managementType') {
+                                if(value[1] != 'TypeA' || value[1] != 'TypeB' || value[1] != 'TypeC') {
+                                    console.error(`Error: Invalid value given for managementType: ${value[1]}.`);
+                                    process.exit(1);
+                                }
+
+                                if($(e).attr('managementType') != undefined) {
+                                    $(e).attr('managementType', value[1]);
+                                    changed = true;
+                                }
+                            } else {
+                                if($(e).attr(value[0]) != undefined) {
+                                    $(e).attr(value[0], parseInt(value[1]));
+                                    changed = true;
+                                }
+                            }
+                        });
+                    }
+
+                    if(changed) {
+                        console.log(`Changed ${selector} ${race} ${value[0]}="${value[1]}" in file: ${fileName}`);
+                    }
+                }
+            });
+        });
+
+        fs.writeFile(file, $.xml(), err => { if(err) throw err });
+    });
+}
+
 /*************************************************/
 
 /**************************************/
 /* Read conf file and begin execution */
 /**************************************/
-fs.readFile(`conf/${category}/${selector}.json`, 'utf8', (err, data) => {
+fs.readFile(confPath, 'utf8', (err, data) => {
     if(err) {
         console.error(`Error: conf/${category}/${selector}.json does not exist.`);
         process.exit(1);
@@ -357,6 +441,8 @@ fs.readFile(`conf/${category}/${selector}.json`, 'utf8', (err, data) => {
     } else if(category == 'area') {
         fs.readdir(datasheetPath, (err, files) => editArea(err, files, datasheetPath));
         fs.readdir(databasePath, (err, files) => editArea(err, files, databasePath));    
+    } else if(category == 'base') {
+        editBaseStats(datasheetPath);
     }
 });
 
