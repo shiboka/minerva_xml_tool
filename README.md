@@ -1,5 +1,5 @@
 # Minerva XML Tool
-Tool for editing Tera xml files, currently supports editing skills, npc data, and base stats. There are example configs in the conf folder.
+Tool for editing Tera xml files. Currently supports editing skills, npc data, and base stats. There are example configs in the conf folder.
 
 
 ### Skills
@@ -46,6 +46,7 @@ Edits ALL monsters in the given area to have +20% hp and +20% def:
 Supported attributes are:
 
 maxHp, def, atk, str (crit), res (crit).
+
 
 ### Base Stats
 
