@@ -71,24 +71,52 @@ values = values.map(value => {
 /************************/
 /* Function Definitions */
 /************************/
+/*
+function getValue($, skill, attribute) {
+    let value;
+
+    $('SkillData').find('Skill').each((i, e) => {
+        if($(e).attr('id') == skill) {
+            if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
+                $(e).find('Precondition').each((i, e) => {
+                    $(e).find('Cost').each((i, e) => {
+                        if($(e).attr(attribute) != undefined) {
+                            value = $(e).attr(attribute);
+                        }
+                    });
+                });
+            } else if(attribute == 'coolTime') {
+                $(e).find('Precondition').each((i, e) => {
+                    if($(e).attr(attribute) != undefined) {
+                        value = $(e).attr(attribute);
+                    }
+                });
+            } else if(attribute == 'startCancelEndTime' || attribute == 'rearCancelStartTime' || attribute == 'moveCancelStartTime') {
+                $(e).find('Action').each((i, e) => {
+                    $(e).find('Cancel').each((i, e) => {
+                        if($(e).attr(attribute) != undefined) {
+                            value = $(e).attr(attribute);
+                        }
+                    });
+                });
+            } else if(attribute == "totalAtk" || attribute == "timeRate" || attribute == 'attackRange') {
+                if($(e).attr(attribute) != undefined) {
+                    value = $(e).attr(attribute);
+                }
+            }
+        }
+    });
+
+    return value;
+}
+*/
+
 function editSkill($, file, skill, attribute, value) {
     $('SkillData').find('Skill').each((i, e) => {
         if($(e).attr('id') == skill) {
             let changed = false;
 
             if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
-                $(e).find('TargetingList').each((i, e) => {
-                    $(e).find('Targeting').each((i,e) => {
-                        $(e).find('Cost').each((i,e) => {
-                            if($(e).attr(attribute) != undefined) {
-                                value = parseInt(value);
-                                $(e).attr(attribute, value);
-                                changed = true;
-                            }
-                        });
-                    });
-                });
-
                 $(e).find('Precondition').each((i, e) => {
                     $(e).find('Cost').each((i, e) => {
                         if($(e).attr(attribute) != undefined) {
