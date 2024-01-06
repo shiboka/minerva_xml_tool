@@ -1,6 +1,4 @@
 {
-    "Datasheet": "C:\\path\\to\\datasheet\\warrior",
-    "Database": "C:\\path\\to\\database\\warrior",
     "Skills": {
         "10100": ["10200", "10300"],
         "20100": ["20200", "20300"]

@@ -1,0 +1,14 @@
+{
+    "Datasheet": "C:/path/to/datasheet",
+    "Database": "C:/path/to/database",
+    "Area": {
+        "OblivionWoods": [
+            ["NpcData_3.xml", "TerritoryData_3.xml"],
+            ["NpcData-00001.xml", "TerritoryData-00094.xml"]
+        ],
+        "BastionOfLok": [
+            ["NpcData_487.xml", "TerritoryData_487.xml"],
+            ["NpcData-00255.xml", "TerritoryData-00217.xml"]
+        ]
+    }
+}

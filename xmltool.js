@@ -15,7 +15,6 @@ let selector;
 let id;
 let skillLink;
 let values;
-let confPath;
 
 // node xmltool.js skill warrior 10100 hp
 if(category == 'skill') {
@@ -34,8 +33,6 @@ if(category == 'skill') {
         values = process.argv.slice(5);
         skillLink = 'n';
     }
-
-    confPath = `conf/${category}/${selector}.json`;
 // node xmltool.js area 1 hp
 } else if(category == 'area') {
     if(process.argv.length < 5) {
@@ -43,7 +40,7 @@ if(category == 'skill') {
         process.exit(1);
     }
 
-    selector = process.argv[3].toLowerCase();
+    selector = process.argv[3];
     id = process.argv[4];
 
     if(id.includes('=')) {
@@ -52,8 +49,6 @@ if(category == 'skill') {
     } else {
         values = process.argv.slice(5)
     }
-
-    confPath = `conf/${category}/${selector}.json`;
 // node xmltool.js stats warrior castanic effectValue="10"
 } else if(category == "stats") {
     if(process.argv.length < 5) {
@@ -70,8 +65,6 @@ if(category == 'skill') {
     } else {
         values = process.argv.slice(5)
     }
-
-    confPath = `conf/${category}.json`;
 } else {
     console.error(`Error: ${category} is an invalid category.`);
     process.exit(1);
@@ -133,7 +126,7 @@ function getValue($, skill, attribute) {
 
 function editSkill($, file, skill, attribute, value) {
     $('SkillData').find('Skill').each((i, e) => {
-        if($(e).attr('id') == skill) {
+        if($(e).attr('id') == skill && $(e).attr('name').toLowerCase().includes(selector)) {
             let changed = false;
 
             if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
@@ -184,7 +177,11 @@ function editSkills(err, files, dir, conf) {
         process.exit(1);
     };
 
-    files.forEach(file => {
+    for(let file of files) {
+        if(!file.startsWith('SkillData') && !file.startsWith('UserSkillData')) {
+            continue;
+        }
+
         const filePath = path.join(dir, file);
 
         fs.readFile(filePath, 'utf8', (err, data) => {
@@ -211,7 +208,7 @@ function editSkills(err, files, dir, conf) {
 
             fs.writeFile(filePath, $.xml(), err => { if(err) throw err });
         });
-    });
+    }
 }
 
 function editNpcStat($, e, attribute, value, area) {
@@ -287,18 +284,13 @@ function editNpcSpawn($, e, attribute, value, area) {
     return modifiedValue;
 }
 
-function editArea(err, files, dir) {
-    if(err) {
-        console.error(`Error: Could not open directory: ${dir}`);
-        process.exit(1);
-    };
-
+function editArea(files) {
     files.forEach(file => {
-        const filePath = path.join(dir, file);
+        const fileName = file.replace(/^.*[\\/]/, '');
 
-        fs.readFile(filePath, 'utf8', (err, data) => {
+        fs.readFile(file, 'utf8', (err, data) => {
             if(err) {
-                console.error(`Error: Could not open file: ${filePath}`)
+                console.error(`Error: Could not open file: ${file}`)
                 process.exit(1);
             }
 
@@ -341,7 +333,7 @@ function editArea(err, files, dir) {
                         }
 
                         if(modifiedValue != undefined) {
-                            console.log(`Changed NPC ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                            console.log(`Changed NPC ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${fileName}`);
                         }
                     });
                 } else if(value [0] == 'respawnTime') {
@@ -380,7 +372,7 @@ function editArea(err, files, dir) {
                                         }
                     
                                         if(modifiedValue != undefined) {
-                                            console.log(`Changed NPC ${$(e).attr('npcTemplateId')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                                            console.log(`Changed NPC ${$(e).attr('npcTemplateId')} ${value[0]}="${modifiedValue}" in file: ${fileName}`);
                                         }
                                     });
                                 });
@@ -393,13 +385,13 @@ function editArea(err, files, dir) {
                 }
             });
 
-            fs.writeFile(filePath, $.xml(), err => { if(err) throw err });
+            fs.writeFile(file, $.xml(), err => { if(err) throw err });
         });
     });
 }
 
 function editBaseStats(file) {
-    let fileName = file.replace(/^.*[\\/]/, '');
+    const fileName = file.replace(/^.*[\\/]/, '');
 
     fs.readFile(file, 'utf8', (err, data) => {
         if(err) {
@@ -467,49 +459,84 @@ function editBaseStats(file) {
 /**************************************/
 /* Read conf file and begin execution */
 /**************************************/
-fs.readFile(confPath, 'utf8', (err, data) => {
+fs.readFile('conf/path.json', 'utf8', (err, data) => {
     if(err) {
-        console.error(`Error: ${confPath} does not exist.`);
+        console.error('Error: Could not open conf/path.json');
         process.exit(1);
     };
 
-    const conf = JSON.parse(data);
+    let conf = JSON.parse(data);
     const datasheetPath = conf.Datasheet;
-    const databasePath = conf.Database;
+    let databasePath = conf.Database;
 
     if(category == 'skill') {
         // Validate conf file if Y given
-        if(skillLink == "y") {
-            if(conf.Skills[id] == undefined) {
-                console.error(`Error: Invalid conf. Y given but no skill chain specified for Skill ID "${id}" in the conf.`);
+        fs.readFile(`conf/${category}/${selector}.json`, 'utf8', (err, data) => {
+            if(err) {
+                console.error(`Error: Could not open conf/${category}/${selector}.json`);
                 process.exit(1);
             }
 
-            values.forEach(value => {
-                if(conf.Attributes[value[0]] == undefined) {
-                    console.error(`Error: Invalid conf. Y given but no Attribute "${value[0]}" specified in the conf.`);
+            conf = JSON.parse(data);
+
+            if(skillLink == "y") {
+                if(conf.Skills[id] == undefined) {
+                    console.error(`Error: Invalid conf. Y given but no skill chain specified for Skill ID "${id}" in the conf.`);
                     process.exit(1);
                 }
 
-                if(conf.Attributes[value[0]][id] == undefined) {
-                    console.error(`Error: Invalid conf. Y given but no Skill ID "${id}" specified for Attribute "${value[0]}" in the conf.`)
-                    process.exit(1);
-                }
+                values.forEach(value => {
+                    if(conf.Attributes[value[0]] == undefined) {
+                        console.error(`Error: Invalid conf. Y given but no Attribute "${value[0]}" specified in the conf.`);
+                        process.exit(1);
+                    }
 
-                if(conf.Attributes[value[0]][id].length != conf.Skills[id].length) {
-                    console.error(`Error: Invalid conf. Y given but length of list for "${value[0]}" does not equal length of list for Skill ID "${id}" in the conf.`);
-                    process.exit(1);
-                }
-            });
+                    if(conf.Attributes[value[0]][id] == undefined) {
+                        console.error(`Error: Invalid conf. Y given but no Skill ID "${id}" specified for Attribute "${value[0]}" in the conf.`)
+                        process.exit(1);
+                    }
+
+                    if(conf.Attributes[value[0]][id].length != conf.Skills[id].length) {
+                        console.error(`Error: Invalid conf. Y given but length of list for "${value[0]}" does not equal length of list for Skill ID "${id}" in the conf.`);
+                        process.exit(1);
+                    }
+                });
+            }
+
+            databasePath = path.join(databasePath, 'SkillData');
+            fs.readdir(datasheetPath, (err, files) => editSkills(err, files, datasheetPath, conf));
+            fs.readdir(databasePath, (err, files) => editSkills(err, files, databasePath, conf));
+        });
+    } else if(category == 'area') {
+        if(conf.Area[selector] == undefined) {
+            console.error(`Error: Area ${selector} not in path.json`);
+            process.exit(1);
         }
 
-        fs.readdir(datasheetPath, (err, files) => editSkills(err, files, datasheetPath, conf));
-        fs.readdir(databasePath, (err, files) => editSkills(err, files, databasePath, conf));
-    } else if(category == 'area') {
-        fs.readdir(datasheetPath, (err, files) => editArea(err, files, datasheetPath));
-        fs.readdir(databasePath, (err, files) => editArea(err, files, databasePath));    
+        if(conf.Area[selector].length != 2) {
+            console.error(`Error: Area ${selector} has incorrect array length. Must be of length 2.`);
+            process.exit(1);
+        }
+
+        const dbNpcPath = path.join(databasePath, 'NpcData');
+        const dbTerritoryPath = path.join(databasePath, 'TerritoryData');
+        const datasheetFiles = conf.Area[selector][0].map(file => path.join(datasheetPath, file));
+        const databaseFiles = conf.Area[selector][1].map(file => {
+            if(file.startsWith('NpcData')) {
+                return path.join(dbNpcPath, file);
+            } else if(file.startsWith('TerritoryData')) {
+                return path.join(dbTerritoryPath, file);
+            } else {
+                console.error(`Error: Unsupported file in conf: ${file}`);
+                process.exit(1);
+            }
+        });
+
+        editArea(datasheetFiles);
+        editArea(databaseFiles);
     } else if(category == 'stats') {
-        editBaseStats(datasheetPath);
+        const userDataPath = path.join(datasheetPath, 'UserData.xml');
+        editBaseStats(userDataPath);
     }
 });
 
