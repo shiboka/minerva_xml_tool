@@ -56,7 +56,7 @@ Usage:
 
 Edits maxMp for Human Warrior:
 
-`node xmltool.js stats warrior human maxmp="1500"`
+`node xmltool.js stats warrior human maxMp="1500"`
 
 Edits mana effectValue and managementType for Warrior all races:
 
