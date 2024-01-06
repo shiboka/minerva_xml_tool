@@ -23,17 +23,15 @@ Supported attributes are:
 totalAtk, timeRate, attackRange, coolTime, mp, hp, anger, startCancelEndTime, rearCancelStartTime, moveCancelStartTime.
 
 
-### Npc Data
+### Area (Npc data)
 
 Usage:
 
 `node xmltool.js area [area number] [mob id/size/elite/nothing for all] [attributes]`
 
-Edits just one mob of the given id (formated as: huntingZoneId-npcId):
+Edits just one mob of the given id (formated as huntingZoneId-npcId):
 
 `node xmltool.js area 1 3-300811 maxHp="1000"`
-
-`node xmltool.js area 1 3-300811 maxHp="+0.2"`
 
 Edits all large monsters in the given area to have +20% hp and +20% def:
 
@@ -45,7 +43,7 @@ Edits ALL monsters in the given area to have +20% hp and +20% def:
 
 Supported attributes are:
 
-maxHp, def, atk, str (crit), res (crit).
+maxHp, def, atk, str (crit), res (crit), respawnTime.
 
 
 ### Base Stats

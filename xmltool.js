@@ -230,11 +230,11 @@ function editNpcStat($, e, attribute, value, area) {
                     const modifier = parseFloat(value);
                     modifiedValue = base + base * modifier;
                 } else {
-                    modifiedValue = value;
+                    modifiedValue = parseFloat(value);
                 }
 
 
-                modifiedValue = parseInt(modifiedValue)
+                modifiedValue = Math.floor(modifiedValue)
                 $(e).attr(attribute, modifiedValue);
             }
         });
@@ -246,18 +246,42 @@ function editNpcStat($, e, attribute, value, area) {
                     const modifier = parseFloat(value);
                     modifiedValue = base + base * modifier;
                 } else {
-                    modifiedValue = value;
+                    modifiedValue = parseFloat(value);
                 }
 
                 if(attribute == 'atk' || attribute == 'def') {
-                    modifiedValue = parseInt(modifiedValue)
+                    modifiedValue = Math.floor(modifiedValue)
                     $(e).attr(attribute, modifiedValue);
                 } else {
-                    modifiedValue = parseFloat(modifiedValue).toFixed(2);
+                    modifiedValue = modifiedValue.toFixed(2);
                     $(e).attr(attribute, modifiedValue);
                 }
             }
         });
+    }
+
+    return modifiedValue;
+}
+
+function editNpcSpawn($, e, attribute, value, area) {
+    let modifiedValue;
+
+    if(area && (value[0] != '+' && value[0] != '-')) {
+        console.error(`Error: Only percentages are allowed for area edits.`)
+        process.exit(1);
+    }
+
+    if($(e).attr(attribute) != undefined) {
+        if(value[0] == '+' || value[0] == '-') {
+            const base = parseFloat($(e).attr(attribute));
+            const modifier = parseFloat(value);
+            modifiedValue = base + base * modifier;
+        } else {
+            modifiedValue = parseFloat(value);
+        }
+
+        modifiedValue = Math.floor(modifiedValue);
+        $(e).attr(attribute, modifiedValue);
     }
 
     return modifiedValue;
@@ -281,49 +305,92 @@ function editArea(err, files, dir) {
             var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
 
             values.forEach(value => {
-                if(value[0] != 'maxHp' && value[0] != 'atk' && value[0] != 'def' && value[0] != 'str' && value[0] != 'res') {
+                if(value[0] == 'maxHp' || value[0] == 'atk' || value[0] == 'def' || value[0] == 'str' || value[0] == 'res') {
+                    $('NpcData').find('Template').each((i, e) => {
+                        let modifiedValue;
+
+                        if(id == 'all') {
+                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
+                        } else if(id == 'small') {
+                            if($(e).attr('size') == 'small') {
+                                modifiedValue = editNpcStat($, e, value[0], value[1], true);
+                            }
+                        } else if(id == 'medium') {
+                            if($(e).attr('size') == 'medium') {
+                                modifiedValue = editNpcStat($, e, value[0], value[1], true);
+                            }
+                        } else if(id == 'large') {
+                            if($(e).attr('size') == 'large') {
+                                modifiedValue = editNpcStat($, e, value[0], value[1], true);
+                            }
+                        } else if(id == 'elite') {
+                            if($(e).attr('elite').toLowerCase() == 'true') {
+                                modifiedValue = editNpcStat($, e, value[0], value[1], true);
+                            }
+                        } else {
+                            if(!id.includes('-')) {
+                                console.error(`Error: Invalid id ${id}.`);
+                                process.exit(1);
+                            }
+                            
+                            const ids = id.split('-');
+
+                            if($('NpcData').attr('huntingZoneId') == ids[0] && $(e).attr('id') == ids[1]) {
+                                modifiedValue = editNpcStat($, e, value[0], value[1], false);
+                            }
+                        }
+
+                        if(modifiedValue != undefined) {
+                            console.log(`Changed NPC ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                        }
+                    });
+                } else if(value [0] == 'respawnTime') {
+                    $('TerritoryData').find('TerritoryGroup').each((i, e) => {
+                        $(e).find('TerritoryList').each((i, e) => {
+                            $(e).find('Territory').each((i, e) => {
+                                let elements = [];
+                                let modifiedValue;
+
+                                if($(e).find('Party').length > 0) {
+                                    $(e).find('Party').each((i, e) => {
+                                        elements[i] = e;
+                                    });
+                                } else {
+                                    elements[0] = e;
+                                }
+
+                                elements.forEach(element => {
+                                    $(element).find('Npc').each((i, e) => {
+                                        if(id == 'small' || id == 'medium' || id == 'large' || id == 'elite') {
+                                            console.error('Error: Size/Elite isn\'t allowed for spawn edits. You can either edit by ID or edit the whole area.');
+                                            process.exit(1);
+                                        } else if(id == 'all') {
+                                            modifiedValue = editNpcSpawn($, e, value[0], value[1], true);
+                                        } else {
+                                            if(!id.includes('-')) {
+                                                console.error(`Error: Invalid id ${id}.`);
+                                                process.exit(1);
+                                            }
+                                            
+                                            const ids = id.split('-');
+                    
+                                            if($('TerritoryData').attr('huntingZoneId') == ids[0] && $(e).attr('npcTemplateId') == ids[1]) {
+                                                modifiedValue = editNpcSpawn($, e, value[0], value[1], false);
+                                            }
+                                        }
+                    
+                                        if(modifiedValue != undefined) {
+                                            console.log(`Changed NPC ${$(e).attr('npcTemplateId')} ${value[0]}="${modifiedValue}" in file: ${file}`);
+                                        }
+                                    });
+                                });
+                            });
+                        });
+                    });
+                } else {
                     console.error(`Error: Unsupported attribute ${value[0]}.`);
                     process.exit(1);
                 }
-
-                $('NpcData').find('Template').each((i, e) => {
-                    let modifiedValue;
-
-                    if(id == 'all') {
-                        modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                    } else if(id == 'small') {
-                        if($(e).attr('size') == 'small') {
-                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                        }
-                    } else if(id == 'medium') {
-                        if($(e).attr('size') == 'medium') {
-                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                        }
-                    } else if(id == 'large') {
-                        if($(e).attr('size') == 'large') {
-                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                        }
-                    } else if(id == 'elite') {
-                        if($(e).attr('elite').toLowerCase() == 'true') {
-                            modifiedValue = editNpcStat($, e, value[0], value[1], true);
-                        }
-                    } else {
-                        if(!id.includes('-')) {
-                            console.error(`Error: Invalid id ${id}.`);
-                            process.exit(1);
-                        }
-                        
-                        const ids = id.split('-');
-
-                        if($('NpcData').attr('huntingZoneId') == ids[0] && $(e).attr('id') == ids[1]) {
-                            modifiedValue = editNpcStat($, e, value[0], value[1], false);
-                        }
-                    }
-
-                    if(modifiedValue != undefined) {
-                        console.log(`Changed npc ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${file}`);
-                    }
-                });
             });
 
             fs.writeFile(filePath, $.xml(), err => { if(err) throw err });
