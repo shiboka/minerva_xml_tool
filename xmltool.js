@@ -54,10 +54,10 @@ if(category == 'skill') {
     }
 
     confPath = `conf/${category}/${selector}.json`;
-// node xmltool.js base warrior castanic effectValue="10"
-} else if(category == "base") {
+// node xmltool.js stats warrior castanic effectValue="10"
+} else if(category == "stats") {
     if(process.argv.length < 5) {
-        console.error('Error: At least 3 arguments are required for base category.');
+        console.error('Error: At least 3 arguments are required for stats category.');
         process.exit(1);
     }
 
@@ -441,7 +441,7 @@ fs.readFile(confPath, 'utf8', (err, data) => {
     } else if(category == 'area') {
         fs.readdir(datasheetPath, (err, files) => editArea(err, files, datasheetPath));
         fs.readdir(databasePath, (err, files) => editArea(err, files, databasePath));    
-    } else if(category == 'base') {
+    } else if(category == 'stats') {
         editBaseStats(datasheetPath);
     }
 });

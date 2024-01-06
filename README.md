@@ -6,7 +6,7 @@ Tool for editing Tera xml files. Currently supports editing skills, npc data, an
 
 Usage:
 
-`node xmltool.js [category] [class] [skill id] [apply linked skills y/n (optional)] [attributes]`
+`node xmltool.js skill [class] [skill id] [apply linked skills y/n (optional)] [attributes]`
 
 Edits just this one skill with the given values:
 
@@ -27,7 +27,7 @@ totalAtk, timeRate, attackRange, coolTime, mp, hp, anger, startCancelEndTime, re
 
 Usage:
 
-`node xmltool.js [category] [area number] [mob id/size/elite/nothing for all] [attributes]`
+`node xmltool.js area [area number] [mob id/size/elite/nothing for all] [attributes]`
 
 Edits just one mob of the given id (formated as: huntingZoneId-npcId):
 
@@ -52,15 +52,15 @@ maxHp, def, atk, str (crit), res (crit).
 
 Usage:
 
-`node xmltool.js [category] [class] [race/nothing for all] [attributes]`
+`node xmltool.js stats [class] [race/nothing for all] [attributes]`
 
 Edits maxMp for Human Warrior:
 
-`node xmltool.js warrior human maxmp="1500"`
+`node xmltool.js stats warrior human maxmp="1500"`
 
 Edits mana effectValue and managementType for Warrior all races:
 
-`node xmltool.js warrior effectValue="50" managementType="TypeA"`
+`node xmltool.js stats warrior effectValue="50" managementType="TypeA"`
 
 Supported attributes are:
 
