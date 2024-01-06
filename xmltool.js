@@ -402,7 +402,7 @@ function editBaseStats(file) {
 /**************************************/
 fs.readFile(confPath, 'utf8', (err, data) => {
     if(err) {
-        console.error(`Error: conf/${category}/${selector}.json does not exist.`);
+        console.error(`Error: ${confPath} does not exist.`);
         process.exit(1);
     };
 
