@@ -481,9 +481,9 @@ function editBaseStats(file) {
 /**************************************/
 /* Read conf file and begin execution */
 /**************************************/
-fs.readFile('conf/path.json', 'utf8', (err, data) => {
+fs.readFile('conf/sources.json', 'utf8', (err, data) => {
     if(err) {
-        console.error('Error: Could not open conf/path.json');
+        console.error('Error: Could not open conf/sources.json');
         process.exit(1);
     };
 
