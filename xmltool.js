@@ -125,6 +125,8 @@ function getValue($, skill, attribute) {
 */
 
 function editSkill($, file, skill, attribute, value) {
+    let changeToFile = false;
+
     $('SkillData').find('Skill').each((i, e) => {
         if($(e).attr('id') == skill && $(e).attr('name').toLowerCase().includes(selector)) {
             let changed = false;
@@ -166,9 +168,12 @@ function editSkill($, file, skill, attribute, value) {
 
             if(changed) {
                 console.log(`Changed skill id ${skill} ${attribute}="${value}" in file: ${file}`);
+                changeToFile = true;
             }
         }
     });
+
+    return changeToFile;
 }
 
 function editSkills(err, files, dir, conf) {
@@ -191,9 +196,10 @@ function editSkills(err, files, dir, conf) {
             }
 
             var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+            let changed = false;
 
             values.forEach(value => {
-                editSkill($, file, id, value[0], value[1]);
+                changed = changed ? true : editSkill($, file, id, value[0], value[1]);
 
                 if(skillLink == 'y') {
                     conf.Skills[id].forEach((skill, i) => {
@@ -206,7 +212,9 @@ function editSkills(err, files, dir, conf) {
                 }
             });
 
-            fs.writeFile(filePath, $.xml(), err => { if(err) throw err });
+            if(changed) {
+                fs.writeFile(filePath, $.xml(), err => { if(err) throw err });
+            }
         });
     }
 }
