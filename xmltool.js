@@ -196,10 +196,10 @@ function editSkills(err, files, dir, conf) {
             }
 
             var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
-            let changed = false;
+            let changeToFile = false;
 
             values.forEach(value => {
-                changed = changed ? true : editSkill($, file, id, value[0], value[1]);
+                changeToFile = changeToFile ? true : editSkill($, file, id, value[0], value[1]);
 
                 if(skillLink == 'y') {
                     conf.Skills[id].forEach((skill, i) => {
@@ -212,8 +212,9 @@ function editSkills(err, files, dir, conf) {
                 }
             });
 
-            if(changed) {
+            if(changeToFile) {
                 fs.writeFile(filePath, $.xml(), err => { if(err) throw err });
+                console.log(`Wrote to file ${file}\n`);
             }
         });
     }
@@ -303,6 +304,7 @@ function editArea(files) {
             }
 
             var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+            let changeToFile = false;
 
             values.forEach(value => {
                 if(value[0] == 'maxHp' || value[0] == 'atk' || value[0] == 'def' || value[0] == 'str' || value[0] == 'res') {
@@ -342,6 +344,7 @@ function editArea(files) {
 
                         if(modifiedValue != undefined) {
                             console.log(`Changed NPC ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${fileName}`);
+                            changeToFile = true;
                         }
                     });
                 } else if(value [0] == 'respawnTime') {
@@ -381,6 +384,7 @@ function editArea(files) {
                     
                                         if(modifiedValue != undefined) {
                                             console.log(`Changed NPC ${$(e).attr('npcTemplateId')} ${value[0]}="${modifiedValue}" in file: ${fileName}`);
+                                            changeToFile = true;
                                         }
                                     });
                                 });
@@ -393,7 +397,10 @@ function editArea(files) {
                 }
             });
 
-            fs.writeFile(file, $.xml(), err => { if(err) throw err });
+            if(changeToFile) {
+                fs.writeFile(file, $.xml(), err => { if(err) throw err });
+                console.log(`Wrote to file ${fileName}\n`);
+            }
         });
     });
 }
@@ -408,6 +415,7 @@ function editBaseStats(file) {
         }
 
         var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+        let changeToFile = false;
 
         values.forEach(value => {
             if(value[0] != 'maxMp' && value[0] != 'managementType' && value[0] != 'tickCycle' && value[0] != 'effectValue'
@@ -453,12 +461,16 @@ function editBaseStats(file) {
 
                     if(changed) {
                         console.log(`Changed ${selector} ${race} ${value[0]}="${value[1]}" in file: ${fileName}`);
+                        changeToFile = true;
                     }
                 }
             });
         });
 
-        fs.writeFile(file, $.xml(), err => { if(err) throw err });
+        if(changeToFile) {
+            fs.writeFile(file, $.xml(), err => { if(err) throw err });
+            console.log(`Wrote to file ${fileName}\n`);
+        }
     });
 }
 
