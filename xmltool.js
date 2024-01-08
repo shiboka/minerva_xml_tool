@@ -124,7 +124,7 @@ function getValue($, skill, attribute) {
 }
 */
 
-function editSkill($, file, skill, attribute, value) {
+function editSkill($, file, skill, className, attribute, value) {
     let changeToFile = false;
 
     $('SkillData').find('Skill').each((i, e) => {
@@ -182,8 +182,10 @@ function editSkills(err, files, dir, conf) {
         process.exit(1);
     };
 
-    for(let file of files) {
-        if(!file.startsWith('SkillData') && !file.startsWith('UserSkillData')) {
+    const className = selector.charAt(0).toUpperCase() + selector.slice(1);
+
+    for(const file of files) {
+        if(!file.startsWith('SkillData') && !file.startsWith(`UserSkillData_${className}`)) {
             continue;
         }
 
@@ -199,7 +201,7 @@ function editSkills(err, files, dir, conf) {
             let changeToFile = false;
 
             values.forEach(value => {
-                changeToFile = changeToFile ? true : editSkill($, file, id, value[0], value[1]);
+                changeToFile = changeToFile ? true : editSkill($, file, id, className, value[0], value[1]);
 
                 if(skillLink == 'y') {
                     conf.Skills[id].forEach((skill, i) => {
@@ -207,7 +209,7 @@ function editSkills(err, files, dir, conf) {
                         const modFloat = parseFloat(conf.Attributes[value[0]][id][i]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
                         
-                        editSkill($, file, skill, value[0], modifiedValue.toFixed(2));
+                        editSkill($, file, skill, className, value[0], modifiedValue.toFixed(2));
                     });
                 }
             });
