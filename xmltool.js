@@ -202,6 +202,7 @@ function genSkillConf(dir) {
 
             for(let i = 2; i < 20; i++) {
                 const level = String(i).padStart(2, '0');
+                let found = false;
 
                 $('SkillData').find('Skill').each((i, e) => {
                     const idRev = key.split('').reverse();
@@ -211,6 +212,8 @@ function genSkillConf(dir) {
                     newId = newId.reverse().join('');
 
                     if($(e).attr('id') == newId) {
+                        found = true;
+
                         jsonObj[key][$(e).attr('id')] = {};
                         jsonObj[key][$(e).attr('id')].name = $(e).attr('name');
         
@@ -246,6 +249,10 @@ function genSkillConf(dir) {
                         });
                     }
                 });
+
+                if(!found) {
+                    break;
+                }
             }
 
             for(const [k, v] of Object.entries(jsonObj[key])) {
