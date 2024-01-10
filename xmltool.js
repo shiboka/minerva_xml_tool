@@ -18,20 +18,30 @@ let values;
 
 // node xmltool.js skill warrior 10100 hp
 if(category == 'skill') {
-    if(process.argv.length < 6) {
-        console.error('Error: At least 4 arguments are required for skill category.');
+    if(process.argv.length < 5) {
+        console.error('Error: At least 3 arguments are required for skill category.');
         process.exit(1);
     }
 
     selector = process.argv[3].toLowerCase();
-    id = process.argv[4];
-    skillLink = process.argv[5].toLowerCase();
+    id = process.argv[4].toLowerCase();
 
-    if(skillLink == 'y' || skillLink == 'n') {
-        values = process.argv.slice(6)
-    } else {
-        values = process.argv.slice(5);
-        skillLink = 'n';
+    if(selector != 'warrior' && selector != 'berserker' && selector != 'slayer' && selector != 'archer'
+    && selector != 'sorcerer' && selector != 'lancer' && selector != 'priest' && selector != 'elementalist'
+    && selector != 'soulless' && selector != 'engineer' && selector != 'fighter' && selector != 'assassin' && selector != 'glaiver') {
+        console.error(`Error: Invalid class ${selector}`);
+        process.exit(1);
+    }
+    
+    if(id != 'genconf') {
+        skillLink = process.argv[5].toLowerCase();
+
+        if(skillLink == 'y' || skillLink == 'n') {
+            values = process.argv.slice(6)
+        } else {
+            values = process.argv.slice(5);
+            skillLink = 'n';
+        }
     }
 // node xmltool.js area 1 hp
 } else if(category == 'area') {
@@ -70,59 +80,185 @@ if(category == 'skill') {
     process.exit(1);
 }
 
-values = values.map(value => {
-    if(!value.includes('=')) {
-        console.error(`Error: Invalid value given: ${value}`);
-        process.exit(1);
-    }
+if(values != undefined) {
+    values = values.map(value => {
+        if(!value.includes('=')) {
+            console.error(`Error: Invalid value given: ${value}`);
+            process.exit(1);
+        }
 
-    return value.split('=');
-});
+        return value.split('=');
+    });
+}
 
 /**********************************************/
 
 /************************/
 /* Function Definitions */
 /************************/
-/*
-function getValue($, skill, attribute) {
+function reverse(s){
+    return s.split('').reverse().join('');
+}
+
+function getValue($, e, attribute) {
     let value;
 
-    $('SkillData').find('Skill').each((i, e) => {
-        if($(e).attr('id') == skill) {
-            if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
-                $(e).find('Precondition').each((i, e) => {
-                    $(e).find('Cost').each((i, e) => {
-                        if($(e).attr(attribute) != undefined) {
-                            value = $(e).attr(attribute);
-                        }
-                    });
-                });
-            } else if(attribute == 'coolTime') {
-                $(e).find('Precondition').each((i, e) => {
-                    if($(e).attr(attribute) != undefined) {
-                        value = $(e).attr(attribute);
-                    }
-                });
-            } else if(attribute == 'startCancelEndTime' || attribute == 'rearCancelStartTime' || attribute == 'moveCancelStartTime') {
-                $(e).find('Action').each((i, e) => {
-                    $(e).find('Cancel').each((i, e) => {
-                        if($(e).attr(attribute) != undefined) {
-                            value = $(e).attr(attribute);
-                        }
-                    });
-                });
-            } else if(attribute == "totalAtk" || attribute == "timeRate" || attribute == 'attackRange') {
+    if(attribute == 'mp' || attribute == 'hp' || attribute == 'anger') {
+        $(e).find('Precondition').each((i, e) => {
+            $(e).find('Cost').each((i, e) => {
                 if($(e).attr(attribute) != undefined) {
                     value = $(e).attr(attribute);
                 }
+            });
+        });
+    } else if(attribute == 'coolTime') {
+        $(e).find('Precondition').each((i, e) => {
+            if($(e).attr(attribute) != undefined) {
+                value = $(e).attr(attribute);
             }
+        });
+    } else if(attribute == 'frontCancelEndTime' || attribute == 'rearCancelStartTime' || attribute == 'moveCancelStartTime') {
+        $(e).find('Action').each((i, e) => {
+            $(e).find('Cancel').each((i, e) => {
+                if($(e).attr(attribute) != undefined) {
+                    value = $(e).attr(attribute);
+                }
+            });
+        });
+    } else if(attribute == 'totalAtk' || attribute == 'timeRate' || attribute == 'attackRange') {
+        if($(e).attr(attribute) != undefined) {
+            value = $(e).attr(attribute);
         }
-    });
+    }
 
     return value;
 }
-*/
+
+function genSkillConf(dir) {
+    const attributes = ['totalAtk', 'timeRate', 'attackRange', 'coolTime', 'mp', 'hp', 'anger', 'frontCancelEndTime', 'rearCancelStartTime', 'moveCancelStartTime'];
+    const className = selector.charAt(0).toUpperCase() + selector.slice(1);
+    let file;
+
+    switch(className) {
+        case 'Warrior':
+        case 'Berserker':
+        case 'Slayer':
+        case 'Archer':
+        case 'Sorcerer':
+        case 'Lancer':
+        case 'Priest':
+        case 'Elementalist':
+        case 'Soulless':
+        case 'Engineer':
+        case 'Assassin':
+            file = `UserSkillData_${className}_Popori_F.xml`;
+            break;
+        case 'Fighter':
+            file = 'UserSkillData_Fighter_Human_F.xml';
+            break;
+        case 'Glaiver':
+            file = 'UserSkillData_Glaiver_Castanic_F.xml';
+            break;
+    }
+
+    const filePath = path.join(dir, file);
+    let baseValues = {};
+    let jsonObj = {};
+
+    fs.readFile(filePath, 'utf8', (err, data) => {
+        if(err) {
+            console.error(`Error: Could not open file: ${filePath}`)
+            process.exit(1);
+        }
+
+        let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+
+        $('SkillData').find('Skill').each((i, e) => {
+            const id = $(e).attr('id');
+            const idRev = reverse(id);
+            const lvlRev = idRev.slice(2, 4);
+            const lvl = reverse(lvlRev);
+
+            if(lvl == '01') {
+                baseValues[$(e).attr('id')] = {};
+                baseValues[$(e).attr('id')].name = $(e).attr('name');
+                baseValues[$(e).attr('id')].prev = {};
+                jsonObj[$(e).attr('id')] = {};
+
+                attributes.forEach(attribute => {
+                    const value = getValue($, e, attribute)
+
+                    if(value != undefined) {
+                        baseValues[$(e).attr('id')][attribute] = value;
+                        baseValues[$(e).attr('id')].prev[attribute] = value;
+                    };
+                });
+            }
+        });
+
+        for(const [key, value] of Object.entries(jsonObj)) {
+            let problems = [];
+            console.log(`Generating chain for skill ${key}`);
+
+            for(let i = 2; i < 20; i++) {
+                const level = String(i).padStart(2, '0');
+
+                $('SkillData').find('Skill').each((i, e) => {
+                    const idRev = key.split('').reverse();
+                    let newId = idRev;
+                    newId[2] = level[1]
+                    newId[3] = level[0];
+                    newId = newId.reverse().join('');
+
+                    if($(e).attr('id') == newId) {
+                        jsonObj[key][$(e).attr('id')] = {};
+                        jsonObj[key][$(e).attr('id')].name = $(e).attr('name');
+        
+                        attributes.forEach(attribute => {
+                            const value = getValue($, e, attribute);
+                            const prev = baseValues[key].prev[attribute];
+        
+                            if(value != undefined && prev != undefined) {
+                                let modifier;
+        
+                                if(parseFloat(prev) == 0 && parseFloat(value) != 0) {
+                                    problems.push(attribute);
+                                }
+        
+                                if(parseFloat(prev) == 0) {
+                                    modifier = 0.0;
+                                } else {
+                                    modifier = parseFloat(value) / parseFloat(prev) - 1;
+                                }
+                                
+                                if(modifier >= 0) {
+                                    jsonObj[key][$(e).attr('id')][attribute] = `+${modifier.toFixed(4)}`;
+                                } else {
+                                    jsonObj[key][$(e).attr('id')][attribute] = `${modifier.toFixed(4)}`;
+                                }
+                            }
+        
+                            if(value != undefined) {
+                                baseValues[key].prev[attribute] = value;
+                            } else if(value == undefined && prev != undefined) {
+                                delete baseValues[key].prev[attribute]
+                            }
+                        });
+                    }
+                });
+            }
+
+            for(const [k, v] of Object.entries(jsonObj[key])) {
+                problems.forEach(problem => {
+                    console.log(`Removing problematic value ${problem} for skill ${k}`);
+                    delete v[problem];
+                });
+            }
+        }
+
+        fs.writeFile(`conf/skill/${selector}.json`, JSON.stringify(jsonObj, null, 4), err => { if(err) throw err });
+    });
+}
 
 function editSkill($, file, skill, className, attribute, value) {
     let changeToFile = false;
@@ -149,7 +285,7 @@ function editSkill($, file, skill, className, attribute, value) {
                         changed = true;
                     }
                 });
-            } else if(attribute == 'startCancelEndTime' || attribute == 'rearCancelStartTime' || attribute == 'moveCancelStartTime') {
+            } else if(attribute == 'frontCancelEndTime' || attribute == 'rearCancelStartTime' || attribute == 'moveCancelStartTime') {
                 $(e).find('Action').each((i, e) => {
                     $(e).find('Cancel').each((i, e) => {
                         if($(e).attr(attribute) != undefined) {
@@ -197,20 +333,28 @@ function editSkills(err, files, dir, conf) {
                 process.exit(1);
             }
 
-            var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+            let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
             let changeToFile = false;
 
             values.forEach(value => {
                 changeToFile = changeToFile ? true : editSkill($, file, id, className, value[0], value[1]);
 
                 if(skillLink == 'y') {
-                    conf.Skills[id].forEach((skill, i) => {
-                        const baseFloat = parseFloat(value[1]);
-                        const modFloat = parseFloat(conf.Attributes[value[0]][id][i]);
+                    let prev = value[1];
+
+                    for(const [k, v] of Object.entries(conf[id])) {
+                        if(v[value[0]] == undefined) {
+                            continue;
+                        }
+
+                        const baseFloat = parseFloat(prev);
+                        const modFloat = parseFloat(v[value[0]]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
-                        
-                        editSkill($, file, skill, className, value[0], modifiedValue.toFixed(2));
-                    });
+
+                        editSkill($, file, k, className, value[0], modifiedValue.toFixed(4));
+
+                        prev = `${modifiedValue.toFixed(4)}`;
+                    }
                 }
             });
 
@@ -261,7 +405,7 @@ function editNpcStat($, e, attribute, value, area) {
                     modifiedValue = Math.floor(modifiedValue)
                     $(e).attr(attribute, modifiedValue);
                 } else {
-                    modifiedValue = modifiedValue.toFixed(2);
+                    modifiedValue = modifiedValue.toFixed(4);
                     $(e).attr(attribute, modifiedValue);
                 }
             }
@@ -305,7 +449,7 @@ function editArea(files) {
                 process.exit(1);
             }
 
-            var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+            let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
             let changeToFile = false;
 
             values.forEach(value => {
@@ -416,7 +560,7 @@ function editBaseStats(file) {
             process.exit(1);
         }
 
-        var $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+        let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
         let changeToFile = false;
 
         values.forEach(value => {
@@ -492,16 +636,19 @@ fs.readFile('conf/sources.json', 'utf8', (err, data) => {
     let databasePath = conf.Database;
 
     if(category == 'skill') {
+        if(id == 'genconf') {
+            genSkillConf(datasheetPath);
+        }
         // Validate conf file if Y given
-        fs.readFile(`conf/${category}/${selector}.json`, 'utf8', (err, data) => {
-            if(err) {
-                console.error(`Error: Could not open conf/${category}/${selector}.json`);
-                process.exit(1);
-            }
+        else if(skillLink == 'y') {
+            fs.readFile(`conf/${category}/${selector}.json`, 'utf8', (err, data) => {
+                if(err) {
+                    console.error(`Error: Could not open conf/${category}/${selector}.json`);
+                    process.exit(1);
+                }
 
-            conf = JSON.parse(data);
-
-            if(skillLink == "y") {
+                conf = JSON.parse(data);
+                /*
                 if(conf.Skills[id] == undefined) {
                     console.error(`Error: Invalid conf. Y given but no skill chain specified for Skill ID "${id}" in the conf.`);
                     process.exit(1);
@@ -523,12 +670,22 @@ fs.readFile('conf/sources.json', 'utf8', (err, data) => {
                         process.exit(1);
                     }
                 });
-            }
+                */
 
+                if(conf[id] == undefined) {
+                    console.error(`Error: Invalid conf. Y given but no skill chain for skill "${id}".`);
+                    process.exit(1);
+                }
+
+                databasePath = path.join(databasePath, 'SkillData');
+                fs.readdir(datasheetPath, (err, files) => editSkills(err, files, datasheetPath, conf));
+                fs.readdir(databasePath, (err, files) => editSkills(err, files, databasePath, conf));
+            });
+        } else {
             databasePath = path.join(databasePath, 'SkillData');
-            fs.readdir(datasheetPath, (err, files) => editSkills(err, files, datasheetPath, conf));
-            fs.readdir(databasePath, (err, files) => editSkills(err, files, databasePath, conf));
-        });
+            fs.readdir(datasheetPath, (err, files) => editSkills(err, files, datasheetPath, null));
+            fs.readdir(databasePath, (err, files) => editSkills(err, files, databasePath, null));
+        }
     } else if(category == 'area') {
         if(conf.Area[selector] == undefined) {
             console.error(`Error: Area ${selector} not in path.json`);

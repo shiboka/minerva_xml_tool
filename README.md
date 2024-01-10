@@ -1,5 +1,5 @@
 # Minerva XML Tool
-Tool for editing Tera xml files. Currently supports editing skills, npc data, and base stats. There are example configs in the conf folder.
+Tool for editing Tera xml files. Currently supports editing skills, npc data, and base stats. There are pre-generated/example configs in the conf folder.
 
 
 ### Skills
@@ -7,6 +7,12 @@ Tool for editing Tera xml files. Currently supports editing skills, npc data, an
 Usage:
 
 `node xmltool.js skill [class] [skill id] [apply linked skills y/n (optional)] [attributes]`
+
+`node xmltool.js skill [class] genconf`
+
+Generates a config for warrior:
+
+`node xmltool.js skill warrior genconf`
 
 Edits just this one skill with the given values:
 

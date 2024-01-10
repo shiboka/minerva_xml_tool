@@ -1,8 +1,8 @@
 {
     "10100": {
         "10200": {
-            "name": "Popori_F_Warrior_Lv02_Combo_Attack 01",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -14,8 +14,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10300": {
-            "name": "Popori_F_Warrior_Lv03_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -27,8 +27,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10400": {
-            "name": "Popori_F_Warrior_Lv04_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -40,8 +40,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10500": {
-            "name": "Popori_F_Warrior_Lv05_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -53,8 +53,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10600": {
-            "name": "Popori_F_Warrior_Lv06_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -66,8 +66,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10700": {
-            "name": "Popori_F_Warrior_Lv07_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -79,8 +79,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10800": {
-            "name": "Popori_F_Warrior_Lv08_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -92,8 +92,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10900": {
-            "name": "Popori_F_Warrior_Lv09_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -105,8 +105,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11000": {
-            "name": "Popori_F_Warrior_Lv10_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -118,8 +118,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11100": {
-            "name": "Popori_F_Warrior_Lv11_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -131,8 +131,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11200": {
-            "name": "Popori_F_Warrior_Lv12_Combo_Attack 01",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -146,8 +146,8 @@
     },
     "10101": {
         "10201": {
-            "name": "Popori_F_Warrior_Lv02_Combo_Attack 02",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -159,8 +159,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10301": {
-            "name": "Popori_F_Warrior_Lv03_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -172,8 +172,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10401": {
-            "name": "Popori_F_Warrior_Lv04_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -185,8 +185,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10501": {
-            "name": "Popori_F_Warrior_Lv05_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -198,8 +198,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10601": {
-            "name": "Popori_F_Warrior_Lv06_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -211,8 +211,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10701": {
-            "name": "Popori_F_Warrior_Lv07_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -224,8 +224,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10801": {
-            "name": "Popori_F_Warrior_Lv08_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -237,8 +237,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10901": {
-            "name": "Popori_F_Warrior_Lv09_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -250,8 +250,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11001": {
-            "name": "Popori_F_Warrior_Lv10_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -263,8 +263,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11101": {
-            "name": "Popori_F_Warrior_Lv11_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -276,8 +276,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11201": {
-            "name": "Popori_F_Warrior_Lv12_Combo_Attack 02",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Cast 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -291,8 +291,8 @@
     },
     "10102": {
         "10202": {
-            "name": "Popori_F_Warrior_Lv02_Combo_Attack 03",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -304,8 +304,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10302": {
-            "name": "Popori_F_Warrior_Lv03_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -317,8 +317,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10402": {
-            "name": "Popori_F_Warrior_Lv04_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -330,8 +330,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10502": {
-            "name": "Popori_F_Warrior_Lv05_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -343,8 +343,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10602": {
-            "name": "Popori_F_Warrior_Lv06_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -356,8 +356,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10702": {
-            "name": "Popori_F_Warrior_Lv07_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -369,8 +369,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10802": {
-            "name": "Popori_F_Warrior_Lv08_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -382,8 +382,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10902": {
-            "name": "Popori_F_Warrior_Lv09_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -395,8 +395,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11002": {
-            "name": "Popori_F_Warrior_Lv10_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -408,8 +408,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11102": {
-            "name": "Popori_F_Warrior_Lv11_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -421,8 +421,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11202": {
-            "name": "Popori_F_Warrior_Lv12_Combo_Attack 03",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Cast 03",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -436,8 +436,8 @@
     },
     "10103": {
         "10203": {
-            "name": "Popori_F_Warrior_Lv02_Combo_Attack 04",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -449,8 +449,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10303": {
-            "name": "Popori_F_Warrior_Lv03_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -462,8 +462,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10403": {
-            "name": "Popori_F_Warrior_Lv04_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -475,8 +475,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10503": {
-            "name": "Popori_F_Warrior_Lv05_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -488,8 +488,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10603": {
-            "name": "Popori_F_Warrior_Lv06_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -501,8 +501,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10703": {
-            "name": "Popori_F_Warrior_Lv07_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -514,8 +514,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10803": {
-            "name": "Popori_F_Warrior_Lv08_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -527,8 +527,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "10903": {
-            "name": "Popori_F_Warrior_Lv09_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -540,8 +540,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11003": {
-            "name": "Popori_F_Warrior_Lv10_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -553,8 +553,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11103": {
-            "name": "Popori_F_Warrior_Lv11_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -566,7 +566,152 @@
             "moveCancelStartTime": "+0.0000"
         },
         "11203": {
-            "name": "Popori_F_Warrior_Lv12_Combo_Attack 04",
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Cast 04",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10120": {
+        "10220": {
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Projectile 01",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10320": {
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10420": {
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10520": {
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10620": {
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10720": {
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10820": {
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10920": {
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11020": {
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11120": {
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11220": {
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 01",
             "totalAtk": "+0.3701",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -579,11 +724,551 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "20100": {},
+    "10121": {
+        "10221": {
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Projectile 02",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10321": {
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10421": {
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10521": {
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10621": {
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10721": {
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10821": {
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10921": {
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11021": {
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11121": {
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11221": {
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 02",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10122": {
+        "10222": {
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Projectile 03",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10322": {
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10422": {
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10522": {
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10622": {
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10722": {
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10822": {
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10922": {
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11022": {
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11122": {
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11222": {
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 03",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10123": {
+        "10223": {
+            "name": "Popori_F_Priest_Lv02_Holy Shot_Projectile 04",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10323": {
+            "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10423": {
+            "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10523": {
+            "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10623": {
+            "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10723": {
+            "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10823": {
+            "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10923": {
+            "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11023": {
+            "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11123": {
+            "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "11223": {
+            "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 04",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "20100": {
+        "20200": {
+            "name": "Popori_F_Priest_Lv02_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "20300": {
+            "name": "Popori_F_Priest_Lv03_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "20400": {
+            "name": "Popori_F_Priest_Lv04_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "20500": {
+            "name": "Popori_F_Priest_Lv05_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "20600": {
+            "name": "Popori_F_Priest_Lv06_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "20700": {
+            "name": "Popori_F_Priest_Lv07_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "20800": {
+            "name": "Popori_F_Priest_Lv08_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "20900": {
+            "name": "Popori_F_Priest_Lv09_Wide Heal_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
     "30100": {
         "30200": {
-            "name": "Popori_F_Warrior_Lv02_Dual Sword Dancing_Attack 01",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv02_Concentrate Heal_Long Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -595,8 +1280,60 @@
             "moveCancelStartTime": "+0.0000"
         },
         "30300": {
-            "name": "Popori_F_Warrior_Lv03_Dual Sword Dancing_Attack 01",
-            "totalAtk": "+0.2865",
+            "name": "Popori_F_Priest_Lv03_Concentrate Heal_Long Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "30400": {
+            "name": "Popori_F_Priest_Lv04_Concentrate Heal_Long Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "30500": {
+            "name": "Popori_F_Priest_Lv05_Concentrate Heal_Long Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "30600": {
+            "name": "Popori_F_Priest_Lv06_Concentrate Heal_Long Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "30700": {
+            "name": "Popori_F_Priest_Lv07_Concentrate Heal_Long Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -608,10 +1345,10 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "40100": {
-        "40200": {
-            "name": "Popori_F_Warrior_Lv02_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.4591",
+    "30130": {
+        "30230": {
+            "name": "Popori_F_Priest_Lv02_Concentrate Heal_Short Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -622,9 +1359,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "40300": {
-            "name": "Popori_F_Warrior_Lv03_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.4591",
+        "30330": {
+            "name": "Popori_F_Priest_Lv03_Concentrate Heal_Short Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -635,9 +1372,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "40400": {
-            "name": "Popori_F_Warrior_Lv04_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.4591",
+        "30430": {
+            "name": "Popori_F_Priest_Lv04_Concentrate Heal_Short Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -648,9 +1385,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "40500": {
-            "name": "Popori_F_Warrior_Lv05_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.4591",
+        "30530": {
+            "name": "Popori_F_Priest_Lv05_Concentrate Heal_Short Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -661,9 +1398,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "40600": {
-            "name": "Popori_F_Warrior_Lv06_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.4591",
+        "30630": {
+            "name": "Popori_F_Priest_Lv06_Concentrate Heal_Short Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -674,141 +1411,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "40700": {
-            "name": "Popori_F_Warrior_Lv07_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40800": {
-            "name": "Popori_F_Warrior_Lv08_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40900": {
-            "name": "Popori_F_Warrior_Lv09_Concentrate Attack_Attack_Single 01",
-            "totalAtk": "+0.3701",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "40130": {
-        "40230": {
-            "name": "Popori_F_Warrior_Lv02_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40330": {
-            "name": "Popori_F_Warrior_Lv03_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40430": {
-            "name": "Popori_F_Warrior_Lv04_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40530": {
-            "name": "Popori_F_Warrior_Lv05_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40630": {
-            "name": "Popori_F_Warrior_Lv06_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40730": {
-            "name": "Popori_F_Warrior_Lv07_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40830": {
-            "name": "Popori_F_Warrior_Lv08_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "40930": {
-            "name": "Popori_F_Warrior_Lv09_Concentrate Attack_Attack_Chain 01",
-            "totalAtk": "+0.3701",
+        "30730": {
+            "name": "Popori_F_Priest_Lv07_Concentrate Heal_Short Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -822,7 +1427,7 @@
     },
     "50100": {
         "50200": {
-            "name": "Popori_M_Warrior_Lv02_Deafening Roar_Start 01",
+            "name": "Popori_F_Priest_Lv02_Attack Up Bless_Cast 01",
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -835,7 +1440,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "50300": {
-            "name": "Popori_M_Warrior_Lv03_Deafening Roar_Start 01",
+            "name": "Popori_F_Priest_Lv03_Attack Up Bless_Cast 01",
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -848,13 +1453,13 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "70100": {
-        "70200": {
-            "name": "Popori_F_Warrior_Lv02_Inspiring Roar_Start 01",
+    "60100": {
+        "60200": {
+            "name": "Popori_F_Priest_Lv02_Recovery_Cast 01",
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.2000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -863,201 +1468,11 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "80100": {
-        "80200": {
-            "name": "Popori_F_Warrior_Lv02_Iron Will Aggro_ON 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "80300": {
-            "name": "Popori_F_Warrior_Lv03_Iron Will Aggro_ON 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "80400": {
-            "name": "Popori_F_Warrior_Lv04_Iron Will Aggro_ON 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "80150": {
-        "80250": {
-            "name": "Popori_F_Warrior_Lv02_Iron Will Aggro_OFF 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "80350": {
-            "name": "Popori_F_Warrior_Lv03_Iron Will Aggro_OFF 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "80450": {
-            "name": "Popori_F_Warrior_Lv04_Iron Will Aggro_OFF 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "90100": {
-        "90200": {
-            "name": "Popori_F_Warrior_Lv02_Iron Will Defence ON 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "90150": {
-        "90250": {
-            "name": "Popori_F_Warrior_Lv02_Iron Will Defence OFF 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "100100": {
-        "100200": {
-            "name": "Popori_F_Warrior_Lv02_Evasion Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "100300": {
-            "name": "Popori_F_Warrior_Lv03_Evasion Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "100400": {
-            "name": "Popori_F_Warrior_Lv04_Evasion Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "100500": {
-            "name": "Popori_F_Warrior_Lv05_Evasion Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "100600": {
-            "name": "Popori_F_Warrior_Lv06_Evasion Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "100700": {
-            "name": "Popori_F_Warrior_Lv07_Evasion Attack_Attack 01",
-            "totalAtk": "+0.5540",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
+    "80100": {},
+    "100100": {},
     "110100": {
         "110200": {
-            "name": "Popori_F_Warrior_Lv02_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv02_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1070,7 +1485,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "110300": {
-            "name": "Popori_F_Warrior_Lv03_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv03_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1083,7 +1498,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "110400": {
-            "name": "Popori_F_Warrior_Lv04_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv04_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1096,7 +1511,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "110500": {
-            "name": "Popori_F_Warrior_Lv05_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv05_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1109,7 +1524,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "110600": {
-            "name": "Popori_F_Warrior_Lv06_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv06_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1122,7 +1537,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "110700": {
-            "name": "Popori_F_Warrior_Lv07_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv07_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1135,7 +1550,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "110800": {
-            "name": "Popori_F_Warrior_Lv08_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv08_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1148,7 +1563,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "110900": {
-            "name": "Popori_F_Warrior_Lv09_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv09_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1161,7 +1576,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "111000": {
-            "name": "Popori_F_Warrior_Lv10_Poison Blow_Attack 01",
+            "name": "Popori_F_Priest_Lv10_Retrbutionwave_Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1174,8 +1589,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "111100": {
-            "name": "Popori_F_Warrior_Lv11_Poison Blow_Attack 01",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv11_Retrbutionwave_Cast 01",
+            "totalAtk": "+0.5540",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1187,237 +1602,12 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "120100": {
-        "120200": {
-            "name": "Popori_F_Warrior_Lv02_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "120300": {
-            "name": "Popori_F_Warrior_Lv03_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "120400": {
-            "name": "Popori_F_Warrior_Lv04_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "120500": {
-            "name": "Popori_F_Warrior_Lv05_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "120600": {
-            "name": "Popori_F_Warrior_Lv06_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "120700": {
-            "name": "Popori_F_Warrior_Lv07_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "120800": {
-            "name": "Popori_F_Warrior_Lv08_Down Blow_Attack 01",
-            "totalAtk": "+0.3701",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "130100": {
-        "130200": {
-            "name": "Popori_F_Warrior_Lv02_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "130300": {
-            "name": "Popori_F_Warrior_Lv03_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "130400": {
-            "name": "Popori_F_Warrior_Lv04_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "130500": {
-            "name": "Popori_F_Warrior_Lv05_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "130600": {
-            "name": "Popori_F_Warrior_Lv06_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "130700": {
-            "name": "Popori_F_Warrior_Lv07_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "130800": {
-            "name": "Popori_F_Warrior_Lv08_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "130900": {
-            "name": "Popori_F_Warrior_Lv09_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "131000": {
-            "name": "Popori_F_Warrior_Lv10_Rising Attack_Attack 01",
-            "totalAtk": "+0.3701",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "150100": {
-        "150200": {
-            "name": "Popori_F_Warrior_Lv02_MP Refresher_Cast 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "-1.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
+    "120100": {},
+    "140100": {},
     "160100": {
         "160200": {
-            "name": "Popori_F_Warrior_Lv02_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv02_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1429,8 +1619,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "160300": {
-            "name": "Popori_F_Warrior_Lv03_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv03_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1442,8 +1632,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "160400": {
-            "name": "Popori_F_Warrior_Lv04_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv04_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1455,8 +1645,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "160500": {
-            "name": "Popori_F_Warrior_Lv05_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv05_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1468,8 +1658,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "160600": {
-            "name": "Popori_F_Warrior_Lv06_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv06_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1481,8 +1671,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "160700": {
-            "name": "Popori_F_Warrior_Lv07_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv07_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1494,8 +1684,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "160800": {
-            "name": "Popori_F_Warrior_Lv08_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv08_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1507,8 +1697,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "160900": {
-            "name": "Popori_F_Warrior_Lv09_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv09_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1520,8 +1710,21 @@
             "moveCancelStartTime": "+0.0000"
         },
         "161000": {
-            "name": "Popori_F_Warrior_Lv10_Rushing Slash_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv10_Holy Blast_Long Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "161100": {
+            "name": "Popori_F_Priest_Lv11_Holy Blast_Cast 01",
+            "totalAtk": "+0.2079",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1533,9 +1736,9 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "160101": {
-        "160201": {
-            "name": "Popori_F_Warrior_Lv02_Rushing Slash_Attack Connect",
+    "160130": {
+        "160230": {
+            "name": "Popori_F_Priest_Lv02_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1547,8 +1750,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "160301": {
-            "name": "Popori_F_Warrior_Lv03_Rushing Slash_Attack Connect",
+        "160330": {
+            "name": "Popori_F_Priest_Lv03_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1560,8 +1763,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "160401": {
-            "name": "Popori_F_Warrior_Lv04_Rushing Slash_Attack Connect",
+        "160430": {
+            "name": "Popori_F_Priest_Lv04_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1573,8 +1776,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "160501": {
-            "name": "Popori_F_Warrior_Lv05_Rushing Slash_Attack Connect",
+        "160530": {
+            "name": "Popori_F_Priest_Lv05_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1586,8 +1789,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "160601": {
-            "name": "Popori_F_Warrior_Lv06_Rushing Slash_Attack Connect",
+        "160630": {
+            "name": "Popori_F_Priest_Lv06_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1599,8 +1802,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "160701": {
-            "name": "Popori_F_Warrior_Lv07_Rushing Slash_Attack Connect",
+        "160730": {
+            "name": "Popori_F_Priest_Lv07_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1612,8 +1815,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "160801": {
-            "name": "Popori_F_Warrior_Lv08_Rushing Slash_Attack Connect",
+        "160830": {
+            "name": "Popori_F_Priest_Lv08_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1625,8 +1828,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "160901": {
-            "name": "Popori_F_Warrior_Lv09_Rushing Slash_Attack Connect",
+        "160930": {
+            "name": "Popori_F_Priest_Lv09_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -1638,89 +1841,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "161001": {
-            "name": "Popori_F_Warrior_Lv10_Rushing Slash_Attack Connect",
-            "totalAtk": "+0.3701",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "170100": {
-        "170200": {
-            "name": "Popori_F_Warrior_Lv02_All Round Slash_Attack 01",
+        "161030": {
+            "name": "Popori_F_Priest_Lv10_Holy Blast_Short Cast 01",
             "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "170300": {
-            "name": "Popori_F_Warrior_Lv03_All Round Slash_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "170400": {
-            "name": "Popori_F_Warrior_Lv04_All Round Slash_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "170500": {
-            "name": "Popori_F_Warrior_Lv05_All Round Slash_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "170600": {
-            "name": "Popori_F_Warrior_Lv06_All Round Slash_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "170700": {
-            "name": "Popori_F_Warrior_Lv07_All Round Slash_Attack 01",
-            "totalAtk": "+0.3701",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1734,252 +1857,125 @@
     },
     "180100": {
         "180200": {
-            "name": "Popori_F_Warrior_Lv02_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv02_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "180300": {
-            "name": "Popori_F_Warrior_Lv03_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv03_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "180400": {
-            "name": "Popori_F_Warrior_Lv04_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv04_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "180500": {
-            "name": "Popori_F_Warrior_Lv05_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv05_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "180600": {
-            "name": "Popori_F_Warrior_Lv06_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv06_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "180700": {
-            "name": "Popori_F_Warrior_Lv07_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv07_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "180800": {
-            "name": "Popori_F_Warrior_Lv08_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv08_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "180900": {
-            "name": "Popori_F_Warrior_Lv09_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv09_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "181000": {
-            "name": "Popori_F_Warrior_Lv10_Aggravating Strike_Attack 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv10_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
+            "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "181100": {
-            "name": "Popori_F_Warrior_Lv11_Aggravating Strike_Attack_Start 01",
-            "totalAtk": "+0.5540",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "190100": {
-        "190200": {
-            "name": "Popori_F_Warrior_Lv02_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "190300": {
-            "name": "Popori_F_Warrior_Lv03_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "190400": {
-            "name": "Popori_F_Warrior_Lv04_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "190500": {
-            "name": "Popori_F_Warrior_Lv05_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "190600": {
-            "name": "Popori_F_Warrior_Lv06_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "190700": {
-            "name": "Popori_F_Warrior_Lv07_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "190800": {
-            "name": "Popori_F_Warrior_Lv08_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "190900": {
-            "name": "Popori_F_Warrior_Lv09_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "191000": {
-            "name": "Popori_F_Warrior_Lv10_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        },
-        "191100": {
-            "name": "Popori_F_Warrior_Lv11_Tenacious Attack_Attack 01",
-            "totalAtk": "+0.3701",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000"
-        }
-    },
-    "190101": {
-        "190201": {
-            "name": "Popori_F_Warrior_Lv02_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv11_Self Heal_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1990,127 +1986,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "190301": {
-            "name": "Popori_F_Warrior_Lv03_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "190401": {
-            "name": "Popori_F_Warrior_Lv04_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "190501": {
-            "name": "Popori_F_Warrior_Lv05_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "190601": {
-            "name": "Popori_F_Warrior_Lv06_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "190701": {
-            "name": "Popori_F_Warrior_Lv07_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "190801": {
-            "name": "Popori_F_Warrior_Lv08_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "190901": {
-            "name": "Popori_F_Warrior_Lv09_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "191001": {
-            "name": "Popori_F_Warrior_Lv10_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "191101": {
-            "name": "Popori_F_Warrior_Lv11_Tenacious Attack_Attack 02",
-            "totalAtk": "+0.3701",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "200100": {
-        "200200": {
-            "name": "Popori_F_Warrior_Lv02_Deadly Will_Cast 01",
+        "181200": {
+            "name": "Popori_F_Priest_Lv12_Self Heal_Cast 01",
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2123,10 +2000,10 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "210100": {
-        "210200": {
-            "name": "Popori_F_Warrior_Lv02_Hard Slash_Attack 01",
-            "totalAtk": "+0.4591",
+    "190100": {
+        "190200": {
+            "name": "Popori_F_Priest_Lv02_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2137,9 +2014,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "210300": {
-            "name": "Popori_F_Warrior_Lv03_Hard Slash_Attack 01",
-            "totalAtk": "+0.4591",
+        "190300": {
+            "name": "Popori_F_Priest_Lv03_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2150,9 +2027,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "210400": {
-            "name": "Popori_F_Warrior_Lv04_Hard Slash_Attack 01",
-            "totalAtk": "+0.4591",
+        "190400": {
+            "name": "Popori_F_Priest_Lv04_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2163,9 +2040,167 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "210500": {
-            "name": "Popori_F_Warrior_Lv04_Hard Slash_Attack 01",
-            "totalAtk": "+0.3701",
+        "190500": {
+            "name": "Popori_F_Priest_Lv05_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190600": {
+            "name": "Popori_F_Priest_Lv06_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190700": {
+            "name": "Popori_F_Priest_Lv07_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190800": {
+            "name": "Popori_F_Priest_Lv08_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190900": {
+            "name": "Popori_F_Priest_Lv09_Healing Light_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "190110": {
+        "190210": {
+            "name": "Popori_F_Priest_Lv02_Healing Light_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190310": {
+            "name": "Popori_F_Priest_Lv03_Healing Light_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190410": {
+            "name": "Popori_F_Priest_Lv04_Healing Light_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190510": {
+            "name": "Popori_F_Priest_Lv05_Healing Light_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190610": {
+            "name": "Popori_F_Priest_Lv06_Healing Light_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190710": {
+            "name": "Popori_F_Priest_Lv07_Healing Light_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190810": {
+            "name": "Popori_F_Priest_Lv08_Healing Light_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "190910": {
+            "name": "Popori_F_Priest_Lv09_Healing Light_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2179,23 +2214,8 @@
     },
     "220100": {
         "220200": {
-            "name": "Popori_F_Warrior_Lv02_Catch Back Attack_Start 01",
-            "totalAtk": "+2.3086",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        }
-    },
-    "230100": {
-        "230200": {
-            "name": "Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv02_Damage Shield_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2206,9 +2226,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "230300": {
-            "name": "Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01",
-            "totalAtk": "+0.4591",
+        "220300": {
+            "name": "Popori_F_Priest_Lv03_Damage Shield_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2219,9 +2239,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "230400": {
-            "name": "Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01",
-            "totalAtk": "+0.4591",
+        "220400": {
+            "name": "Popori_F_Priest_Lv04_Damage Shield_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2232,22 +2252,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "230500": {
-            "name": "Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "230600": {
-            "name": "Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01",
-            "totalAtk": "+0.2079",
+        "220500": {
+            "name": "Popori_F_Priest_Lv05_Damage Shield_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2261,8 +2268,127 @@
     },
     "240100": {
         "240200": {
-            "name": "Popori_F_Warrior_Lv02_Decoy_Cast 01",
+            "name": "Popori_F_Priest_Lv02_MP Refresher_Cast 01",
             "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "-1.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "250100": {
+        "250200": {
+            "name": "Popori_F_Priest_Lv02_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "250300": {
+            "name": "Popori_F_Priest_Lv03_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "250400": {
+            "name": "Popori_F_Priest_Lv04_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "250500": {
+            "name": "Popori_F_Priest_Lv05_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "250600": {
+            "name": "Popori_F_Priest_Lv06_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "250700": {
+            "name": "Popori_F_Priest_Lv07_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "250800": {
+            "name": "Popori_F_Priest_Lv08_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "250900": {
+            "name": "Popori_F_Priest_Lv09_Rising Attack_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "251000": {
+            "name": "Popori_F_Priest_Lv10_Rising Attack_Cast 01",
+            "totalAtk": "+0.3701",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2274,12 +2400,129 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "250100": {},
-    "260100": {},
+    "260100": {
+        "260200": {
+            "name": "Popori_F_Priest_Lv02_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "260300": {
+            "name": "Popori_F_Priest_Lv03_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "260400": {
+            "name": "Popori_F_Priest_Lv04_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "260500": {
+            "name": "Popori_F_Priest_Lv05_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "260600": {
+            "name": "Popori_F_Priest_Lv06_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "260700": {
+            "name": "Popori_F_Priest_Lv07_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "260800": {
+            "name": "Popori_F_Priest_Lv08_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "260900": {
+            "name": "Popori_F_Priest_Lv09_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "261000": {
+            "name": "Popori_F_Priest_Lv10_Sanctuary of Fetters_Cast 01",
+            "totalAtk": "+0.5540",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
     "270100": {
         "270200": {
-            "name": "Popori_F_Warrior_Lv02_Heavy Bite_Attack 01",
-            "totalAtk": "+0.5664",
+            "name": "Popori_F_Priest_Lv02_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2291,8 +2534,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "270300": {
-            "name": "Popori_F_Warrior_Lv03_Heavy Bite_Attack 01",
-            "totalAtk": "+0.5000",
+            "name": "Popori_F_Priest_Lv03_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2304,8 +2547,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "270400": {
-            "name": "Popori_F_Warrior_Lv04_Heavy Bite_Attack 01",
-            "totalAtk": "+0.5000",
+            "name": "Popori_F_Priest_Lv04_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2317,8 +2560,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "270500": {
-            "name": "Popori_F_Warrior_Lv05_Heavy Bite_Attack 01",
-            "totalAtk": "+0.5000",
+            "name": "Popori_F_Priest_Lv05_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2330,8 +2573,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "270600": {
-            "name": "Popori_F_Warrior_Lv06_Heavy Bite_Attack 01",
-            "totalAtk": "+0.1496",
+            "name": "Popori_F_Priest_Lv06_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2343,7 +2586,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "270700": {
-            "name": "Popori_F_Warrior_Lv07_Heavy Bite_Attack 01",
+            "name": "Popori_F_Priest_Lv07_Punishing Touch_Long Cast 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2356,8 +2599,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "270800": {
-            "name": "Popori_F_Warrior_Lv08_Heavy Bite_Attack 01",
-            "totalAtk": "+0.5540",
+            "name": "Popori_F_Priest_Lv08_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2369,8 +2612,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "270900": {
-            "name": "Popori_F_Warrior_Lv09_Heavy Bite_Attack 01",
-            "totalAtk": "-0.1183",
+            "name": "Popori_F_Priest_Lv09_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2382,8 +2625,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "271000": {
-            "name": "Popori_F_Warrior_Lv10_Heavy Bite_Attack 01",
-            "totalAtk": "-0.2701",
+            "name": "Popori_F_Priest_Lv10_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2395,8 +2638,127 @@
             "moveCancelStartTime": "+0.0000"
         },
         "271100": {
-            "name": "Popori_F_Warrior_Lv11_Heavy Bite_Attack 01",
-            "totalAtk": "+0.0000",
+            "name": "Popori_F_Priest_Lv11_Punishing Touch_Long Cast 01",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "270130": {
+        "270230": {
+            "name": "Popori_F_Priest_Lv02_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "270330": {
+            "name": "Popori_F_Priest_Lv03_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "270430": {
+            "name": "Popori_F_Priest_Lv04_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "270530": {
+            "name": "Popori_F_Priest_Lv05_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "270630": {
+            "name": "Popori_F_Priest_Lv06_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "270730": {
+            "name": "Popori_F_Priest_Lv07_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "270830": {
+            "name": "Popori_F_Priest_Lv08_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "270930": {
+            "name": "Popori_F_Priest_Lv09_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "271030": {
+            "name": "Popori_F_Priest_Lv10_Punishing Touch_Short Cast 01",
+            "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2410,116 +2772,11 @@
     },
     "280100": {
         "280200": {
-            "name": "Popori_F_Warrior_Lv02_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv01_Spirit_Charge",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280300": {
-            "name": "Popori_F_Warrior_Lv03_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280400": {
-            "name": "Popori_F_Warrior_Lv04_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280500": {
-            "name": "Popori_F_Warrior_Lv05_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280600": {
-            "name": "Popori_F_Warrior_Lv06_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280700": {
-            "name": "Popori_F_Warrior_Lv07_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280800": {
-            "name": "Popori_F_Warrior_Lv08_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280900": {
-            "name": "Popori_F_Warrior_Lv09_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "281000": {
-            "name": "Popori_F_Warrior_Lv10_No Rival Dancing_Rapid Piercing_Single Use Start 01",
-            "totalAtk": "+0.7626",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2527,10 +2784,10 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "280130": {
-        "280230": {
-            "name": "Popori_F_Warrior_Lv02_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+    "280110": {
+        "280210": {
+            "name": "Popori_F_Priest_Lv01_Spirit_Shot 00",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2538,12 +2795,14 @@
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280330": {
-            "name": "Popori_F_Warrior_Lv03_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+            "rearCancelStartTime": "+0.1667",
+            "moveCancelStartTime": "-701.0000"
+        }
+    },
+    "280111": {
+        "280211": {
+            "name": "Popori_F_Priest_Lv01_Spirit_Shot 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2551,12 +2810,14 @@
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280430": {
-            "name": "Popori_F_Warrior_Lv04_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+            "rearCancelStartTime": "+0.1667",
+            "moveCancelStartTime": "-701.0000"
+        }
+    },
+    "280112": {
+        "280212": {
+            "name": "Popori_F_Priest_Lv01_Spirit_Shot 02",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2564,91 +2825,13 @@
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280530": {
-            "name": "Popori_F_Warrior_Lv05_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280630": {
-            "name": "Popori_F_Warrior_Lv06_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280730": {
-            "name": "Popori_F_Warrior_Lv07_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280830": {
-            "name": "Popori_F_Warrior_Lv08_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "280930": {
-            "name": "Popori_F_Warrior_Lv09_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "281030": {
-            "name": "Popori_F_Warrior_Lv10_No Rival Dancing_Rapid Piercing_Chain Use Start 01",
-            "totalAtk": "+0.7626",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
+            "rearCancelStartTime": "+0.1667",
+            "moveCancelStartTime": "-701.0000"
         }
     },
     "290100": {
         "290200": {
-            "name": "Popori_F_Warrior_Lv02_No Rival Dancing_Dual Slash_Single Use Start 01",
+            "name": "Popori_F_Priest_Lv02_Divine Retrivution Combo 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2661,7 +2844,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "290300": {
-            "name": "Popori_F_Warrior_Lv03_No Rival Dancing_Dual Slash_Single Use Start 01",
+            "name": "Popori_F_Priest_Lv03_Divine Retrivution Combo 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2674,7 +2857,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "290400": {
-            "name": "Popori_F_Warrior_Lv04_No Rival Dancing_Dual Slash_Single Use Start 01",
+            "name": "Popori_F_Priest_Lv04_Divine Retrivution Combo 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2687,7 +2870,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "290500": {
-            "name": "Popori_F_Warrior_Lv05_No Rival Dancing_Dual Slash_Single Use Start 01",
+            "name": "Popori_F_Priest_Lv05_Divine Retrivution Combo 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2700,7 +2883,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "290600": {
-            "name": "Popori_F_Warrior_Lv06_No Rival Dancing_Dual Slash_Single Use Start 01",
+            "name": "Popori_F_Priest_Lv06_Divine Retrivution Combo 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2713,7 +2896,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "290700": {
-            "name": "Popori_F_Warrior_Lv07_No Rival Dancing_Dual Slash_Single Use Start 01",
+            "name": "Popori_F_Priest_Lv07_Divine Retrivution Combo 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2726,7 +2909,7 @@
             "moveCancelStartTime": "+0.0000"
         },
         "290800": {
-            "name": "Popori_F_Warrior_Lv08_No Rival Dancing_Dual Slash_Single Use Start 01",
+            "name": "Popori_F_Priest_Lv08_Divine Retrivution Combo 01",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2739,8 +2922,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "290900": {
-            "name": "Popori_F_Warrior_Lv09_No Rival Dancing_Dual Slash_Single Use Start 01",
-            "totalAtk": "+0.7626",
+            "name": "Popori_F_Priest_Lv09_Divine Retrivution Combo 01",
+            "totalAtk": "+0.5540",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2752,9 +2935,9 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "290130": {
-        "290230": {
-            "name": "Popori_F_Warrior_Lv02_No Rival Dancing_Dual Slash_Chain Use Start 01",
+    "290101": {
+        "290201": {
+            "name": "Popori_F_Priest_Lv02_Divine Retrivution Combo 02",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2766,8 +2949,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "290330": {
-            "name": "Popori_F_Warrior_Lv03_No Rival Dancing_Dual Slash_Chain Use Start 01",
+        "290301": {
+            "name": "Popori_F_Priest_Lv03_Divine Retrivution Combo 02",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2779,8 +2962,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "290430": {
-            "name": "Popori_F_Warrior_Lv04_No Rival Dancing_Dual Slash_Chain Use Start 01",
+        "290401": {
+            "name": "Popori_F_Priest_Lv04_Divine Retrivution Combo 02",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2792,8 +2975,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "290530": {
-            "name": "Popori_F_Warrior_Lv05_No Rival Dancing_Dual Slash_Chain Use Start 01",
+        "290501": {
+            "name": "Popori_F_Priest_Lv05_Divine Retrivution Combo 02",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2805,8 +2988,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "290630": {
-            "name": "Popori_F_Warrior_Lv06_No Rival Dancing_Dual Slash_Chain Use Start 01",
+        "290601": {
+            "name": "Popori_F_Priest_Lv06_Divine Retrivution Combo 02",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2818,8 +3001,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "290730": {
-            "name": "Popori_F_Warrior_Lv07_No Rival Dancing_Dual Slash_Chain Use Start 01",
+        "290701": {
+            "name": "Popori_F_Priest_Lv07_Divine Retrivution Combo 02",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2831,8 +3014,8 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "290830": {
-            "name": "Popori_F_Warrior_Lv08_No Rival Dancing_Dual Slash_Chain Use Start 01",
+        "290801": {
+            "name": "Popori_F_Priest_Lv08_Divine Retrivution Combo 02",
             "totalAtk": "+0.4591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
@@ -2844,9 +3027,115 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "290930": {
-            "name": "Popori_F_Warrior_Lv09_No Rival Dancing_Dual Slash_Chain Use Start 01",
-            "totalAtk": "+0.7626",
+        "290901": {
+            "name": "Popori_F_Priest_Lv09_Divine Retrivution Combo 02",
+            "totalAtk": "+0.5540",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "290102": {
+        "290202": {
+            "name": "Popori_F_Priest_Lv02_Divine Retrivution Combo 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "290302": {
+            "name": "Popori_F_Priest_Lv03_Divine Retrivution Combo 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "290402": {
+            "name": "Popori_F_Priest_Lv04_Divine Retrivution Combo 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "290502": {
+            "name": "Popori_F_Priest_Lv05_Divine Retrivution Combo 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "290602": {
+            "name": "Popori_F_Priest_Lv06_Divine Retrivution Combo 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "290702": {
+            "name": "Popori_F_Priest_Lv07_Divine Retrivution Combo 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "290802": {
+            "name": "Popori_F_Priest_Lv08_Divine Retrivution Combo 03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "290902": {
+            "name": "Popori_F_Priest_Lv09_Divine Retrivution Combo 03",
+            "totalAtk": "+0.5540",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2860,8 +3149,8 @@
     },
     "300100": {
         "300200": {
-            "name": "Popori_F_Warrior_Lv02_Raker_Single Use Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv02_Prophecy Of Lethargy_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2873,8 +3162,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "300300": {
-            "name": "Popori_F_Warrior_Lv03_Raker_Single Use Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv03_Prophecy Of Lethargy_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2886,8 +3175,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "300400": {
-            "name": "Popori_F_Warrior_Lv04_Raker_Single Use Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv04_Prophecy Of Lethargy_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2899,8 +3188,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "300500": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Single Use Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv05_Prophecy Of Lethargy_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2912,8 +3201,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "300600": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Single Use Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv06_Prophecy Of Lethargy_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2925,8 +3214,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "300700": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Single Use Start 01",
-            "totalAtk": "+0.4591",
+            "name": "Popori_F_Priest_Lv07_Prophecy Of Lethargy_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2938,21 +3227,8 @@
             "moveCancelStartTime": "+0.0000"
         },
         "300800": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "300900": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Single Use Start 01",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv08_Prophecy Of Lethargy_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2964,10 +3240,10 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "300130": {
-        "300230": {
-            "name": "Popori_F_Warrior_Lv02_Raker_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+    "300110": {
+        "300210": {
+            "name": "Popori_F_Priest_Lv02_Prophecy Of Lethargy_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2978,9 +3254,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "300330": {
-            "name": "Popori_F_Warrior_Lv03_Raker_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+        "300310": {
+            "name": "Popori_F_Priest_Lv03_Prophecy Of Lethargy_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2991,9 +3267,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "300430": {
-            "name": "Popori_F_Warrior_Lv04_Raker_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+        "300410": {
+            "name": "Popori_F_Priest_Lv04_Prophecy Of Lethargy_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3004,9 +3280,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "300530": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+        "300510": {
+            "name": "Popori_F_Priest_Lv05_Prophecy Of Lethargy_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3017,9 +3293,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "300630": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+        "300610": {
+            "name": "Popori_F_Priest_Lv06_Prophecy Of Lethargy_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3030,9 +3306,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "300730": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Chain Use Start 01",
-            "totalAtk": "+0.4591",
+        "300710": {
+            "name": "Popori_F_Priest_Lv07_Prophecy Of Lethargy_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3043,22 +3319,9 @@
             "rearCancelStartTime": "+0.0000",
             "moveCancelStartTime": "+0.0000"
         },
-        "300830": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "300930": {
-            "name": "Popori_F_Warrior_Lv05_Raker_Chain Use Start 01",
-            "totalAtk": "+0.3701",
+        "300810": {
+            "name": "Popori_F_Priest_Lv08_Prophecy Of Lethargy_Shot",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3072,86 +3335,8 @@
     },
     "310100": {
         "310200": {
-            "name": "Popori_F_Warrior_Lv02_Rupture_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310300": {
-            "name": "Popori_F_Warrior_Lv03_Rupture_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310400": {
-            "name": "Popori_F_Warrior_Lv04_Rupture_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310500": {
-            "name": "Popori_F_Warrior_Lv05_Rupture_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310600": {
-            "name": "Popori_F_Warrior_Lv06_Rupture_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310700": {
-            "name": "Popori_F_Warrior_Lv07_Rupture_Single Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310800": {
-            "name": "Popori_F_Warrior_Lv08_Rupture_Single Use Start 01",
-            "totalAtk": "+0.5540",
+            "name": "Popori_F_Priest_Lv02_Guardian Aura_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3163,88 +3348,10 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "310130": {
-        "310230": {
-            "name": "Popori_F_Warrior_Lv02_Rupture_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310330": {
-            "name": "Popori_F_Warrior_Lv03_Rupture_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310430": {
-            "name": "Popori_F_Warrior_Lv04_Rupture_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310530": {
-            "name": "Popori_F_Warrior_Lv05_Rupture_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310630": {
-            "name": "Popori_F_Warrior_Lv06_Rupture_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310730": {
-            "name": "Popori_F_Warrior_Lv07_Rupture_Chain Use Start 01",
-            "totalAtk": "+0.4591",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
-            "hp": "+0.0000",
-            "anger": "+0.0000",
-            "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
-            "moveCancelStartTime": "+0.0000"
-        },
-        "310830": {
-            "name": "Popori_F_Warrior_Lv08_Rupture_Chain Use Start 01",
-            "totalAtk": "+0.5540",
+    "320100": {
+        "320200": {
+            "name": "Popori_F_Priest_Lv02_Restoration_Cast 01",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3256,11 +3363,23 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "320100": {},
     "330100": {
         "330200": {
-            "name": "Popori_F_Warrior_Lv02_Shadow change Start 01",
-            "totalAtk": "+0.3701",
+            "name": "Popori_F_Priest_Lv02_Lullaby Of Ishara_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "330300": {
+            "name": "Popori_F_Priest_Lv03_Lullaby Of Ishara_LockOn",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3272,31 +3391,451 @@
             "moveCancelStartTime": "+0.0000"
         }
     },
-    "340100": {},
-    "350100": {},
-    "360100": {},
-    "360130": {},
-    "370100": {},
-    "370130": {},
+    "330110": {
+        "330210": {
+            "name": "Popori_F_Priest_Lv02_Lullaby Of Ishara_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "330310": {
+            "name": "Popori_F_Priest_Lv03_Lullaby Of Ishara_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "340100": {
+        "340200": {
+            "name": "Popori_F_Priest_Lv02_Sanctuary of Regeneration_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "340120": {
+        "340220": {
+            "name": "Popori_F_Priest_Lv02_Sanctuary of Regeneration_Projectile 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "350100": {
+        "350200": {
+            "name": "Popori_F_Priest_Lv02_Divine Lightning_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0827",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "350300": {
+            "name": "Popori_F_Priest_Lv03_Divine Lightning_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0764",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "350400": {
+            "name": "Popori_F_Priest_Lv04_Divine Lightning_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0595",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "350110": {
+        "350210": {
+            "name": "Popori_F_Priest_Lv02_Divine Lightning_Shot",
+            "totalAtk": "+1.9311",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "350310": {
+            "name": "Popori_F_Priest_Lv03_Divine Lightning_Shot",
+            "totalAtk": "+1.9185",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "350410": {
+            "name": "Popori_F_Priest_Lv04_Divine Lightning_Shot",
+            "totalAtk": "+0.8710",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "360100": {
+        "360200": {
+            "name": "Popori_F_Priest_Lv02_Advent Goddess 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "370100": {
+        "370200": {
+            "name": "Popori_F_Priest_Lv02_Cure Wing_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "370110": {
+        "370210": {
+            "name": "Popori_F_Priest_Lv02_Cure Wing_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
     "380100": {},
-    "380130": {},
     "390100": {},
-    "390130": {},
-    "400100": {},
-    "400110": {},
-    "400111": {},
-    "400112": {},
-    "400119": {},
-    "400120": {},
-    "400121": {},
-    "400122": {},
-    "400129": {},
-    "410100": {},
-    "410130": {},
-    "410131": {},
-    "410190": {},
+    "400100": {
+        "400200": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400300": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400400": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400500": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400600": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400700": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400800": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400900": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "401000": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "400120": {
+        "400220": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400320": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400420": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400520": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400620": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400720": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400820": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "400920": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "401020": {
+            "name": "Popori_F_Priest_Lv01_God Breath_Cast 01",
+            "totalAtk": "-1.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.2500",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "-1491.0000",
+            "moveCancelStartTime": "-1500.0000"
+        }
+    },
+    "410100": {
+        "410200": {
+            "name": "Popori_F_Priest_Lv01_Helping Hand_LockOn",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "410110": {
+        "410210": {
+            "name": "Popori_F_Priest_Lv01_Helping Hand_Shot",
+            "totalAtk": "+0.0000",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000"
+        }
+    },
     "420100": {},
+    "420120": {},
+    "420121": {},
+    "420122": {},
     "420130": {},
+    "420131": {},
+    "420132": {},
+    "430100": {},
+    "430150": {},
     "9010100": {},
     "9020100": {},
     "9030100": {},

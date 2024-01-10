@@ -1,0 +1,751 @@
+{
+    "10100": {
+        "10200": {
+            "name": "Popori_F_Soulless_Lv02_ComboAttack_Start",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10300": {
+            "name": "Popori_F_Soulless_Lv03_ComboAttack_Start",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10101": {
+        "10201": {
+            "name": "Popori_F_Soulless_Lv02_ComboAttack_01",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10301": {
+            "name": "Popori_F_Soulless_Lv03_ComboAttack_01",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10102": {
+        "10202": {
+            "name": "Popori_F_Soulless_Lv02_ComboAttack_02",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10302": {
+            "name": "Popori_F_Soulless_Lv03_ComboAttack_02",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10103": {
+        "10203": {
+            "name": "Popori_F_Soulless_Lv02_ComboAttack_03",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10303": {
+            "name": "Popori_F_Soulless_Lv03_ComboAttack_03",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10104": {
+        "10204": {
+            "name": "Popori_F_Soulless_Lv02_ComboAttack_04",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10304": {
+            "name": "Popori_F_Soulless_Lv03_ComboAttack_04",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "10105": {
+        "10205": {
+            "name": "Popori_F_Soulless_Lv02_ComboAttack_05",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "10305": {
+            "name": "Popori_F_Soulless_Lv03_ComboAttack_05",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "30100": {
+        "30200": {
+            "name": "Popori_F_Soulless_Lv02_ChainSmash",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "30300": {
+            "name": "Popori_F_Soulless_Lv03_ChainSmash",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "30130": {
+        "30230": {
+            "name": "Popori_F_Soulless_Lv02_ChainSmash_Continuous",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "30330": {
+            "name": "Popori_F_Soulless_Lv03_ChainSmash_Continuous",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "40100": {
+        "40200": {
+            "name": "Popori_F_Soulless_Lv02_ChainBlow_Long",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "40300": {
+            "name": "Popori_F_Soulless_Lv03_ChainBlow_Long",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "40120": {
+        "40220": {
+            "name": "Popori_F_Soulless_Lv02_ChainBlow_Projectile",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "40320": {
+            "name": "Popori_F_Soulless_Lv03_ChainBlow_Projectile",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "40130": {
+        "40230": {
+            "name": "Popori_F_Soulless_Lv02_ChainBlow_Short",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "40330": {
+            "name": "Popori_F_Soulless_Lv03_ChainBlow_Short",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "50100": {
+        "50200": {
+            "name": "Popori_F_Soulless_Lv02_ChainSuperBlow_Long",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "50300": {
+            "name": "Popori_F_Soulless_Lv03_ChainSuperBlow_Long",
+            "totalAtk": "+0.2079",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "50130": {
+        "50230": {
+            "name": "Popori_F_Soulless_Lv02_ChainSuperBlow_Short",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "50330": {
+            "name": "Popori_F_Soulless_Lv03_ChainSuperBlow_Short",
+            "totalAtk": "+0.2079",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "60100": {
+        "60200": {
+            "name": "Popori_F_Soulless_Lv02_ChainBrandish_01_Start",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "60130": {
+        "60230": {
+            "name": "Popori_F_Soulless_Lv02_ChainBrandish_01",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "60131": {
+        "60231": {
+            "name": "Popori_F_Soulless_Lv02_ChainBrandish_02",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "60190": {
+        "60290": {
+            "name": "Popori_F_Soulless_Lv02_ChainBrandish_CoolTimeController",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "70100": {
+        "70200": {
+            "name": "Popori_F_Soulless_Lv02_ChainBatter_01",
+            "totalAtk": "+0.2865",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "70101": {
+        "70201": {
+            "name": "Popori_F_Soulless_Lv02_ChainBatter_02",
+            "totalAtk": "+0.2865",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "70110": {
+        "70210": {
+            "name": "Popori_F_Soulless_Lv02_ChainBatter_CooltimeController",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "80100": {
+        "80200": {
+            "name": "Popori_F_Soulless_Lv02_ChainBlade",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "80130": {
+        "80230": {
+            "name": "Popori_F_Soulless_Lv02_ChainBlade_Continuous",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "90100": {},
+    "90130": {},
+    "100100": {
+        "100200": {
+            "name": "Popori_F_Soulless_Lv02_ChainUppercut",
+            "totalAtk": "+0.5540",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "100130": {
+        "100230": {
+            "name": "Popori_F_Soulless_Lv02_ChainUppercut_Continuous",
+            "totalAtk": "+0.5540",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "110100": {
+        "110200": {
+            "name": "Popori_F_Soulless_Lv02_ChainFlurry_01",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "110101": {
+        "110201": {
+            "name": "Popori_F_Soulless_Lv02_ChainFlurry_02",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "110102": {
+        "110202": {
+            "name": "Popori_F_Soulless_Lv02_ChainFlurry_03",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "110103": {
+        "110203": {
+            "name": "Popori_F_Soulless_Lv02_ChainFlurry_04",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "110190": {
+        "110290": {
+            "name": "Popori_F_Soulless_Lv02_ChainFlurry_CoolTimeController",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "120100": {
+        "120200": {
+            "name": "Popori_F_Soulless_Lv02_DarkExplosion_01",
+            "totalAtk": "+0.2079",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "120101": {
+        "120201": {
+            "name": "Popori_F_Soulless_Lv02_DarkExplosion_02",
+            "totalAtk": "+0.2079",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "120130": {
+        "120230": {
+            "name": "Popori_F_Soulless_Lv02_DarkExplosion_01_Countinuous",
+            "totalAtk": "+0.2079",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "130100": {},
+    "130120": {},
+    "130130": {},
+    "130140": {},
+    "140100": {
+        "140200": {
+            "name": "Popori_F_Soulless_Lv02_RisingAttack",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "140300": {
+            "name": "Popori_F_Soulless_Lv03_RisingAttack",
+            "totalAtk": "+0.3701",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "150100": {
+        "150200": {
+            "name": "Popori_F_Soulless_Lv02_CounterAttack_Activate",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "150300": {
+            "name": "Popori_F_Soulless_Lv03_CounterAttack_Activate",
+            "totalAtk": "+0.0650",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "150180": {
+        "150280": {
+            "name": "Popori_F_Soulless_Lv02_CounterAttack_Invoke",
+            "totalAtk": "+0.4591",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        },
+        "150380": {
+            "name": "Popori_F_Soulless_Lv03_CounterAttack_Invoke",
+            "totalAtk": "+0.0650",
+            "timeRate": "+0.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
+            "mp": "+0.0000",
+            "hp": "+0.0000",
+            "anger": "+0.0000",
+            "frontCancelEndTime": "+0.0000",
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
+        }
+    },
+    "160100": {},
+    "170100": {},
+    "170110": {},
+    "180100": {},
+    "200100": {},
+    "400100": {},
+    "400130": {},
+    "9010100": {},
+    "9020100": {},
+    "9030100": {}
+}
