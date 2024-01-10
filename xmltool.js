@@ -200,7 +200,7 @@ function genSkillConf(dir) {
             let problems = [];
             console.log(`Generating chain for skill ${key}`);
 
-            for(let i = 2; i < 20; i++) {
+            for(let i = 2; i < 40; i++) {
                 const level = String(i).padStart(2, '0');
                 let found = false;
 
