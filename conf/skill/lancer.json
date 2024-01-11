@@ -14,7 +14,7 @@
         },
         "10300": {
             "name": "Popori_F_Lancer_Lv03_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9991",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -26,7 +26,7 @@
         },
         "10400": {
             "name": "Popori_F_Lancer_Lv04_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -38,7 +38,7 @@
         },
         "10500": {
             "name": "Popori_F_Lancer_Lv05_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -50,7 +50,7 @@
         },
         "10600": {
             "name": "Popori_F_Lancer_Lv06_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -62,7 +62,7 @@
         },
         "10700": {
             "name": "Popori_F_Lancer_Lv07_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.0622",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -74,7 +74,7 @@
         },
         "10800": {
             "name": "Popori_F_Lancer_Lv08_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -86,7 +86,7 @@
         },
         "10900": {
             "name": "Popori_F_Lancer_Lv09_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -98,7 +98,7 @@
         },
         "11000": {
             "name": "Popori_F_Lancer_Lv10_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.1532",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -110,7 +110,7 @@
         },
         "11100": {
             "name": "Popori_F_Lancer_Lv11_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -122,7 +122,7 @@
         },
         "11200": {
             "name": "Popori_F_Lancer_Lv12_Combo_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+55.2826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -148,7 +148,7 @@
         },
         "10301": {
             "name": "Popori_F_Lancer_Lv03_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -160,7 +160,7 @@
         },
         "10401": {
             "name": "Popori_F_Lancer_Lv04_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9171",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -172,7 +172,7 @@
         },
         "10501": {
             "name": "Popori_F_Lancer_Lv05_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -184,7 +184,7 @@
         },
         "10601": {
             "name": "Popori_F_Lancer_Lv06_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -196,7 +196,7 @@
         },
         "10701": {
             "name": "Popori_F_Lancer_Lv07_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.0623",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -208,7 +208,7 @@
         },
         "10801": {
             "name": "Popori_F_Lancer_Lv08_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -220,7 +220,7 @@
         },
         "10901": {
             "name": "Popori_F_Lancer_Lv09_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.2945",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -232,7 +232,7 @@
         },
         "11001": {
             "name": "Popori_F_Lancer_Lv10_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.1534",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -244,7 +244,7 @@
         },
         "11101": {
             "name": "Popori_F_Lancer_Lv11_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+40.0797",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -256,7 +256,7 @@
         },
         "11201": {
             "name": "Popori_F_Lancer_Lv12_Combo_Attack 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+55.2828",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -283,7 +283,7 @@
         },
         "10302": {
             "name": "Popori_F_Lancer_Lv03_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -296,7 +296,7 @@
         },
         "10402": {
             "name": "Popori_F_Lancer_Lv04_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -309,7 +309,7 @@
         },
         "10502": {
             "name": "Popori_F_Lancer_Lv05_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -322,7 +322,7 @@
         },
         "10602": {
             "name": "Popori_F_Lancer_Lv06_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -335,7 +335,7 @@
         },
         "10702": {
             "name": "Popori_F_Lancer_Lv07_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.0623",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -348,7 +348,7 @@
         },
         "10802": {
             "name": "Popori_F_Lancer_Lv08_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -361,7 +361,7 @@
         },
         "10902": {
             "name": "Popori_F_Lancer_Lv09_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -374,7 +374,7 @@
         },
         "11002": {
             "name": "Popori_F_Lancer_Lv10_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -387,7 +387,7 @@
         },
         "11102": {
             "name": "Popori_F_Lancer_Lv11_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+40.0797",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -400,7 +400,7 @@
         },
         "11202": {
             "name": "Popori_F_Lancer_Lv12_Combo_Attack 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+55.2827",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -740,7 +740,7 @@
         },
         "80300": {
             "name": "Popori_F_Lancer_Lv03_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -752,7 +752,7 @@
         },
         "80400": {
             "name": "Popori_F_Lancer_Lv04_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -764,7 +764,7 @@
         },
         "80500": {
             "name": "Popori_F_Lancer_Lv05_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -776,7 +776,7 @@
         },
         "80600": {
             "name": "Popori_F_Lancer_Lv06_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -788,7 +788,7 @@
         },
         "80700": {
             "name": "Popori_F_Lancer_Lv07_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -800,7 +800,7 @@
         },
         "80800": {
             "name": "Popori_F_Lancer_Lv08_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -812,7 +812,7 @@
         },
         "80900": {
             "name": "Popori_F_Lancer_Lv09_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -824,7 +824,7 @@
         },
         "81000": {
             "name": "Popori_F_Lancer_Lv10_Riposte_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -836,7 +836,7 @@
         },
         "81100": {
             "name": "Popori_F_Lancer_Lv11_Riposte_Start 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -862,10 +862,10 @@
         },
         "90300": {
             "name": "Popori_F_Lancer_Lv03_Hook Shot_Start 01",
-            "totalAtk": "+0.9992",
+            "totalAtk": "+8.0623",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.2500",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -889,7 +889,7 @@
         },
         "100300": {
             "name": "Popori_F_Lancer_Lv03_Armor Break_Long Attack 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -917,7 +917,7 @@
         },
         "100330": {
             "name": "Popori_F_Lancer_Lv03_Armor Break_Attack 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -944,7 +944,7 @@
         },
         "110300": {
             "name": "Popori_F_Lancer_Lv03_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -956,7 +956,7 @@
         },
         "110400": {
             "name": "Popori_F_Lancer_Lv04_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -968,7 +968,7 @@
         },
         "110500": {
             "name": "Popori_F_Lancer_Lv05_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -980,7 +980,7 @@
         },
         "110600": {
             "name": "Popori_F_Lancer_Lv06_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -992,7 +992,7 @@
         },
         "110700": {
             "name": "Popori_F_Lancer_Lv07_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1004,7 +1004,7 @@
         },
         "110800": {
             "name": "Popori_F_Lancer_Lv08_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1016,7 +1016,7 @@
         },
         "110900": {
             "name": "Popori_F_Lancer_Lv09_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1028,7 +1028,7 @@
         },
         "111000": {
             "name": "Popori_F_Lancer_Lv10_Rising Attack_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1056,7 +1056,7 @@
         },
         "130300": {
             "name": "Popori_F_Lancer_Lv03_Leap Attack_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1069,7 +1069,7 @@
         },
         "130400": {
             "name": "Popori_F_Lancer_Lv04_Leap Attack_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1082,7 +1082,7 @@
         },
         "130500": {
             "name": "Popori_F_Lancer_Lv05_Leap Attack_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1095,7 +1095,7 @@
         },
         "130600": {
             "name": "Popori_F_Lancer_Lv06_Leap Attack_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1108,7 +1108,7 @@
         },
         "130700": {
             "name": "Popori_F_Lancer_Lv07_Leap Attack_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1121,7 +1121,7 @@
         },
         "130800": {
             "name": "Popori_F_Lancer_Lv08_Leap Attack_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1134,7 +1134,7 @@
         },
         "130900": {
             "name": "Popori_F_Lancer_Lv09_Leap Attack_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1147,7 +1147,7 @@
         },
         "131000": {
             "name": "Popori_F_Lancer_Lv10_Leap Attack_Long Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1160,7 +1160,7 @@
         },
         "131100": {
             "name": "Popori_F_Lancer_Lv11_Leap Attack_Long Start 01",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1188,7 +1188,7 @@
         },
         "130330": {
             "name": "Popori_F_Lancer_Lv03_Leap Attack_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1201,7 +1201,7 @@
         },
         "130430": {
             "name": "Popori_F_Lancer_Lv04_Leap Attack_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1214,7 +1214,7 @@
         },
         "130530": {
             "name": "Popori_F_Lancer_Lv05_Leap Attack_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1227,7 +1227,7 @@
         },
         "130630": {
             "name": "Popori_F_Lancer_Lv06_Leap Attack_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1240,7 +1240,7 @@
         },
         "130730": {
             "name": "Popori_F_Lancer_Lv07_Leap Attack_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1253,7 +1253,7 @@
         },
         "130830": {
             "name": "Popori_F_Lancer_Lv08_Leap Attack_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1266,7 +1266,7 @@
         },
         "130930": {
             "name": "Popori_F_Lancer_Lv09_Leap Attack_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1279,7 +1279,7 @@
         },
         "131030": {
             "name": "Popori_F_Lancer_Lv10_Leap Attack_Short Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1292,7 +1292,7 @@
         },
         "131130": {
             "name": "Popori_F_Lancer_Lv11_Leap Attack_Short Start 01",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1443,7 +1443,7 @@
         },
         "150301": {
             "name": "Popori_F_Lancer_Lv03_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1455,7 +1455,7 @@
         },
         "150401": {
             "name": "Popori_F_Lancer_Lv04_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1467,7 +1467,7 @@
         },
         "150501": {
             "name": "Popori_F_Lancer_Lv05_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1479,7 +1479,7 @@
         },
         "150601": {
             "name": "Popori_F_Lancer_Lv06_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1491,7 +1491,7 @@
         },
         "150701": {
             "name": "Popori_F_Lancer_Lv07_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1503,7 +1503,7 @@
         },
         "150801": {
             "name": "Popori_F_Lancer_Lv08_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1515,7 +1515,7 @@
         },
         "150901": {
             "name": "Popori_F_Lancer_Lv09_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1527,7 +1527,7 @@
         },
         "151001": {
             "name": "Popori_F_Lancer_Lv10_Advancing Charge_Attack Shot",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1648,7 +1648,7 @@
         },
         "180300": {
             "name": "Popori_F_Lancer_Lv03_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1660,7 +1660,7 @@
         },
         "180400": {
             "name": "Popori_F_Lancer_Lv04_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1672,7 +1672,7 @@
         },
         "180500": {
             "name": "Popori_F_Lancer_Lv05_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1684,7 +1684,7 @@
         },
         "180600": {
             "name": "Popori_F_Lancer_Lv06_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1696,7 +1696,7 @@
         },
         "180700": {
             "name": "Popori_F_Lancer_Lv07_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1708,7 +1708,7 @@
         },
         "180800": {
             "name": "Popori_F_Lancer_Lv08_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1720,7 +1720,7 @@
         },
         "180900": {
             "name": "Popori_F_Lancer_Lv09_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1732,7 +1732,7 @@
         },
         "181000": {
             "name": "Popori_F_Lancer_Lv10_Shield Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1744,7 +1744,7 @@
         },
         "181100": {
             "name": "Popori_F_Lancer_Lv11_Shield Combo_Attack 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+45.5936",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1771,7 +1771,7 @@
         },
         "180301": {
             "name": "Popori_F_Lancer_Lv03_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1784,7 +1784,7 @@
         },
         "180401": {
             "name": "Popori_F_Lancer_Lv04_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1066",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1797,7 +1797,7 @@
         },
         "180501": {
             "name": "Popori_F_Lancer_Lv05_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1810,7 +1810,7 @@
         },
         "180601": {
             "name": "Popori_F_Lancer_Lv06_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1823,7 +1823,7 @@
         },
         "180701": {
             "name": "Popori_F_Lancer_Lv07_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1836,7 +1836,7 @@
         },
         "180801": {
             "name": "Popori_F_Lancer_Lv08_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1849,7 +1849,7 @@
         },
         "180901": {
             "name": "Popori_F_Lancer_Lv09_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1862,7 +1862,7 @@
         },
         "181001": {
             "name": "Popori_F_Lancer_Lv10_Shield Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9832",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1875,7 +1875,7 @@
         },
         "181101": {
             "name": "Popori_F_Lancer_Lv11_Shield Combo_Attack 02",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+45.5935",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1904,7 +1904,7 @@
         },
         "210300": {
             "name": "Popori_F_Lancer_Lv03_Shock Blow_Long Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1917,7 +1917,7 @@
         },
         "210400": {
             "name": "Popori_F_Lancer_Lv04_Shock Blow_Long Attack 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+2.3086",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1945,7 +1945,7 @@
         },
         "210301": {
             "name": "Popori_F_Lancer_Lv03_Shock Blow_Long Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1958,7 +1958,7 @@
         },
         "210401": {
             "name": "Popori_F_Lancer_Lv04_Shock Blow_Long Attack 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+2.3086",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1986,7 +1986,7 @@
         },
         "210302": {
             "name": "Popori_F_Lancer_Lv03_Shock Blow_Long Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1999,7 +1999,7 @@
         },
         "210402": {
             "name": "Popori_F_Lancer_Lv04_Shock Blow_Long Attack 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+2.3086",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2027,7 +2027,7 @@
         },
         "210330": {
             "name": "Popori_F_Lancer_Lv03_Shock Blow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2040,7 +2040,7 @@
         },
         "210430": {
             "name": "Popori_F_Lancer_Lv04_Shock Blow_Attack 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+2.3086",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2154,7 +2154,7 @@
         },
         "250300": {
             "name": "Popori_F_Lancer_Lv03_Overhelm_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2167,7 +2167,7 @@
         },
         "250400": {
             "name": "Popori_F_Lancer_Lv04_Overhelm_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2180,7 +2180,7 @@
         },
         "250500": {
             "name": "Popori_F_Lancer_Lv05_Overhelm_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2193,7 +2193,7 @@
         },
         "250600": {
             "name": "Popori_F_Lancer_Lv06_Overhelm_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2206,7 +2206,7 @@
         },
         "250700": {
             "name": "Popori_F_Lancer_Lv07_Overhelm_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2219,7 +2219,7 @@
         },
         "250800": {
             "name": "Popori_F_Lancer_Lv08_Overhelm_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2232,7 +2232,7 @@
         },
         "250900": {
             "name": "Popori_F_Lancer_Lv09_Overhelm_Long Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2245,7 +2245,7 @@
         },
         "251000": {
             "name": "Popori_F_Lancer_Lv10_Overhelm_Long Start 01",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2273,7 +2273,7 @@
         },
         "250330": {
             "name": "Popori_F_Lancer_Lv03_Overhelm_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2286,7 +2286,7 @@
         },
         "250430": {
             "name": "Popori_F_Lancer_Lv04_Overhelm_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2299,7 +2299,7 @@
         },
         "250530": {
             "name": "Popori_F_Lancer_Lv05_Overhelm_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2312,7 +2312,7 @@
         },
         "250630": {
             "name": "Popori_F_Lancer_Lv06_Overhelm_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2325,7 +2325,7 @@
         },
         "250730": {
             "name": "Popori_F_Lancer_Lv07_Overhelm_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2338,7 +2338,7 @@
         },
         "250830": {
             "name": "Popori_F_Lancer_Lv08_Overhelm_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2351,7 +2351,7 @@
         },
         "250930": {
             "name": "Popori_F_Lancer_Lv09_Overhelm_Short Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2364,7 +2364,7 @@
         },
         "251030": {
             "name": "Popori_F_Lancer_Lv10_Overhelm_Short Start 01",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",

@@ -14,7 +14,7 @@
         },
         "10300": {
             "name": "Popori_F_Archer_Lv03_Normal Shot",
-            "totalAtk": "+0.2141",
+            "totalAtk": "+0.4242",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -26,7 +26,7 @@
         },
         "10400": {
             "name": "Popori_F_Archer_Lv04_Normal Shot",
-            "totalAtk": "+0.1646",
+            "totalAtk": "+0.6587",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -38,7 +38,7 @@
         },
         "10500": {
             "name": "Popori_F_Archer_Lv05_Normal Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.4203",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -50,7 +50,7 @@
         },
         "10600": {
             "name": "Popori_F_Archer_Lv06_Normal Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.5316",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -62,7 +62,7 @@
         },
         "10700": {
             "name": "Popori_F_Archer_Lv07_Normal Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.1531",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -74,7 +74,7 @@
         },
         "10800": {
             "name": "Popori_F_Archer_Lv08_Normal Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.5192",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -86,7 +86,7 @@
         },
         "10900": {
             "name": "Popori_F_Archer_Lv09_Normal Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.9715",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -98,7 +98,7 @@
         },
         "11000": {
             "name": "Popori_F_Archer_Lv10_Normal Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+15.0090",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -110,7 +110,7 @@
         },
         "11100": {
             "name": "Popori_F_Archer_Lv11_Normal Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+22.3595",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -122,7 +122,7 @@
         },
         "11200": {
             "name": "Popori_F_Archer_Lv12_Normal Shot",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+31.0045",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -134,7 +134,7 @@
         },
         "11300": {
             "name": "Popori_F_Archer_Lv13_Normal Shot",
-            "totalAtk": "-0.8757",
+            "totalAtk": "+2.9775",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -146,7 +146,7 @@
         },
         "11400": {
             "name": "Popori_F_Archer_Lv14_Normal Shot",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.6394",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -158,7 +158,7 @@
         },
         "11500": {
             "name": "Popori_F_Archer_Lv15_Normal Shot",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.4113",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -318,8 +318,8 @@
             "name": "Popori_F_Archer_Lv14_Arrow Shower_LockOn",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.4000",
+            "mp": "-0.6174",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -330,8 +330,8 @@
             "name": "Popori_F_Archer_Lv15_Arrow Shower_LockOn",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.4000",
+            "mp": "-0.6174",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -355,7 +355,7 @@
         },
         "20310": {
             "name": "Popori_F_Archer_Lv03_Arrow Shower_Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -368,7 +368,7 @@
         },
         "20410": {
             "name": "Popori_F_Archer_Lv04_Arrow Shower_Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -381,7 +381,7 @@
         },
         "20510": {
             "name": "Popori_F_Archer_Lv05_Arrow Shower_Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -394,7 +394,7 @@
         },
         "20610": {
             "name": "Popori_F_Archer_Lv06_Arrow Shower_Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -407,7 +407,7 @@
         },
         "20710": {
             "name": "Popori_F_Archer_Lv07_Arrow Shower_Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -420,7 +420,7 @@
         },
         "20810": {
             "name": "Popori_F_Archer_Lv08_Arrow Shower_Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -433,7 +433,7 @@
         },
         "20910": {
             "name": "Popori_F_Archer_Lv09_Arrow Shower_Shot",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -446,7 +446,7 @@
         },
         "21010": {
             "name": "Popori_F_Archer_Lv10_Arrow Shower_Shot",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+11.4161",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -459,7 +459,7 @@
         },
         "21110": {
             "name": "Popori_F_Archer_Lv11_Arrow Shower_Shot",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -472,7 +472,7 @@
         },
         "21210": {
             "name": "Popori_F_Archer_Lv12_Arrow Shower_Shot",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -485,7 +485,7 @@
         },
         "21310": {
             "name": "Popori_F_Archer_Lv13_Arrow Shower_Shot",
-            "totalAtk": "-0.9960",
+            "totalAtk": "-0.9221",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -498,7 +498,7 @@
         },
         "21410": {
             "name": "Popori_F_Archer_Lv14_Arrow Shower_Shot",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.9221",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -511,7 +511,7 @@
         },
         "21510": {
             "name": "Popori_F_Archer_Lv15_Arrow Shower_Shot",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.9221",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -543,7 +543,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -556,7 +556,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "-0.3333",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -569,7 +569,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -582,7 +582,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -595,7 +595,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -608,7 +608,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -621,7 +621,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -634,7 +634,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -647,7 +647,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -660,7 +660,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.5000",
-            "mp": "-0.3333",
+            "mp": "-0.6667",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -672,8 +672,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.5000",
+            "mp": "-0.6667",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -685,8 +685,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.5000",
+            "mp": "-0.6667",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -710,7 +710,7 @@
         },
         "30310": {
             "name": "Popori_F_Archer_Lv03_Charge Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.5793",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -723,7 +723,7 @@
         },
         "30410": {
             "name": "Popori_F_Archer_Lv04_Charge Arrow_Shot 00",
-            "totalAtk": "+0.3140",
+            "totalAtk": "+1.0753",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -736,7 +736,7 @@
         },
         "30510": {
             "name": "Popori_F_Archer_Lv05_Charge Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.0281",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -749,7 +749,7 @@
         },
         "30610": {
             "name": "Popori_F_Archer_Lv06_Charge Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.4185",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -762,7 +762,7 @@
         },
         "30710": {
             "name": "Popori_F_Archer_Lv07_Charge Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.4472",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -775,7 +775,7 @@
         },
         "30810": {
             "name": "Popori_F_Archer_Lv08_Charge Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.4073",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -788,7 +788,7 @@
         },
         "30910": {
             "name": "Popori_F_Archer_Lv09_Charge Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.7267",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -801,7 +801,7 @@
         },
         "31010": {
             "name": "Popori_F_Archer_Lv10_Charge Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.0291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -814,7 +814,7 @@
         },
         "31110": {
             "name": "Popori_F_Archer_Lv11_Charge Arrow_Shot 00",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+34.3028",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -827,7 +827,7 @@
         },
         "31210": {
             "name": "Popori_F_Archer_Lv12_Charge Arrow_Shot 00",
-            "totalAtk": "-0.9205",
+            "totalAtk": "+1.8057",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -840,7 +840,7 @@
         },
         "31310": {
             "name": "Popori_F_Archer_Lv13_Charge Arrow_Shot 00",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+2.2725",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -853,7 +853,7 @@
         },
         "31410": {
             "name": "Popori_F_Archer_Lv14_Charge Arrow_Shot 00",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+2.8171",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -881,7 +881,7 @@
         },
         "30311": {
             "name": "Popori_F_Archer_Lv03_Charge Arrow_Shot 01",
-            "totalAtk": "+0.6188",
+            "totalAtk": "+0.6105",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -894,7 +894,7 @@
         },
         "30411": {
             "name": "Popori_F_Archer_Lv04_Charge Arrow_Shot 01",
-            "totalAtk": "+0.0493",
+            "totalAtk": "+0.6899",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -907,7 +907,7 @@
         },
         "30511": {
             "name": "Popori_F_Archer_Lv05_Charge Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.4658",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -920,7 +920,7 @@
         },
         "30611": {
             "name": "Popori_F_Archer_Lv06_Charge Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.5979",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -933,7 +933,7 @@
         },
         "30711": {
             "name": "Popori_F_Archer_Lv07_Charge Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.2499",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -946,7 +946,7 @@
         },
         "30811": {
             "name": "Popori_F_Archer_Lv08_Charge Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.6604",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -959,7 +959,7 @@
         },
         "30911": {
             "name": "Popori_F_Archer_Lv09_Charge Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+10.1776",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -972,7 +972,7 @@
         },
         "31011": {
             "name": "Popori_F_Archer_Lv10_Charge Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+15.3097",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -985,7 +985,7 @@
         },
         "31111": {
             "name": "Popori_F_Archer_Lv11_Charge Arrow_Shot 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+27.7470",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -998,7 +998,7 @@
         },
         "31211": {
             "name": "Popori_F_Archer_Lv12_Charge Arrow_Shot 01",
-            "totalAtk": "-0.9015",
+            "totalAtk": "+1.8302",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1011,7 +1011,7 @@
         },
         "31311": {
             "name": "Popori_F_Archer_Lv13_Charge Arrow_Shot 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+2.3012",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1024,7 +1024,7 @@
         },
         "31411": {
             "name": "Popori_F_Archer_Lv14_Charge Arrow_Shot 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+2.8505",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1052,7 +1052,7 @@
         },
         "30312": {
             "name": "Popori_F_Archer_Lv03_Charge Arrow_Shot 02",
-            "totalAtk": "+0.6697",
+            "totalAtk": "+1.5948",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1065,7 +1065,7 @@
         },
         "30412": {
             "name": "Popori_F_Archer_Lv04_Charge Arrow_Shot 02",
-            "totalAtk": "-0.0894",
+            "totalAtk": "+1.3629",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1078,7 +1078,7 @@
         },
         "30512": {
             "name": "Popori_F_Archer_Lv05_Charge Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.4478",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1091,7 +1091,7 @@
         },
         "30612": {
             "name": "Popori_F_Archer_Lv06_Charge Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.0308",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1104,7 +1104,7 @@
         },
         "30712": {
             "name": "Popori_F_Archer_Lv07_Charge Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.3407",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1117,7 +1117,7 @@
         },
         "30812": {
             "name": "Popori_F_Archer_Lv08_Charge Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.7111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1130,7 +1130,7 @@
         },
         "30912": {
             "name": "Popori_F_Archer_Lv09_Charge Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+14.6290",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1143,7 +1143,7 @@
         },
         "31012": {
             "name": "Popori_F_Archer_Lv10_Charge Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+21.8050",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1156,7 +1156,7 @@
         },
         "31112": {
             "name": "Popori_F_Archer_Lv11_Charge Arrow_Shot 02",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+39.1954",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1169,7 +1169,7 @@
         },
         "31212": {
             "name": "Popori_F_Archer_Lv12_Charge Arrow_Shot 02",
-            "totalAtk": "-0.9020",
+            "totalAtk": "+2.9394",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1182,7 +1182,7 @@
         },
         "31312": {
             "name": "Popori_F_Archer_Lv13_Charge Arrow_Shot 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.5950",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1195,7 +1195,7 @@
         },
         "31412": {
             "name": "Popori_F_Archer_Lv14_Charge Arrow_Shot 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.3596",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1223,7 +1223,7 @@
         },
         "30313": {
             "name": "Popori_F_Archer_Lv03_Charge Arrow_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+0.3605",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1236,7 +1236,7 @@
         },
         "30413": {
             "name": "Popori_F_Archer_Lv04_Charge Arrow_Shot 03",
-            "totalAtk": "+0.8430",
+            "totalAtk": "+1.5074",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1249,7 +1249,7 @@
         },
         "30513": {
             "name": "Popori_F_Archer_Lv05_Charge Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.6586",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1262,7 +1262,7 @@
         },
         "30613": {
             "name": "Popori_F_Archer_Lv06_Charge Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.3385",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1275,7 +1275,7 @@
         },
         "30713": {
             "name": "Popori_F_Archer_Lv07_Charge Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.7896",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1288,7 +1288,7 @@
         },
         "30813": {
             "name": "Popori_F_Archer_Lv08_Charge Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+10.3662",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1301,7 +1301,7 @@
         },
         "30913": {
             "name": "Popori_F_Archer_Lv09_Charge Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+15.5848",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1314,7 +1314,7 @@
         },
         "31013": {
             "name": "Popori_F_Archer_Lv10_Charge Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+23.1996",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1327,7 +1327,7 @@
         },
         "31113": {
             "name": "Popori_F_Archer_Lv11_Charge Arrow_Shot 03",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+41.6536",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1340,7 +1340,7 @@
         },
         "31213": {
             "name": "Popori_F_Archer_Lv12_Charge Arrow_Shot 03",
-            "totalAtk": "-0.9151",
+            "totalAtk": "+2.6198",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1353,7 +1353,7 @@
         },
         "31313": {
             "name": "Popori_F_Archer_Lv13_Charge Arrow_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.2221",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1366,7 +1366,7 @@
         },
         "31413": {
             "name": "Popori_F_Archer_Lv14_Charge Arrow_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.9247",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1398,7 +1398,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1411,7 +1411,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "-0.3333",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1424,7 +1424,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1437,7 +1437,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1450,7 +1450,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1463,7 +1463,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1476,7 +1476,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1489,7 +1489,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1502,7 +1502,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1515,7 +1515,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1528,7 +1528,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.1667",
-            "mp": "-0.2000",
+            "mp": "-0.6000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1540,8 +1540,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.1667",
+            "mp": "-0.6000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1565,7 +1565,7 @@
         },
         "40310": {
             "name": "Popori_F_Archer_Lv03_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.7854",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1578,7 +1578,7 @@
         },
         "40410": {
             "name": "Popori_F_Archer_Lv04_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.2719",
+            "totalAtk": "+1.2709",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1591,7 +1591,7 @@
         },
         "40510": {
             "name": "Popori_F_Archer_Lv05_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.3136",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1604,7 +1604,7 @@
         },
         "40610": {
             "name": "Popori_F_Archer_Lv06_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.8350",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1617,7 +1617,7 @@
         },
         "40710": {
             "name": "Popori_F_Archer_Lv07_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.0549",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1630,7 +1630,7 @@
         },
         "40810": {
             "name": "Popori_F_Archer_Lv08_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.2941",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1643,7 +1643,7 @@
         },
         "40910": {
             "name": "Popori_F_Archer_Lv09_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+14.0206",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1656,7 +1656,7 @@
         },
         "41010": {
             "name": "Popori_F_Archer_Lv10_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+20.9172",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1669,7 +1669,7 @@
         },
         "41110": {
             "name": "Popori_F_Archer_Lv11_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+25.4749",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1682,7 +1682,7 @@
         },
         "41210": {
             "name": "Popori_F_Archer_Lv12_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+33.0591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1695,7 +1695,7 @@
         },
         "41310": {
             "name": "Popori_F_Archer_Lv13_Piercing Arrow_Shot 00",
-            "totalAtk": "-0.9227",
+            "totalAtk": "+1.6313",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1708,7 +1708,7 @@
         },
         "41410": {
             "name": "Popori_F_Archer_Lv14_Piercing Arrow_Shot 00",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+1.6313",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1736,7 +1736,7 @@
         },
         "40311": {
             "name": "Popori_F_Archer_Lv03_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.6434",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1749,7 +1749,7 @@
         },
         "40411": {
             "name": "Popori_F_Archer_Lv04_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.1684",
+            "totalAtk": "+0.9202",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1762,7 +1762,7 @@
         },
         "40511": {
             "name": "Popori_F_Archer_Lv05_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.8018",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1775,7 +1775,7 @@
         },
         "40611": {
             "name": "Popori_F_Archer_Lv06_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.0882",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1788,7 +1788,7 @@
         },
         "40711": {
             "name": "Popori_F_Archer_Lv07_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.9653",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1801,7 +1801,7 @@
         },
         "40811": {
             "name": "Popori_F_Archer_Lv08_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+7.7042",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1814,7 +1814,7 @@
         },
         "40911": {
             "name": "Popori_F_Archer_Lv09_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+11.7007",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1827,7 +1827,7 @@
         },
         "41011": {
             "name": "Popori_F_Archer_Lv10_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+17.5321",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1840,7 +1840,7 @@
         },
         "41111": {
             "name": "Popori_F_Archer_Lv11_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+21.3859",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1853,7 +1853,7 @@
         },
         "41211": {
             "name": "Popori_F_Archer_Lv12_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+27.7987",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1866,7 +1866,7 @@
         },
         "41311": {
             "name": "Popori_F_Archer_Lv13_Piercing Arrow_Shot 01",
-            "totalAtk": "-0.9187",
+            "totalAtk": "+1.3418",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1879,7 +1879,7 @@
         },
         "41411": {
             "name": "Popori_F_Archer_Lv14_Piercing Arrow_Shot 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+1.3418",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1907,7 +1907,7 @@
         },
         "40312": {
             "name": "Popori_F_Archer_Lv03_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.3546",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1920,7 +1920,7 @@
         },
         "40412": {
             "name": "Popori_F_Archer_Lv04_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.1157",
+            "totalAtk": "+2.7429",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1933,7 +1933,7 @@
         },
         "40512": {
             "name": "Popori_F_Archer_Lv05_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.4614",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1946,7 +1946,7 @@
         },
         "40612": {
             "name": "Popori_F_Archer_Lv06_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.9689",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1959,7 +1959,7 @@
         },
         "40712": {
             "name": "Popori_F_Archer_Lv07_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+10.6278",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1972,7 +1972,7 @@
         },
         "40812": {
             "name": "Popori_F_Archer_Lv08_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+15.9666",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1985,7 +1985,7 @@
         },
         "40912": {
             "name": "Popori_F_Archer_Lv09_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+23.7567",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1998,7 +1998,7 @@
         },
         "41012": {
             "name": "Popori_F_Archer_Lv10_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+35.1236",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2011,7 +2011,7 @@
         },
         "41112": {
             "name": "Popori_F_Archer_Lv11_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+42.6354",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2024,7 +2024,7 @@
         },
         "41212": {
             "name": "Popori_F_Archer_Lv12_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+55.1355",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2037,7 +2037,7 @@
         },
         "41312": {
             "name": "Popori_F_Archer_Lv13_Piercing Arrow_Shot 02",
-            "totalAtk": "-0.9184",
+            "totalAtk": "+3.5829",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2050,7 +2050,7 @@
         },
         "41412": {
             "name": "Popori_F_Archer_Lv14_Piercing Arrow_Shot 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+3.5829",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2078,7 +2078,7 @@
         },
         "40313": {
             "name": "Popori_F_Archer_Lv03_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+0.3605",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2091,7 +2091,7 @@
         },
         "40413": {
             "name": "Popori_F_Archer_Lv04_Piercing Arrow_Shot 03",
-            "totalAtk": "+1.6826",
+            "totalAtk": "+2.6497",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2104,7 +2104,7 @@
         },
         "40513": {
             "name": "Popori_F_Archer_Lv05_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.3254",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2117,7 +2117,7 @@
         },
         "40613": {
             "name": "Popori_F_Archer_Lv06_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.7705",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2130,7 +2130,7 @@
         },
         "40713": {
             "name": "Popori_F_Archer_Lv07_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+10.3383",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2143,7 +2143,7 @@
         },
         "40813": {
             "name": "Popori_F_Archer_Lv08_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+15.5442",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2156,7 +2156,7 @@
         },
         "40913": {
             "name": "Popori_F_Archer_Lv09_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+23.1403",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2169,7 +2169,7 @@
         },
         "41013": {
             "name": "Popori_F_Archer_Lv10_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+34.2241",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2182,7 +2182,7 @@
         },
         "41113": {
             "name": "Popori_F_Archer_Lv11_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+41.5489",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2195,7 +2195,7 @@
         },
         "41213": {
             "name": "Popori_F_Archer_Lv12_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+53.7378",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2208,7 +2208,7 @@
         },
         "41313": {
             "name": "Popori_F_Archer_Lv13_Piercing Arrow_Shot 03",
-            "totalAtk": "-0.9205",
+            "totalAtk": "+3.3495",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2221,7 +2221,7 @@
         },
         "41413": {
             "name": "Popori_F_Archer_Lv14_Piercing Arrow_Shot 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+3.3495",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2368,7 +2368,7 @@
         },
         "50320": {
             "name": "Popori_F_Archer_Lv03_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2381,7 +2381,7 @@
         },
         "50420": {
             "name": "Popori_F_Archer_Lv04_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2394,7 +2394,7 @@
         },
         "50520": {
             "name": "Popori_F_Archer_Lv05_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2407,7 +2407,7 @@
         },
         "50620": {
             "name": "Popori_F_Archer_Lv06_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2420,7 +2420,7 @@
         },
         "50720": {
             "name": "Popori_F_Archer_Lv06_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2433,7 +2433,7 @@
         },
         "50820": {
             "name": "Popori_F_Archer_Lv06_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2446,7 +2446,7 @@
         },
         "50920": {
             "name": "Popori_F_Archer_Lv06_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2459,7 +2459,7 @@
         },
         "51020": {
             "name": "Popori_F_Archer_Lv06_Arrow Fall_Projectile 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2489,7 +2489,7 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.9167",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2539,7 +2539,7 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "+4.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2551,7 +2551,7 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "+4.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2563,7 +2563,7 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "-0.9600",
+            "coolTime": "-0.8000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2586,7 +2586,7 @@
         },
         "80300": {
             "name": "Popori_F_Archer_Lv03_Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2598,7 +2598,7 @@
         },
         "80400": {
             "name": "Popori_F_Archer_Lv04_Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2610,7 +2610,7 @@
         },
         "80500": {
             "name": "Popori_F_Archer_Lv05_Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2622,7 +2622,7 @@
         },
         "80600": {
             "name": "Popori_F_Archer_Lv06_Rapid Shot Combo 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2634,7 +2634,7 @@
         },
         "80700": {
             "name": "Popori_F_Archer_Lv07_Rapid Shot Combo 01",
-            "totalAtk": "-0.5590",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2646,7 +2646,7 @@
         },
         "80800": {
             "name": "Popori_F_Archer_Lv08_Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2658,7 +2658,7 @@
         },
         "80900": {
             "name": "Popori_F_Archer_Lv09_Rapid Shot Combo 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2670,7 +2670,7 @@
         },
         "81000": {
             "name": "Popori_F_Archer_Lv10_Rapid Shot Combo 01",
-            "totalAtk": "-0.7778",
+            "totalAtk": "+0.5654",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2682,7 +2682,7 @@
         },
         "81100": {
             "name": "Popori_F_Archer_Lv11_Rapid Shot Combo 01",
-            "totalAtk": "-0.9269",
+            "totalAtk": "-0.8855",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.1667",
@@ -2694,10 +2694,10 @@
         },
         "81200": {
             "name": "Popori_F_Archer_Lv12_Rapid Shot Combo 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.8855",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.1667",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2720,7 +2720,7 @@
         },
         "80301": {
             "name": "Popori_F_Archer_Lv03_Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2732,7 +2732,7 @@
         },
         "80401": {
             "name": "Popori_F_Archer_Lv04_Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2744,7 +2744,7 @@
         },
         "80501": {
             "name": "Popori_F_Archer_Lv05_Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2756,7 +2756,7 @@
         },
         "80601": {
             "name": "Popori_F_Archer_Lv06_Rapid Shot Combo 02",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2768,7 +2768,7 @@
         },
         "80701": {
             "name": "Popori_F_Archer_Lv07_Rapid Shot Combo 02",
-            "totalAtk": "-0.5590",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2780,7 +2780,7 @@
         },
         "80801": {
             "name": "Popori_F_Archer_Lv08_Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2792,7 +2792,7 @@
         },
         "80901": {
             "name": "Popori_F_Archer_Lv09_Rapid Shot Combo 02",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2804,7 +2804,7 @@
         },
         "81001": {
             "name": "Popori_F_Archer_Lv10_Rapid Shot Combo 02",
-            "totalAtk": "-0.3939",
+            "totalAtk": "+3.2693",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2816,7 +2816,7 @@
         },
         "81101": {
             "name": "Popori_F_Archer_Lv11_Rapid Shot Combo 02",
-            "totalAtk": "-0.9135",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2828,7 +2828,7 @@
         },
         "81201": {
             "name": "Popori_F_Archer_Lv12_Rapid Shot Combo 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2854,7 +2854,7 @@
         },
         "80302": {
             "name": "Popori_F_Archer_Lv03_Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2866,7 +2866,7 @@
         },
         "80402": {
             "name": "Popori_F_Archer_Lv04_Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2878,7 +2878,7 @@
         },
         "80502": {
             "name": "Popori_F_Archer_Lv05_Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2890,7 +2890,7 @@
         },
         "80602": {
             "name": "Popori_F_Archer_Lv06_Rapid Shot Combo 03",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2902,7 +2902,7 @@
         },
         "80702": {
             "name": "Popori_F_Archer_Lv07_Rapid Shot Combo 03",
-            "totalAtk": "-0.5590",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2914,7 +2914,7 @@
         },
         "80802": {
             "name": "Popori_F_Archer_Lv08_Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2926,7 +2926,7 @@
         },
         "80902": {
             "name": "Popori_F_Archer_Lv09_Rapid Shot Combo 03",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2938,7 +2938,7 @@
         },
         "81002": {
             "name": "Popori_F_Archer_Lv10_Rapid Shot Combo 03",
-            "totalAtk": "-0.3939",
+            "totalAtk": "+3.2693",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2950,7 +2950,7 @@
         },
         "81102": {
             "name": "Popori_F_Archer_Lv11_Rapid Shot Combo 03",
-            "totalAtk": "-0.9135",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2962,7 +2962,7 @@
         },
         "81202": {
             "name": "Popori_F_Archer_Lv12_Rapid Shot Combo 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2988,7 +2988,7 @@
         },
         "80303": {
             "name": "Popori_F_Archer_Lv03_Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3000,7 +3000,7 @@
         },
         "80403": {
             "name": "Popori_F_Archer_Lv04_Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3012,7 +3012,7 @@
         },
         "80503": {
             "name": "Popori_F_Archer_Lv05_Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3024,7 +3024,7 @@
         },
         "80603": {
             "name": "Popori_F_Archer_Lv06_Rapid Shot Combo 04",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3036,7 +3036,7 @@
         },
         "80703": {
             "name": "Popori_F_Archer_Lv07_Rapid Shot Combo 04",
-            "totalAtk": "-0.5590",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3048,7 +3048,7 @@
         },
         "80803": {
             "name": "Popori_F_Archer_Lv08_Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3060,7 +3060,7 @@
         },
         "80903": {
             "name": "Popori_F_Archer_Lv09_Rapid Shot Combo 04",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3072,7 +3072,7 @@
         },
         "81003": {
             "name": "Popori_F_Archer_Lv10_Rapid Shot Combo 04",
-            "totalAtk": "-0.3939",
+            "totalAtk": "+3.2693",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3084,7 +3084,7 @@
         },
         "81103": {
             "name": "Popori_F_Archer_Lv11_Rapid Shot Combo 04",
-            "totalAtk": "-0.9135",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3096,7 +3096,7 @@
         },
         "81203": {
             "name": "Popori_F_Archer_Lv12_Rapid Shot Combo 04",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3122,7 +3122,7 @@
         },
         "80304": {
             "name": "Popori_F_Archer_Lv03_Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3134,7 +3134,7 @@
         },
         "80404": {
             "name": "Popori_F_Archer_Lv04_Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3146,7 +3146,7 @@
         },
         "80504": {
             "name": "Popori_F_Archer_Lv05_Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3158,7 +3158,7 @@
         },
         "80604": {
             "name": "Popori_F_Archer_Lv06_Rapid Shot Combo 05",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3170,7 +3170,7 @@
         },
         "80704": {
             "name": "Popori_F_Archer_Lv07_Rapid Shot Combo 05",
-            "totalAtk": "-0.5590",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3182,7 +3182,7 @@
         },
         "80804": {
             "name": "Popori_F_Archer_Lv08_Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3194,7 +3194,7 @@
         },
         "80904": {
             "name": "Popori_F_Archer_Lv09_Rapid Shot Combo 05",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3206,7 +3206,7 @@
         },
         "81004": {
             "name": "Popori_F_Archer_Lv10_Rapid Shot Combo 05",
-            "totalAtk": "-0.3939",
+            "totalAtk": "+3.2693",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3218,7 +3218,7 @@
         },
         "81104": {
             "name": "Popori_F_Archer_Lv11_Rapid Shot Combo 05",
-            "totalAtk": "-0.9135",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3230,7 +3230,7 @@
         },
         "81204": {
             "name": "Popori_F_Archer_Lv12_Rapid Shot Combo 05",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3256,7 +3256,7 @@
         },
         "80305": {
             "name": "Popori_F_Archer_Lv03_Rapid Shot Combo 06",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3268,7 +3268,7 @@
         },
         "80405": {
             "name": "Popori_F_Archer_Lv04_Rapid Shot Combo 06",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3280,7 +3280,7 @@
         },
         "80505": {
             "name": "Popori_F_Archer_Lv05_Rapid Shot Combo 06",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3292,7 +3292,7 @@
         },
         "80605": {
             "name": "Popori_F_Archer_Lv06_Rapid Shot Combo 06",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3304,7 +3304,7 @@
         },
         "80705": {
             "name": "Popori_F_Archer_Lv07_Rapid Shot Combo 06",
-            "totalAtk": "-0.5590",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3316,7 +3316,7 @@
         },
         "80805": {
             "name": "Popori_F_Archer_Lv08_Rapid Shot Combo 06",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3328,7 +3328,7 @@
         },
         "80905": {
             "name": "Popori_F_Archer_Lv09_Rapid Shot Combo 06",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3340,7 +3340,7 @@
         },
         "81005": {
             "name": "Popori_F_Archer_Lv10_Rapid Shot Combo 06",
-            "totalAtk": "-0.3939",
+            "totalAtk": "+3.2693",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3352,7 +3352,7 @@
         },
         "81105": {
             "name": "Popori_F_Archer_Lv11_Rapid Shot Combo 06",
-            "totalAtk": "-0.9135",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3364,7 +3364,7 @@
         },
         "81205": {
             "name": "Popori_F_Archer_Lv12_Rapid Shot Combo 06",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.6307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3390,7 +3390,7 @@
         },
         "80306": {
             "name": "Popori_F_Archer_Lv03_Rapid Shot Combo 07",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3402,7 +3402,7 @@
         },
         "80406": {
             "name": "Popori_F_Archer_Lv04_Rapid Shot Combo 07",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3414,7 +3414,7 @@
         },
         "80506": {
             "name": "Popori_F_Archer_Lv05_Rapid Shot Combo 07",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3426,7 +3426,7 @@
         },
         "80606": {
             "name": "Popori_F_Archer_Lv06_Rapid Shot Combo 07",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3438,7 +3438,7 @@
         },
         "80706": {
             "name": "Popori_F_Archer_Lv07_Rapid Shot Combo 07",
-            "totalAtk": "-0.5590",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3450,7 +3450,7 @@
         },
         "80806": {
             "name": "Popori_F_Archer_Lv08_Rapid Shot Combo 07",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3462,7 +3462,7 @@
         },
         "80906": {
             "name": "Popori_F_Archer_Lv09_Rapid Shot Combo 07",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+6.0443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3474,7 +3474,7 @@
         },
         "81006": {
             "name": "Popori_F_Archer_Lv10_Rapid Shot Combo 07",
-            "totalAtk": "-0.3939",
+            "totalAtk": "+3.2693",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3486,7 +3486,7 @@
         },
         "81106": {
             "name": "Popori_F_Archer_Lv11_Rapid Shot Combo 07",
-            "totalAtk": "-0.9332",
+            "totalAtk": "-0.7147",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3498,7 +3498,7 @@
         },
         "81206": {
             "name": "Popori_F_Archer_Lv12_Rapid Shot Combo 07",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.7147",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3606,8 +3606,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.3333",
+            "mp": "-0.9080",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3631,7 +3631,7 @@
         },
         "90320": {
             "name": "Popori_F_Archer_Lv03_Web Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3644,7 +3644,7 @@
         },
         "90420": {
             "name": "Popori_F_Archer_Lv04_Web Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3657,7 +3657,7 @@
         },
         "90520": {
             "name": "Popori_F_Archer_Lv05_Web Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3670,7 +3670,7 @@
         },
         "90620": {
             "name": "Popori_F_Archer_Lv06_Web Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3683,7 +3683,7 @@
         },
         "90720": {
             "name": "Popori_F_Archer_Lv07_Web Trap_Projectile 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+9.2787",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3696,7 +3696,7 @@
         },
         "90820": {
             "name": "Popori_F_Archer_Lv08_Web Trap_Projectile 01",
-            "totalAtk": "+0.8335",
+            "totalAtk": "+17.8463",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3709,7 +3709,7 @@
         },
         "90920": {
             "name": "Popori_F_Archer_Lv09_Web Trap_Projectile 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+20.9824",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3793,7 +3793,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.9080",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3817,7 +3817,7 @@
         },
         "100320": {
             "name": "Popori_F_Archer_Lv03_Paralysis Trap_Projectile 01",
-            "totalAtk": "+1.1291",
+            "totalAtk": "+2.9966",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3830,7 +3830,7 @@
         },
         "100420": {
             "name": "Popori_F_Archer_Lv04_Paralysis Trap_Projectile 01",
-            "totalAtk": "+0.9992",
+            "totalAtk": "+6.9898",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3843,7 +3843,7 @@
         },
         "100520": {
             "name": "Popori_F_Archer_Lv05_Paralysis Trap_Projectile 01",
-            "totalAtk": "+0.1342",
+            "totalAtk": "+8.0622",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3869,7 +3869,7 @@
         },
         "100720": {
             "name": "Popori_F_Archer_Lv07_Paralysis Trap_Projectile 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-1.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3965,8 +3965,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+2.0000",
+            "mp": "-0.9080",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3978,8 +3978,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+2.0000",
+            "mp": "-0.9080",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3991,8 +3991,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+2.0000",
+            "mp": "-0.9080",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4173,7 +4173,7 @@
         },
         "140300": {
             "name": "Popori_F_Archer_Lv03_Rising Attack_Attack",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4186,7 +4186,7 @@
         },
         "140400": {
             "name": "Popori_F_Archer_Lv04_Rising Attack_Attack",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4199,7 +4199,7 @@
         },
         "140500": {
             "name": "Popori_F_Archer_Lv05_Rising Attack_Attack",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4212,7 +4212,7 @@
         },
         "140600": {
             "name": "Popori_F_Archer_Lv06_Rising Attack_Attack",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4225,7 +4225,7 @@
         },
         "140700": {
             "name": "Popori_F_Archer_Lv07_Rising Attack_Attack",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4238,7 +4238,7 @@
         },
         "140800": {
             "name": "Popori_F_Archer_Lv08_Rising Attack_Attack",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4251,7 +4251,7 @@
         },
         "140900": {
             "name": "Popori_F_Archer_Lv09_Rising Attack_Attack",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4264,7 +4264,7 @@
         },
         "141000": {
             "name": "Popori_F_Archer_Lv10_Rising Attack_Attack",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4277,7 +4277,7 @@
         },
         "141100": {
             "name": "Popori_F_Archer_Lv11_Rising Attack_Attack",
-            "totalAtk": "-0.8533",
+            "totalAtk": "+3.1299",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.2000",
@@ -4290,10 +4290,10 @@
         },
         "141200": {
             "name": "Popori_F_Archer_Lv12_Rising Attack_Attack",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.8171",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.2000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -4437,7 +4437,7 @@
         },
         "150320": {
             "name": "Popori_F_Archer_Lv03_Explosion Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4450,7 +4450,7 @@
         },
         "150420": {
             "name": "Popori_F_Archer_Lv04_Explosion Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4463,7 +4463,7 @@
         },
         "150520": {
             "name": "Popori_F_Archer_Lv05_Explosion Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4476,7 +4476,7 @@
         },
         "150620": {
             "name": "Popori_F_Archer_Lv06_Explosion Trap_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4489,7 +4489,7 @@
         },
         "150720": {
             "name": "Popori_F_Archer_Lv07_Explosion Trap_Projectile 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+9.2786",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4502,7 +4502,7 @@
         },
         "150820": {
             "name": "Popori_F_Archer_Lv08_Explosion Trap_Projectile 01",
-            "totalAtk": "-0.0548",
+            "totalAtk": "+8.7152",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4515,7 +4515,7 @@
         },
         "150920": {
             "name": "Popori_F_Archer_Lv09_Explosion Trap_Projectile 01",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+5.2518",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4528,7 +4528,7 @@
         },
         "151020": {
             "name": "Popori_F_Archer_Lv10_Explosion Trap_Projectile 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+5.2518",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4556,7 +4556,7 @@
         },
         "160300": {
             "name": "Popori_F_Archer_Lv03_Escaping Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4569,7 +4569,7 @@
         },
         "160400": {
             "name": "Popori_F_Archer_Lv04_Escaping Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4582,7 +4582,7 @@
         },
         "160500": {
             "name": "Popori_F_Archer_Lv05_Escaping Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4595,7 +4595,7 @@
         },
         "160600": {
             "name": "Popori_F_Archer_Lv06_Escaping Attack_Cast 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4608,7 +4608,7 @@
         },
         "160700": {
             "name": "Popori_F_Archer_Lv07_Escaping Attack_Cast 01",
-            "totalAtk": "-0.6572",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4621,7 +4621,7 @@
         },
         "160800": {
             "name": "Popori_F_Archer_Lv08_Escaping Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4634,7 +4634,7 @@
         },
         "160900": {
             "name": "Popori_F_Archer_Lv09_Escaping Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4647,7 +4647,7 @@
         },
         "161000": {
             "name": "Popori_F_Archer_Lv10_Escaping Attack_Cast 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4660,7 +4660,7 @@
         },
         "161100": {
             "name": "Popori_F_Archer_Lv11_Escaping Attack_Cast 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+1.0000",
@@ -4673,10 +4673,10 @@
         },
         "161200": {
             "name": "Popori_F_Archer_Lv12_Escaping Attack_Cast 01",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "+1.0000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -4686,10 +4686,10 @@
         },
         "161300": {
             "name": "Popori_F_Archer_Lv13_Escaping Attack_Cast 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "+1.0000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -4714,7 +4714,7 @@
         },
         "170300": {
             "name": "Popori_F_Archer_Lv03_Spider web Arrow",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4727,7 +4727,7 @@
         },
         "170400": {
             "name": "Popori_F_Archer_Lv04_Spider web Arrow",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4740,7 +4740,7 @@
         },
         "170500": {
             "name": "Popori_F_Archer_Lv05_Spider web Arrow",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4768,7 +4768,7 @@
         },
         "180300": {
             "name": "Popori_F_Archer_Lv03_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4781,7 +4781,7 @@
         },
         "180400": {
             "name": "Popori_F_Archer_Lv04_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4794,7 +4794,7 @@
         },
         "180500": {
             "name": "Popori_F_Archer_Lv05_Roundhouse Kick_Attack 01",
-            "totalAtk": "-0.8390",
+            "totalAtk": "-0.5303",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4807,7 +4807,7 @@
         },
         "180600": {
             "name": "Popori_F_Archer_Lv06_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "-0.3147",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4820,7 +4820,7 @@
         },
         "180700": {
             "name": "Popori_F_Archer_Lv07_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4846,7 +4846,7 @@
         },
         "180900": {
             "name": "Popori_F_Archer_Lv09_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4859,7 +4859,7 @@
         },
         "181000": {
             "name": "Popori_F_Archer_Lv10_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4872,7 +4872,7 @@
         },
         "181100": {
             "name": "Popori_F_Archer_Lv11_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.1342",
+            "totalAtk": "+2.3086",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.6667",
@@ -4885,10 +4885,10 @@
         },
         "181200": {
             "name": "Popori_F_Archer_Lv12_Roundhouse Kick_Attack 01",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "-0.5333",
+            "coolTime": "-0.2222",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -4898,10 +4898,10 @@
         },
         "181300": {
             "name": "Popori_F_Archer_Lv13_Roundhouse Kick_Attack 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.2222",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -4926,7 +4926,7 @@
         },
         "180301": {
             "name": "Popori_F_Archer_Lv03_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4939,7 +4939,7 @@
         },
         "180401": {
             "name": "Popori_F_Archer_Lv04_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4952,7 +4952,7 @@
         },
         "180501": {
             "name": "Popori_F_Archer_Lv05_Roundhouse Kick_Attack 02",
-            "totalAtk": "-0.8390",
+            "totalAtk": "-0.5303",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4965,7 +4965,7 @@
         },
         "180601": {
             "name": "Popori_F_Archer_Lv06_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "-0.3147",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4978,7 +4978,7 @@
         },
         "180701": {
             "name": "Popori_F_Archer_Lv07_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5004,7 +5004,7 @@
         },
         "180901": {
             "name": "Popori_F_Archer_Lv09_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5017,7 +5017,7 @@
         },
         "181001": {
             "name": "Popori_F_Archer_Lv10_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5030,7 +5030,7 @@
         },
         "181101": {
             "name": "Popori_F_Archer_Lv11_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.1342",
+            "totalAtk": "+2.3086",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5043,7 +5043,7 @@
         },
         "181201": {
             "name": "Popori_F_Archer_Lv12_Roundhouse Kick_Attack 02",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5056,7 +5056,7 @@
         },
         "181301": {
             "name": "Popori_F_Archer_Lv13_Roundhouse Kick_Attack 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5084,7 +5084,7 @@
         },
         "190300": {
             "name": "Popori_F_Archer_Lv03_Venom Arrow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5097,7 +5097,7 @@
         },
         "190400": {
             "name": "Popori_F_Archer_Lv04_Venom Arrow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5110,7 +5110,7 @@
         },
         "190500": {
             "name": "Popori_F_Archer_Lv05_Venom Arrow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5123,7 +5123,7 @@
         },
         "190600": {
             "name": "Popori_F_Archer_Lv06_Venom Arrow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5136,7 +5136,7 @@
         },
         "190700": {
             "name": "Popori_F_Archer_Lv07_Venom Arrow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5149,7 +5149,7 @@
         },
         "190800": {
             "name": "Popori_F_Archer_Lv08_Venom Arrow_Attack 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+16.0111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5162,7 +5162,7 @@
         },
         "190900": {
             "name": "Popori_F_Archer_Lv09_Venom Arrow_Attack 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+16.0111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5175,7 +5175,7 @@
         },
         "191000": {
             "name": "Popori_F_Archer_Lv10_Venom Arrow_Attack 01",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+11.4161",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5188,7 +5188,7 @@
         },
         "191100": {
             "name": "Popori_F_Archer_Lv11_Venom Arrow_Attack 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+11.4161",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5216,7 +5216,7 @@
         },
         "200300": {
             "name": "Popori_F_Archer_Lv03_Contaning Shot_Attack 01",
-            "totalAtk": "-0.9178",
+            "totalAtk": "-0.6031",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-1.0000",
@@ -5229,11 +5229,11 @@
         },
         "200400": {
             "name": "Popori_F_Archer_Lv04_Contaning Shot_Attack 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.6031",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-1.0000",
+            "mp": "-0.9867",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -5273,7 +5273,7 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.8750",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -5339,7 +5339,7 @@
         },
         "220300": {
             "name": "Popori_F_Archer_Lv03_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5352,7 +5352,7 @@
         },
         "220400": {
             "name": "Popori_F_Archer_Lv04_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5365,7 +5365,7 @@
         },
         "220500": {
             "name": "Popori_F_Archer_Lv05_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5378,7 +5378,7 @@
         },
         "220600": {
             "name": "Popori_F_Archer_Lv06_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5391,7 +5391,7 @@
         },
         "220700": {
             "name": "Popori_F_Archer_Lv07_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5404,7 +5404,7 @@
         },
         "220800": {
             "name": "Popori_F_Archer_Lv08_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5417,7 +5417,7 @@
         },
         "220900": {
             "name": "Popori_F_Archer_Lv09_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5430,7 +5430,7 @@
         },
         "221000": {
             "name": "Popori_F_Archer_Lv10_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5443,7 +5443,7 @@
         },
         "221100": {
             "name": "Popori_F_Archer_Lv11_Chain Rapid Shot Combo 01",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5471,7 +5471,7 @@
         },
         "220301": {
             "name": "Popori_F_Archer_Lv03_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5484,7 +5484,7 @@
         },
         "220401": {
             "name": "Popori_F_Archer_Lv04_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1066",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5497,7 +5497,7 @@
         },
         "220501": {
             "name": "Popori_F_Archer_Lv05_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5510,7 +5510,7 @@
         },
         "220601": {
             "name": "Popori_F_Archer_Lv06_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6143",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5523,7 +5523,7 @@
         },
         "220701": {
             "name": "Popori_F_Archer_Lv07_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6512",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5536,7 +5536,7 @@
         },
         "220801": {
             "name": "Popori_F_Archer_Lv08_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0824",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5549,7 +5549,7 @@
         },
         "220901": {
             "name": "Popori_F_Archer_Lv09_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5483",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5562,7 +5562,7 @@
         },
         "221001": {
             "name": "Popori_F_Archer_Lv10_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1529",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5575,7 +5575,7 @@
         },
         "221101": {
             "name": "Popori_F_Archer_Lv11_Chain Rapid Shot Combo 02",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+35.2178",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5603,7 +5603,7 @@
         },
         "220302": {
             "name": "Popori_F_Archer_Lv03_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5616,7 +5616,7 @@
         },
         "220402": {
             "name": "Popori_F_Archer_Lv04_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1066",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5629,7 +5629,7 @@
         },
         "220502": {
             "name": "Popori_F_Archer_Lv05_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5642,7 +5642,7 @@
         },
         "220602": {
             "name": "Popori_F_Archer_Lv06_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6143",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5655,7 +5655,7 @@
         },
         "220702": {
             "name": "Popori_F_Archer_Lv07_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6512",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5668,7 +5668,7 @@
         },
         "220802": {
             "name": "Popori_F_Archer_Lv08_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0824",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5681,7 +5681,7 @@
         },
         "220902": {
             "name": "Popori_F_Archer_Lv09_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5483",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5694,7 +5694,7 @@
         },
         "221002": {
             "name": "Popori_F_Archer_Lv10_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1529",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5707,7 +5707,7 @@
         },
         "221102": {
             "name": "Popori_F_Archer_Lv11_Chain Rapid Shot Combo 03",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+35.2178",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5735,7 +5735,7 @@
         },
         "220303": {
             "name": "Popori_F_Archer_Lv03_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5748,7 +5748,7 @@
         },
         "220403": {
             "name": "Popori_F_Archer_Lv04_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1066",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5761,7 +5761,7 @@
         },
         "220503": {
             "name": "Popori_F_Archer_Lv05_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5774,7 +5774,7 @@
         },
         "220603": {
             "name": "Popori_F_Archer_Lv06_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6143",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5787,7 +5787,7 @@
         },
         "220703": {
             "name": "Popori_F_Archer_Lv07_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6512",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5800,7 +5800,7 @@
         },
         "220803": {
             "name": "Popori_F_Archer_Lv08_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0824",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5813,7 +5813,7 @@
         },
         "220903": {
             "name": "Popori_F_Archer_Lv09_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5483",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5826,7 +5826,7 @@
         },
         "221003": {
             "name": "Popori_F_Archer_Lv10_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1529",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5839,7 +5839,7 @@
         },
         "221103": {
             "name": "Popori_F_Archer_Lv11_Chain Rapid Shot Combo 04",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+35.2178",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5867,7 +5867,7 @@
         },
         "220304": {
             "name": "Popori_F_Archer_Lv03_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5880,7 +5880,7 @@
         },
         "220404": {
             "name": "Popori_F_Archer_Lv04_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5893,7 +5893,7 @@
         },
         "220504": {
             "name": "Popori_F_Archer_Lv05_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5906,7 +5906,7 @@
         },
         "220604": {
             "name": "Popori_F_Archer_Lv06_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5919,7 +5919,7 @@
         },
         "220704": {
             "name": "Popori_F_Archer_Lv07_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5932,7 +5932,7 @@
         },
         "220804": {
             "name": "Popori_F_Archer_Lv08_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5945,7 +5945,7 @@
         },
         "220904": {
             "name": "Popori_F_Archer_Lv09_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5958,7 +5958,7 @@
         },
         "221004": {
             "name": "Popori_F_Archer_Lv10_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5971,7 +5971,7 @@
         },
         "221104": {
             "name": "Popori_F_Archer_Lv11_Chain Rapid Shot Combo 05",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6015,8 +6015,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-1.0000",
+            "mp": "-1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -6028,8 +6028,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-1.0000",
+            "mp": "-1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -6053,7 +6053,7 @@
         },
         "230320": {
             "name": "Popori_F_Archer_Lv03_Paralysis TrapArrow_Projectile 01",
-            "totalAtk": "+1.2294",
+            "totalAtk": "+4.0552",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6066,7 +6066,7 @@
         },
         "230420": {
             "name": "Popori_F_Archer_Lv04_Paralysis TrapArrow_Projectile 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+4.0552",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6079,7 +6079,7 @@
         },
         "230520": {
             "name": "Popori_F_Archer_Lv05_Paralysis TrapArrow_Projectile 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+4.0552",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6120,28 +6120,28 @@
         },
         "240400": {
             "name": "Popori_F_Archer_Lv04_Web TrapArrow_Cast 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "totalAtk": "-1.0000",
+            "timeRate": "+0.4000",
+            "attackRange": "-0.8000",
+            "coolTime": "-1.0000",
+            "mp": "-1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
+            "rearCancelStartTime": "-1.0000",
             "moveCancelStartTime": "+0.0000"
         },
         "240500": {
             "name": "Popori_F_Archer_Lv05_Web TrapArrow_Cast 01",
-            "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "totalAtk": "-1.0000",
+            "timeRate": "+0.4000",
+            "attackRange": "-0.8000",
+            "coolTime": "-1.0000",
+            "mp": "-1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "+0.0000",
+            "rearCancelStartTime": "-1.0000",
             "moveCancelStartTime": "+0.0000"
         }
     },
@@ -6191,7 +6191,7 @@
         },
         "240320": {
             "name": "Popori_F_Archer_Lv03_Web TrapArrow_Projectile 01",
-            "totalAtk": "+0.6001",
+            "totalAtk": "+13.5003",
             "timeRate": "+0.0000",
             "attackRange": "-0.9600",
             "coolTime": "-1.0000",
@@ -6204,10 +6204,10 @@
         },
         "240420": {
             "name": "Popori_F_Archer_Lv04_Web TrapArrow_Projectile 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+13.5003",
             "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "attackRange": "-0.9600",
+            "coolTime": "-1.0000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -6217,10 +6217,10 @@
         },
         "240520": {
             "name": "Popori_F_Archer_Lv05_Web TrapArrow_Projectile 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+13.5003",
             "timeRate": "+0.0000",
-            "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "attackRange": "-0.9600",
+            "coolTime": "-1.0000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -6379,7 +6379,7 @@
         },
         "250320": {
             "name": "Popori_F_Archer_Lv03_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6392,7 +6392,7 @@
         },
         "250420": {
             "name": "Popori_F_Archer_Lv04_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6405,7 +6405,7 @@
         },
         "250520": {
             "name": "Popori_F_Archer_Lv05_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6418,7 +6418,7 @@
         },
         "250620": {
             "name": "Popori_F_Archer_Lv05_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6431,7 +6431,7 @@
         },
         "250720": {
             "name": "Popori_F_Archer_Lv05_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6444,7 +6444,7 @@
         },
         "250820": {
             "name": "Popori_F_Archer_Lv05_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6457,7 +6457,7 @@
         },
         "250920": {
             "name": "Popori_F_Archer_Lv05_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6470,7 +6470,7 @@
         },
         "251020": {
             "name": "Popori_F_Archer_Lv05_Explosion TrapArrow_Projectile 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6528,7 +6528,7 @@
         },
         "290300": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6541,7 +6541,7 @@
         },
         "290400": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6554,7 +6554,7 @@
         },
         "290500": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6567,7 +6567,7 @@
         },
         "290600": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6580,7 +6580,7 @@
         },
         "290700": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6593,7 +6593,7 @@
         },
         "290800": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6606,7 +6606,7 @@
         },
         "290900": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6619,7 +6619,7 @@
         },
         "291000": {
             "name": "Popori_F_Archer_Lv01_Thunder Drake_Shot 01",
-            "totalAtk": "-0.9772",
+            "totalAtk": "-0.5000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",

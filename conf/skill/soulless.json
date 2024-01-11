@@ -15,7 +15,7 @@
         },
         "10300": {
             "name": "Popori_F_Soulless_Lv03_ComboAttack_Start",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -43,7 +43,7 @@
         },
         "10301": {
             "name": "Popori_F_Soulless_Lv03_ComboAttack_01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -71,7 +71,7 @@
         },
         "10302": {
             "name": "Popori_F_Soulless_Lv03_ComboAttack_02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -99,7 +99,7 @@
         },
         "10303": {
             "name": "Popori_F_Soulless_Lv03_ComboAttack_03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -127,7 +127,7 @@
         },
         "10304": {
             "name": "Popori_F_Soulless_Lv03_ComboAttack_04",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -155,7 +155,7 @@
         },
         "10305": {
             "name": "Popori_F_Soulless_Lv03_ComboAttack_05",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -183,7 +183,7 @@
         },
         "30300": {
             "name": "Popori_F_Soulless_Lv03_ChainSmash",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -211,7 +211,7 @@
         },
         "30330": {
             "name": "Popori_F_Soulless_Lv03_ChainSmash_Continuous",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -239,7 +239,7 @@
         },
         "40300": {
             "name": "Popori_F_Soulless_Lv03_ChainBlow_Long",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -267,7 +267,7 @@
         },
         "40320": {
             "name": "Popori_F_Soulless_Lv03_ChainBlow_Projectile",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -295,7 +295,7 @@
         },
         "40330": {
             "name": "Popori_F_Soulless_Lv03_ChainBlow_Short",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -323,7 +323,7 @@
         },
         "50300": {
             "name": "Popori_F_Soulless_Lv03_ChainSuperBlow_Long",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+0.7626",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -351,7 +351,7 @@
         },
         "50330": {
             "name": "Popori_F_Soulless_Lv03_ChainSuperBlow_Short",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+0.7626",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -670,7 +670,7 @@
         },
         "140300": {
             "name": "Popori_F_Soulless_Lv03_RisingAttack",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+0.9992",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -698,7 +698,7 @@
         },
         "150300": {
             "name": "Popori_F_Soulless_Lv03_CounterAttack_Activate",
-            "totalAtk": "+0.0650",
+            "totalAtk": "+0.5540",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -726,7 +726,7 @@
         },
         "150380": {
             "name": "Popori_F_Soulless_Lv03_CounterAttack_Invoke",
-            "totalAtk": "+0.0650",
+            "totalAtk": "+0.5540",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",

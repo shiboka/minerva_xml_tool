@@ -595,7 +595,7 @@
         },
         "10320": {
             "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9991",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -608,7 +608,7 @@
         },
         "10420": {
             "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -621,7 +621,7 @@
         },
         "10520": {
             "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -634,7 +634,7 @@
         },
         "10620": {
             "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -647,7 +647,7 @@
         },
         "10720": {
             "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.0622",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -660,7 +660,7 @@
         },
         "10820": {
             "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -673,7 +673,7 @@
         },
         "10920": {
             "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -686,7 +686,7 @@
         },
         "11020": {
             "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.1532",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -699,7 +699,7 @@
         },
         "11120": {
             "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -712,7 +712,7 @@
         },
         "11220": {
             "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+55.2826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -740,7 +740,7 @@
         },
         "10321": {
             "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9991",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -753,7 +753,7 @@
         },
         "10421": {
             "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -766,7 +766,7 @@
         },
         "10521": {
             "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -779,7 +779,7 @@
         },
         "10621": {
             "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -792,7 +792,7 @@
         },
         "10721": {
             "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.0622",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -805,7 +805,7 @@
         },
         "10821": {
             "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -818,7 +818,7 @@
         },
         "10921": {
             "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -831,7 +831,7 @@
         },
         "11021": {
             "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.1532",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -844,7 +844,7 @@
         },
         "11121": {
             "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -857,7 +857,7 @@
         },
         "11221": {
             "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+55.2826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -885,7 +885,7 @@
         },
         "10322": {
             "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9991",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -898,7 +898,7 @@
         },
         "10422": {
             "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -911,7 +911,7 @@
         },
         "10522": {
             "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -924,7 +924,7 @@
         },
         "10622": {
             "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -937,7 +937,7 @@
         },
         "10722": {
             "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.0622",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -950,7 +950,7 @@
         },
         "10822": {
             "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -963,7 +963,7 @@
         },
         "10922": {
             "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -976,7 +976,7 @@
         },
         "11022": {
             "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.1532",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -989,7 +989,7 @@
         },
         "11122": {
             "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1002,7 +1002,7 @@
         },
         "11222": {
             "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+55.2826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1030,7 +1030,7 @@
         },
         "10323": {
             "name": "Popori_F_Priest_Lv03_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9991",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1043,7 +1043,7 @@
         },
         "10423": {
             "name": "Popori_F_Priest_Lv04_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9170",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1056,7 +1056,7 @@
         },
         "10523": {
             "name": "Popori_F_Priest_Lv05_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.2564",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1069,7 +1069,7 @@
         },
         "10623": {
             "name": "Popori_F_Priest_Lv06_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1082,7 +1082,7 @@
         },
         "10723": {
             "name": "Popori_F_Priest_Lv07_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.0622",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1095,7 +1095,7 @@
         },
         "10823": {
             "name": "Popori_F_Priest_Lv08_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1108,7 +1108,7 @@
         },
         "10923": {
             "name": "Popori_F_Priest_Lv09_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.2944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1121,7 +1121,7 @@
         },
         "11023": {
             "name": "Popori_F_Priest_Lv10_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.1532",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1134,7 +1134,7 @@
         },
         "11123": {
             "name": "Popori_F_Priest_Lv11_Holy Shot_Projectile 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1147,7 +1147,7 @@
         },
         "11223": {
             "name": "Popori_F_Priest_Lv12_Holy Shot_Projectile 04",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+55.2826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1486,7 +1486,7 @@
         },
         "110300": {
             "name": "Popori_F_Priest_Lv03_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1499,7 +1499,7 @@
         },
         "110400": {
             "name": "Popori_F_Priest_Lv04_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1512,7 +1512,7 @@
         },
         "110500": {
             "name": "Popori_F_Priest_Lv05_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1525,7 +1525,7 @@
         },
         "110600": {
             "name": "Popori_F_Priest_Lv06_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1538,7 +1538,7 @@
         },
         "110700": {
             "name": "Popori_F_Priest_Lv07_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1551,7 +1551,7 @@
         },
         "110800": {
             "name": "Popori_F_Priest_Lv08_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1564,7 +1564,7 @@
         },
         "110900": {
             "name": "Popori_F_Priest_Lv09_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1577,7 +1577,7 @@
         },
         "111000": {
             "name": "Popori_F_Priest_Lv10_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1590,7 +1590,7 @@
         },
         "111100": {
             "name": "Popori_F_Priest_Lv11_Retrbutionwave_Cast 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+45.5936",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1620,7 +1620,7 @@
         },
         "160300": {
             "name": "Popori_F_Priest_Lv03_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1633,7 +1633,7 @@
         },
         "160400": {
             "name": "Popori_F_Priest_Lv04_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1646,7 +1646,7 @@
         },
         "160500": {
             "name": "Popori_F_Priest_Lv05_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1659,7 +1659,7 @@
         },
         "160600": {
             "name": "Popori_F_Priest_Lv06_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1672,7 +1672,7 @@
         },
         "160700": {
             "name": "Popori_F_Priest_Lv07_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1685,7 +1685,7 @@
         },
         "160800": {
             "name": "Popori_F_Priest_Lv08_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1698,7 +1698,7 @@
         },
         "160900": {
             "name": "Popori_F_Priest_Lv09_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1711,7 +1711,7 @@
         },
         "161000": {
             "name": "Popori_F_Priest_Lv10_Holy Blast_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1724,7 +1724,7 @@
         },
         "161100": {
             "name": "Popori_F_Priest_Lv11_Holy Blast_Cast 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1752,7 +1752,7 @@
         },
         "160330": {
             "name": "Popori_F_Priest_Lv03_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1765,7 +1765,7 @@
         },
         "160430": {
             "name": "Popori_F_Priest_Lv04_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1778,7 +1778,7 @@
         },
         "160530": {
             "name": "Popori_F_Priest_Lv05_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1791,7 +1791,7 @@
         },
         "160630": {
             "name": "Popori_F_Priest_Lv06_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1804,7 +1804,7 @@
         },
         "160730": {
             "name": "Popori_F_Priest_Lv07_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1817,7 +1817,7 @@
         },
         "160830": {
             "name": "Popori_F_Priest_Lv08_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1830,7 +1830,7 @@
         },
         "160930": {
             "name": "Popori_F_Priest_Lv09_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1843,7 +1843,7 @@
         },
         "161030": {
             "name": "Popori_F_Priest_Lv10_Holy Blast_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2297,7 +2297,7 @@
         },
         "250300": {
             "name": "Popori_F_Priest_Lv03_Rising Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2310,7 +2310,7 @@
         },
         "250400": {
             "name": "Popori_F_Priest_Lv04_Rising Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2323,7 +2323,7 @@
         },
         "250500": {
             "name": "Popori_F_Priest_Lv05_Rising Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2336,7 +2336,7 @@
         },
         "250600": {
             "name": "Popori_F_Priest_Lv06_Rising Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2349,7 +2349,7 @@
         },
         "250700": {
             "name": "Popori_F_Priest_Lv07_Rising Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2362,7 +2362,7 @@
         },
         "250800": {
             "name": "Popori_F_Priest_Lv08_Rising Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2375,7 +2375,7 @@
         },
         "250900": {
             "name": "Popori_F_Priest_Lv09_Rising Attack_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2388,7 +2388,7 @@
         },
         "251000": {
             "name": "Popori_F_Priest_Lv10_Rising Attack_Cast 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2416,7 +2416,7 @@
         },
         "260300": {
             "name": "Popori_F_Priest_Lv03_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2429,7 +2429,7 @@
         },
         "260400": {
             "name": "Popori_F_Priest_Lv04_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2442,7 +2442,7 @@
         },
         "260500": {
             "name": "Popori_F_Priest_Lv05_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2455,7 +2455,7 @@
         },
         "260600": {
             "name": "Popori_F_Priest_Lv06_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2468,7 +2468,7 @@
         },
         "260700": {
             "name": "Popori_F_Priest_Lv07_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2481,7 +2481,7 @@
         },
         "260800": {
             "name": "Popori_F_Priest_Lv08_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2494,7 +2494,7 @@
         },
         "260900": {
             "name": "Popori_F_Priest_Lv09_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2507,7 +2507,7 @@
         },
         "261000": {
             "name": "Popori_F_Priest_Lv10_Sanctuary of Fetters_Cast 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+30.9322",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2535,7 +2535,7 @@
         },
         "270300": {
             "name": "Popori_F_Priest_Lv03_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2548,7 +2548,7 @@
         },
         "270400": {
             "name": "Popori_F_Priest_Lv04_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2561,7 +2561,7 @@
         },
         "270500": {
             "name": "Popori_F_Priest_Lv05_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2574,7 +2574,7 @@
         },
         "270600": {
             "name": "Popori_F_Priest_Lv06_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2587,7 +2587,7 @@
         },
         "270700": {
             "name": "Popori_F_Priest_Lv07_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2600,7 +2600,7 @@
         },
         "270800": {
             "name": "Popori_F_Priest_Lv08_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2613,7 +2613,7 @@
         },
         "270900": {
             "name": "Popori_F_Priest_Lv09_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2626,7 +2626,7 @@
         },
         "271000": {
             "name": "Popori_F_Priest_Lv10_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2639,7 +2639,7 @@
         },
         "271100": {
             "name": "Popori_F_Priest_Lv11_Punishing Touch_Long Cast 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+40.0797",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2667,7 +2667,7 @@
         },
         "270330": {
             "name": "Popori_F_Priest_Lv03_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2680,7 +2680,7 @@
         },
         "270430": {
             "name": "Popori_F_Priest_Lv04_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2693,7 +2693,7 @@
         },
         "270530": {
             "name": "Popori_F_Priest_Lv05_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2706,7 +2706,7 @@
         },
         "270630": {
             "name": "Popori_F_Priest_Lv06_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2719,7 +2719,7 @@
         },
         "270730": {
             "name": "Popori_F_Priest_Lv07_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2732,7 +2732,7 @@
         },
         "270830": {
             "name": "Popori_F_Priest_Lv08_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2745,7 +2745,7 @@
         },
         "270930": {
             "name": "Popori_F_Priest_Lv09_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2758,7 +2758,7 @@
         },
         "271030": {
             "name": "Popori_F_Priest_Lv10_Punishing Touch_Short Cast 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2845,7 +2845,7 @@
         },
         "290300": {
             "name": "Popori_F_Priest_Lv03_Divine Retrivution Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2858,7 +2858,7 @@
         },
         "290400": {
             "name": "Popori_F_Priest_Lv04_Divine Retrivution Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2871,7 +2871,7 @@
         },
         "290500": {
             "name": "Popori_F_Priest_Lv05_Divine Retrivution Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2884,7 +2884,7 @@
         },
         "290600": {
             "name": "Popori_F_Priest_Lv06_Divine Retrivution Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2897,7 +2897,7 @@
         },
         "290700": {
             "name": "Popori_F_Priest_Lv07_Divine Retrivution Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2910,7 +2910,7 @@
         },
         "290800": {
             "name": "Popori_F_Priest_Lv08_Divine Retrivution Combo 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2923,7 +2923,7 @@
         },
         "290900": {
             "name": "Popori_F_Priest_Lv09_Divine Retrivution Combo 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2951,7 +2951,7 @@
         },
         "290301": {
             "name": "Popori_F_Priest_Lv03_Divine Retrivution Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2964,7 +2964,7 @@
         },
         "290401": {
             "name": "Popori_F_Priest_Lv04_Divine Retrivution Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2977,7 +2977,7 @@
         },
         "290501": {
             "name": "Popori_F_Priest_Lv05_Divine Retrivution Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2990,7 +2990,7 @@
         },
         "290601": {
             "name": "Popori_F_Priest_Lv06_Divine Retrivution Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3003,7 +3003,7 @@
         },
         "290701": {
             "name": "Popori_F_Priest_Lv07_Divine Retrivution Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3016,7 +3016,7 @@
         },
         "290801": {
             "name": "Popori_F_Priest_Lv08_Divine Retrivution Combo 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3029,7 +3029,7 @@
         },
         "290901": {
             "name": "Popori_F_Priest_Lv09_Divine Retrivution Combo 02",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3057,7 +3057,7 @@
         },
         "290302": {
             "name": "Popori_F_Priest_Lv03_Divine Retrivution Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3070,7 +3070,7 @@
         },
         "290402": {
             "name": "Popori_F_Priest_Lv04_Divine Retrivution Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3083,7 +3083,7 @@
         },
         "290502": {
             "name": "Popori_F_Priest_Lv05_Divine Retrivution Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3096,7 +3096,7 @@
         },
         "290602": {
             "name": "Popori_F_Priest_Lv06_Divine Retrivution Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3109,7 +3109,7 @@
         },
         "290702": {
             "name": "Popori_F_Priest_Lv07_Divine Retrivution Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3122,7 +3122,7 @@
         },
         "290802": {
             "name": "Popori_F_Priest_Lv08_Divine Retrivution Combo 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3135,7 +3135,7 @@
         },
         "290902": {
             "name": "Popori_F_Priest_Lv09_Divine Retrivution Combo 03",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3469,7 +3469,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0764",
+            "mp": "+0.1653",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3482,7 +3482,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0595",
+            "mp": "+0.2347",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3506,7 +3506,7 @@
         },
         "350310": {
             "name": "Popori_F_Priest_Lv03_Divine Lightning_Shot",
-            "totalAtk": "+1.9185",
+            "totalAtk": "+7.5544",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3519,7 +3519,7 @@
         },
         "350410": {
             "name": "Popori_F_Priest_Lv04_Divine Lightning_Shot",
-            "totalAtk": "+0.8710",
+            "totalAtk": "+15.0051",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3711,7 +3711,7 @@
         },
         "400320": {
             "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "hp": "+0.0000",
@@ -3722,7 +3722,7 @@
         },
         "400420": {
             "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "hp": "+0.0000",
@@ -3733,7 +3733,7 @@
         },
         "400520": {
             "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "hp": "+0.0000",
@@ -3744,7 +3744,7 @@
         },
         "400620": {
             "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "hp": "+0.0000",
@@ -3755,7 +3755,7 @@
         },
         "400720": {
             "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "hp": "+0.0000",
@@ -3766,7 +3766,7 @@
         },
         "400820": {
             "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "hp": "+0.0000",
@@ -3777,7 +3777,7 @@
         },
         "400920": {
             "name": "Popori_F_Priest_Lv01_God Breath_Projectile 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "hp": "+0.0000",

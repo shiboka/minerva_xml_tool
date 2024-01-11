@@ -15,7 +15,7 @@
         },
         "10300": {
             "name": "Popori_F_Berserker_Lv03_Combo_Attack 01",
-            "totalAtk": "+0.2688",
+            "totalAtk": "+0.5377",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -28,7 +28,7 @@
         },
         "10400": {
             "name": "Popori_F_Berserker_Lv04_Combo_Attack 01",
-            "totalAtk": "+0.2402",
+            "totalAtk": "+0.9070",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -41,7 +41,7 @@
         },
         "10500": {
             "name": "Popori_F_Berserker_Lv05_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.7826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -54,7 +54,7 @@
         },
         "10600": {
             "name": "Popori_F_Berserker_Lv06_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.0602",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -67,7 +67,7 @@
         },
         "10700": {
             "name": "Popori_F_Berserker_Lv07_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.9244",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -80,7 +80,7 @@
         },
         "10800": {
             "name": "Popori_F_Berserker_Lv08_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+7.6446",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -93,7 +93,7 @@
         },
         "10900": {
             "name": "Popori_F_Berserker_Lv09_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+11.6137",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -106,7 +106,7 @@
         },
         "11000": {
             "name": "Popori_F_Berserker_Lv10_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+17.4052",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -119,7 +119,7 @@
         },
         "11100": {
             "name": "Popori_F_Berserker_Lv11_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+25.8557",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -132,7 +132,7 @@
         },
         "11200": {
             "name": "Popori_F_Berserker_Lv12_Combo_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+35.7947",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -145,7 +145,7 @@
         },
         "11300": {
             "name": "Popori_F_Berserker_Lv13_Combo_Attack 01",
-            "totalAtk": "-0.8832",
+            "totalAtk": "+3.2980",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -158,7 +158,7 @@
         },
         "11400": {
             "name": "Popori_F_Berserker_Lv14_Combo_Attack 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.0131",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -171,7 +171,7 @@
         },
         "11500": {
             "name": "Popori_F_Berserker_Lv15_Combo_Attack 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.8473",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -199,7 +199,7 @@
         },
         "10301": {
             "name": "Popori_F_Berserker_Lv03_Combo_Attack 02",
-            "totalAtk": "+0.2824",
+            "totalAtk": "+0.5671",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -212,7 +212,7 @@
         },
         "10401": {
             "name": "Popori_F_Berserker_Lv04_Combo_Attack 02",
-            "totalAtk": "+0.2580",
+            "totalAtk": "+0.9715",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -225,7 +225,7 @@
         },
         "10501": {
             "name": "Popori_F_Berserker_Lv05_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.8767",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -238,7 +238,7 @@
         },
         "10601": {
             "name": "Popori_F_Berserker_Lv06_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.1975",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -251,7 +251,7 @@
         },
         "10701": {
             "name": "Popori_F_Berserker_Lv07_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.1248",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -264,7 +264,7 @@
         },
         "10801": {
             "name": "Popori_F_Berserker_Lv08_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+7.9369",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -277,7 +277,7 @@
         },
         "10901": {
             "name": "Popori_F_Berserker_Lv09_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.0403",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -290,7 +290,7 @@
         },
         "11001": {
             "name": "Popori_F_Berserker_Lv10_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.0276",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -303,7 +303,7 @@
         },
         "11101": {
             "name": "Popori_F_Berserker_Lv11_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+26.7640",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -316,7 +316,7 @@
         },
         "11201": {
             "name": "Popori_F_Berserker_Lv12_Combo_Attack 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+37.0391",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -329,7 +329,7 @@
         },
         "11301": {
             "name": "Popori_F_Berserker_Lv13_Combo_Attack 02",
-            "totalAtk": "-0.8719",
+            "totalAtk": "+3.8733",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -342,7 +342,7 @@
         },
         "11401": {
             "name": "Popori_F_Berserker_Lv14_Combo_Attack 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.6842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -355,7 +355,7 @@
         },
         "11501": {
             "name": "Popori_F_Berserker_Lv15_Combo_Attack 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.6300",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -383,7 +383,7 @@
         },
         "10302": {
             "name": "Popori_F_Berserker_Lv03_Combo_Attack 03",
-            "totalAtk": "+0.2943",
+            "totalAtk": "+0.5933",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -396,7 +396,7 @@
         },
         "10402": {
             "name": "Popori_F_Berserker_Lv04_Combo_Attack 03",
-            "totalAtk": "+0.2733",
+            "totalAtk": "+1.0286",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -409,7 +409,7 @@
         },
         "10502": {
             "name": "Popori_F_Berserker_Lv05_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.9601",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -422,7 +422,7 @@
         },
         "10602": {
             "name": "Popori_F_Berserker_Lv06_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.3192",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -435,7 +435,7 @@
         },
         "10702": {
             "name": "Popori_F_Berserker_Lv07_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.3023",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -448,7 +448,7 @@
         },
         "10802": {
             "name": "Popori_F_Berserker_Lv08_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.1960",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -461,7 +461,7 @@
         },
         "10902": {
             "name": "Popori_F_Berserker_Lv09_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+12.4182",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -474,7 +474,7 @@
         },
         "11002": {
             "name": "Popori_F_Berserker_Lv10_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+18.5791",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -487,7 +487,7 @@
         },
         "11102": {
             "name": "Popori_F_Berserker_Lv11_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+27.5687",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -500,7 +500,7 @@
         },
         "11202": {
             "name": "Popori_F_Berserker_Lv12_Combo_Attack 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+38.1416",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -513,7 +513,7 @@
         },
         "11302": {
             "name": "Popori_F_Berserker_Lv13_Combo_Attack 03",
-            "totalAtk": "-0.8580",
+            "totalAtk": "+4.5591",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -526,7 +526,7 @@
         },
         "11402": {
             "name": "Popori_F_Berserker_Lv14_Combo_Attack 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.4842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -539,7 +539,7 @@
         },
         "11502": {
             "name": "Popori_F_Berserker_Lv15_Combo_Attack 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+6.5632",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -567,7 +567,7 @@
         },
         "10303": {
             "name": "Popori_F_Berserker_Lv03_Combo_Attack 04",
-            "totalAtk": "+0.3297",
+            "totalAtk": "+0.6735",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -580,7 +580,7 @@
         },
         "10403": {
             "name": "Popori_F_Berserker_Lv04_Combo_Attack 04",
-            "totalAtk": "+0.3172",
+            "totalAtk": "+1.2042",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -593,7 +593,7 @@
         },
         "10503": {
             "name": "Popori_F_Berserker_Lv05_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.2163",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -606,7 +606,7 @@
         },
         "10603": {
             "name": "Popori_F_Berserker_Lv06_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.6930",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -619,7 +619,7 @@
         },
         "10703": {
             "name": "Popori_F_Berserker_Lv07_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.8477",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -632,7 +632,7 @@
         },
         "10803": {
             "name": "Popori_F_Berserker_Lv08_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.9918",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -645,7 +645,7 @@
         },
         "10903": {
             "name": "Popori_F_Berserker_Lv09_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.5795",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -658,7 +658,7 @@
         },
         "11003": {
             "name": "Popori_F_Berserker_Lv10_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+20.2735",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -671,7 +671,7 @@
         },
         "11103": {
             "name": "Popori_F_Berserker_Lv11_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+30.0411",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -684,7 +684,7 @@
         },
         "11203": {
             "name": "Popori_F_Berserker_Lv12_Combo_Attack 04",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+41.5290",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -697,7 +697,7 @@
         },
         "11303": {
             "name": "Popori_F_Berserker_Lv13_Combo_Attack 04",
-            "totalAtk": "-0.8724",
+            "totalAtk": "+4.4267",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -710,7 +710,7 @@
         },
         "11403": {
             "name": "Popori_F_Berserker_Lv14_Combo_Attack 04",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.3297",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -723,7 +723,7 @@
         },
         "11503": {
             "name": "Popori_F_Berserker_Lv15_Combo_Attack 04",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+6.3830",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -779,7 +779,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.1000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -792,7 +792,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "-0.2222",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -805,7 +805,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -818,7 +818,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -831,7 +831,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -844,7 +844,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -857,7 +857,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -870,7 +870,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -883,7 +883,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.3000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -896,7 +896,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "-0.5000",
+            "mp": "-0.6500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -909,7 +909,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.6500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -922,7 +922,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.6500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -946,7 +946,7 @@
         },
         "30310": {
             "name": "Popori_F_Berserker_Lv03_Blast Slash_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.9528",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -959,7 +959,7 @@
         },
         "30410": {
             "name": "Popori_F_Berserker_Lv04_Blast Slash_Shot 00",
-            "totalAtk": "+0.3472",
+            "totalAtk": "+1.6308",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -972,7 +972,7 @@
         },
         "30510": {
             "name": "Popori_F_Berserker_Lv05_Blast Slash_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.8387",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -985,7 +985,7 @@
         },
         "30610": {
             "name": "Popori_F_Berserker_Lv06_Blast Slash_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.6013",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -998,7 +998,7 @@
         },
         "30710": {
             "name": "Popori_F_Berserker_Lv07_Blast Slash_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+7.1730",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1011,7 +1011,7 @@
         },
         "30810": {
             "name": "Popori_F_Berserker_Lv08_Blast Slash_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+10.9256",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1024,7 +1024,7 @@
         },
         "30910": {
             "name": "Popori_F_Berserker_Lv09_Blast Slash_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+16.4012",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1037,7 +1037,7 @@
         },
         "31010": {
             "name": "Popori_F_Berserker_Lv10_Blast Slash_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+24.3908",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1050,7 +1050,7 @@
         },
         "31110": {
             "name": "Popori_F_Berserker_Lv11_Blast Slash_Shot 00",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+38.4569",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1063,7 +1063,7 @@
         },
         "31210": {
             "name": "Popori_F_Berserker_Lv12_Blast Slash_Shot 00",
-            "totalAtk": "-0.8881",
+            "totalAtk": "+3.4166",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1076,7 +1076,7 @@
         },
         "31310": {
             "name": "Popori_F_Berserker_Lv13_Blast Slash_Shot 00",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.1516",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1089,7 +1089,7 @@
         },
         "31410": {
             "name": "Popori_F_Berserker_Lv14_Blast Slash_Shot 00",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.0088",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1117,7 +1117,7 @@
         },
         "30311": {
             "name": "Popori_F_Berserker_Lv03_Blast Slash_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.8180",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1130,7 +1130,7 @@
         },
         "30411": {
             "name": "Popori_F_Berserker_Lv04_Blast Slash_Shot 01",
-            "totalAtk": "+0.2517",
+            "totalAtk": "+1.2756",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1143,7 +1143,7 @@
         },
         "30511": {
             "name": "Popori_F_Berserker_Lv05_Blast Slash_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.3204",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1156,7 +1156,7 @@
         },
         "30611": {
             "name": "Popori_F_Berserker_Lv06_Blast Slash_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.8450",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1169,7 +1169,7 @@
         },
         "30711": {
             "name": "Popori_F_Berserker_Lv07_Blast Slash_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.0695",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1182,7 +1182,7 @@
         },
         "30811": {
             "name": "Popori_F_Berserker_Lv08_Blast Slash_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.3155",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1195,7 +1195,7 @@
         },
         "30911": {
             "name": "Popori_F_Berserker_Lv09_Blast Slash_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+14.0517",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1208,7 +1208,7 @@
         },
         "31011": {
             "name": "Popori_F_Berserker_Lv10_Blast Slash_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+20.9626",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1221,7 +1221,7 @@
         },
         "31111": {
             "name": "Popori_F_Berserker_Lv11_Blast Slash_Shot 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+33.1296",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1234,7 +1234,7 @@
         },
         "31211": {
             "name": "Popori_F_Berserker_Lv12_Blast Slash_Shot 01",
-            "totalAtk": "-0.8875",
+            "totalAtk": "+2.8403",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1247,7 +1247,7 @@
         },
         "31311": {
             "name": "Popori_F_Berserker_Lv13_Blast Slash_Shot 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.4794",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1260,7 +1260,7 @@
         },
         "31411": {
             "name": "Popori_F_Berserker_Lv14_Blast Slash_Shot 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.2247",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1288,7 +1288,7 @@
         },
         "30312": {
             "name": "Popori_F_Berserker_Lv03_Blast Slash_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.6346",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1301,7 +1301,7 @@
         },
         "30412": {
             "name": "Popori_F_Berserker_Lv04_Blast Slash_Shot 02",
-            "totalAtk": "+0.1990",
+            "totalAtk": "+2.1589",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1314,7 +1314,7 @@
         },
         "30512": {
             "name": "Popori_F_Berserker_Lv05_Blast Slash_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.6093",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1327,7 +1327,7 @@
         },
         "30612": {
             "name": "Popori_F_Berserker_Lv06_Blast Slash_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.7257",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1340,7 +1340,7 @@
         },
         "30712": {
             "name": "Popori_F_Berserker_Lv07_Blast Slash_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.8137",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1353,7 +1353,7 @@
         },
         "30812": {
             "name": "Popori_F_Berserker_Lv08_Blast Slash_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.3196",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1366,7 +1366,7 @@
         },
         "30912": {
             "name": "Popori_F_Berserker_Lv09_Blast Slash_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.8944",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1379,7 +1379,7 @@
         },
         "31012": {
             "name": "Popori_F_Berserker_Lv10_Blast Slash_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+29.4879",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1392,7 +1392,7 @@
         },
         "31112": {
             "name": "Popori_F_Berserker_Lv11_Blast Slash_Shot 02",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+46.3777",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1405,7 +1405,7 @@
         },
         "31212": {
             "name": "Popori_F_Berserker_Lv12_Blast Slash_Shot 02",
-            "totalAtk": "-0.8875",
+            "totalAtk": "+4.3319",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1418,7 +1418,7 @@
         },
         "31312": {
             "name": "Popori_F_Berserker_Lv13_Blast Slash_Shot 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.2191",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1431,7 +1431,7 @@
         },
         "31412": {
             "name": "Popori_F_Berserker_Lv14_Blast Slash_Shot 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+6.2540",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1459,7 +1459,7 @@
         },
         "30313": {
             "name": "Popori_F_Berserker_Lv03_Blast Slash_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+0.3605",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1472,7 +1472,7 @@
         },
         "30413": {
             "name": "Popori_F_Berserker_Lv04_Blast Slash_Shot 03",
-            "totalAtk": "+1.3618",
+            "totalAtk": "+2.2132",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1485,7 +1485,7 @@
         },
         "30513": {
             "name": "Popori_F_Berserker_Lv05_Blast Slash_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.6885",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1498,7 +1498,7 @@
         },
         "30613": {
             "name": "Popori_F_Berserker_Lv06_Blast Slash_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.8412",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1511,7 +1511,7 @@
         },
         "30713": {
             "name": "Popori_F_Berserker_Lv07_Blast Slash_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.9823",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1524,7 +1524,7 @@
         },
         "30813": {
             "name": "Popori_F_Berserker_Lv08_Blast Slash_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.5657",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1537,7 +1537,7 @@
         },
         "30913": {
             "name": "Popori_F_Berserker_Lv09_Blast Slash_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+20.2534",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1550,7 +1550,7 @@
         },
         "31013": {
             "name": "Popori_F_Berserker_Lv10_Blast Slash_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+30.0117",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1563,7 +1563,7 @@
         },
         "31113": {
             "name": "Popori_F_Berserker_Lv11_Blast Slash_Shot 03",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+47.1917",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1576,7 +1576,7 @@
         },
         "31213": {
             "name": "Popori_F_Berserker_Lv12_Blast Slash_Shot 03",
-            "totalAtk": "-0.8896",
+            "totalAtk": "+4.3220",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1589,7 +1589,7 @@
         },
         "31313": {
             "name": "Popori_F_Berserker_Lv13_Blast Slash_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.2076",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1602,7 +1602,7 @@
         },
         "31413": {
             "name": "Popori_F_Berserker_Lv14_Blast Slash_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+6.2405",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1630,7 +1630,7 @@
         },
         "40300": {
             "name": "Popori_F_Berserker_Lv03_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1643,7 +1643,7 @@
         },
         "40400": {
             "name": "Popori_F_Berserker_Lv04_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1656,7 +1656,7 @@
         },
         "40500": {
             "name": "Popori_F_Berserker_Lv05_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1669,7 +1669,7 @@
         },
         "40600": {
             "name": "Popori_F_Berserker_Lv06_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1682,7 +1682,7 @@
         },
         "40700": {
             "name": "Popori_F_Berserker_Lv07_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1695,7 +1695,7 @@
         },
         "40800": {
             "name": "Popori_F_Berserker_Lv08_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1708,7 +1708,7 @@
         },
         "40900": {
             "name": "Popori_F_Berserker_Lv09_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1721,7 +1721,7 @@
         },
         "41000": {
             "name": "Popori_F_Berserker_Lv10_Weapon Bash_Attack_Long 01",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+14.9729",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1734,7 +1734,7 @@
         },
         "41100": {
             "name": "Popori_F_Berserker_Lv11_Weapon Bash_Attack_Long 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1762,7 +1762,7 @@
         },
         "40301": {
             "name": "Popori_F_Berserker_Lv03_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1775,7 +1775,7 @@
         },
         "40401": {
             "name": "Popori_F_Berserker_Lv04_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1788,7 +1788,7 @@
         },
         "40501": {
             "name": "Popori_F_Berserker_Lv05_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1801,7 +1801,7 @@
         },
         "40601": {
             "name": "Popori_F_Berserker_Lv06_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1814,7 +1814,7 @@
         },
         "40701": {
             "name": "Popori_F_Berserker_Lv07_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1827,7 +1827,7 @@
         },
         "40801": {
             "name": "Popori_F_Berserker_Lv08_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1840,7 +1840,7 @@
         },
         "40901": {
             "name": "Popori_F_Berserker_Lv09_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1853,7 +1853,7 @@
         },
         "41001": {
             "name": "Popori_F_Berserker_Lv10_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+14.9729",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1866,7 +1866,7 @@
         },
         "41101": {
             "name": "Popori_F_Berserker_Lv11_Weapon Bash_Attack_Long 01_FURY",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1894,7 +1894,7 @@
         },
         "40330": {
             "name": "Popori_F_Berserker_Lv03_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1907,7 +1907,7 @@
         },
         "40430": {
             "name": "Popori_F_Berserker_Lv04_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1920,7 +1920,7 @@
         },
         "40530": {
             "name": "Popori_F_Berserker_Lv05_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1933,7 +1933,7 @@
         },
         "40630": {
             "name": "Popori_F_Berserker_Lv06_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1946,7 +1946,7 @@
         },
         "40730": {
             "name": "Popori_F_Berserker_Lv07_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1959,7 +1959,7 @@
         },
         "40830": {
             "name": "Popori_F_Berserker_Lv08_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1972,7 +1972,7 @@
         },
         "40930": {
             "name": "Popori_F_Berserker_Lv09_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1985,7 +1985,7 @@
         },
         "41030": {
             "name": "Popori_F_Berserker_Lv10_Weapon Bash_Attack_Short 01",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+14.9729",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1998,7 +1998,7 @@
         },
         "41130": {
             "name": "Popori_F_Berserker_Lv11_Weapon Bash_Attack_Short 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2026,7 +2026,7 @@
         },
         "40331": {
             "name": "Popori_F_Berserker_Lv03_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2039,7 +2039,7 @@
         },
         "40431": {
             "name": "Popori_F_Berserker_Lv04_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2052,7 +2052,7 @@
         },
         "40531": {
             "name": "Popori_F_Berserker_Lv05_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2065,7 +2065,7 @@
         },
         "40631": {
             "name": "Popori_F_Berserker_Lv06_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2078,7 +2078,7 @@
         },
         "40731": {
             "name": "Popori_F_Berserker_Lv07_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2091,7 +2091,7 @@
         },
         "40831": {
             "name": "Popori_F_Berserker_Lv08_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2104,7 +2104,7 @@
         },
         "40931": {
             "name": "Popori_F_Berserker_Lv09_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2117,7 +2117,7 @@
         },
         "41031": {
             "name": "Popori_F_Berserker_Lv10_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "-0.3565",
+            "totalAtk": "+14.9729",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2130,7 +2130,7 @@
         },
         "41131": {
             "name": "Popori_F_Berserker_Lv11_Weapon Bash_Attack_Short 01_FURY",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+23.8216",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2212,7 +2212,7 @@
         },
         "60300": {
             "name": "Popori_F_Berserker_Lv03_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2225,7 +2225,7 @@
         },
         "60400": {
             "name": "Popori_F_Berserker_Lv04_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2238,7 +2238,7 @@
         },
         "60500": {
             "name": "Popori_F_Berserker_Lv05_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2251,7 +2251,7 @@
         },
         "60600": {
             "name": "Popori_F_Berserker_Lv06_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2264,7 +2264,7 @@
         },
         "60700": {
             "name": "Popori_F_Berserker_Lv07_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2277,7 +2277,7 @@
         },
         "60800": {
             "name": "Popori_F_Berserker_Lv08_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2290,7 +2290,7 @@
         },
         "60900": {
             "name": "Popori_F_Berserker_Lv09_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2303,7 +2303,7 @@
         },
         "61000": {
             "name": "Popori_F_Berserker_Lv10_Turn Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2316,7 +2316,7 @@
         },
         "61100": {
             "name": "Popori_F_Berserker_Lv11_Turn Attack_Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+40.0797",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2344,7 +2344,7 @@
         },
         "60330": {
             "name": "Popori_F_Berserker_Lv03_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2357,7 +2357,7 @@
         },
         "60430": {
             "name": "Popori_F_Berserker_Lv04_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2370,7 +2370,7 @@
         },
         "60530": {
             "name": "Popori_F_Berserker_Lv05_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2383,7 +2383,7 @@
         },
         "60630": {
             "name": "Popori_F_Berserker_Lv06_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2396,7 +2396,7 @@
         },
         "60730": {
             "name": "Popori_F_Berserker_Lv07_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2409,7 +2409,7 @@
         },
         "60830": {
             "name": "Popori_F_Berserker_Lv08_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2422,7 +2422,7 @@
         },
         "60930": {
             "name": "Popori_F_Berserker_Lv09_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2435,7 +2435,7 @@
         },
         "61030": {
             "name": "Popori_F_Berserker_Lv10_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2448,7 +2448,7 @@
         },
         "61130": {
             "name": "Popori_F_Berserker_Lv11_Turn Attack_Start 01_Fury",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+40.0797",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2487,7 +2487,7 @@
             "name": "Popori_F_Berserker_Lv04_Shocking Shout_Start 01",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.9000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2515,7 +2515,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.1852",
+            "mp": "+0.3333",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2528,7 +2528,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.2500",
+            "mp": "+0.6667",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2541,7 +2541,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.2000",
+            "mp": "+1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2554,7 +2554,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "+1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2581,7 +2581,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.1852",
+            "mp": "+0.3333",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -2593,7 +2593,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.2500",
+            "mp": "+0.6667",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -2605,7 +2605,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.2000",
+            "mp": "+1.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -2617,7 +2617,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "+1.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -2644,7 +2644,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.1852",
+            "mp": "+0.3333",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2657,7 +2657,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.2500",
+            "mp": "+0.6667",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2670,7 +2670,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.2000",
+            "mp": "+1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2683,7 +2683,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "+1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2711,7 +2711,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.0625",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2724,7 +2724,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "-0.2000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2737,7 +2737,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2750,7 +2750,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2763,7 +2763,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2776,7 +2776,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2789,7 +2789,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2802,7 +2802,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2815,7 +2815,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2828,7 +2828,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2841,7 +2841,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "-0.5000",
+            "mp": "-0.6250",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2854,7 +2854,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.6250",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2878,7 +2878,7 @@
         },
         "100310": {
             "name": "Popori_F_Berserker_Lv03_Whirlwind_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.0089",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2891,7 +2891,7 @@
         },
         "100410": {
             "name": "Popori_F_Berserker_Lv04_Whirlwind_Shot 00",
-            "totalAtk": "+0.3195",
+            "totalAtk": "+1.6508",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2904,7 +2904,7 @@
         },
         "100510": {
             "name": "Popori_F_Berserker_Lv05_Whirlwind_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.8679",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2917,7 +2917,7 @@
         },
         "100610": {
             "name": "Popori_F_Berserker_Lv06_Whirlwind_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.6438",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2930,7 +2930,7 @@
         },
         "100710": {
             "name": "Popori_F_Berserker_Lv07_Whirlwind_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+7.2352",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2943,7 +2943,7 @@
         },
         "100810": {
             "name": "Popori_F_Berserker_Lv08_Whirlwind_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+11.0163",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2956,7 +2956,7 @@
         },
         "100910": {
             "name": "Popori_F_Berserker_Lv09_Whirlwind_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+16.5335",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2969,7 +2969,7 @@
         },
         "101010": {
             "name": "Popori_F_Berserker_Lv10_Whirlwind_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+24.5838",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2982,7 +2982,7 @@
         },
         "101110": {
             "name": "Popori_F_Berserker_Lv11_Whirlwind_Shot 00",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+34.0520",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2995,7 +2995,7 @@
         },
         "101210": {
             "name": "Popori_F_Berserker_Lv12_Whirlwind_Shot 00",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+34.0520",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3008,7 +3008,7 @@
         },
         "101310": {
             "name": "Popori_F_Berserker_Lv13_Whirlwind_Shot 00",
-            "totalAtk": "-0.7986",
+            "totalAtk": "+6.0602",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3021,7 +3021,7 @@
         },
         "101410": {
             "name": "Popori_F_Berserker_Lv14_Whirlwind_Shot 00",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+6.0602",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3049,7 +3049,7 @@
         },
         "100311": {
             "name": "Popori_F_Berserker_Lv03_Whirlwind_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.8872",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3062,7 +3062,7 @@
         },
         "100411": {
             "name": "Popori_F_Berserker_Lv04_Whirlwind_Shot 01",
-            "totalAtk": "+0.2783",
+            "totalAtk": "+1.4124",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3075,7 +3075,7 @@
         },
         "100511": {
             "name": "Popori_F_Berserker_Lv05_Whirlwind_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.5201",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3088,7 +3088,7 @@
         },
         "100611": {
             "name": "Popori_F_Berserker_Lv06_Whirlwind_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.1363",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3101,7 +3101,7 @@
         },
         "100711": {
             "name": "Popori_F_Berserker_Lv07_Whirlwind_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.4945",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3114,7 +3114,7 @@
         },
         "100811": {
             "name": "Popori_F_Berserker_Lv08_Whirlwind_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.9356",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3127,7 +3127,7 @@
         },
         "100911": {
             "name": "Popori_F_Berserker_Lv09_Whirlwind_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+14.9566",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3140,7 +3140,7 @@
         },
         "101011": {
             "name": "Popori_F_Berserker_Lv10_Whirlwind_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+22.2829",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3153,7 +3153,7 @@
         },
         "101111": {
             "name": "Popori_F_Berserker_Lv11_Whirlwind_Shot 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+30.8996",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3166,7 +3166,7 @@
         },
         "101211": {
             "name": "Popori_F_Berserker_Lv12_Whirlwind_Shot 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+30.8996",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3179,7 +3179,7 @@
         },
         "101311": {
             "name": "Popori_F_Berserker_Lv13_Whirlwind_Shot 01",
-            "totalAtk": "-0.7810",
+            "totalAtk": "+5.9874",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3192,7 +3192,7 @@
         },
         "101411": {
             "name": "Popori_F_Berserker_Lv14_Whirlwind_Shot 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+5.9874",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3220,7 +3220,7 @@
         },
         "100312": {
             "name": "Popori_F_Berserker_Lv03_Whirlwind_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+0.4634",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3233,7 +3233,7 @@
         },
         "100412": {
             "name": "Popori_F_Berserker_Lv04_Whirlwind_Shot 02",
-            "totalAtk": "+0.2430",
+            "totalAtk": "+0.8189",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3246,7 +3246,7 @@
         },
         "100512": {
             "name": "Popori_F_Berserker_Lv05_Whirlwind_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.6541",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3259,7 +3259,7 @@
         },
         "100612": {
             "name": "Popori_F_Berserker_Lv06_Whirlwind_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.8727",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3272,7 +3272,7 @@
         },
         "100712": {
             "name": "Popori_F_Berserker_Lv07_Whirlwind_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.6508",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3285,7 +3285,7 @@
         },
         "100812": {
             "name": "Popori_F_Berserker_Lv08_Whirlwind_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+7.2453",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3298,7 +3298,7 @@
         },
         "100912": {
             "name": "Popori_F_Berserker_Lv09_Whirlwind_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+11.0310",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3311,7 +3311,7 @@
         },
         "101012": {
             "name": "Popori_F_Berserker_Lv10_Whirlwind_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+16.5550",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3324,7 +3324,7 @@
         },
         "101112": {
             "name": "Popori_F_Berserker_Lv11_Whirlwind_Shot 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+23.0518",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3337,7 +3337,7 @@
         },
         "101212": {
             "name": "Popori_F_Berserker_Lv12_Whirlwind_Shot 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+23.0518",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3350,7 +3350,7 @@
         },
         "101312": {
             "name": "Popori_F_Berserker_Lv13_Whirlwind_Shot 02",
-            "totalAtk": "-0.7740",
+            "totalAtk": "+4.4365",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3363,7 +3363,7 @@
         },
         "101412": {
             "name": "Popori_F_Berserker_Lv14_Whirlwind_Shot 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+4.4365",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3391,7 +3391,7 @@
         },
         "100313": {
             "name": "Popori_F_Berserker_Lv03_Whirlwind_Shot 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+0.3605",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3404,7 +3404,7 @@
         },
         "100413": {
             "name": "Popori_F_Berserker_Lv04_Whirlwind_Shot 03",
-            "totalAtk": "+0.3648",
+            "totalAtk": "+0.8569",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3417,7 +3417,7 @@
         },
         "100513": {
             "name": "Popori_F_Berserker_Lv05_Whirlwind_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.7094",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3430,7 +3430,7 @@
         },
         "100613": {
             "name": "Popori_F_Berserker_Lv06_Whirlwind_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.9534",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3443,7 +3443,7 @@
         },
         "100713": {
             "name": "Popori_F_Berserker_Lv07_Whirlwind_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.7686",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3456,7 +3456,7 @@
         },
         "100813": {
             "name": "Popori_F_Berserker_Lv08_Whirlwind_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+7.4172",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3469,7 +3469,7 @@
         },
         "100913": {
             "name": "Popori_F_Berserker_Lv09_Whirlwind_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+11.2819",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3482,7 +3482,7 @@
         },
         "101013": {
             "name": "Popori_F_Berserker_Lv10_Whirlwind_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+16.9210",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3495,7 +3495,7 @@
         },
         "101113": {
             "name": "Popori_F_Berserker_Lv11_Whirlwind_Shot 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+23.5534",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3508,7 +3508,7 @@
         },
         "101213": {
             "name": "Popori_F_Berserker_Lv12_Whirlwind_Shot 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+23.5534",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3521,7 +3521,7 @@
         },
         "101313": {
             "name": "Popori_F_Berserker_Lv13_Whirlwind_Shot 03",
-            "totalAtk": "-0.7786",
+            "totalAtk": "+4.4365",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3534,7 +3534,7 @@
         },
         "101413": {
             "name": "Popori_F_Berserker_Lv14_Whirlwind_Shot 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+4.4365",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3562,7 +3562,7 @@
         },
         "110300": {
             "name": "Popori_F_Berserker_Lv03_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3575,7 +3575,7 @@
         },
         "110400": {
             "name": "Popori_F_Berserker_Lv04_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3588,7 +3588,7 @@
         },
         "110500": {
             "name": "Popori_F_Berserker_Lv05_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3601,7 +3601,7 @@
         },
         "110600": {
             "name": "Popori_F_Berserker_Lv06_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3614,7 +3614,7 @@
         },
         "110700": {
             "name": "Popori_F_Berserker_Lv07_Down Blow_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3627,7 +3627,7 @@
         },
         "110800": {
             "name": "Popori_F_Berserker_Lv08_Down Blow_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3640,7 +3640,7 @@
         },
         "110900": {
             "name": "Popori_F_Berserker_Lv09_Down Blow_Attack 01",
-            "totalAtk": "-0.8941",
+            "totalAtk": "+0.3999",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.1429",
@@ -3653,11 +3653,11 @@
         },
         "111000": {
             "name": "Popori_F_Berserker_Lv10_Down Blow_Attack 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+0.6329",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.1429",
+            "mp": "-0.9000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3666,11 +3666,11 @@
         },
         "111100": {
             "name": "Popori_F_Berserker_Lv11_Down Blow_Attack 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+0.9046",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.1429",
+            "mp": "-0.9000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3792,7 +3792,7 @@
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
-            "hp": "+0.3800",
+            "hp": "+0.9061",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -3805,7 +3805,7 @@
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
-            "hp": "+0.3822",
+            "hp": "+1.6346",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -3818,7 +3818,7 @@
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
-            "hp": "+0.4002",
+            "hp": "+2.6889",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -3831,7 +3831,7 @@
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
-            "hp": "+0.1843",
+            "hp": "+3.3688",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -3844,7 +3844,7 @@
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
-            "hp": "+0.0000",
+            "hp": "+3.3688",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -3857,7 +3857,7 @@
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
             "mp": "+0.0000",
-            "hp": "+0.0000",
+            "hp": "+3.3688",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
             "rearCancelStartTime": "+0.0000",
@@ -3973,7 +3973,7 @@
         },
         "130300": {
             "name": "Popori_F_Berserker_Lv03_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3986,7 +3986,7 @@
         },
         "130400": {
             "name": "Popori_F_Berserker_Lv04_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3999,7 +3999,7 @@
         },
         "130500": {
             "name": "Popori_F_Berserker_Lv05_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4012,7 +4012,7 @@
         },
         "130600": {
             "name": "Popori_F_Berserker_Lv06_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4025,7 +4025,7 @@
         },
         "130700": {
             "name": "Popori_F_Berserker_Lv07_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4038,7 +4038,7 @@
         },
         "130800": {
             "name": "Popori_F_Berserker_Lv08_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4051,7 +4051,7 @@
         },
         "130900": {
             "name": "Popori_F_Berserker_Lv09_Rising Attack_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4064,7 +4064,7 @@
         },
         "131000": {
             "name": "Popori_F_Berserker_Lv10_Rising Attack_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4077,7 +4077,7 @@
         },
         "131100": {
             "name": "Popori_F_Berserker_Lv11_Rising Attack_Attack 01",
-            "totalAtk": "-0.8021",
+            "totalAtk": "+4.5721",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.2000",
@@ -4090,10 +4090,10 @@
         },
         "131200": {
             "name": "Popori_F_Berserker_Lv12_Rising Attack_Attack 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.4993",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.2000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -4134,10 +4134,10 @@
         "150300": {
             "name": "Popori_F_Berserker_Lv03_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4147,10 +4147,10 @@
         "150400": {
             "name": "Popori_F_Berserker_Lv04_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "-0.3333",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4160,10 +4160,10 @@
         "150500": {
             "name": "Popori_F_Berserker_Lv05_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4173,10 +4173,10 @@
         "150600": {
             "name": "Popori_F_Berserker_Lv06_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4186,10 +4186,10 @@
         "150700": {
             "name": "Popori_F_Berserker_Lv07_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4199,10 +4199,10 @@
         "150800": {
             "name": "Popori_F_Berserker_Lv08_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4212,10 +4212,10 @@
         "150900": {
             "name": "Popori_F_Berserker_Lv09_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4225,10 +4225,10 @@
         "151000": {
             "name": "Popori_F_Berserker_Lv10_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4238,10 +4238,10 @@
         "151100": {
             "name": "Popori_F_Berserker_Lv11_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4251,10 +4251,10 @@
         "151200": {
             "name": "Popori_F_Berserker_Lv12_Vampiric Strike_Moving Charge",
             "totalAtk": "+0.0000",
-            "timeRate": "+0.0000",
+            "timeRate": "-0.0909",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.5000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -4278,7 +4278,7 @@
         },
         "150310": {
             "name": "Popori_F_Berserker_Lv03_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4291,7 +4291,7 @@
         },
         "150410": {
             "name": "Popori_F_Berserker_Lv04_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4304,7 +4304,7 @@
         },
         "150510": {
             "name": "Popori_F_Berserker_Lv05_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4317,7 +4317,7 @@
         },
         "150610": {
             "name": "Popori_F_Berserker_Lv06_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4330,7 +4330,7 @@
         },
         "150710": {
             "name": "Popori_F_Berserker_Lv07_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4343,7 +4343,7 @@
         },
         "150810": {
             "name": "Popori_F_Berserker_Lv08_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4356,7 +4356,7 @@
         },
         "150910": {
             "name": "Popori_F_Berserker_Lv09_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4369,7 +4369,7 @@
         },
         "151010": {
             "name": "Popori_F_Berserker_Lv10_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+30.9322",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4382,7 +4382,7 @@
         },
         "151110": {
             "name": "Popori_F_Berserker_Lv11_Vampiric Strike_Shot 00",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4395,7 +4395,7 @@
         },
         "151210": {
             "name": "Popori_F_Berserker_Lv12_Vampiric Strike_Shot 00",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4423,7 +4423,7 @@
         },
         "150311": {
             "name": "Popori_F_Berserker_Lv03_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4436,7 +4436,7 @@
         },
         "150411": {
             "name": "Popori_F_Berserker_Lv04_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4449,7 +4449,7 @@
         },
         "150511": {
             "name": "Popori_F_Berserker_Lv05_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4462,7 +4462,7 @@
         },
         "150611": {
             "name": "Popori_F_Berserker_Lv06_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4475,7 +4475,7 @@
         },
         "150711": {
             "name": "Popori_F_Berserker_Lv07_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4488,7 +4488,7 @@
         },
         "150811": {
             "name": "Popori_F_Berserker_Lv08_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4501,7 +4501,7 @@
         },
         "150911": {
             "name": "Popori_F_Berserker_Lv09_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4514,7 +4514,7 @@
         },
         "151011": {
             "name": "Popori_F_Berserker_Lv10_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+30.9322",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4527,7 +4527,7 @@
         },
         "151111": {
             "name": "Popori_F_Berserker_Lv11_Vampiric Strike_Shot 01",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4540,7 +4540,7 @@
         },
         "151211": {
             "name": "Popori_F_Berserker_Lv12_Vampiric Strike_Shot 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4568,7 +4568,7 @@
         },
         "150312": {
             "name": "Popori_F_Berserker_Lv03_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4581,7 +4581,7 @@
         },
         "150412": {
             "name": "Popori_F_Berserker_Lv04_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4594,7 +4594,7 @@
         },
         "150512": {
             "name": "Popori_F_Berserker_Lv05_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4607,7 +4607,7 @@
         },
         "150612": {
             "name": "Popori_F_Berserker_Lv06_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4620,7 +4620,7 @@
         },
         "150712": {
             "name": "Popori_F_Berserker_Lv07_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4633,7 +4633,7 @@
         },
         "150812": {
             "name": "Popori_F_Berserker_Lv08_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4646,7 +4646,7 @@
         },
         "150912": {
             "name": "Popori_F_Berserker_Lv09_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4659,7 +4659,7 @@
         },
         "151012": {
             "name": "Popori_F_Berserker_Lv10_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+30.9321",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4672,7 +4672,7 @@
         },
         "151112": {
             "name": "Popori_F_Berserker_Lv11_Vampiric Strike_Shot 02",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4685,7 +4685,7 @@
         },
         "151212": {
             "name": "Popori_F_Berserker_Lv12_Vampiric Strike_Shot 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4713,7 +4713,7 @@
         },
         "150313": {
             "name": "Popori_F_Berserker_Lv03_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4726,7 +4726,7 @@
         },
         "150413": {
             "name": "Popori_F_Berserker_Lv04_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4739,7 +4739,7 @@
         },
         "150513": {
             "name": "Popori_F_Berserker_Lv05_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4752,7 +4752,7 @@
         },
         "150613": {
             "name": "Popori_F_Berserker_Lv06_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4765,7 +4765,7 @@
         },
         "150713": {
             "name": "Popori_F_Berserker_Lv07_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4778,7 +4778,7 @@
         },
         "150813": {
             "name": "Popori_F_Berserker_Lv08_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4791,7 +4791,7 @@
         },
         "150913": {
             "name": "Popori_F_Berserker_Lv09_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4804,7 +4804,7 @@
         },
         "151013": {
             "name": "Popori_F_Berserker_Lv10_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+30.9322",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4817,7 +4817,7 @@
         },
         "151113": {
             "name": "Popori_F_Berserker_Lv11_Vampiric Strike_Shot 03",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4830,7 +4830,7 @@
         },
         "151213": {
             "name": "Popori_F_Berserker_Lv12_Vampiric Strike_Shot 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4858,7 +4858,7 @@
         },
         "150314": {
             "name": "Popori_F_Berserker_Lv03_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4871,7 +4871,7 @@
         },
         "150414": {
             "name": "Popori_F_Berserker_Lv04_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4884,7 +4884,7 @@
         },
         "150514": {
             "name": "Popori_F_Berserker_Lv05_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4897,7 +4897,7 @@
         },
         "150614": {
             "name": "Popori_F_Berserker_Lv06_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4910,7 +4910,7 @@
         },
         "150714": {
             "name": "Popori_F_Berserker_Lv07_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4923,7 +4923,7 @@
         },
         "150814": {
             "name": "Popori_F_Berserker_Lv08_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4936,7 +4936,7 @@
         },
         "150914": {
             "name": "Popori_F_Berserker_Lv09_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4949,7 +4949,7 @@
         },
         "151014": {
             "name": "Popori_F_Berserker_Lv10_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+30.9322",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4962,7 +4962,7 @@
         },
         "151114": {
             "name": "Popori_F_Berserker_Lv11_Vampiric Strike_Shot 04",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -4975,7 +4975,7 @@
         },
         "151214": {
             "name": "Popori_F_Berserker_Lv12_Vampiric Strike_Shot 04",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+22.3067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5083,7 +5083,7 @@
         },
         "180300": {
             "name": "Popori_F_Berserker_Lv03_Soul Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5096,7 +5096,7 @@
         },
         "180400": {
             "name": "Popori_F_Berserker_Lv04_Soul Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5109,7 +5109,7 @@
         },
         "180500": {
             "name": "Popori_F_Berserker_Lv05_Soul Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5122,7 +5122,7 @@
         },
         "180600": {
             "name": "Popori_F_Berserker_Lv06_Soul Strike_Shot 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+5.2107",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5135,7 +5135,7 @@
         },
         "180700": {
             "name": "Popori_F_Berserker_Lv07_Soul Strike_Shot 03",
-            "totalAtk": "+0.3251",
+            "totalAtk": "+7.2300",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5148,7 +5148,7 @@
         },
         "180800": {
             "name": "Popori_F_Berserker_Lv08_Soul Strike_Shot 03",
-            "totalAtk": "-0.1722",
+            "totalAtk": "+5.8132",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5161,7 +5161,7 @@
         },
         "180900": {
             "name": "Popori_F_Berserker_Lv09_Soul Strike_Shot 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+5.8132",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5189,7 +5189,7 @@
         },
         "180330": {
             "name": "Popori_F_Berserker_Lv03_Soul Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1550",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5202,7 +5202,7 @@
         },
         "180430": {
             "name": "Popori_F_Berserker_Lv04_Soul Strike_Shot 03",
-            "totalAtk": "+0.4630",
+            "totalAtk": "+2.1528",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5215,7 +5215,7 @@
         },
         "180530": {
             "name": "Popori_F_Berserker_Lv05_Soul Strike_Shot 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.6004",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5228,7 +5228,7 @@
         },
         "180630": {
             "name": "Popori_F_Berserker_Lv06_Soul Strike_Shot 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+5.3029",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5241,7 +5241,7 @@
         },
         "180730": {
             "name": "Popori_F_Berserker_Lv07_Soul Strike_Shot 03",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+4.5570",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5254,7 +5254,7 @@
         },
         "180830": {
             "name": "Popori_F_Berserker_Lv08_Soul Strike_Shot 03",
-            "totalAtk": "-0.1722",
+            "totalAtk": "+3.6004",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5267,7 +5267,7 @@
         },
         "180930": {
             "name": "Popori_F_Berserker_Lv09_Soul Strike_Shot 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+3.6004",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5363,7 +5363,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "-0.9200",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -5400,8 +5400,8 @@
             "name": "Popori_F_Berserker_Lv04_Fury_Cast 01",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.9722",
+            "mp": "-0.9667",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -5454,8 +5454,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-1.0000",
+            "mp": "-1.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -5525,7 +5525,7 @@
         },
         "240310": {
             "name": "Popori_F_Berserker_Lv03_Rib Breaker_Shot 00",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+0.2079",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5538,7 +5538,7 @@
         },
         "240410": {
             "name": "Popori_F_Berserker_Lv04_Rib Breaker_Shot 00",
-            "totalAtk": "-0.5221",
+            "totalAtk": "-0.4227",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5551,7 +5551,7 @@
         },
         "240510": {
             "name": "Popori_F_Berserker_Lv05_Rib Breaker_Shot 00",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.4227",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5579,7 +5579,7 @@
         },
         "240311": {
             "name": "Popori_F_Berserker_Lv03_Rib Breaker_Shot 01",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+0.2079",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5592,7 +5592,7 @@
         },
         "240411": {
             "name": "Popori_F_Berserker_Lv04_Rib Breaker_Shot 01",
-            "totalAtk": "-0.4344",
+            "totalAtk": "-0.3167",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5605,7 +5605,7 @@
         },
         "240511": {
             "name": "Popori_F_Berserker_Lv05_Rib Breaker_Shot 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.3167",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5633,7 +5633,7 @@
         },
         "240312": {
             "name": "Popori_F_Berserker_Lv03_Rib Breaker_Shot 02",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+0.2079",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5646,7 +5646,7 @@
         },
         "240412": {
             "name": "Popori_F_Berserker_Lv04_Rib Breaker_Shot 02",
-            "totalAtk": "-0.4163",
+            "totalAtk": "-0.2949",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5659,7 +5659,7 @@
         },
         "240512": {
             "name": "Popori_F_Berserker_Lv05_Rib Breaker_Shot 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.2949",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5687,7 +5687,7 @@
         },
         "240313": {
             "name": "Popori_F_Berserker_Lv03_Rib Breaker_Shot 03",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+0.2079",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5700,7 +5700,7 @@
         },
         "240413": {
             "name": "Popori_F_Berserker_Lv04_Rib Breaker_Shot 03",
-            "totalAtk": "-0.4300",
+            "totalAtk": "-0.3115",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5713,7 +5713,7 @@
         },
         "240513": {
             "name": "Popori_F_Berserker_Lv05_Rib Breaker_Shot 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.3115",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5741,7 +5741,7 @@
         },
         "250300": {
             "name": "Popori_F_Berserker_Lv03_Side Slash_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5754,7 +5754,7 @@
         },
         "250400": {
             "name": "Popori_F_Berserker_Lv04_Side Slash_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5767,7 +5767,7 @@
         },
         "250500": {
             "name": "Popori_F_Berserker_Lv05_Side Slash_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5780,7 +5780,7 @@
         },
         "250600": {
             "name": "Popori_F_Berserker_Lv06_Side Slash_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5793,7 +5793,7 @@
         },
         "250700": {
             "name": "Popori_F_Berserker_Lv07_Side Slash_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5806,7 +5806,7 @@
         },
         "250800": {
             "name": "Popori_F_Berserker_Lv08_Side Slash_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5819,7 +5819,7 @@
         },
         "250900": {
             "name": "Popori_F_Berserker_Lv09_Side Slash_Long 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+16.0111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5847,7 +5847,7 @@
         },
         "250301": {
             "name": "Popori_F_Berserker_Lv03_Side Slash_Long_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5860,7 +5860,7 @@
         },
         "250401": {
             "name": "Popori_F_Berserker_Lv04_Side Slash_Long_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5873,7 +5873,7 @@
         },
         "250501": {
             "name": "Popori_F_Berserker_Lv05_Side Slash_Long_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5886,7 +5886,7 @@
         },
         "250601": {
             "name": "Popori_F_Berserker_Lv06_Side Slash_Long_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5899,7 +5899,7 @@
         },
         "250701": {
             "name": "Popori_F_Berserker_Lv07_Side Slash_Long_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5912,7 +5912,7 @@
         },
         "250801": {
             "name": "Popori_F_Berserker_Lv08_Side Slash_Long_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5925,7 +5925,7 @@
         },
         "250901": {
             "name": "Popori_F_Berserker_Lv09_Side Slash_Long_Fury 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+16.0111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5953,7 +5953,7 @@
         },
         "250330": {
             "name": "Popori_F_Berserker_Lv03_Side Slash_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5966,7 +5966,7 @@
         },
         "250430": {
             "name": "Popori_F_Berserker_Lv04_Side Slash_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5979,7 +5979,7 @@
         },
         "250530": {
             "name": "Popori_F_Berserker_Lv05_Side Slash_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -5992,7 +5992,7 @@
         },
         "250630": {
             "name": "Popori_F_Berserker_Lv06_Side Slash_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6005,7 +6005,7 @@
         },
         "250730": {
             "name": "Popori_F_Berserker_Lv07_Side Slash_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6018,7 +6018,7 @@
         },
         "250830": {
             "name": "Popori_F_Berserker_Lv08_Side Slash_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6031,7 +6031,7 @@
         },
         "250930": {
             "name": "Popori_F_Berserker_Lv09_Side Slash_Short 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+16.0111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6059,7 +6059,7 @@
         },
         "250331": {
             "name": "Popori_F_Berserker_Lv03_Side Slash_Short_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6072,7 +6072,7 @@
         },
         "250431": {
             "name": "Popori_F_Berserker_Lv04_Side Slash_Short_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6085,7 +6085,7 @@
         },
         "250531": {
             "name": "Popori_F_Berserker_Lv05_Side Slash_Short_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6098,7 +6098,7 @@
         },
         "250631": {
             "name": "Popori_F_Berserker_Lv06_Side Slash_Short_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6111,7 +6111,7 @@
         },
         "250731": {
             "name": "Popori_F_Berserker_Lv07_Side Slash_Short_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6124,7 +6124,7 @@
         },
         "250831": {
             "name": "Popori_F_Berserker_Lv08_Side Slash_Short_Fury 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6137,7 +6137,7 @@
         },
         "250931": {
             "name": "Popori_F_Berserker_Lv09_Side Slash_Short_Fury 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+16.0111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6283,7 +6283,7 @@
         },
         "310301": {
             "name": "Popori_F_Berserker_Lv03_Assault_attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6295,7 +6295,7 @@
         },
         "310401": {
             "name": "Popori_F_Berserker_Lv04_Assault_attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6307,7 +6307,7 @@
         },
         "310501": {
             "name": "Popori_F_Berserker_Lv05_Assault_attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6319,7 +6319,7 @@
         },
         "310601": {
             "name": "Popori_F_Berserker_Lv06_Assault_attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6331,7 +6331,7 @@
         },
         "310701": {
             "name": "Popori_F_Berserker_Lv07_Assault_attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6343,7 +6343,7 @@
         },
         "310801": {
             "name": "Popori_F_Berserker_Lv08_Assault_attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6355,7 +6355,7 @@
         },
         "310901": {
             "name": "Popori_F_Berserker_Lv09_Assault_attack Shot",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -6367,7 +6367,7 @@
         },
         "311001": {
             "name": "Popori_F_Berserker_Lv10_Assault_attack Shot",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+30.9322",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",

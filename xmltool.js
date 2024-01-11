@@ -164,6 +164,7 @@ function genSkillConf(dir) {
     const filePath = path.join(dir, file);
     let baseValues = {};
     let jsonObj = {};
+    let problemsFull = [];
 
     fs.readFile(filePath, 'utf8', (err, data) => {
         if(err) {
@@ -182,7 +183,6 @@ function genSkillConf(dir) {
             if(lvl == '01') {
                 baseValues[$(e).attr('id')] = {};
                 baseValues[$(e).attr('id')].name = $(e).attr('name');
-                baseValues[$(e).attr('id')].prev = {};
                 jsonObj[$(e).attr('id')] = {};
 
                 attributes.forEach(attribute => {
@@ -190,7 +190,6 @@ function genSkillConf(dir) {
 
                     if(value != undefined) {
                         baseValues[$(e).attr('id')][attribute] = value;
-                        baseValues[$(e).attr('id')].prev[attribute] = value;
                     };
                 });
             }
@@ -219,19 +218,19 @@ function genSkillConf(dir) {
         
                         attributes.forEach(attribute => {
                             const value = getValue($, e, attribute);
-                            const prev = baseValues[key].prev[attribute];
+                            const base = baseValues[key][attribute];
         
-                            if(value != undefined && prev != undefined) {
+                            if(value != undefined && base != undefined) {
                                 let modifier;
         
-                                if(parseFloat(prev) == 0 && parseFloat(value) != 0) {
+                                if(parseFloat(base) == 0 && parseFloat(value) != 0) {
                                     problems.push(attribute);
                                 }
         
-                                if(parseFloat(prev) == 0) {
+                                if(parseFloat(base) == 0) {
                                     modifier = 0.0;
                                 } else {
-                                    modifier = parseFloat(value) / parseFloat(prev) - 1;
+                                    modifier = parseFloat(value) / parseFloat(base) - 1;
                                 }
                                 
                                 if(modifier >= 0) {
@@ -239,12 +238,6 @@ function genSkillConf(dir) {
                                 } else {
                                     jsonObj[key][$(e).attr('id')][attribute] = `${modifier.toFixed(4)}`;
                                 }
-                            }
-        
-                            if(value != undefined) {
-                                baseValues[key].prev[attribute] = value;
-                            } else if(value == undefined && prev != undefined) {
-                                delete baseValues[key].prev[attribute]
                             }
                         });
                     }
@@ -257,13 +250,28 @@ function genSkillConf(dir) {
 
             for(const [k, v] of Object.entries(jsonObj[key])) {
                 problems.forEach(problem => {
-                    console.log(`Removing problematic value ${problem} for skill ${k}`);
-                    delete v[problem];
+                    if(v[problem] != undefined) {
+                        console.log(`Removing problematic value ${problem} for skill ${k}`);
+                        problemsFull.push(`${k} ${problem}`);
+                        delete v[problem];
+                    }
                 });
             }
         }
 
+        if(!fs.existsSync('conf/skill')){
+            fs.mkdirSync('conf/skill', { recursive: true });
+        }
+
         fs.writeFile(`conf/skill/${selector}.json`, JSON.stringify(jsonObj, null, 4), err => { if(err) throw err });
+
+        if(problemsFull.length > 0) {
+            if(!fs.existsSync('logs/problems')){
+                fs.mkdirSync('logs/problems', { recursive: true });
+            }
+
+            fs.writeFile(`logs/problems/${selector}.log`, problemsFull.join('\n'), err => { if(err) throw err });
+        }
     });
 }
 
@@ -347,20 +355,16 @@ function editSkills(err, files, dir, conf) {
                 changeToFile = changeToFile ? true : editSkill($, file, id, className, value[0], value[1]);
 
                 if(skillLink == 'y') {
-                    let prev = value[1];
-
                     for(const [k, v] of Object.entries(conf[id])) {
                         if(v[value[0]] == undefined) {
                             continue;
                         }
 
-                        const baseFloat = parseFloat(prev);
+                        const baseFloat = parseFloat(value[1]);
                         const modFloat = parseFloat(v[value[0]]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
 
                         editSkill($, file, k, className, value[0], modifiedValue.toFixed(4));
-
-                        prev = `${modifiedValue.toFixed(4)}`;
                     }
                 }
             });

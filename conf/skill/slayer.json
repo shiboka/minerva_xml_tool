@@ -14,7 +14,7 @@
         },
         "10300": {
             "name": "Popori_F_Slayer_Lv03_Combo_Attack 01",
-            "totalAtk": "+0.3188",
+            "totalAtk": "+0.6484",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -26,7 +26,7 @@
         },
         "10400": {
             "name": "Popori_F_Slayer_Lv04_Combo_Attack 01",
-            "totalAtk": "+0.3660",
+            "totalAtk": "+1.2516",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -38,7 +38,7 @@
         },
         "10500": {
             "name": "Popori_F_Slayer_Lv05_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.2855",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -50,7 +50,7 @@
         },
         "10600": {
             "name": "Popori_F_Slayer_Lv06_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.7940",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -62,7 +62,7 @@
         },
         "10700": {
             "name": "Popori_F_Slayer_Lv07_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.9951",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -74,7 +74,7 @@
         },
         "10800": {
             "name": "Popori_F_Slayer_Lv08_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.2068",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -86,7 +86,7 @@
         },
         "10900": {
             "name": "Popori_F_Slayer_Lv09_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.8932",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -98,7 +98,7 @@
         },
         "11000": {
             "name": "Popori_F_Slayer_Lv10_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+20.7313",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -110,7 +110,7 @@
         },
         "11100": {
             "name": "Popori_F_Slayer_Lv11_Combo_Attack 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+30.7091",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -122,7 +122,7 @@
         },
         "11200": {
             "name": "Popori_F_Slayer_Lv12_Combo_Attack 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+42.4442",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -134,7 +134,7 @@
         },
         "11300": {
             "name": "Popori_F_Slayer_Lv13_Combo_Attack 01",
-            "totalAtk": "-0.8866",
+            "totalAtk": "+3.9285",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -146,7 +146,7 @@
         },
         "11400": {
             "name": "Popori_F_Slayer_Lv14_Combo_Attack 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.7486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -158,7 +158,7 @@
         },
         "11500": {
             "name": "Popori_F_Slayer_Lv15_Combo_Attack 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.7052",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -184,7 +184,7 @@
         },
         "10301": {
             "name": "Popori_F_Slayer_Lv03_Combo_Attack 02",
-            "totalAtk": "+0.3397",
+            "totalAtk": "+0.6967",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -196,7 +196,7 @@
         },
         "10401": {
             "name": "Popori_F_Slayer_Lv04_Combo_Attack 02",
-            "totalAtk": "+0.3811",
+            "totalAtk": "+1.3434",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -208,7 +208,7 @@
         },
         "10501": {
             "name": "Popori_F_Slayer_Lv05_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.4193",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -220,7 +220,7 @@
         },
         "10601": {
             "name": "Popori_F_Slayer_Lv06_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.9893",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -232,7 +232,7 @@
         },
         "10701": {
             "name": "Popori_F_Slayer_Lv07_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.2801",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -244,7 +244,7 @@
         },
         "10801": {
             "name": "Popori_F_Slayer_Lv08_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.6226",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -256,7 +256,7 @@
         },
         "10901": {
             "name": "Popori_F_Slayer_Lv09_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+14.5000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -268,7 +268,7 @@
         },
         "11001": {
             "name": "Popori_F_Slayer_Lv10_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+21.6166",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -280,7 +280,7 @@
         },
         "11101": {
             "name": "Popori_F_Slayer_Lv11_Combo_Attack 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+32.0009",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -292,7 +292,7 @@
         },
         "11201": {
             "name": "Popori_F_Slayer_Lv12_Combo_Attack 02",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+44.2141",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -304,7 +304,7 @@
         },
         "11301": {
             "name": "Popori_F_Slayer_Lv13_Combo_Attack 02",
-            "totalAtk": "-0.8863",
+            "totalAtk": "+4.1388",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -316,7 +316,7 @@
         },
         "11401": {
             "name": "Popori_F_Slayer_Lv14_Combo_Attack 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.9939",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -328,7 +328,7 @@
         },
         "11501": {
             "name": "Popori_F_Slayer_Lv15_Combo_Attack 02",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.9913",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -354,7 +354,7 @@
         },
         "10302": {
             "name": "Popori_F_Slayer_Lv03_Combo_Attack 03",
-            "totalAtk": "+0.3397",
+            "totalAtk": "+0.6967",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -366,7 +366,7 @@
         },
         "10402": {
             "name": "Popori_F_Slayer_Lv04_Combo_Attack 03",
-            "totalAtk": "+0.3811",
+            "totalAtk": "+1.3434",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -378,7 +378,7 @@
         },
         "10502": {
             "name": "Popori_F_Slayer_Lv05_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.4193",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -390,7 +390,7 @@
         },
         "10602": {
             "name": "Popori_F_Slayer_Lv06_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.9893",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -402,7 +402,7 @@
         },
         "10702": {
             "name": "Popori_F_Slayer_Lv07_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.2801",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -414,7 +414,7 @@
         },
         "10802": {
             "name": "Popori_F_Slayer_Lv08_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+9.6226",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -426,7 +426,7 @@
         },
         "10902": {
             "name": "Popori_F_Slayer_Lv09_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+14.5000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -438,7 +438,7 @@
         },
         "11002": {
             "name": "Popori_F_Slayer_Lv10_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+21.6166",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -450,7 +450,7 @@
         },
         "11102": {
             "name": "Popori_F_Slayer_Lv11_Combo_Attack 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+32.0009",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -462,7 +462,7 @@
         },
         "11202": {
             "name": "Popori_F_Slayer_Lv12_Combo_Attack 03",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+44.2141",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -474,7 +474,7 @@
         },
         "11302": {
             "name": "Popori_F_Slayer_Lv13_Combo_Attack 03",
-            "totalAtk": "-0.8625",
+            "totalAtk": "+5.2164",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -486,7 +486,7 @@
         },
         "11402": {
             "name": "Popori_F_Slayer_Lv14_Combo_Attack 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+6.2508",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -498,7 +498,7 @@
         },
         "11502": {
             "name": "Popori_F_Slayer_Lv15_Combo_Attack 03",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+7.4574",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -525,7 +525,7 @@
         },
         "10303": {
             "name": "Popori_F_Slayer_Lv03_Combo_Attack 04",
-            "totalAtk": "+0.3852",
+            "totalAtk": "+0.8064",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -538,7 +538,7 @@
         },
         "10403": {
             "name": "Popori_F_Slayer_Lv04_Combo_Attack 04",
-            "totalAtk": "+0.4124",
+            "totalAtk": "+1.5514",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -551,7 +551,7 @@
         },
         "10503": {
             "name": "Popori_F_Slayer_Lv05_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.7229",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -564,7 +564,7 @@
         },
         "10603": {
             "name": "Popori_F_Slayer_Lv06_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+4.4322",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -577,7 +577,7 @@
         },
         "10703": {
             "name": "Popori_F_Slayer_Lv07_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+6.9264",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -590,7 +590,7 @@
         },
         "10803": {
             "name": "Popori_F_Slayer_Lv08_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+10.5657",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -603,7 +603,7 @@
         },
         "10903": {
             "name": "Popori_F_Slayer_Lv09_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+15.8761",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -616,7 +616,7 @@
         },
         "11003": {
             "name": "Popori_F_Slayer_Lv10_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+23.6246",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -629,7 +629,7 @@
         },
         "11103": {
             "name": "Popori_F_Slayer_Lv11_Combo_Attack 04",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+34.9307",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -642,7 +642,7 @@
         },
         "11203": {
             "name": "Popori_F_Slayer_Lv12_Combo_Attack 04",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+48.2282",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -655,7 +655,7 @@
         },
         "11303": {
             "name": "Popori_F_Slayer_Lv13_Combo_Attack 04",
-            "totalAtk": "-0.9024",
+            "totalAtk": "+3.8057",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -668,7 +668,7 @@
         },
         "11403": {
             "name": "Popori_F_Slayer_Lv14_Combo_Attack 04",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+4.6054",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -681,7 +681,7 @@
         },
         "11503": {
             "name": "Popori_F_Slayer_Lv15_Combo_Attack 04",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.5382",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -708,7 +708,7 @@
         },
         "20300": {
             "name": "Popori_F_Slayer_Lv03_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -720,7 +720,7 @@
         },
         "20400": {
             "name": "Popori_F_Slayer_Lv04_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -732,7 +732,7 @@
         },
         "20500": {
             "name": "Popori_F_Slayer_Lv05_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -744,7 +744,7 @@
         },
         "20600": {
             "name": "Popori_F_Slayer_Lv06_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -756,7 +756,7 @@
         },
         "20700": {
             "name": "Popori_F_Slayer_Lv07_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -768,7 +768,7 @@
         },
         "20800": {
             "name": "Popori_F_Slayer_Lv08_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -780,7 +780,7 @@
         },
         "20900": {
             "name": "Popori_F_Slayer_Lv09_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -792,7 +792,7 @@
         },
         "21000": {
             "name": "Popori_F_Slayer_Lv10_Impact Slash_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9832",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -804,7 +804,7 @@
         },
         "21100": {
             "name": "Popori_F_Slayer_Lv11_Impact Slash_Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -816,7 +816,7 @@
         },
         "21200": {
             "name": "Popori_F_Slayer_Lv12_Impact Slash_Start 01",
-            "totalAtk": "-0.9677",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -828,7 +828,7 @@
         },
         "21300": {
             "name": "Popori_F_Slayer_Lv13_Impact Slash_Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -840,7 +840,7 @@
         },
         "21400": {
             "name": "Popori_F_Slayer_Lv14_Impact Slash_Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -866,7 +866,7 @@
         },
         "20301": {
             "name": "Popori_F_Slayer_Lv03_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -878,7 +878,7 @@
         },
         "20401": {
             "name": "Popori_F_Slayer_Lv04_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -890,7 +890,7 @@
         },
         "20501": {
             "name": "Popori_F_Slayer_Lv05_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -902,7 +902,7 @@
         },
         "20601": {
             "name": "Popori_F_Slayer_Lv06_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -914,7 +914,7 @@
         },
         "20701": {
             "name": "Popori_F_Slayer_Lv07_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -926,7 +926,7 @@
         },
         "20801": {
             "name": "Popori_F_Slayer_Lv08_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -938,7 +938,7 @@
         },
         "20901": {
             "name": "Popori_F_Slayer_Lv09_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -950,7 +950,7 @@
         },
         "21001": {
             "name": "Popori_F_Slayer_Lv10_Impact Slash_normal Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9832",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -962,7 +962,7 @@
         },
         "21101": {
             "name": "Popori_F_Slayer_Lv11_Impact Slash_normal Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -974,7 +974,7 @@
         },
         "21201": {
             "name": "Popori_F_Slayer_Lv12_Impact Slash_normal Start 01",
-            "totalAtk": "-0.9677",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -986,7 +986,7 @@
         },
         "21301": {
             "name": "Popori_F_Slayer_Lv13_Impact Slash_normal Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -998,7 +998,7 @@
         },
         "21401": {
             "name": "Popori_F_Slayer_Lv14_Impact Slash_normal Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1024,7 +1024,7 @@
         },
         "20302": {
             "name": "Popori_F_Slayer_Lv03_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1036,7 +1036,7 @@
         },
         "20402": {
             "name": "Popori_F_Slayer_Lv04_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1048,7 +1048,7 @@
         },
         "20502": {
             "name": "Popori_F_Slayer_Lv05_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1060,7 +1060,7 @@
         },
         "20602": {
             "name": "Popori_F_Slayer_Lv06_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1072,7 +1072,7 @@
         },
         "20702": {
             "name": "Popori_F_Slayer_Lv07_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1084,7 +1084,7 @@
         },
         "20802": {
             "name": "Popori_F_Slayer_Lv08_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1096,7 +1096,7 @@
         },
         "20902": {
             "name": "Popori_F_Slayer_Lv09_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1108,7 +1108,7 @@
         },
         "21002": {
             "name": "Popori_F_Slayer_Lv10_Impact Slash_connect Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9832",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1120,7 +1120,7 @@
         },
         "21102": {
             "name": "Popori_F_Slayer_Lv11_Impact Slash_connect Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1132,7 +1132,7 @@
         },
         "21202": {
             "name": "Popori_F_Slayer_Lv12_Impact Slash_connect Start 01",
-            "totalAtk": "-0.9677",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1144,7 +1144,7 @@
         },
         "21302": {
             "name": "Popori_F_Slayer_Lv13_Impact Slash_connect Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1156,7 +1156,7 @@
         },
         "21402": {
             "name": "Popori_F_Slayer_Lv14_Impact Slash_connect Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1182,7 +1182,7 @@
         },
         "20330": {
             "name": "Popori_F_Slayer_Lv03_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1194,7 +1194,7 @@
         },
         "20430": {
             "name": "Popori_F_Slayer_Lv04_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1206,7 +1206,7 @@
         },
         "20530": {
             "name": "Popori_F_Slayer_Lv05_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1218,7 +1218,7 @@
         },
         "20630": {
             "name": "Popori_F_Slayer_Lv06_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1230,7 +1230,7 @@
         },
         "20730": {
             "name": "Popori_F_Slayer_Lv07_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1242,7 +1242,7 @@
         },
         "20830": {
             "name": "Popori_F_Slayer_Lv08_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1254,7 +1254,7 @@
         },
         "20930": {
             "name": "Popori_F_Slayer_Lv09_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1266,7 +1266,7 @@
         },
         "21030": {
             "name": "Popori_F_Slayer_Lv10_Impact Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9832",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1278,7 +1278,7 @@
         },
         "21130": {
             "name": "Popori_F_Slayer_Lv11_Impact Slash_Short Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+40.0796",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1290,7 +1290,7 @@
         },
         "21230": {
             "name": "Popori_F_Slayer_Lv12_Impact Slash_Short Start 01",
-            "totalAtk": "-0.9677",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1302,7 +1302,7 @@
         },
         "21330": {
             "name": "Popori_F_Slayer_Lv13_Impact Slash_Short Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1314,7 +1314,7 @@
         },
         "21430": {
             "name": "Popori_F_Slayer_Lv14_Impact Slash_Short Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+0.3265",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1340,7 +1340,7 @@
         },
         "30300": {
             "name": "Popori_F_Slayer_Lv03_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1352,7 +1352,7 @@
         },
         "30400": {
             "name": "Popori_F_Slayer_Lv04_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1364,7 +1364,7 @@
         },
         "30500": {
             "name": "Popori_F_Slayer_Lv05_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1376,7 +1376,7 @@
         },
         "30600": {
             "name": "Popori_F_Slayer_Lv06_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1388,7 +1388,7 @@
         },
         "30700": {
             "name": "Popori_F_Slayer_Lv07_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1400,7 +1400,7 @@
         },
         "30800": {
             "name": "Popori_F_Slayer_Lv08_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1412,7 +1412,7 @@
         },
         "30900": {
             "name": "Popori_F_Slayer_Lv09_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5485",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1424,7 +1424,7 @@
         },
         "31000": {
             "name": "Popori_F_Slayer_Lv10_Sword Dancing_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9832",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1436,7 +1436,7 @@
         },
         "31100": {
             "name": "Popori_F_Slayer_Lv11_Sword Dancing_Start 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1448,7 +1448,7 @@
         },
         "31200": {
             "name": "Popori_F_Slayer_Lv12_Sword Dancing_Start 01",
-            "totalAtk": "-0.3113",
+            "totalAtk": "+23.9437",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.1000",
@@ -1460,11 +1460,11 @@
         },
         "31300": {
             "name": "Popori_F_Slayer_Lv13_Sword Dancing_Start 01",
-            "totalAtk": "-0.8584",
+            "totalAtk": "+2.5319",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "-0.8733",
+            "coolTime": "+0.1000",
+            "mp": "-0.8480",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1472,11 +1472,11 @@
         },
         "31400": {
             "name": "Popori_F_Slayer_Lv14_Sword Dancing_Start 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.1196",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.1000",
+            "mp": "-0.8480",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1484,11 +1484,11 @@
         },
         "31500": {
             "name": "Popori_F_Slayer_Lv15_Sword Dancing_Start 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+3.8051",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.1000",
+            "mp": "-0.8480",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1514,7 +1514,7 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-1.0000",
             "mp": "-0.8667",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -1592,7 +1592,7 @@
         },
         "60300": {
             "name": "Popori_F_Slayer_Lv03_Back Attack_Start 01",
-            "totalAtk": "-0.4436",
+            "totalAtk": "-0.1353",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.0909",
@@ -1604,10 +1604,10 @@
         },
         "60400": {
             "name": "Popori_F_Slayer_Lv04_Back Attack_Start 01",
-            "totalAtk": "-0.7465",
+            "totalAtk": "-0.7808",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.0909",
             "mp": "-0.8462",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -1616,11 +1616,11 @@
         },
         "60500": {
             "name": "Popori_F_Slayer_Lv05_Back Attack_Start 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "-0.7443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.0909",
+            "mp": "-0.8462",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1628,11 +1628,11 @@
         },
         "60600": {
             "name": "Popori_F_Slayer_Lv06_Back Attack_Start 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "-0.7018",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.0909",
+            "mp": "-0.8462",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1654,7 +1654,7 @@
         },
         "80300": {
             "name": "Popori_F_Slayer_Lv03_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1666,7 +1666,7 @@
         },
         "80400": {
             "name": "Popori_F_Slayer_Lv04_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1678,7 +1678,7 @@
         },
         "80500": {
             "name": "Popori_F_Slayer_Lv05_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1690,7 +1690,7 @@
         },
         "80600": {
             "name": "Popori_F_Slayer_Lv06_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1702,7 +1702,7 @@
         },
         "80700": {
             "name": "Popori_F_Slayer_Lv07_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1714,7 +1714,7 @@
         },
         "80800": {
             "name": "Popori_F_Slayer_Lv08_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1726,7 +1726,7 @@
         },
         "80900": {
             "name": "Popori_F_Slayer_Lv09_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1738,7 +1738,7 @@
         },
         "81000": {
             "name": "Popori_F_Slayer_Lv10_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1750,7 +1750,7 @@
         },
         "81100": {
             "name": "Popori_F_Slayer_Lv11_Cutting Slash_Long Start 01",
-            "totalAtk": "-0.5125",
+            "totalAtk": "+16.6566",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.3750",
@@ -1762,11 +1762,11 @@
         },
         "81200": {
             "name": "Popori_F_Slayer_Lv12_Cutting Slash_Long Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+16.6566",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.3750",
+            "mp": "+0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1788,7 +1788,7 @@
         },
         "80330": {
             "name": "Popori_F_Slayer_Lv03_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1800,7 +1800,7 @@
         },
         "80430": {
             "name": "Popori_F_Slayer_Lv04_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1812,7 +1812,7 @@
         },
         "80530": {
             "name": "Popori_F_Slayer_Lv05_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1824,7 +1824,7 @@
         },
         "80630": {
             "name": "Popori_F_Slayer_Lv06_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1836,7 +1836,7 @@
         },
         "80730": {
             "name": "Popori_F_Slayer_Lv07_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1848,7 +1848,7 @@
         },
         "80830": {
             "name": "Popori_F_Slayer_Lv08_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1860,7 +1860,7 @@
         },
         "80930": {
             "name": "Popori_F_Slayer_Lv09_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1872,7 +1872,7 @@
         },
         "81030": {
             "name": "Popori_F_Slayer_Lv10_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.7626",
+            "totalAtk": "+35.2183",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1884,7 +1884,7 @@
         },
         "81130": {
             "name": "Popori_F_Slayer_Lv11_Cutting Slash_Short Start 01",
-            "totalAtk": "-0.5125",
+            "totalAtk": "+16.6566",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.3750",
@@ -1896,11 +1896,11 @@
         },
         "81230": {
             "name": "Popori_F_Slayer_Lv12_Cutting Slash_Short Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+16.6566",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.3750",
+            "mp": "+0.2500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -1922,7 +1922,7 @@
         },
         "90300": {
             "name": "Popori_F_Slayer_Lv03_Down Blow_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1934,7 +1934,7 @@
         },
         "90400": {
             "name": "Popori_F_Slayer_Lv04_Down Blow_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1946,7 +1946,7 @@
         },
         "90500": {
             "name": "Popori_F_Slayer_Lv05_Down Blow_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1958,7 +1958,7 @@
         },
         "90600": {
             "name": "Popori_F_Slayer_Lv06_Down Blow_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1970,7 +1970,7 @@
         },
         "90700": {
             "name": "Popori_F_Slayer_Lv07_Down Blow_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1982,7 +1982,7 @@
         },
         "90800": {
             "name": "Popori_F_Slayer_Lv08_Down Blow_Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -1994,7 +1994,7 @@
         },
         "90900": {
             "name": "Popori_F_Slayer_Lv09_Down Blow_Start 01",
-            "totalAtk": "-0.8761",
+            "totalAtk": "+0.6379",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+4.7143",
@@ -2006,11 +2006,11 @@
         },
         "91000": {
             "name": "Popori_F_Slayer_Lv10_Down Blow_Start 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+0.9105",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+4.7143",
+            "mp": "-0.8500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2018,11 +2018,11 @@
         },
         "91100": {
             "name": "Popori_F_Slayer_Lv11_Down Blow_Start 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+1.2284",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+4.7143",
+            "mp": "-0.8500",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -2044,7 +2044,7 @@
         },
         "100300": {
             "name": "Popori_F_Slayer_Lv03_Rising Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2056,7 +2056,7 @@
         },
         "100400": {
             "name": "Popori_F_Slayer_Lv04_Rising Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2068,7 +2068,7 @@
         },
         "100500": {
             "name": "Popori_F_Slayer_Lv05_Rising Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2080,7 +2080,7 @@
         },
         "100600": {
             "name": "Popori_F_Slayer_Lv06_Rising Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2092,7 +2092,7 @@
         },
         "100700": {
             "name": "Popori_F_Slayer_Lv07_Rising Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2104,7 +2104,7 @@
         },
         "100800": {
             "name": "Popori_F_Slayer_Lv08_Rising Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2116,7 +2116,7 @@
         },
         "100900": {
             "name": "Popori_F_Slayer_Lv09_Rising Attack_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2128,7 +2128,7 @@
         },
         "101000": {
             "name": "Popori_F_Slayer_Lv10_Rising Attack_Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+27.1533",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2140,7 +2140,7 @@
         },
         "101100": {
             "name": "Popori_F_Slayer_Lv11_Rising Attack_Start 01",
-            "totalAtk": "-0.8021",
+            "totalAtk": "+4.5721",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.2000",
@@ -2152,10 +2152,10 @@
         },
         "101200": {
             "name": "Popori_F_Slayer_Lv12_Rising Attack_Start 01",
-            "totalAtk": "+0.1664",
+            "totalAtk": "+5.4993",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "-0.2000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -2192,7 +2192,7 @@
         },
         "120300": {
             "name": "Popori_F_Slayer_Lv03_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2204,7 +2204,7 @@
         },
         "120400": {
             "name": "Popori_F_Slayer_Lv04_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2216,7 +2216,7 @@
         },
         "120500": {
             "name": "Popori_F_Slayer_Lv05_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2228,7 +2228,7 @@
         },
         "120600": {
             "name": "Popori_F_Slayer_Lv06_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2240,7 +2240,7 @@
         },
         "120700": {
             "name": "Popori_F_Slayer_Lv07_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2252,7 +2252,7 @@
         },
         "120800": {
             "name": "Popori_F_Slayer_Lv08_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2264,7 +2264,7 @@
         },
         "120900": {
             "name": "Popori_F_Slayer_Lv09_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+19.5486",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2276,7 +2276,7 @@
         },
         "121000": {
             "name": "Popori_F_Slayer_Lv10_Stinger Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+28.9833",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2288,7 +2288,7 @@
         },
         "121100": {
             "name": "Popori_F_Slayer_Lv11_Stinger Blade_Start 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+45.5936",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2315,7 +2315,7 @@
         },
         "130300": {
             "name": "Popori_F_Slayer_Lv03_Flat Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2328,7 +2328,7 @@
         },
         "130400": {
             "name": "Popori_F_Slayer_Lv04_Flat Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2341,7 +2341,7 @@
         },
         "130500": {
             "name": "Popori_F_Slayer_Lv05_Flat Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2354,7 +2354,7 @@
         },
         "130600": {
             "name": "Popori_F_Slayer_Lv06_Flat Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2367,7 +2367,7 @@
         },
         "130700": {
             "name": "Popori_F_Slayer_Lv07_Flat Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2380,7 +2380,7 @@
         },
         "130800": {
             "name": "Popori_F_Slayer_Lv08_Flat Blade_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2393,7 +2393,7 @@
         },
         "130900": {
             "name": "Popori_F_Slayer_Lv09_Flat Blade_Start 01",
-            "totalAtk": "+0.2079",
+            "totalAtk": "+16.0111",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2406,7 +2406,7 @@
         },
         "131000": {
             "name": "Popori_F_Slayer_Lv10_Flat Blade_Start 01",
-            "totalAtk": "-0.3646",
+            "totalAtk": "+9.8090",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2433,7 +2433,7 @@
         },
         "140300": {
             "name": "Popori_F_Slayer_Lv03_Triple Wind Cutter_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2445,7 +2445,7 @@
         },
         "140400": {
             "name": "Popori_F_Slayer_Lv04_Triple Wind Cutter_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2457,7 +2457,7 @@
         },
         "140500": {
             "name": "Popori_F_Slayer_Lv05_Triple Wind Cutter_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2469,7 +2469,7 @@
         },
         "140600": {
             "name": "Popori_F_Slayer_Lv06_Triple Wind Cutter_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2481,7 +2481,7 @@
         },
         "140700": {
             "name": "Popori_F_Slayer_Lv07_Triple Wind Cutter_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2493,7 +2493,7 @@
         },
         "140800": {
             "name": "Popori_F_Slayer_Lv08_Triple Wind Cutter_Start 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+13.9980",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2505,7 +2505,7 @@
         },
         "140900": {
             "name": "Popori_F_Slayer_Lv09_Triple Wind Cutter_Start 01",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2517,7 +2517,7 @@
         },
         "141000": {
             "name": "Popori_F_Slayer_Lv10_Triple Wind Cutter_Start 01",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2529,7 +2529,7 @@
         },
         "141100": {
             "name": "Popori_F_Slayer_Lv11_Triple Wind Cutter_Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2555,7 +2555,7 @@
         },
         "140301": {
             "name": "Popori_F_Slayer_Lv03_Triple Wind Cutter_Start 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2567,7 +2567,7 @@
         },
         "140401": {
             "name": "Popori_F_Slayer_Lv04_Triple Wind Cutter_Start 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2579,7 +2579,7 @@
         },
         "140501": {
             "name": "Popori_F_Slayer_Lv05_Triple Wind Cutter_Start 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2591,7 +2591,7 @@
         },
         "140601": {
             "name": "Popori_F_Slayer_Lv06_Triple Wind Cutter_Start 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2603,7 +2603,7 @@
         },
         "140701": {
             "name": "Popori_F_Slayer_Lv07_Triple Wind Cutter_Start 02",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2615,7 +2615,7 @@
         },
         "140801": {
             "name": "Popori_F_Slayer_Lv08_Triple Wind Cutter_Start 02",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+13.9980",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2627,7 +2627,7 @@
         },
         "140901": {
             "name": "Popori_F_Slayer_Lv09_Triple Wind Cutter_Start 02",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2639,7 +2639,7 @@
         },
         "141001": {
             "name": "Popori_F_Slayer_Lv10_Triple Wind Cutter_Start 02",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2651,7 +2651,7 @@
         },
         "141101": {
             "name": "Popori_F_Slayer_Lv11_Triple Wind Cutter_Start 02",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2678,7 +2678,7 @@
         },
         "140302": {
             "name": "Popori_F_Slayer_Lv03_Triple Wind Cutter_Start 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2691,7 +2691,7 @@
         },
         "140402": {
             "name": "Popori_F_Slayer_Lv04_Triple Wind Cutter_Start 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2704,7 +2704,7 @@
         },
         "140502": {
             "name": "Popori_F_Slayer_Lv05_Triple Wind Cutter_Start 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2717,7 +2717,7 @@
         },
         "140602": {
             "name": "Popori_F_Slayer_Lv06_Triple Wind Cutter_Start 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2730,7 +2730,7 @@
         },
         "140702": {
             "name": "Popori_F_Slayer_Lv07_Triple Wind Cutter_Start 03",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2743,7 +2743,7 @@
         },
         "140802": {
             "name": "Popori_F_Slayer_Lv08_Triple Wind Cutter_Start 03",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+13.9980",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2756,7 +2756,7 @@
         },
         "140902": {
             "name": "Popori_F_Slayer_Lv09_Triple Wind Cutter_Start 03",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+12.2231",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2769,7 +2769,7 @@
         },
         "141002": {
             "name": "Popori_F_Slayer_Lv10_Triple Wind Cutter_Start 03",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2782,7 +2782,7 @@
         },
         "141102": {
             "name": "Popori_F_Slayer_Lv11_Triple Wind Cutter_Start 03",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2810,7 +2810,7 @@
         },
         "150300": {
             "name": "Popori_F_Slayer_Lv03_Retreating Kick_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2823,7 +2823,7 @@
         },
         "150400": {
             "name": "Popori_F_Slayer_Lv04_Retreating Kick_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2836,7 +2836,7 @@
         },
         "150500": {
             "name": "Popori_F_Slayer_Lv05_Retreating Kick_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2849,7 +2849,7 @@
         },
         "150600": {
             "name": "Popori_F_Slayer_Lv06_Retreating Kick_Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2862,7 +2862,7 @@
         },
         "150700": {
             "name": "Popori_F_Slayer_Lv07_Retreating Kick_Start 01",
-            "totalAtk": "+0.3701",
+            "totalAtk": "+8.0623",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2875,7 +2875,7 @@
         },
         "150800": {
             "name": "Popori_F_Slayer_Lv08_Retreating Kick_Start 01",
-            "totalAtk": "+0.2865",
+            "totalAtk": "+10.6583",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2888,7 +2888,7 @@
         },
         "150900": {
             "name": "Popori_F_Slayer_Lv09_Retreating Kick_Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+10.6583",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2901,7 +2901,7 @@
         },
         "151000": {
             "name": "Popori_F_Slayer_Lv10_Retreating Kick_Start 01",
-            "totalAtk": "-0.2701",
+            "totalAtk": "+7.5092",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.2500",
@@ -2914,10 +2914,10 @@
         },
         "151100": {
             "name": "Popori_F_Slayer_Lv11_Retreating Kick_Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+7.5092",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "+0.2500",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -2942,7 +2942,7 @@
         },
         "160300": {
             "name": "Popori_F_Slayer_Lv03_Raging Strike_Start 01",
-            "totalAtk": "+1.1291",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2955,7 +2955,7 @@
         },
         "160400": {
             "name": "Popori_F_Slayer_Lv04_Raging Strike_Start 01",
-            "totalAtk": "+0.9992",
+            "totalAtk": "+8.0623",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2968,7 +2968,7 @@
         },
         "160500": {
             "name": "Popori_F_Slayer_Lv05_Raging Strike_Start 01",
-            "totalAtk": "-0.1183",
+            "totalAtk": "+6.9898",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2981,7 +2981,7 @@
         },
         "160600": {
             "name": "Popori_F_Slayer_Lv06_Raging Strike_Start 01",
-            "totalAtk": "-0.4326",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -2994,7 +2994,7 @@
         },
         "160700": {
             "name": "Popori_F_Slayer_Lv07_Raging Strike_Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3025,7 +3025,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.1677",
+            "mp": "+0.4688",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3037,7 +3037,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "mp": "+0.4688",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3049,7 +3049,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.2000",
-            "mp": "-0.1436",
+            "mp": "+0.2578",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3060,8 +3060,8 @@
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "+0.2000",
+            "mp": "+0.2578",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3086,14 +3086,14 @@
             "name": "Popori_F_Slayer_Lv03_Gathering Strength_Cast 01",
             "totalAtk": "+0.0000",
             "timeRate": "+0.0000",
-            "attackRange": "-0.6000",
-            "coolTime": "+7.0000",
+            "attackRange": "+0.0000",
+            "coolTime": "+0.0000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
-            "rearCancelStartTime": "-0.9347",
-            "moveCancelStartTime": "-201.0000"
+            "rearCancelStartTime": "+0.0000",
+            "moveCancelStartTime": "+0.0000"
         },
         "180400": {
             "name": "Popori_F_Slayer_Lv04_Gathering Strength_Cast 01",
@@ -3193,7 +3193,7 @@
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "-0.9583",
-            "mp": "+0.0000",
+            "mp": "-0.9000",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3217,10 +3217,10 @@
         },
         "210300": {
             "name": "Popori_F_Slayer_Lv03_Vein Slash_Start 01",
-            "totalAtk": "+0.0650",
+            "totalAtk": "+2.3086",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
+            "coolTime": "+0.5000",
             "mp": "+0.0000",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -3230,10 +3230,10 @@
         },
         "210400": {
             "name": "Popori_F_Slayer_Lv04_Vein Slash_Start 01",
-            "totalAtk": "-0.9832",
+            "totalAtk": "-0.9443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "-0.8889",
+            "coolTime": "-0.8333",
             "mp": "-0.9800",
             "hp": "+0.0000",
             "anger": "+0.0000",
@@ -3243,11 +3243,11 @@
         },
         "210500": {
             "name": "Popori_F_Slayer_Lv05_Vein Slash_Start 01",
-            "totalAtk": "+0.0000",
+            "totalAtk": "-0.9443",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
-            "coolTime": "+0.0000",
-            "mp": "+0.0000",
+            "coolTime": "-0.8333",
+            "mp": "-0.9800",
             "hp": "+0.0000",
             "anger": "+0.0000",
             "frontCancelEndTime": "+0.0000",
@@ -3271,7 +3271,7 @@
         },
         "230300": {
             "name": "Popori_F_Slayer_Lv03_Cut Head_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3284,7 +3284,7 @@
         },
         "230400": {
             "name": "Popori_F_Slayer_Lv04_Cut Head_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3297,7 +3297,7 @@
         },
         "230500": {
             "name": "Popori_F_Slayer_Lv05_Cut Head_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3310,7 +3310,7 @@
         },
         "230600": {
             "name": "Popori_F_Slayer_Lv01_Cut Head_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3323,7 +3323,7 @@
         },
         "230700": {
             "name": "Popori_F_Slayer_Lv02_Cut Head_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3336,7 +3336,7 @@
         },
         "230800": {
             "name": "Popori_F_Slayer_Lv01_Cut Head_Long Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3349,7 +3349,7 @@
         },
         "230900": {
             "name": "Popori_F_Slayer_Lv02_Cut Head_Long Start 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3377,7 +3377,7 @@
         },
         "230330": {
             "name": "Popori_F_Slayer_Lv03_Cut Head_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3390,7 +3390,7 @@
         },
         "230430": {
             "name": "Popori_F_Slayer_Lv04_Cut Head_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3403,7 +3403,7 @@
         },
         "230530": {
             "name": "Popori_F_Slayer_Lv05_Cut Head_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5331",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3416,7 +3416,7 @@
         },
         "230630": {
             "name": "Popori_F_Slayer_Lv01_Cut Head_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3429,7 +3429,7 @@
         },
         "230730": {
             "name": "Popori_F_Slayer_Lv02_Cut Head_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3442,7 +3442,7 @@
         },
         "230830": {
             "name": "Popori_F_Slayer_Lv01_Cut Head_Short Start 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3455,7 +3455,7 @@
         },
         "230930": {
             "name": "Popori_F_Slayer_Lv02_Cut Head_Short Start 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3482,7 +3482,7 @@
         },
         "240300": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3494,7 +3494,7 @@
         },
         "240400": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3506,7 +3506,7 @@
         },
         "240500": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3518,7 +3518,7 @@
         },
         "240600": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3530,7 +3530,7 @@
         },
         "240700": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3542,7 +3542,7 @@
         },
         "240800": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Long 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3554,7 +3554,7 @@
         },
         "240900": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Long 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3580,7 +3580,7 @@
         },
         "240330": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+1.1291",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3592,7 +3592,7 @@
         },
         "240430": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+2.1067",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3604,7 +3604,7 @@
         },
         "240530": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+3.5330",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3616,7 +3616,7 @@
         },
         "240630": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+5.6144",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3628,7 +3628,7 @@
         },
         "240730": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+8.6513",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3640,7 +3640,7 @@
         },
         "240830": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Short 01",
-            "totalAtk": "+0.4591",
+            "totalAtk": "+13.0826",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
@@ -3652,7 +3652,7 @@
         },
         "240930": {
             "name": "Popori_F_Slayer_Lv01_Jaw Breaker_Short 01",
-            "totalAtk": "+0.5540",
+            "totalAtk": "+20.8842",
             "timeRate": "+0.0000",
             "attackRange": "+0.0000",
             "coolTime": "+0.0000",
