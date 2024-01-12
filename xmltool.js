@@ -1,6 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-const cheerio = require('cheerio');
+import fs from 'fs';
+import path from 'path';
+import cheerio from 'cheerio';
+import chalk from 'chalk';
 
 /***********************************************/
 /* Process and validate command line arguments */
@@ -173,6 +174,7 @@ function genSkillConf(dir) {
         }
 
         let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+        console.log(chalk.bold.blue(`conf/skill/${selector}.json`));
 
         $('SkillData').find('Skill').each((i, e) => {
             const id = $(e).attr('id');
@@ -197,7 +199,7 @@ function genSkillConf(dir) {
 
         for(const [key, value] of Object.entries(jsonObj)) {
             let problems = [];
-            console.log(`Generating chain for skill ${key}`);
+            console.log(chalk.hex('#b3b3b3')(`  ➜ Generating chain for skill ${key}`));
 
             for(let i = 2; i < 40; i++) {
                 const level = String(i).padStart(2, '0');
@@ -251,7 +253,7 @@ function genSkillConf(dir) {
             for(const [k, v] of Object.entries(jsonObj[key])) {
                 problems.forEach(problem => {
                     if(v[problem] != undefined) {
-                        console.log(`Removing problematic value ${problem} for skill ${k}`);
+                        console.log(chalk.hex('#d8504d')(`  ➜ Removing problematic value ${problem} for skill ${k}`));
                         problemsFull.push(`${k} ${problem}`);
                         delete v[problem];
                     }
@@ -263,6 +265,7 @@ function genSkillConf(dir) {
             fs.mkdirSync('conf/skill', { recursive: true });
         }
 
+        console.log(chalk.yellow('  Writing to file'));
         fs.writeFile(`conf/skill/${selector}.json`, JSON.stringify(jsonObj, null, 4), err => { if(err) throw err });
 
         if(problemsFull.length > 0) {
@@ -279,7 +282,7 @@ function editSkill($, file, skill, className, attribute, value) {
     let changeToFile = false;
 
     $('SkillData').find('Skill').each((i, e) => {
-        if($(e).attr('id') == skill && $(e).attr('name').toLowerCase().includes(selector)) {
+        if($(e).attr('id') == skill && $(e).attr('name').includes(className)) {
             let changed = false;
 
             if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
@@ -318,7 +321,7 @@ function editSkill($, file, skill, className, attribute, value) {
             }
 
             if(changed) {
-                console.log(`Changed skill id ${skill} ${attribute}="${value}" in file: ${file}`);
+                console.log(chalk.hex('#b3b3b3')(`  ➜ Changed skill ${skill} ${attribute}="${value}"`));
                 changeToFile = true;
             }
         }
@@ -349,6 +352,13 @@ function editSkills(err, files, dir, conf) {
             }
 
             let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+            let e = $('SkillData').find('Skill').first();
+
+            if($(e).attr('name') == undefined || !$(e).attr('name').includes(className)) {
+                return;
+            }
+
+            console.log(chalk.bold.blue(`${file}`));
             let changeToFile = false;
 
             values.forEach(value => {
@@ -357,6 +367,7 @@ function editSkills(err, files, dir, conf) {
                 if(skillLink == 'y') {
                     for(const [k, v] of Object.entries(conf[id])) {
                         if(v[value[0]] == undefined) {
+                            console.log(chalk.hex('#d8504d')(`  ➜ Skipping ${value[0]} for skill ${k}`));
                             continue;
                         }
 
@@ -370,8 +381,8 @@ function editSkills(err, files, dir, conf) {
             });
 
             if(changeToFile) {
+                console.log(chalk.yellow(`  Writing to file\n`));
                 fs.writeFile(filePath, $.xml(), err => { if(err) throw err });
-                console.log(`Wrote to file ${file}\n`);
             }
         });
     }
@@ -462,6 +473,7 @@ function editArea(files) {
 
             let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
             let changeToFile = false;
+            let loggedFileName = false;
 
             values.forEach(value => {
                 if(value[0] == 'maxHp' || value[0] == 'atk' || value[0] == 'def' || value[0] == 'str' || value[0] == 'res') {
@@ -500,7 +512,12 @@ function editArea(files) {
                         }
 
                         if(modifiedValue != undefined) {
-                            console.log(`Changed NPC ${$(e).attr('id')} ${value[0]}="${modifiedValue}" in file: ${fileName}`);
+                            if(!loggedFileName) {
+                                console.log(chalk.bold.blue(`${fileName}`));
+                                loggedFileName = true;
+                            }
+
+                            console.log(chalk.hex('#b3b3b3')(`  ➜ Changed NPC ${$(e).attr('id')} ${value[0]}="${modifiedValue}"`));
                             changeToFile = true;
                         }
                     });
@@ -540,7 +557,12 @@ function editArea(files) {
                                         }
                     
                                         if(modifiedValue != undefined) {
-                                            console.log(`Changed NPC ${$(e).attr('npcTemplateId')} ${value[0]}="${modifiedValue}" in file: ${fileName}`);
+                                            if(!loggedFileName) {
+                                                console.log(chalk.bold.blue(`${fileName}`));
+                                                loggedFileName = true;
+                                            }
+
+                                            console.log(chalk.hex('#b3b3b3')(`  ➜ Changed NPC ${$(e).attr('npcTemplateId')} ${value[0]}="${modifiedValue}"`));
                                             changeToFile = true;
                                         }
                                     });
@@ -555,8 +577,8 @@ function editArea(files) {
             });
 
             if(changeToFile) {
+                console.log(chalk.yellow(`  Writing to file\n`));
                 fs.writeFile(file, $.xml(), err => { if(err) throw err });
-                console.log(`Wrote to file ${fileName}\n`);
             }
         });
     });
@@ -571,6 +593,7 @@ function editBaseStats(file) {
             process.exit(1);
         }
 
+        console.log(chalk.bold.blue(`${fileName}`));
         let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
         let changeToFile = false;
 
@@ -617,7 +640,7 @@ function editBaseStats(file) {
                     }
 
                     if(changed) {
-                        console.log(`Changed ${selector} ${race} ${value[0]}="${value[1]}" in file: ${fileName}`);
+                        console.log(chalk.hex('#b3b3b3')(`  ➜ Changed ${selector} ${race} ${value[0]}="${value[1]}"`));
                         changeToFile = true;
                     }
                 }
@@ -625,8 +648,8 @@ function editBaseStats(file) {
         });
 
         if(changeToFile) {
+            console.log(chalk.yellow(`  Writing to file\n`));
             fs.writeFile(file, $.xml(), err => { if(err) throw err });
-            console.log(`Wrote to file ${fileName}\n`);
         }
     });
 }
@@ -659,29 +682,6 @@ fs.readFile('conf/sources.json', 'utf8', (err, data) => {
                 }
 
                 conf = JSON.parse(data);
-                /*
-                if(conf.Skills[id] == undefined) {
-                    console.error(`Error: Invalid conf. Y given but no skill chain specified for Skill ID "${id}" in the conf.`);
-                    process.exit(1);
-                }
-
-                values.forEach(value => {
-                    if(conf.Attributes[value[0]] == undefined) {
-                        console.error(`Error: Invalid conf. Y given but no Attribute "${value[0]}" specified in the conf.`);
-                        process.exit(1);
-                    }
-
-                    if(conf.Attributes[value[0]][id] == undefined) {
-                        console.error(`Error: Invalid conf. Y given but no Skill ID "${id}" specified for Attribute "${value[0]}" in the conf.`)
-                        process.exit(1);
-                    }
-
-                    if(conf.Attributes[value[0]][id].length != conf.Skills[id].length) {
-                        console.error(`Error: Invalid conf. Y given but length of list for "${value[0]}" does not equal length of list for Skill ID "${id}" in the conf.`);
-                        process.exit(1);
-                    }
-                });
-                */
 
                 if(conf[id] == undefined) {
                     console.error(`Error: Invalid conf. Y given but no skill chain for skill "${id}".`);
