@@ -10,9 +10,7 @@ Usage:
 
 `node xmltool.js skill [class] genconf`
 
-Generates a config for warrior:
-
-`node xmltool.js skill warrior genconf`
+`node xmltool.js skill [class] restore`
 
 Edits just this one skill with the given values:
 
@@ -20,9 +18,17 @@ Edits just this one skill with the given values:
 
 `node xmltool.js skill warrior 10100 n totalAtk="100" mp="50"`
 
-Edits this skill, and applies modifiers to linked skills (specified in the conf):
+Edits this skill, and applies modifiers to all linked skills (specified in the conf):
 
 `node xmltool.js skill warrior 10100 y totalAtk="100" mp="50"`
+
+Generates a config for warrior:
+
+`node xmltool.js skill warrior genconf`
+
+Restore warrior files from backup:
+
+`node xmltool.js skill warrior restore`
 
 Supported attributes are:
 
@@ -33,23 +39,29 @@ totalAtk, timeRate, attackRange, coolTime, mp, hp, anger, startCancelEndTime, re
 
 Usage:
 
-`node xmltool.js area [area number] [mob id/size/elite/nothing for all] [attributes]`
+`node xmltool.js area [area name] [mob id/size/elite/nothing for all] [attributes]`
 
-Edits just one mob of the given id (formated as huntingZoneId-npcId):
+`node xmltool.js area [area name] restore`
 
-`node xmltool.js area 1 3-300811 maxHp="1000"`
+Edits just one mob of the given id (Oblivion Woods Basilisks) (id formated as huntingZoneId-npcId):
 
-Edits all elite monsters in the given area to have +20% hp and +20% def:
+`node xmltool.js area OblivionWoods 3-300811 maxHp="1000"`
 
-`node xmltool.js area 1 elite maxHp="+0.2" def="+0.2"`
+Edits all elite monsters in the given area (Oblivion Woods) to have +20% hp and +20% def:
 
-Edits all large monsters in the given area to have +20% def and +20% crit resist:
+`node xmltool.js area OblivionWoods elite maxHp="+0.2" def="+0.2"`
 
-`node xmltool.js area 1 large def="+0.2" res="+0.2"`
+Edits all large monsters in the given area (Oblivion Woods) to have +20% def and +20% crit resist:
 
-Edits ALL monsters in the given area to have +20% hp and +20% def:
+`node xmltool.js area OblivionWoods large def="+0.2" res="+0.2"`
 
-`node xmltool.js area 1 maxHp="+0.2 def="+0.2""`
+Edits ALL monsters in the given area (Oblivion Woods) to have +20% hp and +20% def:
+
+`node xmltool.js area OblivionWoods maxHp="+0.2 def="+0.2""`
+
+Restore Oblivion Woods files from backup:
+
+`node xmltool.js area OblivionWoods restore`
 
 Supported mob sizes are:
 

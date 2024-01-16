@@ -34,7 +34,7 @@ if(category == 'skill') {
         process.exit(1);
     }
     
-    if(id != 'genconf') {
+    if(id != 'genconf' && id != 'restore') {
         skillLink = process.argv[5].toLowerCase();
 
         if(skillLink == 'y' || skillLink == 'n') {
@@ -54,11 +54,13 @@ if(category == 'skill') {
     selector = process.argv[3];
     id = process.argv[4];
 
-    if(id.includes('=')) {
-        values = process.argv.slice(4);
-        id = 'all';
-    } else {
-        values = process.argv.slice(5)
+    if(id != 'restore') {
+        if(id.includes('=')) {
+            values = process.argv.slice(4);
+            id = 'all';
+        } else {
+            values = process.argv.slice(5)
+        }
     }
 // node xmltool.js stats warrior castanic effectValue="10"
 } else if(category == "stats") {
@@ -99,6 +101,56 @@ if(values != undefined) {
 /************************/
 function reverse(s){
     return s.split('').reverse().join('');
+}
+
+function restoreSkills(err, files, src, dest, mode) {
+    if(err) {
+        console.error(`Error: Could not open directory: ${src}`);
+        process.exit(1);
+    };
+
+    const className = selector.charAt(0).toUpperCase() + selector.slice(1);
+
+    if(mode == 'server') {
+        for(const file of files) {
+            if(!file.startsWith(`UserSkillData_${className}`)) {
+                continue;
+            }
+
+            const srcPath = path.join(src, file);
+            const destPath = path.join(dest, file);
+
+            console.log(chalk.yellow('Copying ') + chalk.hex('#b3b3b3')(`${srcPath}`) + chalk.yellow(' to ') + chalk.hex('#b3b3b3')(`${destPath}\n`));
+            fs.copyFile(srcPath, destPath, err => {
+                if(err) throw err;
+            });
+        }
+    } else if(mode == 'client') {
+        for(const file of files) {
+            const srcPath = path.join(src, file);
+            const destPath = path.join(dest, file);
+
+            fs.readFile(srcPath, 'utf8', (err, data) => {
+                if(err) {
+                    console.error(`Error: Could not open file: ${srcPath}`)
+                    process.exit(1);
+                }
+    
+                let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
+                let e = $('SkillData').find('Skill').first();
+                let regex = new RegExp(`_[FM]_${className}`);
+    
+                if($(e).attr('name') == undefined || $(e).attr('name').match(regex) == null) {
+                    return;
+                }
+
+                console.log(chalk.yellow('Copying ') + chalk.hex('#b3b3b3')(`${srcPath}`) + chalk.yellow(' to ') + chalk.hex('#b3b3b3')(`${destPath}\n`));
+                fs.copyFile(srcPath, destPath, err => {
+                    if(err) throw err;
+                });
+            });
+        }
+    }
 }
 
 function getValue($, e, attribute) {
@@ -278,11 +330,11 @@ function genSkillConf(dir) {
     });
 }
 
-function editSkill($, file, skill, className, attribute, value) {
+function editSkill($, skill, attribute, value) {
     let changeToFile = false;
 
     $('SkillData').find('Skill').each((i, e) => {
-        if($(e).attr('id') == skill && $(e).attr('name').includes(className)) {
+        if($(e).attr('id') == skill) {
             let changed = false;
 
             if(attribute == "mp" || attribute == "hp" || attribute == "anger") {
@@ -353,8 +405,9 @@ function editSkills(err, files, dir, conf) {
 
             let $ = cheerio.load(data, { xmlMode: true, decodeEntities: false });
             let e = $('SkillData').find('Skill').first();
+            let regex = new RegExp(`_[FM]_${className}`);
 
-            if($(e).attr('name') == undefined || !$(e).attr('name').includes(className)) {
+            if($(e).attr('name') == undefined || $(e).attr('name').match(regex) == null) {
                 return;
             }
 
@@ -362,7 +415,7 @@ function editSkills(err, files, dir, conf) {
             let changeToFile = false;
 
             values.forEach(value => {
-                changeToFile = changeToFile ? true : editSkill($, file, id, className, value[0], value[1]);
+                changeToFile = changeToFile ? true : editSkill($, id, value[0], value[1]);
 
                 if(skillLink == 'y') {
                     for(const [k, v] of Object.entries(conf[id])) {
@@ -375,7 +428,7 @@ function editSkills(err, files, dir, conf) {
                         const modFloat = parseFloat(v[value[0]]);
                         const modifiedValue = baseFloat + baseFloat * modFloat;
 
-                        editSkill($, file, k, className, value[0], modifiedValue.toFixed(4));
+                        editSkill($, k, value[0], modifiedValue.toFixed(4));
                     }
                 }
             });
@@ -386,6 +439,15 @@ function editSkills(err, files, dir, conf) {
             }
         });
     }
+}
+
+function restoreArea(src, dest) {
+    src.forEach((file, i) => {
+        console.log(chalk.yellow('Copying ') + chalk.hex('#b3b3b3')(`${file}`) + chalk.yellow(' to ') + chalk.hex('#b3b3b3')(`${dest[i]}\n`));
+        fs.copyFile(file, dest[i], err => {
+            if(err) throw err;
+        })
+    });
 }
 
 function editNpcStat($, e, attribute, value, area) {
@@ -666,15 +728,23 @@ fs.readFile('conf/sources.json', 'utf8', (err, data) => {
     };
 
     let conf = JSON.parse(data);
+
     const datasheetPath = conf.Datasheet;
     let databasePath = conf.Database;
+
+    const datasheetBackupPath = conf.Datasheet_Backup;
+    let databaseBackupPath = conf.Database_Backup;
 
     if(category == 'skill') {
         if(id == 'genconf') {
             genSkillConf(datasheetPath);
-        }
-        // Validate conf file if Y given
-        else if(skillLink == 'y') {
+        } else if(id == 'restore') {
+            databasePath = path.join(databasePath, 'SkillData');
+            databaseBackupPath = path.join(databaseBackupPath, 'SkillData');
+
+            fs.readdir(datasheetBackupPath, (err, files) => restoreSkills(err, files, datasheetBackupPath, datasheetPath, 'server'));
+            fs.readdir(databaseBackupPath, (err, files) => restoreSkills(err, files, databaseBackupPath, databasePath, 'client'));
+        } else if(skillLink == 'y') {
             fs.readFile(`conf/${category}/${selector}.json`, 'utf8', (err, data) => {
                 if(err) {
                     console.error(`Error: Could not open conf/${category}/${selector}.json`);
@@ -699,7 +769,7 @@ fs.readFile('conf/sources.json', 'utf8', (err, data) => {
         }
     } else if(category == 'area') {
         if(conf.Area[selector] == undefined) {
-            console.error(`Error: Area ${selector} not in path.json`);
+            console.error(`Error: Area ${selector} not in sources.json`);
             process.exit(1);
         }
 
@@ -722,8 +792,27 @@ fs.readFile('conf/sources.json', 'utf8', (err, data) => {
             }
         });
 
-        editArea(datasheetFiles);
-        editArea(databaseFiles);
+        if(id == 'restore') {
+            const dbBackupNpcPath = path.join(databaseBackupPath, 'NpcData');
+            const dbBackupTerritoryPath = path.join(databaseBackupPath, 'TerritoryData');
+            const datasheetBackupFiles = conf.Area[selector][0].map(file => path.join(datasheetBackupPath, file));
+            const databaseBackupFiles = conf.Area[selector][1].map(file => {
+                if(file.startsWith('NpcData')) {
+                    return path.join(dbBackupNpcPath, file);
+                } else if(file.startsWith('TerritoryData')) {
+                    return path.join(dbBackupTerritoryPath, file);
+                } else {
+                    console.error(`Error: Unsupported file in conf: ${file}`);
+                    process.exit(1);
+                }
+            });
+
+            restoreArea(datasheetBackupFiles, datasheetFiles);
+            restoreArea(databaseBackupFiles, databaseFiles);
+        } else {
+            editArea(datasheetFiles);
+            editArea(databaseFiles);
+        }
     } else if(category == 'stats') {
         const userDataPath = path.join(datasheetPath, 'UserData.xml');
         editBaseStats(userDataPath);

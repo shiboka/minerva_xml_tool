@@ -1,6 +1,8 @@
 {
     "Datasheet": "C:/path/to/datasheet",
     "Database": "C:/path/to/database",
+    "Datasheet_Backup": "C:/path/to/backup/datasheet",
+    "Database_Backup": "C:/path/to/backup/database",
     "Area": {
         "OblivionWoods": [
             ["NpcData_3.xml", "TerritoryData_3.xml"],
