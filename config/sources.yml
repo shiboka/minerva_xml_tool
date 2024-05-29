@@ -1,0 +1,21 @@
+sources:
+  server: "data/Datasheet"
+  client: "data/Database"
+backup:
+  server: "backup/Datasheet"
+  client: "backup/Database"
+area:
+  oblivion_woods:
+    server:
+      - "NpcData_3.xml"
+      - "TerritoryData_3.xml"
+    client:
+      - "NpcData-00001.xml"
+      - "TerritoryData-00094.xml"
+  bastion_of_lok:
+    server:
+      - "NpcData_487.xml"
+      - "TerritoryData_487.xml"
+    client:
+      - "NpcData-00255.xml"
+      - "TerritoryData-00217.xml"
