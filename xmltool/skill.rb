@@ -30,6 +30,7 @@ module XMLTool
         @config[@id.to_i].each do |config_id, config_attrs|
           change_attributes(nodes, config_id.to_s, attrs, config_attrs)
         end if link == "y"
+        File.open("out/" + file, "w") { |f| f.write(doc.to_xml) }
       end
     end
 
@@ -51,11 +52,8 @@ module XMLTool
       files.each do |file|
         File.open(path + file) do |f|
           data = f.read(1024)
-          doc = Nokogiri::XML(data)
-          node = doc.css("Skill").first
-          if node and node["name"][/^.+_[FM]_#{@clazz.capitalize}/]
-            @files[:client].push(path + file)
-          end
+          filtered = data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
+          @files[:client].push(path + file) if filtered
         end
       end
     end
