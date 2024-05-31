@@ -26,7 +26,7 @@ module XMLTool
         doc = Nokogiri::XML(data)
         nodes = doc.css("Skill")
 
-        change_attributes(nodes, @id, attrs, attrs)
+        change_attributes(nodes, @id, attrs)
         @config[@id.to_i].each do |config_id, config_attrs|
           change_attributes(nodes, config_id.to_s, attrs, config_attrs)
         end if link == "y"
@@ -36,34 +36,22 @@ module XMLTool
 
     private
 
-    def load_server
-      files = Dir.children(@sources["server"])
-      files.select! { |f| f[/^UserSkillData_#{@clazz.capitalize}.+\.xml$/] }
-      @files[:server] = files.map { |f| "#{@sources["server"]}/#{f}" }
-    end
-
-    def load_client
-      @files[:client] = []
-      path = "#{@sources["client"]}/SkillData/"
-
-      files = Dir.children(path)
-      files.select! { |f| f[/^SkillData.+\.xml$/] }
-
-      files.each do |file|
-        File.open(path + file) do |f|
-          data = f.read(1024)
-          filtered = data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
-          @files[:client].push(path + file) if filtered
-        end
-      end
-    end
-
-    def change_attributes(nodes, id, attrs, config_attrs)
+    def change_attributes(nodes, id, attrs, config_attrs = nil)
       nodes.find_all { |n| n["id"] == id }.each do |node|
         puts "  #{id.magenta}: #{node["name"].green}"
         attrs.each do |key, value|
-          change_attribute(node, key, config_attrs[key])
-          puts "    + #{key}=#{config_attrs[key]}".yellow
+          if config_attrs
+            base = value.to_f
+            mod = config_attrs[key].to_f
+            result = base + base * mod
+          else
+            result = value.to_f
+          end
+
+          change_attribute(node, key, result)
+          outstr = "    + #{key}=#{result}".yellow
+          outstr += " " + config_attrs[key].light_blue if config_attrs
+          puts outstr
         end
       end
     end
@@ -87,6 +75,28 @@ module XMLTool
         end
       elsif attr == "totalAtk" || attr == "timeRate" || attr == "attackRange"
         node[attr] = value
+      end
+    end
+
+    def load_server
+      files = Dir.children(@sources["server"])
+      files.select! { |f| f[/^UserSkillData_#{@clazz.capitalize}.+\.xml$/] }
+      @files[:server] = files.map { |f| "#{@sources["server"]}/#{f}" }
+    end
+
+    def load_client
+      @files[:client] = []
+      path = "#{@sources["client"]}/SkillData/"
+
+      files = Dir.children(path)
+      files.select! { |f| f[/^SkillData.+\.xml$/] }
+
+      files.each do |file|
+        File.open(path + file) do |f|
+          data = f.read(1024)
+          filtered = data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
+          @files[:client].push(path + file) if filtered
+        end
       end
     end
   end
