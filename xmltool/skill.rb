@@ -12,25 +12,57 @@ module XMLTool
       @clazz = clazz
       @id = id
       @sources = global_config["sources"]
-      @config = Psych.load_file("config/skill/#{clazz}.yml")
       @files = {}
-      load_server
-      load_client
+    end
+
+    def load_config(path)
+      begin
+        @config = Psych.load_file(path)
+      rescue Psych::SyntaxError => e
+        puts "Error loading configuration: #{e.message}"
+      end
+    end
+
+    def select_files
+      files = Dir.children(@sources["server"])
+      files.select! { |f| f[/^UserSkillData_#{@clazz.capitalize}.+\.xml$/] }
+      @files[:server] = files.map { |f| "#{@sources["server"]}/#{f}" }
+
+      path = "#{@sources["client"]}/SkillData/"
+      @files[:client] = Dir.children(path).select { |f| f[/^SkillData.+\.xml$/] }.select do |file|
+        File.open(File.join(path, file), "r") do |f|
+          lines = f.readlines[1..3]
+          lines.any? { |line| line =~ /<Skill .+_[FM]_#{@clazz.capitalize}/ }
+        end
+      end.map { |f| "#{path}#{f}" }
     end
 
     def change_with(attrs, link)
       @files[@mode].each do |file|
         puts file.blue.bold
 
-        data = File.read(file)
-        doc = Nokogiri::XML(data)
+        begin
+          data = File.read(file)
+        rescue Errno::ENOENT
+          puts "File not found: #{file}"
+        rescue => e
+          puts "Error reading file: #{e.message}"
+        end
+
+        begin
+          doc = Nokogiri::XML(data)
+        rescue Nokogiri::XML::SyntaxError => e
+          puts "Error parsing XML: #{e.message}"
+        end
+        
         nodes = doc.css("Skill")
 
         change_attributes(nodes, @id, attrs)
         @config[@id.to_i].each do |config_id, config_attrs|
           change_attributes(nodes, config_id.to_s, attrs, config_attrs)
         end if link == "y"
-        File.open("out/" + file, "w") { |f| f.write(doc.to_xml) }
+
+        File.open(File.join("out/", file), "w") { |f| f.write(doc.to_xml) }
       end
     end
 
@@ -39,64 +71,41 @@ module XMLTool
     def change_attributes(nodes, id, attrs, config_attrs = nil)
       nodes.find_all { |n| n["id"] == id }.each do |node|
         puts "  #{id.magenta}: #{node["name"].green}"
-        attrs.each do |key, value|
+        
+        attrs.each do |attr, value|
           if config_attrs
             base = value.to_f
-            mod = config_attrs[key].to_f
+            mod = config_attrs[attr].to_f
             result = base + base * mod
           else
             result = value.to_f
           end
 
-          change_attribute(node, key, result)
-          outstr = "    + #{key}=#{result}".yellow
-          outstr += " " + config_attrs[key].light_blue if config_attrs
+          change_attribute(node, attr, result)
+
+          outstr = "    + #{attr}=#{result}".yellow
+          outstr += " " + config_attrs[attr].light_blue if config_attrs
           puts outstr
         end
       end
     end
 
     def change_attribute(node, attr, value)
-      if attr == "mp" || attr == "hp" || attr == "anger"
-        node.children.css("Precondition").each do |node|
-          node.children.css("Cost").each do |node|
-            node[attr] = value
-          end
-        end
-      elsif attr == "coolTime"
-        node.children.css("Precondition").each do |node|
+      case attr
+      when "mp", "hp", "anger"
+        node.css("Precondition Cost").each do |node|
           node[attr] = value
         end
-      elsif attr == "frontCancelEndTime" || attr == "rearCancelStartTime" || attr == "moveCancelStartTime"
-        node.children.css("Action").each do |node|
-          node.children.css("Cancel").each do |node|
-            node[attr] = value
-          end
+      when "coolTime"
+        node.css("Precondition").each do |node|
+          node[attr] = value
         end
-      elsif attr == "totalAtk" || attr == "timeRate" || attr == "attackRange"
+      when "frontCancelEndTime", "rearCancelStartTime", "moveCancelStartTime"
+        node.css("Action Cancel").each do |node|
+          node[attr] = value
+        end
+      when "totalAtk", "timeRate", "attackRange"
         node[attr] = value
-      end
-    end
-
-    def load_server
-      files = Dir.children(@sources["server"])
-      files.select! { |f| f[/^UserSkillData_#{@clazz.capitalize}.+\.xml$/] }
-      @files[:server] = files.map { |f| "#{@sources["server"]}/#{f}" }
-    end
-
-    def load_client
-      @files[:client] = []
-      path = "#{@sources["client"]}/SkillData/"
-
-      files = Dir.children(path)
-      files.select! { |f| f[/^SkillData.+\.xml$/] }
-
-      files.each do |file|
-        File.open(path + file) do |f|
-          data = f.read(1024)
-          filtered = data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
-          @files[:client].push(path + file) if filtered
-        end
       end
     end
   end

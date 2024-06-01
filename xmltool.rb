@@ -17,7 +17,10 @@ module XMLTool
       
       attrs = parse_attrs(attrs_raw)
       config = Psych.load_file("config/sources.yml")
+
       skill = Skill.new(config, clazz, id)
+      skill.load_config("config/skill/#{clazz}.yml")
+      skill.select_files
 
       puts "", "Server:".red.bold
       skill.mode = :server
