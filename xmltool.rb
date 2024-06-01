@@ -14,11 +14,15 @@ module XMLTool
     desc "skill CLASS ID ATTRIBUTES", "modify skill"
     def skill(clazz, id, *attrs_raw)
       link = ask("Do you want to apply linked skills? (Y/N)").downcase
-      
       attrs = parse_attrs(attrs_raw)
-      config = Psych.load_file("config/sources.yml")
+      
+      begin
+        global_config = Psych.load_file("config/sources.yml")
+      rescue Psych::Exception => e
+        puts "Error loading configuration: #{e.message}"
+      end
 
-      skill = Skill.new(config, clazz, id)
+      skill = Skill.new(global_config, clazz, id)
       skill.load_config("config/skill/#{clazz}.yml")
       skill.select_files
 

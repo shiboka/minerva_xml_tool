@@ -18,7 +18,7 @@ module XMLTool
     def load_config(path)
       begin
         @config = Psych.load_file(path)
-      rescue Psych::SyntaxError => e
+      rescue Psych::Exception => e
         puts "Error loading configuration: #{e.message}"
       end
     end
