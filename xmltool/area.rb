@@ -123,13 +123,14 @@ module XMLTool
 
     def change_npc_spawn(doc, comparer, attr, value)
       doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comparer ? n["npcTemplateId"] == comparer : n }.each do |node|
+        node[attr] = value
+
         print_indent(2)
         puts "Line".magenta + ": #{node.line.to_s.green}"  
         print_indent(2)
         puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
         print_indent(3)
         puts "+ #{attr}=#{value}".yellow
-        node["respawnTime"] = value
       end
     end
 
@@ -138,23 +139,25 @@ module XMLTool
         case attr
         when "maxHp", "atk", "def"
           node.css("Stat").each do |node|
+            node[attr] = value
+
             print_indent(2)
             puts "Line".magenta + ": #{node.line.to_s.green}"
             print_indent(2)
             puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
             print_indent(3)
             puts "+ #{attr}=#{value}".yellow
-            node[attr] = value
           end
         when "str", "res"
           node.css("Critical").each do |node|
+            node[attr] = value
+            
             print_indent(2)
             puts "Line".magenta + ": #{node.line.to_s.green}"
             print_indent(2)
             puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
             print_indent(3)
             puts "+ #{attr}=#{value}".yellow
-            node[attr] = value
           end
         end
       end
