@@ -8,10 +8,10 @@ module XMLTool
     attr_reader :files
     attr_accessor :mode
 
-    def initialize(global_config, clazz, id)
+    def initialize(sources, clazz, id)
+      @sources = sources
       @clazz = clazz
       @id = id
-      @sources = global_config["sources"]
       @files = {}
     end
 
@@ -62,7 +62,7 @@ module XMLTool
           change_attributes(nodes, config_id.to_s, attrs, config_attrs)
         end if link == "y"
 
-        File.open(File.join("out/", file), "w") { |f| f.write(doc.to_xml) }
+        File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
       end
     end
 
