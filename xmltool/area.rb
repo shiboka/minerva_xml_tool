@@ -4,6 +4,7 @@ module XMLTool
       @sources = sources
       @area = area
       @mob = mob
+      @indent = 0
     end
 
     def load_config(path)
@@ -26,37 +27,39 @@ module XMLTool
     end
 
     def change_with(attrs)
-      traverse_config(@config, attrs, 0)
+      traverse_config(@config, attrs)
     end
 
     private
 
-    def traverse_config(cfg, attrs, i)
+    def traverse_config(cfg, attrs)
       cfg.each do |key, value|
         if key == "server"
           @mode = :server
-          print "  " * i
+          print_indent
           puts "Server:".red.bold
         elsif key == "client"
           @mode = :client
-          print "  " * i
+          print_indent
           puts "Client:".red.bold
         else
-          print "  " * i
+          print_indent
           puts "#{key.cyan.bold}:"
         end
 
         if value.is_a?(Array)
           value.each do |v|
-            change_attributes(v, attrs, i + 1)
+            change_attributes(v, attrs)
           end
         else
-          traverse_config(value, attrs, i + 1)          
+          @indent += 1
+          traverse_config(value, attrs) 
+          @indent -= 1       
         end
       end
     end
 
-    def change_attributes(file, attrs, i)
+    def change_attributes(file, attrs)
       if @mode == :client
         if file[/^NpcData/]
           path = @sources["client"] + "/NpcData/"
@@ -67,7 +70,8 @@ module XMLTool
         path = @sources["server"] + "/"
       end
 
-      print "  " * i
+      #print "  " * i
+      print_indent(1)
       puts File.join(path, file).blue.bold
 
       begin
@@ -88,72 +92,76 @@ module XMLTool
       end
 
       attrs.each do |attr, value|
-        change_attribute(doc, attr, value, i)
+        change_attribute(doc, attr, value)
       end
     end
 
-    def change_attribute(doc, attr, value, i)
+    def change_attribute(doc, attr, value)
         case @mob
         when "all"
           if attr == "respawnTime"
-            change_npc_spawn(doc, nil, attr, value, i + 1)
+            change_npc_spawn(doc, nil, attr, value)
           else
-            change_npc_stat(doc, nil, nil, attr, value, i + 1)
+            change_npc_stat(doc, nil, nil, attr, value)
           end
         when "small"
-          change_npc_stat(doc, "size", "small", attr, value, i + 1)
+          change_npc_stat(doc, "size", "small", attr, value)
         when "medium"
-          change_npc_stat(doc, "size", "medium", attr, value, i + 1)
+          change_npc_stat(doc, "size", "medium", attr, value)
         when "large"
-          change_npc_stat(doc, "size", "large", attr, value, i + 1)
+          change_npc_stat(doc, "size", "large", attr, value)
         when "elite"
-          change_npc_stat(doc, "elite", "true", attr, value, i + 1)
+          change_npc_stat(doc, "elite", "true", attr, value)
         else
           if attr == "respawnTime"
-            change_npc_spawn(doc, @mob, attr, value, i + 1)
+            change_npc_spawn(doc, @mob, attr, value)
           else
-            change_npc_stat(doc, "id", @mob, attr, value, i + 1)
+            change_npc_stat(doc, "id", @mob, attr, value)
           end
         end
     end
 
-    def change_npc_spawn(doc, comparer, attr, value, i)
+    def change_npc_spawn(doc, comparer, attr, value)
       doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comparer ? n["npcTemplateId"] == comparer : n }.each do |node|
-        print "  " * i
+        print_indent(2)
         puts "Line".magenta + ": #{node.line.to_s.green}"  
-        print "  " * i
+        print_indent(2)
         puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
-        print "  " * (i + 1)
+        print_indent(3)
         puts "respawnTime=#{value}".yellow
         node["respawnTime"] = value
       end
     end
 
-    def change_npc_stat(doc, comparer, size, attr, value, i)
+    def change_npc_stat(doc, comparer, size, attr, value)
       doc.css("NpcData Template").find_all { |n| comparer ? n[comparer] == size : n }.each do |node|
         case attr
         when "maxHp", "atk", "def"
           node.css("Stat").each do |node|
-            print "  " * i
+            print_indent(2)
             puts "Line".magenta + ": #{node.line.to_s.green}"
-            print "  " * i
+            print_indent(2)
             puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
-            print "  " * (i + 1)
+            print_indent(3)
             puts "#{attr}=#{value}".yellow
             node[attr] = value
           end
         when "str", "res"
           node.css("Critical").each do |node|
-            print "  " * i
+            print_indent(2)
             puts "Line".magenta + ": #{node.line.to_s.green}"
-            print "  " * i
+            print_indent(2)
             puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
-            print "  " * (i + 1)
+            print_indent(3)
             puts "#{attr}=#{value}".yellow
             node[attr] = value
           end
         end
       end
+    end
+
+    def print_indent(i = 0)
+      print "  " * (@indent + i)
     end
   end
 end
