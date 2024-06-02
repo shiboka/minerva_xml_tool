@@ -25,17 +25,9 @@ module XMLTool
       skill = Skill.new(global_config["sources"], clazz, id)
       skill.load_config("config/skill/#{clazz}.yml")
       skill.select_files
-
-      puts "", "Server:".red.bold
-      skill.mode = :server
       skill.change_with(attrs, link)
 
-      puts "", "Client:".red.bold
-      skill.mode = :client
-      skill.change_with(attrs, link)
-
-      file_count = skill.files[:server].count + skill.files[:client].count
-      puts "", "Modified #{attrs.count} attributes in #{file_count} files".red.bold
+      puts "", "Modified #{attrs.count} attributes in #{skill.file_count} files".red.bold
     end
 
     desc "area NAME MOB ATTRIBUTES", "modify area"

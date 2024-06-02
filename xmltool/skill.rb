@@ -5,8 +5,7 @@ require "psych"
 
 module XMLTool
   class Skill
-    attr_reader :files
-    attr_accessor :mode
+    attr_reader :file_count
 
     def initialize(sources, clazz, id)
       @sources = sources
@@ -31,38 +30,49 @@ module XMLTool
       path = "#{@sources["client"]}/SkillData/"
       @files[:client] = Dir.children(path).select { |f| f[/^SkillData.+\.xml$/] }.select do |file|
         File.open(File.join(path, file), "r") do |f|
-          lines = f.readlines[1..3]
-          lines.any? { |line| line =~ /<Skill .+_[FM]_#{@clazz.capitalize}/ }
+          data = f.read(512)
+          puts data
+          data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
         end
       end.map { |f| "#{path}#{f}" }
+
+      @file_count = @files[:server].count + @files[:client].count
     end
 
     def change_with(attrs, link)
-      @files[@mode].each do |file|
-        puts file.blue.bold
-
-        begin
-          data = File.read(file)
-        rescue Errno::ENOENT
-          puts "File not found: #{file}"
-        rescue => e
-          puts "Error reading file: #{e.message}"
+      @files.each do |key, value|
+        if key == :server
+          puts "Server:".red.bold
+        elsif key == :client
+          puts "Client:".red.bold
         end
 
-        begin
-          doc = Nokogiri::XML(data)
-        rescue Nokogiri::XML::SyntaxError => e
-          puts "Error parsing XML: #{e.message}"
+        @files[key].each do |file|
+          puts file.blue.bold
+
+          begin
+            data = File.read(file)
+          rescue Errno::ENOENT
+            puts "File not found: #{file}"
+          rescue => e
+            puts "Error reading file: #{e.message}"
+          end
+
+          begin
+            doc = Nokogiri::XML(data)
+          rescue Nokogiri::XML::SyntaxError => e
+            puts "Error parsing XML: #{e.message}"
+          end
+          
+          nodes = doc.css("Skill")
+
+          change_attributes(nodes, @id, attrs)
+          @config[@id.to_i].each do |config_id, config_attrs|
+            change_attributes(nodes, config_id.to_s, attrs, config_attrs)
+          end if link == "y"
+
+          File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
         end
-        
-        nodes = doc.css("Skill")
-
-        change_attributes(nodes, @id, attrs)
-        @config[@id.to_i].each do |config_id, config_attrs|
-          change_attributes(nodes, config_id.to_s, attrs, config_attrs)
-        end if link == "y"
-
-        File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
       end
     end
 
