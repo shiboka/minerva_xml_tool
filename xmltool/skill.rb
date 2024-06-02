@@ -31,7 +31,6 @@ module XMLTool
       @files[:client] = Dir.children(path).select { |f| f[/^SkillData.+\.xml$/] }.select do |file|
         File.open(File.join(path, file), "r") do |f|
           data = f.read(512)
-          puts data
           data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
         end
       end.map { |f| "#{path}#{f}" }
