@@ -114,6 +114,7 @@ module XMLTool
         end
       end
 
+      File.open(File.join("out/", path, file), "w") { |f| f.write(doc.root.to_xml) }
     end
 
 
