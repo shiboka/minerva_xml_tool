@@ -91,9 +91,9 @@ module XMLTool
 
       case @mob
       when "all"
-        if attrs.key? "respawnTime" && attrs.length == 1
+        if attrs.key? "respawnTime" and attrs.length == 1
           change_territory_data(doc, nil, attrs)
-        elsif attrs.key? "respawnTime" && attrs.length > 1
+        elsif attrs.key? "respawnTime" and attrs.length > 1
           change_territory_data(doc, nil, attrs)
           change_npc_data(doc, nil, nil, attrs)
         else
