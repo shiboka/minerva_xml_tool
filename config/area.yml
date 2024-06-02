@@ -1,12 +1,13 @@
-arun:
-  arcadia:
-    oblivion_woods:
-      server:
-        - "NpcData_3.xml"
-        - "TerritoryData_3.xml"
-      client:
-        - "NpcData-00001.xml"
-        - "TerritoryData-00094.xml"
+arborea:
+  arun:
+    arcadia:
+      oblivion_woods:
+        server:
+          - "NpcData_3.xml"
+          - "TerritoryData_3.xml"
+        client:
+          - "NpcData-00001.xml"
+          - "TerritoryData-00094.xml"
 dungeons:
   bastion_of_lok:
     server:

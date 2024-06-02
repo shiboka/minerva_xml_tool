@@ -53,8 +53,7 @@ module XMLTool
           end
         else
           @indent += 1
-          traverse_config(value, attrs) 
-          @indent -= 1       
+          traverse_config(value, attrs)      
         end
       end
     end
@@ -70,7 +69,6 @@ module XMLTool
         path = @sources["server"]
       end
 
-      #print "  " * i
       print_indent(1)
       puts "#{File.join(path, file).blue.bold}:"
 
