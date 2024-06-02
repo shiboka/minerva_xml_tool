@@ -62,17 +62,17 @@ module XMLTool
     def change_attributes(file, attrs)
       if @mode == :client
         if file[/^NpcData/]
-          path = @sources["client"] + "/NpcData/"
+          path = @sources["client"] + "/NpcData"
         elsif file[/^TerritoryData/]
-          path = @sources["client"] + "/TerritoryData/"
+          path = @sources["client"] + "/TerritoryData"
         end
       else
-        path = @sources["server"] + "/"
+        path = @sources["server"]
       end
 
       #print "  " * i
       print_indent(1)
-      puts File.join(path, file).blue.bold
+      puts "#{File.join(path, file).blue.bold}:"
 
       begin
         data = File.read(File.join(path, file))
@@ -128,7 +128,7 @@ module XMLTool
         print_indent(2)
         puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
         print_indent(3)
-        puts "respawnTime=#{value}".yellow
+        puts "+ #{attr}=#{value}".yellow
         node["respawnTime"] = value
       end
     end
@@ -143,7 +143,7 @@ module XMLTool
             print_indent(2)
             puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
             print_indent(3)
-            puts "#{attr}=#{value}".yellow
+            puts "+ #{attr}=#{value}".yellow
             node[attr] = value
           end
         when "str", "res"
@@ -153,7 +153,7 @@ module XMLTool
             print_indent(2)
             puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
             print_indent(3)
-            puts "#{attr}=#{value}".yellow
+            puts "+ #{attr}=#{value}".yellow
             node[attr] = value
           end
         end
