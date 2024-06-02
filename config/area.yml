@@ -7,13 +7,6 @@ arun:
       client:
         - "NpcData-00001.xml"
         - "TerritoryData-00094.xml"
-    fey_forest:
-      server:
-        - "NpcData_4.xml"
-        - "TerritoryData_4.xml"
-      client:
-        - "NpcData-00002.xml"
-        - "TerritoryData-00095.xml"
 dungeons:
   bastion_of_lok:
     server:

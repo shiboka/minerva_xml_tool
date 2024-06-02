@@ -7,9 +7,8 @@ require_relative "xmltool/util"
 
 module XMLTool
   class App < Thor
-    desc "hello NAME", "Say hello"
-    def hello(name)
-      puts "hello, #{name}"
+    def self.exit_on_failure?
+      true
     end
 
     desc "skill CLASS ID ATTRIBUTES", "modify skill"
@@ -51,8 +50,8 @@ module XMLTool
       end
       
       area = Area.new(global_config["sources"], area_name, mob)
-      config_loaded = area.load_config("config/area.yml")
-      area.change_with(attrs) if config_loaded
+      area.load_config("config/area.yml")
+      area.change_with(attrs)
     end
   end
 end
