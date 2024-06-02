@@ -43,7 +43,7 @@ module XMLTool
           puts "Client:".red.bold
         else
           print "  " * i
-          puts "#{key.blue.bold}:"
+          puts "#{key.cyan.bold}:"
         end
 
         if value.is_a?(Array)
@@ -68,7 +68,7 @@ module XMLTool
       end
 
       print "  " * i
-      puts File.join(path, file).green
+      puts File.join(path, file).blue.bold
 
       begin
         data = File.read(File.join(path, file))
@@ -118,10 +118,12 @@ module XMLTool
     end
 
     def change_npc_spawn(doc, comparer, attr, value, i)
-      doc.css("TerritoryData TerritoryGroup TerritoryList Territory Party Npc").find_all do |n|
-        comparer ? n["npcTemplateId"] == comparer : n
-      end.each do |node|
+      doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comparer ? n["npcTemplateId"] == comparer : n }.each do |node|
         print "  " * i
+        puts "Line".magenta + ": #{node.line.to_s.green}"  
+        print "  " * i
+        puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
+        print "  " * (i + 1)
         puts "respawnTime=#{value}".yellow
         node["respawnTime"] = value
       end
@@ -133,7 +135,9 @@ module XMLTool
         when "maxHp", "atk", "def"
           node.css("Stat").each do |node|
             print "  " * i
-            puts "ID: #{node.parent["id"].magenta}:"
+            puts "Line".magenta + ": #{node.line.to_s.green}"
+            print "  " * i
+            puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
             print "  " * (i + 1)
             puts "#{attr}=#{value}".yellow
             node[attr] = value
@@ -141,6 +145,10 @@ module XMLTool
         when "str", "res"
           node.css("Critical").each do |node|
             print "  " * i
+            puts "Line".magenta + ": #{node.line.to_s.green}"
+            print "  " * i
+            puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
+            print "  " * (i + 1)
             puts "#{attr}=#{value}".yellow
             node[attr] = value
           end
