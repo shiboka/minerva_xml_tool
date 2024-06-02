@@ -8,6 +8,22 @@ arborea:
         client:
           - "NpcData-00001.xml"
           - "TerritoryData-00094.xml"
+      fey_forest:
+        server:
+          - "NpcData_3.xml"
+          - "TerritoryData_3.xml"
+        client:
+          - "NpcData-00001.xml"
+          - "TerritoryData-00094.xml"
+  shara:
+    westonia:
+      tempest_reach:
+        server:
+          - "NpcData_3.xml"
+          - "TerritoryData_3.xml"
+        client:
+          - "NpcData-00001.xml"
+          - "TerritoryData-00094.xml"
 dungeons:
   bastion_of_lok:
     server:

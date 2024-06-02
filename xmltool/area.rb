@@ -53,7 +53,8 @@ module XMLTool
           end
         else
           @indent += 1
-          traverse_config(value, attrs)      
+          traverse_config(value, attrs)
+          @indent -= 1
         end
       end
     end
