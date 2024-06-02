@@ -155,6 +155,5 @@ module XMLTool
         end
       end
     end
-    
   end
 end
