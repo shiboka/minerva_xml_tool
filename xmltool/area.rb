@@ -89,75 +89,77 @@ module XMLTool
         exit
       end
 
-      attrs.each do |attr, value|
-        change_attribute(doc, attr, value)
+      case @mob
+      when "all"
+        if attrs.key? "respawnTime" && attrs.length == 1
+          change_territory_data(doc, nil, attrs)
+        elsif attrs.key? "respawnTime" && attrs.length > 1
+          change_territory_data(doc, nil, attrs)
+          change_npc_data(doc, nil, nil, attrs)
+        else
+          change_npc_data(doc, nil, nil, attrs)
+        end
+      when "small", "medium", "large"
+        change_npc_data(doc, "size", @mob, attrs)
+      when "elite"
+        change_npc_data(doc, "elite", "true", attrs)
+      else
+        if attrs.key? "respawnTime" and attrs.length == 1
+          change_territory_data(doc, @mob, attrs)
+        elsif attrs.key? "respawnTime" and attrs.length > 1
+          change_territory_data(doc, @mob, attrs)
+          change_npc_data(doc, "id", @mob, attrs)
+        else
+          change_npc_data(doc, "id", @mob, attrs)
+        end
+      end
+
+    end
+
+
+
+    def change_npc_data(doc, comp, comp_value, attrs)
+      doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
+        print_indent(2)
+        puts "#{node["id"].to_s.magenta}: #{node["name"] ? node["name"].to_s.green : "???".green}"
+        attrs.each do |attr, value|
+          change_npc_attr(node, attr, value)
+        end
       end
     end
 
-    def change_attribute(doc, attr, value)
-        case @mob
-        when "all"
-          if attr == "respawnTime"
-            change_npc_spawn(doc, nil, attr, value)
-          else
-            change_npc_stat(doc, nil, nil, attr, value)
-          end
-        when "small"
-          change_npc_stat(doc, "size", "small", attr, value)
-        when "medium"
-          change_npc_stat(doc, "size", "medium", attr, value)
-        when "large"
-          change_npc_stat(doc, "size", "large", attr, value)
-        when "elite"
-          change_npc_stat(doc, "elite", "true", attr, value)
-        else
-          if attr == "respawnTime"
-            change_npc_spawn(doc, @mob, attr, value)
-          else
-            change_npc_stat(doc, "id", @mob, attr, value)
-          end
+    def change_npc_attr(node, attr, value)
+      case attr
+      when "maxHp", "atk", "def"
+        node.css("Stat").each do |node|
+          node[attr] = value
+          print_indent(3)
+          puts "+ #{attr}=#{value}".yellow + " Line: #{node.line}".light_blue
         end
+      when "str", "res"
+        node.css("Critical").each do |node|
+          node[attr] = value
+          print_indent(3)
+          puts "+ #{attr}=#{value}".yellow + " Line: #{node.line}".light_blue
+        end
+      end
     end
 
-    def change_npc_spawn(doc, comparer, attr, value)
-      doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comparer ? n["npcTemplateId"] == comparer : n }.each do |node|
-        node[attr] = value
-
-        print_indent(2)
-        puts "Line".magenta + ": #{node.line.to_s.green}"  
+    def change_territory_data(doc, comp_value, attrs)
+      doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
         print_indent(2)
         puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
-        print_indent(3)
-        puts "+ #{attr}=#{value}".yellow
+        attrs.each do |attr, value|
+          change_territory_attr(node, attr, value)
+        end
       end
     end
 
-    def change_npc_stat(doc, comparer, size, attr, value)
-      doc.css("NpcData Template").find_all { |n| comparer ? n[comparer] == size : n }.each do |node|
-        case attr
-        when "maxHp", "atk", "def"
-          node.css("Stat").each do |node|
-            node[attr] = value
-
-            print_indent(2)
-            puts "Line".magenta + ": #{node.line.to_s.green}"
-            print_indent(2)
-            puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
-            print_indent(3)
-            puts "+ #{attr}=#{value}".yellow
-          end
-        when "str", "res"
-          node.css("Critical").each do |node|
-            node[attr] = value
-            
-            print_indent(2)
-            puts "Line".magenta + ": #{node.line.to_s.green}"
-            print_indent(2)
-            puts "#{node.parent["id"].magenta}: #{node.parent["name"] ? node.parent["name"].to_s.green : "???".green}"
-            print_indent(3)
-            puts "+ #{attr}=#{value}".yellow
-          end
-        end
+    def change_territory_attr(node, attr, value)
+      if attr == "respawnTime"
+        node[attr] = value
+        print_indent(3)
+        puts "+ #{attr}=#{value}".yellow + " Line: #{node.line}".light_blue
       end
     end
 
