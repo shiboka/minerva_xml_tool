@@ -35,6 +35,8 @@ module XMLTool
       area = Area.new(global_config["sources"], areas, mob)
       area.load_config("config/area.yml")
       area.change_with(attrs)
+
+      puts "", "Modified #{attrs.count} attributes in #{area.file_count} files".red.bold
     end
 
     no_commands do

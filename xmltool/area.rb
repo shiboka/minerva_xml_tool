@@ -1,9 +1,12 @@
 module XMLTool
   class Area
+    attr_reader :file_count
+
     def initialize(sources, areas, mob)
       @sources = sources
       @areas = areas
       @mob = mob
+      @file_count = 0
     end
 
     def load_config(path)
@@ -33,12 +36,12 @@ module XMLTool
 
     def traverse_config(cfg, attrs, keys = [], toggle = true)
       cfg.each do |key, value|
-        if toggle and (key == "server" or key == "client")
+        if toggle && (key == "server" || key == "client")
           toggle = !toggle
           puts "", "#{keys.join("/").cyan.bold}:"
         end
 
-        if key == "server" or key == "client"
+        if key == "server" || key == "client"
           @mode = key
           puts"#{key.capitalize.red.bold}:"
         else
@@ -53,15 +56,16 @@ module XMLTool
           traverse_config(value, attrs, keys, toggle)
         end
 
-        keys.pop unless key == "server" or key == "client"
+        keys.pop unless key == "server" || key == "client"
       end
     end
 
     def change_attributes(file, attrs)
       path = determine_path(file)
     
-      print_indent(1)
-      puts "#{File.join(path, file).blue.bold}:"
+      if to_print_file(file, attrs)
+        print_file(path, file)
+      end
     
       data = read_file(File.join(path, file))
       doc = parse_xml(data)
@@ -132,7 +136,7 @@ module XMLTool
 
     def change_npc_data(doc, comp, comp_value, attrs)
       doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
-        print_id_and_name(node["id"], node["desc"])
+        print_id_name_line(node["id"], node["desc"], node.line)
         attrs.each do |attr, value|
           change_npc_attr(node, attr, value)
         end
@@ -141,7 +145,7 @@ module XMLTool
 
     def change_territory_data(doc, comp_value, attrs)
       doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
-        print_id_and_name(node["npcTemplateId"], node["desc"])
+        print_id_name_line(node["npcTemplateId"], node["desc"], node.line)
         attrs.each do |attr, value|
           change_territory_attr(node, attr, value)
         end
@@ -166,18 +170,32 @@ module XMLTool
     def change_territory_attr(node, attr, value)
       if attr == "respawnTime"
         node[attr] = value
-        pprint_attr(attr, value, node.line)
+        print_attr(attr, value, node.line)
       end
     end
 
-    def print_id_and_name(templateId, desc)
+    def to_print_file(file, attrs)
+      if file[/^NpcData/] && %w[maxHp atk def str res].any? { |key| attrs.key?(key) }
+        true
+      elsif file[/^TerritoryData/] && attrs.key?("respawnTime")
+        true
+      end
+    end
+
+    def print_file(path, file)
+      print_indent(1)
+      puts "#{File.join(path, file).blue.bold}:"
+      @file_count += 1
+    end
+
+    def print_id_name_line(templateId, desc, line)
       print_indent(2)
-      puts "#{templateId.magenta}: #{desc ? desc.green : "???".green}"
+      puts "#{templateId.magenta}: #{desc ? desc.green : "???".green}: " + "Line: #{line}".light_blue
     end
 
     def print_attr(attr, value, line)
       print_indent(3)
-      puts "+ #{attr}=#{value}".yellow + " Line: #{line}".light_blue
+      puts "- #{attr}=#{value}".yellow
     end
 
     def print_indent(indent)

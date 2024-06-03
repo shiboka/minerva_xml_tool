@@ -89,7 +89,7 @@ module XMLTool
     def change_skill_data(nodes, id, attrs, config_attrs = nil)
       nodes.find_all { |n| n["id"] == id }.each do |node|
         print_indent(2)
-        puts "#{id.magenta}: #{node["name"].green}"
+        puts "#{id.magenta}: #{node["name"].green}: " + "Line: #{node.line}".light_blue
         
         attrs.each do |attr, value|
           result = calculate_result(value, config_attrs&.dig(attr))
@@ -131,8 +131,8 @@ module XMLTool
 
     def print_attr(attr, result, config_value)
       print_indent(3)
-      outstr = "+ #{attr}=#{result} ".yellow
-      outstr += config_value.light_blue if config_value
+      outstr = "- #{attr}=#{result} ".yellow
+      outstr += config_value.grey if config_value
       puts outstr
     end
 
