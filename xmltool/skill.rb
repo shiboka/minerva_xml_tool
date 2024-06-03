@@ -129,7 +129,6 @@ module XMLTool
     end
 
     def print_source(source)
-      print_indent(1)
       puts "#{source.capitalize.red.bold}:"
     end
 
