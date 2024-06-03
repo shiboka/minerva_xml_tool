@@ -9,14 +9,6 @@ module XMLTool
       end
     end
 
-    def to_print_file(file, attrs)
-      if file[/^NpcData/] && %w[maxHp atk def str res].any? { |key| attrs.key?(key) }
-        true
-      elsif file[/^TerritoryData/] && attrs.key?("respawnTime")
-        true
-      end
-    end
-
     def print_areas(areas)
       @logger.info "\n#{areas.join("/").cyan.bold}:"
     end
