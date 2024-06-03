@@ -1,6 +1,7 @@
 require "thor"
-require "colorize"
+require "nokogiri"
 require "psych"
+require "colorize"
 require_relative "xmltool/skill"
 require_relative "xmltool/area"
 require_relative "xmltool/util"
@@ -20,6 +21,7 @@ module XMLTool
         global_config = Psych.load_file("config/sources.yml")
       rescue Psych::Exception => e
         puts "Error loading configuration: #{e.message}"
+        exit
       end
 
       skill = Skill.new(global_config["sources"], clazz, id)
@@ -33,15 +35,16 @@ module XMLTool
     desc "area NAME MOB ATTRIBUTES", "modify area"
     def area(name, mob, *attrs_raw)
       attrs = parse_attrs(attrs_raw)
-      area_name = name.split("/")
+      areas = name.split("/")
 
       begin
         global_config = Psych.load_file("config/sources.yml")
       rescue Psych::Exception => e
         puts "Error loading configuration: #{e.message}"
+        exit
       end
       
-      area = Area.new(global_config["sources"], area_name, mob)
+      area = Area.new(global_config["sources"], areas, mob)
       area.load_config("config/area.yml")
       area.change_with(attrs)
     end

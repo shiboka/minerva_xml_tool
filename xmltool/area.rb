@@ -1,10 +1,10 @@
 module XMLTool
   class Area
-    def initialize(sources, area, mob)
+    def initialize(sources, areas, mob)
       @sources = sources
-      @area = area
+      @areas = areas
       @mob = mob
-      @indent = 0
+      @indent = 1
     end
 
     def load_config(path)
@@ -14,7 +14,7 @@ module XMLTool
         puts "Error loading configuration: #{e.message}"
       end
 
-      @area.each do |a|
+      @areas.each do |a|
         if @config.key?(a)
           @config = @config[a]
         else
@@ -23,7 +23,7 @@ module XMLTool
         end
       end
 
-      @config = { @area.last => @config }
+      @config = { @areas.last => @config }
     end
 
     def change_with(attrs)
@@ -32,19 +32,19 @@ module XMLTool
 
     private
 
-    def traverse_config(cfg, attrs)
+    def traverse_config(cfg, attrs, keys = [], toggle = true)
       cfg.each do |key, value|
-        if key == "server"
-          @mode = :server
+        if toggle and (key == "server" or key == "client")
+          toggle = !toggle
+          puts "#{keys.join("/").cyan.bold}:"
+        end
+
+        if key == "server" or key == "client"
+          @mode = key
           print_indent
-          puts "Server:".red.bold
-        elsif key == "client"
-          @mode = :client
-          print_indent
-          puts "Client:".red.bold
+          puts"#{key.capitalize}:".red.bold
         else
-          print_indent
-          puts "#{key.cyan.bold}:"
+          keys.push(key)
         end
 
         if value.is_a?(Array)
@@ -52,29 +52,42 @@ module XMLTool
             change_attributes(v, attrs)
           end
         else
-          @indent += 1
-          traverse_config(value, attrs)
-          @indent -= 1
+          traverse_config(value, attrs, keys, toggle)
         end
+
+        keys.pop unless key == "server" or key == "client"
       end
     end
 
     def change_attributes(file, attrs)
-      if @mode == :client
-        if file[/^NpcData/]
-          path = @sources["client"] + "/NpcData"
-        elsif file[/^TerritoryData/]
-          path = @sources["client"] + "/TerritoryData"
-        end
-      else
-        path = @sources["server"]
-      end
-
+      path = determine_path(file)
+    
       print_indent(1)
       puts "#{File.join(path, file).blue.bold}:"
+    
+      data = read_file(File.join(path, file))
+      doc = parse_xml(data)
+    
+      handle_mob_case(doc, attrs)
+    
+      File.open(File.join("out/", path, file), "w") { |f| f.write(doc.root.to_xml) }
+    end
 
+    def determine_path(file)
+      if @mode == "client"
+        if file[/^NpcData/]
+          @sources["client"] + "/NpcData"
+        elsif file[/^TerritoryData/]
+          @sources["client"] + "/TerritoryData"
+        end
+      else
+        @sources["server"]
+      end
+    end
+
+    def read_file(file)
       begin
-        data = File.read(File.join(path, file))
+        File.read(file)
       rescue Errno::ENOENT
         puts "File not found: #{file}"
         exit
@@ -82,43 +95,42 @@ module XMLTool
         puts "Error reading file: #{e.message}"
         exit
       end
+    end
 
+    def parse_xml(data)
       begin
-        doc = Nokogiri::XML(data)
+        Nokogiri::XML(data)
       rescue Nokogiri::XML::SyntaxError => e
         puts "Error parsing XML: #{e.message}"
         exit
       end
+    end
+
+    def handle_mob_case(doc, attrs)
+      has_respawn_time = attrs.key? "respawnTime"
+      multiple_attrs = attrs.length > 1
 
       case @mob
-      when "all"
-        if attrs.key? "respawnTime" and attrs.length == 1
-          change_territory_data(doc, nil, attrs)
-        elsif attrs.key? "respawnTime" and attrs.length > 1
-          change_territory_data(doc, nil, attrs)
-          change_npc_data(doc, nil, nil, attrs)
-        else
-          change_npc_data(doc, nil, nil, attrs)
-        end
       when "small", "medium", "large"
         change_npc_data(doc, "size", @mob, attrs)
       when "elite"
         change_npc_data(doc, "elite", "true", attrs)
+      when "all"
+        if has_respawn_time
+          change_territory_data(doc, nil, attrs)
+          change_npc_data(doc, nil, nil, attrs) if multiple_attrs
+        else
+          change_npc_data(doc, nil, nil, attrs)
+        end
       else
-        if attrs.key? "respawnTime" and attrs.length == 1
+        if has_respawn_time
           change_territory_data(doc, @mob, attrs)
-        elsif attrs.key? "respawnTime" and attrs.length > 1
-          change_territory_data(doc, @mob, attrs)
-          change_npc_data(doc, "id", @mob, attrs)
+          change_npc_data(doc, "id", @mob, attrs) if multiple_attrs
         else
           change_npc_data(doc, "id", @mob, attrs)
         end
       end
-
-      File.open(File.join("out/", path, file), "w") { |f| f.write(doc.root.to_xml) }
     end
-
-
 
     def change_npc_data(doc, comp, comp_value, attrs)
       doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
@@ -126,6 +138,16 @@ module XMLTool
         puts "#{node["id"].to_s.magenta}: #{node["name"] ? node["name"].to_s.green : "???".green}"
         attrs.each do |attr, value|
           change_npc_attr(node, attr, value)
+        end
+      end
+    end
+
+    def change_territory_data(doc, comp_value, attrs)
+      doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
+        print_indent(2)
+        puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
+        attrs.each do |attr, value|
+          change_territory_attr(node, attr, value)
         end
       end
     end
@@ -143,16 +165,6 @@ module XMLTool
           node[attr] = value
           print_indent(3)
           puts "+ #{attr}=#{value}".yellow + " Line: #{node.line}".light_blue
-        end
-      end
-    end
-
-    def change_territory_data(doc, comp_value, attrs)
-      doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
-        print_indent(2)
-        puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
-        attrs.each do |attr, value|
-          change_territory_attr(node, attr, value)
         end
       end
     end

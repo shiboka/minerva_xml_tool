@@ -1,8 +1,3 @@
-require "thor"
-require "nokogiri"
-require "colorize"
-require "psych"
-
 module XMLTool
   class Skill
     attr_reader :file_count
@@ -23,83 +18,109 @@ module XMLTool
     end
 
     def select_files
-      files = Dir.children(@sources["server"])
-      files.select! { |f| f[/^UserSkillData_#{@clazz.capitalize}.+\.xml$/] }
-      @files[:server] = files.map { |f| "#{@sources["server"]}/#{f}" }
+      @sources.each do |key, path|
+        path = key == "server" ? path : File.join(path, "SkillData")
+        files = Dir.children(path)
+        pattern = key == "server" ? /^UserSkillData_#{@clazz.capitalize}.+\.xml$/ : /^SkillData.+\.xml$/
 
-      path = "#{@sources["client"]}/SkillData/"
-      @files[:client] = Dir.children(path).select { |f| f[/^SkillData.+\.xml$/] }.select do |file|
-        File.open(File.join(path, file), "r") do |f|
-          data = f.read(512)
-          data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
+        files.select! { |f| f[pattern] }
+        files.map! { |f| File.join(path, f) }
+
+        if key == "client"
+          files.select! do |file|
+            File.open(file, "r") do |f|
+              data = f.read(512)
+              data[/<Skill .+_[FM]_#{@clazz.capitalize}/]
+            end
+          end
         end
-      end.map { |f| "#{path}#{f}" }
 
-      @file_count = @files[:server].count + @files[:client].count
+        @files[key] = files
+      end
+
+      @file_count = @files.values.flatten.count
     end
 
     def change_with(attrs, link)
       @files.each do |key, value|
-        if key == :server
-          puts "Server:".red.bold
-        elsif key == :client
-          puts "Client:".red.bold
-        end
+        print_key(key)
 
-        @files[key].each do |file|
-          puts file.blue.bold
-
-          begin
-            data = File.read(file)
-          rescue Errno::ENOENT
-            puts "File not found: #{file}"
-          rescue => e
-            puts "Error reading file: #{e.message}"
-          end
-
-          begin
-            doc = Nokogiri::XML(data)
-          rescue Nokogiri::XML::SyntaxError => e
-            puts "Error parsing XML: #{e.message}"
-          end
-          
-          nodes = doc.css("Skill")
-
-          change_attributes(nodes, @id, attrs)
-          @config[@id.to_i].each do |config_id, config_attrs|
-            change_attributes(nodes, config_id.to_s, attrs, config_attrs)
-          end if link == "y"
-
-          File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
+        value.each do |file|
+          process_file(file, attrs, link)
         end
       end
     end
 
     private
 
-    def change_attributes(nodes, id, attrs, config_attrs = nil)
+    def print_key(key)
+      puts "#{key.capitalize}:".red.bold
+    end
+
+    def process_file(file, attrs, link)
+      puts file.blue.bold
+
+      data = read_file(file)
+      doc = parse_xml(data)
+
+      nodes = doc.css("Skill")
+      change_skill_data(nodes, @id, attrs)
+
+      if link == "y"
+        @config[@id.to_i].each do |config_id, config_attrs|
+          change_skill_data(nodes, config_id.to_s, attrs, config_attrs)
+        end
+      end
+
+      File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
+    end
+
+    def read_file(file)
+      File.read(file)
+    rescue Errno::ENOENT
+      puts "File not found: #{file}"
+    rescue => e
+      puts "Error reading file: #{e.message}"
+    end
+
+    def parse_xml(data)
+      Nokogiri::XML(data)
+    rescue Nokogiri::XML::SyntaxError => e
+      puts "Error parsing XML: #{e.message}"
+    end
+
+    def change_skill_data(nodes, id, attrs, config_attrs = nil)
       nodes.find_all { |n| n["id"] == id }.each do |node|
         puts "  #{id.magenta}: #{node["name"].green}"
         
         attrs.each do |attr, value|
-          if config_attrs
-            base = value.to_f
-            mod = config_attrs[attr].to_f
-            result = base + base * mod
-          else
-            result = value.to_f
-          end
+          result = calculate_result(value, config_attrs&.dig(attr))
+          change_attr(node, attr, result)
 
-          change_attribute(node, attr, result)
-
-          outstr = "    + #{attr}=#{result}".yellow
-          outstr += " " + config_attrs[attr].light_blue if config_attrs
-          puts outstr
+          print_attr(attr, result, config_attrs&.dig(attr))
         end
       end
     end
 
-    def change_attribute(node, attr, value)
+    private
+
+    def calculate_result(base_value, config_value)
+      base = base_value.to_f
+      if config_value
+        mod = config_value.to_f
+        base + base * mod
+      else
+        base
+      end
+    end
+
+    def print_attr(attr, result, config_value)
+      outstr = "    + #{attr}=#{result}".yellow
+      outstr += " " + config_value.light_blue if config_value
+      puts outstr
+    end
+
+    def change_attr(node, attr, value)
       case attr
       when "mp", "hp", "anger"
         node.css("Precondition Cost").each do |node|
