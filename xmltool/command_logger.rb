@@ -35,6 +35,10 @@ module XMLTool
       @logger.info outstr
     end
 
+    def print_modified_files(file_count, attr_count)
+      @logger.info "\nModified #{attr_count} attributes in #{file_count} files".red.bold
+    end
+
     def log_error_and_exit(message)
       @logger.error message.red
       exit(1)

@@ -38,7 +38,7 @@ module XMLTool
       skill.select_files
       skill.change_with(attrs, link)
 
-      puts "", "Modified #{attrs.count} attributes in #{skill.file_count} files".red.bold
+      @logger.print_modified_files(skill.file_count, attrs.count)
     end
 
     desc "area NAME MOB ATTRIBUTES", "modify area"
@@ -64,7 +64,7 @@ module XMLTool
 
       area.change_with(attrs)
 
-      puts "", "Modified #{attrs.count} attributes in #{area.file_count} files".red.bold
+      @logger.print_modified_files(area.file_count, attrs.count)
     end
 
     no_commands do
