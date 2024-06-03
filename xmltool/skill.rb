@@ -43,7 +43,7 @@ module XMLTool
 
     def change_with(attrs, link)
       @files.each do |key, value|
-        puts "#{key.capitalize.red.bold}:"
+        print_source(key)
 
         value.each do |file|
           process_file(file, attrs, link)
@@ -54,8 +54,7 @@ module XMLTool
     private
 
     def process_file(file, attrs, link)
-      print_indent(1)
-      puts file.blue.bold
+      print_file(file)
 
       data = read_file(file)
       doc = parse_xml(data)
@@ -89,7 +88,7 @@ module XMLTool
     def change_skill_data(nodes, id, attrs, config_attrs = nil)
       nodes.find_all { |n| n["id"] == id }.each do |node|
         print_indent(2)
-        puts "#{id.magenta}: #{node["name"].green}: " + "Line: #{node.line}".light_blue
+        print_id_name_line(id, node["name"], node.line)
         
         attrs.each do |attr, value|
           result = calculate_result(value, config_attrs&.dig(attr))
@@ -127,6 +126,21 @@ module XMLTool
       else
         base
       end
+    end
+
+    def print_source(source)
+      print_indent(1)
+      puts "#{source.capitalize.red.bold}:"
+    end
+
+    def print_file(file)
+      print_indent(1)
+      puts file.blue.bold
+    end
+
+    def print_id_name_line(id, name, line)
+      print_indent(3)
+      puts "#{id.magenta}: #{name.green}: " + "Line: #{line}".light_blue
     end
 
     def print_attr(attr, result, config_value)

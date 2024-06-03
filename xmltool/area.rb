@@ -34,18 +34,18 @@ module XMLTool
 
     private
 
-    def traverse_config(cfg, attrs, keys = [], toggle = true)
+    def traverse_config(cfg, attrs, areas = [], toggle = true)
       cfg.each do |key, value|
         if toggle && (key == "server" || key == "client")
           toggle = !toggle
-          puts "", "#{keys.join("/").cyan.bold}:"
+          print_areas(areas)
         end
 
         if key == "server" || key == "client"
           @mode = key
-          puts"#{key.capitalize.red.bold}:"
+          print_source(key)
         else
-          keys.push(key)
+          areas.push(key)
         end
 
         if value.is_a?(Array)
@@ -53,10 +53,10 @@ module XMLTool
             change_attributes(v, attrs)
           end
         else
-          traverse_config(value, attrs, keys, toggle)
+          traverse_config(value, attrs, areas, toggle)
         end
 
-        keys.pop unless key == "server" || key == "client"
+        areas.pop unless key == "server" || key == "client"
       end
     end
 
@@ -180,6 +180,14 @@ module XMLTool
       elsif file[/^TerritoryData/] && attrs.key?("respawnTime")
         true
       end
+    end
+
+    def print_areas(areas)
+      puts "", "#{areas.join("/").cyan.bold}:"
+    end
+
+    def print_source(source)
+      puts "#{source.red.bold}:"
     end
 
     def print_file(path, file)
