@@ -16,13 +16,7 @@ module XMLTool
     def skill(clazz, id, *attrs_raw)
       link = ask("Do you want to apply linked skills? (Y/N)").downcase
       attrs = parse_attrs(attrs_raw)
-      
-      begin
-        global_config = Psych.load_file("config/sources.yml")
-      rescue Psych::Exception => e
-        puts "Error loading configuration: #{e.message}"
-        exit
-      end
+      global_config = load_config("config/sources.yml")
 
       skill = Skill.new(global_config["sources"], clazz, id)
       skill.load_config("config/skill/#{clazz}.yml")
@@ -36,17 +30,22 @@ module XMLTool
     def area(name, mob, *attrs_raw)
       attrs = parse_attrs(attrs_raw)
       areas = name.split("/")
-
-      begin
-        global_config = Psych.load_file("config/sources.yml")
-      rescue Psych::Exception => e
-        puts "Error loading configuration: #{e.message}"
-        exit
-      end
+      global_config = load_config("config/sources.yml")
       
       area = Area.new(global_config["sources"], areas, mob)
       area.load_config("config/area.yml")
       area.change_with(attrs)
+    end
+
+    no_commands do
+      def load_config(path)
+        begin
+          Psych.load_file(path)
+        rescue Psych::Exception => e
+          puts "Error loading configuration: #{e.message}"
+          exit
+        end
+      end
     end
   end
 end
