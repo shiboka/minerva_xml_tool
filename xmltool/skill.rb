@@ -102,8 +102,6 @@ module XMLTool
       end
     end
 
-    private
-
     def calculate_result(base_value, config_value)
       base = base_value.to_f
       if config_value
