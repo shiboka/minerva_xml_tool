@@ -1,6 +1,7 @@
 require "nokogiri"
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
+require_relative "../xml_modifier/xml_modifier_area"
 require_relative "../config"
 require_relative "../errors"
 
@@ -38,32 +39,40 @@ module XMLTool
 
     def traverse_config(cfg, attrs, areas = [], toggle = true)
       cfg.each do |key, value|
-        if toggle && (key == "server" || key == "client")
-          toggle = !toggle
-          @logger.print_areas(areas)
-        end
-
-        if key == "server" || key == "client"
-          @mode = key
-          @logger.print_source(key)
-        else
-          areas.push(key)
-        end
-
-        if value.is_a?(Array)
-          value.each do |v|
-            change_attributes(v, attrs)
-          end
-        else
-          traverse_config(value, attrs, areas, toggle)
-        end
-
-        areas.pop unless key == "server" || key == "client"
+        toggle = handle_toggle(key, toggle, areas)
+        handle_mode_and_area(key, areas)
+        process_value(value, attrs, areas, toggle)
       end
     end
 
+    def handle_toggle(key, toggle, areas)
+      if toggle && (key == "server" || key == "client")
+        toggle = !toggle
+        @logger.print_areas(areas)
+      end
+      toggle
+    end
+
+    def handle_mode_and_area(key, areas)
+      if key == "server" || key == "client"
+        @mode = key
+        @logger.print_source(key)
+      else
+        areas.push(key)
+      end
+    end
+
+    def process_value(value, attrs, areas, toggle)
+      if value.is_a?(Array)
+        value.each { |v| change_attributes(v, attrs) }
+      else
+        traverse_config(value, attrs, areas, toggle)
+      end
+      areas.pop unless @mode
+    end
+
     def change_attributes(file, attrs)
-      path = determine_path(file)
+      path = FileUtils.determine_path(file, @sources, @mode)
     
       if should_print_file(file, attrs)
         @logger.print_file(file, path)
@@ -72,87 +81,10 @@ module XMLTool
     
       data = FileUtils.read_file(File.join(path, file))
       doc = FileUtils.parse_xml(data)
-      handle_mob_case(doc, attrs)
+      xml_modifier = XMLModifierArea.new(doc)
+      xml_modifier.handle_mob_case(@mob, attrs)
     
       File.open(File.join("out/", path, file), "w") { |f| f.write(doc.root.to_xml) }
-    end
-
-    def determine_path(file)
-      if @mode == "client"
-        if file[/^NpcData/]
-          @sources["client"] + "/NpcData"
-        elsif file[/^TerritoryData/]
-          @sources["client"] + "/TerritoryData"
-        end
-      else
-        @sources["server"]
-      end
-    end
-
-    def handle_mob_case(doc, attrs)
-      has_respawn_time = attrs.key? "respawnTime"
-      multiple_attrs = attrs.length > 1
-
-      case @mob
-      when "small", "medium", "large"
-        change_npc_data(doc, "size", @mob, attrs)
-      when "elite"
-        change_npc_data(doc, "elite", "true", attrs)
-      when "all"
-        if has_respawn_time
-          change_territory_data(doc, nil, attrs)
-          change_npc_data(doc, nil, nil, attrs) if multiple_attrs
-        else
-          change_npc_data(doc, nil, nil, attrs)
-        end
-      else
-        if has_respawn_time
-          change_territory_data(doc, @mob, attrs)
-          change_npc_data(doc, "id", @mob, attrs) if multiple_attrs
-        else
-          change_npc_data(doc, "id", @mob, attrs)
-        end
-      end
-    end
-
-    def change_npc_data(doc, comp, comp_value, attrs)
-      doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
-        @logger.print_id_name_line(node["id"], node["desc"], node.line)
-        attrs.each do |attr, value|
-          change_npc_attr(node, attr, value)
-        end
-      end
-    end
-
-    def change_territory_data(doc, comp_value, attrs)
-      doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
-        @logger.print_id_name_line(node["npcTemplateId"], node["desc"], node.line)
-        attrs.each do |attr, value|
-          change_territory_attr(node, attr, value)
-        end
-      end
-    end
-
-    def change_npc_attr(node, attr, value)
-      case attr
-      when "maxHp", "atk", "def"
-        node.css("Stat").each do |node|
-          node[attr] = value
-          @logger.print_area_attr(attr, value, node.line)
-        end
-      when "str", "res"
-        node.css("Critical").each do |node|
-          node[attr] = value
-          @logger.print_area_attr(attr, value, node.line)
-        end
-      end
-    end
-
-    def change_territory_attr(node, attr, value)
-      if attr == "respawnTime"
-        node[attr] = value
-        @logger.print_area_attr(attr, value, node.line)
-      end
     end
 
     def should_print_file(file, attrs)

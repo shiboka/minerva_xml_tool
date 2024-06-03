@@ -19,5 +19,17 @@ module XMLTool
         raise XmlParseError, "Error parsing XML: #{e.message}"
       end
     end
+
+    def self.determine_path(file, sources, mode)
+      if mode == "client"
+        if file[/^NpcData/]
+          sources["client"] + "/NpcData"
+        elsif file[/^TerritoryData/]
+          sources["client"] + "/TerritoryData"
+        end
+      else
+        sources["server"]
+      end
+    end
   end
 end
