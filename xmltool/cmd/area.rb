@@ -65,7 +65,7 @@ module XMLTool
     def change_attributes(file, attrs)
       path = determine_path(file)
     
-      if to_print_file(file, attrs)
+      if should_print_file(file, attrs)
         @logger.print_file(file, path)
         @file_count += 1
       end
@@ -155,7 +155,7 @@ module XMLTool
       end
     end
 
-    def to_print_file(file, attrs)
+    def should_print_file(file, attrs)
       if file[/^NpcData/] && %w[maxHp atk def str res].any? { |key| attrs.key?(key) }
         true
       elsif file[/^TerritoryData/] && attrs.key?("respawnTime")
