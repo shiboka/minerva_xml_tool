@@ -1,7 +1,7 @@
 require "nokogiri"
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
-require_relative "../xml_modifier/xml_modifier_area"
+require_relative "../xml/xml_modifier_area"
 require_relative "../config"
 require_relative "../errors"
 
