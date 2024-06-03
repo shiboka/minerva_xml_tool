@@ -1,4 +1,5 @@
 require "logger"
+require "colorize"
 
 module XMLTool
   class CommandLogger

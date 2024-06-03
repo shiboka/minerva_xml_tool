@@ -1,7 +1,4 @@
 require "thor"
-require "nokogiri"
-require "psych"
-require "colorize"
 require_relative "xmltool/skill"
 require_relative "xmltool/area"
 require_relative "xmltool/command_logger"

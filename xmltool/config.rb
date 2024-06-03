@@ -1,3 +1,6 @@
+require "psych"
+require_relative "errors"
+
 module XMLTool
   class Config
     class ConfigLoadError < StandardError; end
