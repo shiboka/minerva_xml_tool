@@ -5,6 +5,8 @@ require "colorize"
 require_relative "xmltool/skill"
 require_relative "xmltool/area"
 require_relative "xmltool/command_logger"
+require_relative "xmltool/config"
+require_relative "xmltool/errors"
 require_relative "xmltool/util"
 
 module XMLTool
@@ -23,13 +25,7 @@ module XMLTool
       link = ask("Do you want to apply linked skills? (Y/N)").downcase
       attrs = parse_attrs(attrs_raw)
 
-      begin
-        global_config = load_config("config/sources.yml")
-      rescue ConfigLoadError => e
-        @logger.log_error_and_exit(e.message)
-      end
-        
-
+      global_config = Config.load_config("config/sources.yml")
       skill = Skill.new(global_config["sources"], clazz, id)
 
       begin
@@ -49,12 +45,7 @@ module XMLTool
       attrs = parse_attrs(attrs_raw)
       areas = name.split("/")
 
-      begin
-      global_config = load_config("config/sources.yml")
-      rescue ConfigLoadError => e
-        @logger.log_error_and_exit(e.message)
-      end
-      
+      global_config = Config.load_config("config/sources.yml")
       area = Area.new(global_config["sources"], areas, mob)
 
       begin
@@ -66,16 +57,6 @@ module XMLTool
       area.change_with(attrs)
 
       @logger.print_modified_files(area.file_count, attrs.count)
-    end
-
-    no_commands do
-      def load_config(path)
-        begin
-          Psych.load_file(path)
-        rescue Psych::Exception => e
-          raise ConfigLoadError, "Error loading configuration: #{e.message}"
-        end
-      end
     end
   end
 end

@@ -12,11 +12,7 @@ module XMLTool
     end
 
     def load_config(path)
-      begin
-        @config = Psych.load_file(path)
-      rescue Psych::Exception => e
-        raise ConfigLoadError, "Error loading configuration: #{e.message}"
-      end
+      @config = Config.load_config(path)
 
       @areas.each do |a|
         if @config.key?(a)
