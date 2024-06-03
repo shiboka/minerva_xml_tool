@@ -1,8 +1,11 @@
+require_relative "command_logger"
+
 module XMLTool
   class Skill
     attr_reader :file_count
 
     def initialize(sources, clazz, id)
+      @logger = CommandLogger.new
       @sources = sources
       @clazz = clazz
       @id = id
@@ -13,7 +16,7 @@ module XMLTool
       begin
         @config = Psych.load_file(path)
       rescue Psych::Exception => e
-        puts "Error loading configuration: #{e.message}"
+        raise ConfigLoadError, "Error loading configuration: #{e.message}"
       end
     end
 
@@ -43,7 +46,7 @@ module XMLTool
 
     def change_with(attrs, link)
       @files.each do |key, value|
-        print_source(key)
+        @logger.print_source(key)
 
         value.each do |file|
           process_file(file, attrs, link)
@@ -54,10 +57,14 @@ module XMLTool
     private
 
     def process_file(file, attrs, link)
-      print_file(file)
+      @logger.print_file(file)
 
-      data = read_file(file)
-      doc = parse_xml(data)
+      begin
+        data = read_file(file)
+        doc = parse_xml(data)
+      rescue FileNotFoundError, FileReadError, XmlParseError => e
+        @logger.log_error_and_exit(e.message)
+      end
 
       nodes = doc.css("Skill")
       change_skill_data(nodes, @id, attrs)
@@ -74,27 +81,26 @@ module XMLTool
     def read_file(file)
       File.read(file)
     rescue Errno::ENOENT
-      puts "File not found: #{file}"
+      raise FileNotFoundError, "File not found: #{file}"
     rescue => e
-      puts "Error reading file: #{e.message}"
+      raise FileReadError, "Error reading file: #{e.message}"
     end
 
     def parse_xml(data)
       Nokogiri::XML(data)
     rescue Nokogiri::XML::SyntaxError => e
-      puts "Error parsing XML: #{e.message}"
+      raise XmlParseError, "Error parsing XML: #{e.message}"
     end
 
     def change_skill_data(nodes, id, attrs, config_attrs = nil)
       nodes.find_all { |n| n["id"] == id }.each do |node|
-        print_indent(2)
-        print_id_name_line(id, node["name"], node.line)
+        @logger.print_id_name_line(id, node["name"], node.line)
         
         attrs.each do |attr, value|
           result = calculate_result(value, config_attrs&.dig(attr))
           change_attr(node, attr, result)
 
-          print_attr(attr, result, config_attrs&.dig(attr))
+          @logger.print_skill_attr(attr, result, config_attrs&.dig(attr))
         end
       end
     end
@@ -126,31 +132,6 @@ module XMLTool
       else
         base
       end
-    end
-
-    def print_source(source)
-      puts "#{source.capitalize.red.bold}:"
-    end
-
-    def print_file(file)
-      print_indent(1)
-      puts file.blue.bold
-    end
-
-    def print_id_name_line(id, name, line)
-      print_indent(3)
-      puts "#{id.magenta}: #{name.green}: " + "Line: #{line}".light_blue
-    end
-
-    def print_attr(attr, result, config_value)
-      print_indent(3)
-      outstr = "- #{attr}=#{result} ".yellow
-      outstr += config_value.grey if config_value
-      puts outstr
-    end
-
-    def print_indent(indent)
-      print "  " * indent
     end
   end
 end

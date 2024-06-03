@@ -1,8 +1,10 @@
+require_relative "command_logger"
 module XMLTool
   class Area
     attr_reader :file_count
 
     def initialize(sources, areas, mob)
+      @logger = CommandLogger.new
       @sources = sources
       @areas = areas
       @mob = mob
@@ -13,15 +15,14 @@ module XMLTool
       begin
         @config = Psych.load_file(path)
       rescue Psych::Exception => e
-        puts "Error loading configuration: #{e.message}"
+        raise ConfigLoadError, "Error loading configuration: #{e.message}"
       end
 
       @areas.each do |a|
         if @config.key?(a)
           @config = @config[a]
         else
-          puts "Area not found: #{a}"
-          exit
+          raise AreaNotFoundError, "Area not found: #{a}"
         end
       end
 
@@ -38,12 +39,12 @@ module XMLTool
       cfg.each do |key, value|
         if toggle && (key == "server" || key == "client")
           toggle = !toggle
-          print_areas(areas)
+          @logger.print_areas(areas)
         end
 
         if key == "server" || key == "client"
           @mode = key
-          print_source(key)
+          @logger.print_source(key)
         else
           areas.push(key)
         end
@@ -64,12 +65,22 @@ module XMLTool
       path = determine_path(file)
     
       if to_print_file(file, attrs)
-        print_file(path, file)
+        @logger.print_file(file, path)
+        @file_count += 1
       end
     
+      begin
       data = read_file(File.join(path, file))
+      rescue FileNotFoundError, FileReadError => e
+        @logger.log_error_and_exit(e.message)
+      end
+
+      begin
       doc = parse_xml(data)
-    
+      rescue XmlParseError => e
+        @logger.log_error_and_exit(e.message)
+      end
+
       handle_mob_case(doc, attrs)
     
       File.open(File.join("out/", path, file), "w") { |f| f.write(doc.root.to_xml) }
@@ -91,11 +102,9 @@ module XMLTool
       begin
         File.read(file)
       rescue Errno::ENOENT
-        puts "File not found: #{file}"
-        exit
+        raise FileNotFoundError, "File not found: #{file}"
       rescue => e
-        puts "Error reading file: #{e.message}"
-        exit
+        raise FileReadError, "Error reading file: #{e.message}"
       end
     end
 
@@ -103,8 +112,7 @@ module XMLTool
       begin
         Nokogiri::XML(data)
       rescue Nokogiri::XML::SyntaxError => e
-        puts "Error parsing XML: #{e.message}"
-        exit
+        raise XmlParseError, "Error parsing XML: #{e.message}"
       end
     end
 
@@ -136,7 +144,7 @@ module XMLTool
 
     def change_npc_data(doc, comp, comp_value, attrs)
       doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
-        print_id_name_line(node["id"], node["desc"], node.line)
+        @logger.print_id_name_line(node["id"], node["desc"], node.line)
         attrs.each do |attr, value|
           change_npc_attr(node, attr, value)
         end
@@ -145,7 +153,7 @@ module XMLTool
 
     def change_territory_data(doc, comp_value, attrs)
       doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
-        print_id_name_line(node["npcTemplateId"], node["desc"], node.line)
+        @logger.print_id_name_line(node["npcTemplateId"], node["desc"], node.line)
         attrs.each do |attr, value|
           change_territory_attr(node, attr, value)
         end
@@ -157,12 +165,12 @@ module XMLTool
       when "maxHp", "atk", "def"
         node.css("Stat").each do |node|
           node[attr] = value
-          print_attr(attr, value, node.line)
+          @logger.print_area_attr(attr, value, node.line)
         end
       when "str", "res"
         node.css("Critical").each do |node|
           node[attr] = value
-          pprint_attr(attr, value, node.line)
+          @logger.print_area_attr(attr, value, node.line)
         end
       end
     end
@@ -170,7 +178,7 @@ module XMLTool
     def change_territory_attr(node, attr, value)
       if attr == "respawnTime"
         node[attr] = value
-        print_attr(attr, value, node.line)
+        @logger.print_area_attr(attr, value, node.line)
       end
     end
 
@@ -180,34 +188,6 @@ module XMLTool
       elsif file[/^TerritoryData/] && attrs.key?("respawnTime")
         true
       end
-    end
-
-    def print_areas(areas)
-      puts "", "#{areas.join("/").cyan.bold}:"
-    end
-
-    def print_source(source)
-      puts "#{source.red.bold}:"
-    end
-
-    def print_file(path, file)
-      print_indent(1)
-      puts "#{File.join(path, file).blue.bold}:"
-      @file_count += 1
-    end
-
-    def print_id_name_line(templateId, desc, line)
-      print_indent(2)
-      puts "#{templateId.magenta}: #{desc ? desc.green : "???".green}: " + "Line: #{line}".light_blue
-    end
-
-    def print_attr(attr, value, line)
-      print_indent(3)
-      puts "- #{attr}=#{value}".yellow
-    end
-
-    def print_indent(indent)
-      print "  " * indent
     end
   end
 end
