@@ -3,4 +3,5 @@ module XMLTool
   class FileReadError < StandardError; end
   class AreaNotFoundError < StandardError; end
   class XmlParseError < StandardError; end
+  class ConfigLoadError < StandardError; end
 end

@@ -3,8 +3,6 @@ require_relative "errors"
 
 module XMLTool
   class Config
-    class ConfigLoadError < StandardError; end
-
     def self.load_config(path)
       begin
         Psych.load_file(path)
