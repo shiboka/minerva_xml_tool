@@ -34,6 +34,7 @@ module XMLTool
 
       skill.select_files
       skill.change_with(attrs, link)
+
       @logger.print_modified_files(skill.file_count, attrs.count)
     end
 
@@ -52,6 +53,7 @@ module XMLTool
       end
 
       area.change_with(attrs)
+
       @logger.print_modified_files(area.file_count, attrs.count)
     end
 
@@ -62,6 +64,7 @@ module XMLTool
       stats = Stats.new(global_config["sources"], clazz, race)
       
       stats.change_with(attrs)
+      
       @logger.print_modified_files(1, attrs.count)
     end
   end
