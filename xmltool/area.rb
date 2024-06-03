@@ -2,6 +2,7 @@ require "nokogiri"
 require_relative "command_logger"
 require_relative "config"
 require_relative "errors"
+
 module XMLTool
   class Area
     attr_reader :file_count
