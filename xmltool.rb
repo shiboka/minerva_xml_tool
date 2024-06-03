@@ -1,6 +1,7 @@
 require "thor"
 require_relative "xmltool/cmd/skill"
 require_relative "xmltool/cmd/area"
+require_relative "xmltool/cmd/stats"
 require_relative "xmltool/command_logger"
 require_relative "xmltool/config"
 require_relative "xmltool/errors"
@@ -33,7 +34,6 @@ module XMLTool
 
       skill.select_files
       skill.change_with(attrs, link)
-
       @logger.print_modified_files(skill.file_count, attrs.count)
     end
 
@@ -52,8 +52,17 @@ module XMLTool
       end
 
       area.change_with(attrs)
-
       @logger.print_modified_files(area.file_count, attrs.count)
+    end
+
+    desc "stats CLASS RACE ATTRIBUTES", "modify player stats"
+    def stats(clazz, race, *attrs_raw)
+      attrs = AttrUtils.parse_attrs(attrs_raw)
+      global_config = Config.load_config("config/sources.yml")
+      stats = Stats.new(global_config["sources"], clazz, race)
+      
+      stats.change_with(attrs)
+      @logger.print_modified_files(1, attrs.count)
     end
   end
 end

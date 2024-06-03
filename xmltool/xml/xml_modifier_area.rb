@@ -62,12 +62,12 @@ module XMLTool
       when "maxHp", "atk", "def"
         node.css("Stat").each do |node|
           node[attr] = value
-          @logger.print_area_attr(attr, value, node.line)
+          @logger.print_attr(attr, value)
         end
       when "str", "res"
         node.css("Critical").each do |node|
           node[attr] = value
-          @logger.print_area_attr(attr, value, node.line)
+          @logger.print_attr(attr, value)
         end
       end
     end
@@ -75,7 +75,7 @@ module XMLTool
     def change_territory_attr(node, attr, value)
       if attr == "respawnTime"
         node[attr] = value
-        @logger.print_area_attr(attr, value, node.line)
+        @logger.print_attr(attr, value)
       end
     end
   end

@@ -26,7 +26,11 @@ module XMLTool
       @logger.info "#{indent(2)}#{id.magenta}: #{name ? name.green : "???".green}: " + "Line: #{line}".light_blue
     end
 
-    def print_area_attr(attr, value, line)
+    def print_class_race_gender_line(clazz, race, gender, line)
+      @logger.info "#{indent(2)}#{clazz.magenta}: #{race.green}: #{gender.red}: " + "Line #{line}".light_blue
+    end
+
+    def print_attr(attr, value)
       @logger.info "#{indent(3)}- #{attr}=#{value}".yellow
     end
 
