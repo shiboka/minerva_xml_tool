@@ -35,7 +35,7 @@ module XMLTool
 
     def change_with(attrs, link)
       @files.each do |key, value|
-        @logger.print_source(key)
+        @logger.print_mode(key)
 
         value.each do |file|
           process_file(file, attrs, link)

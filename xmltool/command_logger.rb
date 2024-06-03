@@ -14,7 +14,7 @@ module XMLTool
       @logger.info "\n#{areas.join("/").cyan.bold}:"
     end
 
-    def print_source(source)
+    def print_mode(source)
       @logger.info "#{source.red.bold}:"
     end
 

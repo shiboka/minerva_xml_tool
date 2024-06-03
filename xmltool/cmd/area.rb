@@ -56,7 +56,7 @@ module XMLTool
     def handle_mode_and_area(key, areas)
       if key == "server" || key == "client"
         @mode = key
-        @logger.print_source(key)
+        @logger.print_mode(key)
       else
         areas.push(key)
       end
