@@ -32,5 +32,14 @@ module XMLTool
         sources["server"]
       end
     end
+
+    def self.write_class_config(yaml_obj, clazz)
+      begin
+        Dir.mkdir("config/skill") unless Dir.exist?("config/skill")
+        File.write("config/skill/#{clazz}.yml", yaml_obj.to_yaml)
+      rescue SystemCallError => e
+        raise FileWriteError, "Error writing file: #{e.message}"
+      end
+    end
   end
 end

@@ -1,8 +1,8 @@
 require "psych"
-require_relative "errors"
+require_relative "../errors"
 
 module XMLTool
-  class Config
+  class ConfigLoader
     def self.load_config(path)
       begin
         Psych.load_file(path)

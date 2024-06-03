@@ -1,15 +1,15 @@
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_skill"
-require_relative "../config"
+require_relative "../config/config_loader"
 require_relative "../errors"
 
 module XMLTool
   class Skill
     attr_reader :file_count
 
-    def initialize(sources, clazz, id)
-      @logger = CommandLogger.new
+    def initialize(sources, clazz, id, logger = CommandLogger.new)
+      @logger = logger
       @sources = sources
       @clazz = clazz
       @id = id
@@ -17,7 +17,7 @@ module XMLTool
     end
 
     def load_config(path)
-      @config = Config.load_config(path)
+      @config = ConfigLoader.load_config(path)
     end
 
     def select_files
@@ -78,8 +78,8 @@ module XMLTool
       xml_modifier.change_skill_data(@id, attrs)
 
       if link == "y"
-        @config[@id.to_i].each do |config_id, config_attrs|
-          xml_modifier.change_skill_data(config_id.to_s, attrs, config_attrs)
+        @config[@id].each do |config_id, config_attrs|
+          xml_modifier.change_skill_data(config_id, attrs, config_attrs)
         end
       end
 

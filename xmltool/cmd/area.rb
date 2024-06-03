@@ -1,15 +1,15 @@
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_area"
-require_relative "../config"
+require_relative "../config/config_loader"
 require_relative "../errors"
 
 module XMLTool
   class Area
     attr_reader :file_count
 
-    def initialize(sources, areas, mob)
-      @logger = CommandLogger.new
+    def initialize(sources, areas, mob, logger = CommandLogger.new)
+      @logger = logger
       @sources = sources
       @areas = areas
       @mob = mob
@@ -17,7 +17,7 @@ module XMLTool
     end
 
     def load_config(path)
-      @config = Config.load_config(path)
+      @config = ConfigLoader.load_config(path)
 
       @areas.each do |a|
         if @config.key?(a)

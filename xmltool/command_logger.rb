@@ -10,6 +10,10 @@ module XMLTool
       end
     end
 
+    def print_msg(msg, color, indent = 0)
+      @logger.info "#{"  " * indent}#{msg.colorize(color)}"
+    end
+
     def print_areas(areas)
       @logger.info "\n#{areas.join("/").cyan.bold}:"
     end

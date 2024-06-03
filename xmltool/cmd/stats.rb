@@ -6,8 +6,8 @@ require_relative "../command_logger"
 
 module XMLTool
   class Stats
-    def initialize(sources, clazz, race)
-      @logger = CommandLogger.new
+    def initialize(sources, clazz, race, logger = CommandLogger.new)
+      @logger = logger
       @sources = sources
       @clazz = clazz
       @race = race

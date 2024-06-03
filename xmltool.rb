@@ -3,7 +3,8 @@ require_relative "xmltool/cmd/skill"
 require_relative "xmltool/cmd/area"
 require_relative "xmltool/cmd/stats"
 require_relative "xmltool/command_logger"
-require_relative "xmltool/config"
+require_relative "xmltool/config/config_loader"
+require_relative "xmltool/config/config_generator"
 require_relative "xmltool/errors"
 require_relative "xmltool/utils/attr_utils"
 
@@ -23,7 +24,12 @@ module XMLTool
       link = ask("Do you want to apply linked skills? (Y/N)").downcase
       attrs = AttrUtils.parse_attrs(attrs_raw)
 
-      global_config = Config.load_config("config/sources.yml")
+      begin
+        global_config = ConfigLoader.load_config("config/sources.yml")
+      rescue ConfigLoadError => e
+        @logger.log_error_and_exit(e.message)
+      end
+
       skill = Skill.new(global_config["sources"], clazz, id)
 
       begin
@@ -43,7 +49,12 @@ module XMLTool
       attrs = AttrUtils.parse_attrs(attrs_raw)
       areas = name.split("/")
 
-      global_config = Config.load_config("config/sources.yml")
+      begin
+        global_config = ConfigLoader.load_config("config/sources.yml")
+      rescue ConfigLoadError => e
+        @logger.log_error_and_exit(e.message)
+      end
+
       area = Area.new(global_config["sources"], areas, mob)
 
       begin
@@ -60,12 +71,29 @@ module XMLTool
     desc "stats CLASS RACE ATTRIBUTES", "modify player stats"
     def stats(clazz, race, *attrs_raw)
       attrs = AttrUtils.parse_attrs(attrs_raw)
-      global_config = Config.load_config("config/sources.yml")
+
+      begin
+        global_config = ConfigLoader.load_config("config/sources.yml")
+      rescue ConfigLoadError => e
+        @logger.log_error_and_exit(e.message)
+      end
+
       stats = Stats.new(global_config["sources"], clazz, race)
-      
       stats.change_with(attrs)
-      
+
       @logger.print_modified_files(1, attrs.count)
+    end
+
+    desc "config CLASS", "generate config for class"
+    def config(clazz)
+      begin
+        global_config = ConfigLoader.load_config("config/sources.yml")
+      rescue ConfigLoadError => e
+        @logger.log_error_and_exit(e.message)
+      end
+
+      config_gen = ConfigGenerator.new(global_config["sources"], clazz)
+      config_gen.generate_config
     end
   end
 end

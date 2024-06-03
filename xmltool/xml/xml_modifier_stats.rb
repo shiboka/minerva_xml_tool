@@ -4,8 +4,8 @@ require_relative "../command_logger"
 
 module XMLTool
   class XMLModifierStats
-    def initialize(nodes)
-      @logger = CommandLogger.new
+    def initialize(nodes, logger = CommandLogger.new)
+      @logger = logger
       @nodes = nodes
     end
 

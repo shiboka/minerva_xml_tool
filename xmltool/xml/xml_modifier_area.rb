@@ -2,8 +2,8 @@ require_relative "../command_logger"
 
 module XMLTool
   class XMLModifierArea
-    def initialize(doc)
-      @logger = CommandLogger.new
+    def initialize(doc, logger = CommandLogger.new)
+      @logger = logger
       @doc = doc
     end
 

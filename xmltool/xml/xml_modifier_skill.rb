@@ -2,9 +2,9 @@ require_relative "../command_logger"
 
 module XMLTool
   class XMLModifierSkill
-    def initialize(nodes)
+    def initialize(nodes, logger = CommandLogger.new)
+      @logger = logger
       @nodes = nodes
-      @logger = CommandLogger.new
     end
 
     def change_skill_data(id, attrs, config_attrs = nil)
