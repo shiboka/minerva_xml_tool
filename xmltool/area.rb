@@ -4,7 +4,6 @@ module XMLTool
       @sources = sources
       @areas = areas
       @mob = mob
-      @indent = 1
     end
 
     def load_config(path)
@@ -36,13 +35,12 @@ module XMLTool
       cfg.each do |key, value|
         if toggle and (key == "server" or key == "client")
           toggle = !toggle
-          puts "#{keys.join("/").cyan.bold}:"
+          puts "", "#{keys.join("/").cyan.bold}:"
         end
 
         if key == "server" or key == "client"
           @mode = key
-          print_indent
-          puts"#{key.capitalize}:".red.bold
+          puts"#{key.capitalize.red.bold}:"
         else
           keys.push(key)
         end
@@ -134,8 +132,7 @@ module XMLTool
 
     def change_npc_data(doc, comp, comp_value, attrs)
       doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
-        print_indent(2)
-        puts "#{node["id"].to_s.magenta}: #{node["name"] ? node["name"].to_s.green : "???".green}"
+        print_id_and_name(node["id"], node["desc"])
         attrs.each do |attr, value|
           change_npc_attr(node, attr, value)
         end
@@ -144,8 +141,7 @@ module XMLTool
 
     def change_territory_data(doc, comp_value, attrs)
       doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
-        print_indent(2)
-        puts "#{node["npcTemplateId"].magenta}: #{node["desc"] ? node["desc"].green : "???".green}"
+        print_id_and_name(node["npcTemplateId"], node["desc"])
         attrs.each do |attr, value|
           change_territory_attr(node, attr, value)
         end
@@ -157,14 +153,12 @@ module XMLTool
       when "maxHp", "atk", "def"
         node.css("Stat").each do |node|
           node[attr] = value
-          print_indent(3)
-          puts "+ #{attr}=#{value}".yellow + " Line: #{node.line}".light_blue
+          print_attr(attr, value, node.line)
         end
       when "str", "res"
         node.css("Critical").each do |node|
           node[attr] = value
-          print_indent(3)
-          puts "+ #{attr}=#{value}".yellow + " Line: #{node.line}".light_blue
+          pprint_attr(attr, value, node.line)
         end
       end
     end
@@ -172,13 +166,22 @@ module XMLTool
     def change_territory_attr(node, attr, value)
       if attr == "respawnTime"
         node[attr] = value
-        print_indent(3)
-        puts "+ #{attr}=#{value}".yellow + " Line: #{node.line}".light_blue
+        pprint_attr(attr, value, node.line)
       end
     end
 
-    def print_indent(i = 0)
-      print "  " * (@indent + i)
+    def print_id_and_name(templateId, desc)
+      print_indent(2)
+      puts "#{templateId.magenta}: #{desc ? desc.green : "???".green}"
+    end
+
+    def print_attr(attr, value, line)
+      print_indent(3)
+      puts "+ #{attr}=#{value}".yellow + " Line: #{line}".light_blue
+    end
+
+    def print_indent(indent)
+      print "  " * indent
     end
   end
 end
