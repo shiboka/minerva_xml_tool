@@ -9,14 +9,17 @@ require_relative "xmltool/util"
 
 module XMLTool
   class App < Thor
+    def initialize(*args)
+      super
+      @logger = CommandLogger.new
+    end
+
     def self.exit_on_failure?
       true
     end
 
     desc "skill CLASS ID ATTRIBUTES", "modify skill"
     def skill(clazz, id, *attrs_raw)
-      @logger = CommandLogger.new
-
       link = ask("Do you want to apply linked skills? (Y/N)").downcase
       attrs = parse_attrs(attrs_raw)
 
@@ -43,8 +46,6 @@ module XMLTool
 
     desc "area NAME MOB ATTRIBUTES", "modify area"
     def area(name, mob, *attrs_raw)
-      @logger = CommandLogger.new
-
       attrs = parse_attrs(attrs_raw)
       areas = name.split("/")
 
