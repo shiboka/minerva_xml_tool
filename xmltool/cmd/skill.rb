@@ -1,7 +1,8 @@
 require "nokogiri"
-require_relative "command_logger"
-require_relative "config"
-require_relative "errors"
+require_relative "../command_logger"
+require_relative "../utils/file_utils"
+require_relative "../config"
+require_relative "../errors"
 
 module XMLTool
   class Skill
@@ -59,8 +60,8 @@ module XMLTool
       @logger.print_file(file)
 
       begin
-        data = read_file(file)
-        doc = parse_xml(data)
+        data = FileUtils.read_file(file)
+        doc = FileUtils.parse_xml(data)
       rescue FileNotFoundError, FileReadError, XmlParseError => e
         @logger.log_error_and_exit(e.message)
       end
@@ -75,20 +76,6 @@ module XMLTool
       end
 
       File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
-    end
-
-    def read_file(file)
-      File.read(file)
-    rescue Errno::ENOENT
-      raise FileNotFoundError, "File not found: #{file}"
-    rescue => e
-      raise FileReadError, "Error reading file: #{e.message}"
-    end
-
-    def parse_xml(data)
-      Nokogiri::XML(data)
-    rescue Nokogiri::XML::SyntaxError => e
-      raise XmlParseError, "Error parsing XML: #{e.message}"
     end
 
     def change_skill_data(nodes, id, attrs, config_attrs = nil)

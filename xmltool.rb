@@ -1,10 +1,10 @@
 require "thor"
-require_relative "xmltool/skill"
-require_relative "xmltool/area"
+require_relative "xmltool/cmd/skill"
+require_relative "xmltool/cmd/area"
 require_relative "xmltool/command_logger"
 require_relative "xmltool/config"
 require_relative "xmltool/errors"
-require_relative "xmltool/util"
+require_relative "xmltool/utils/attr_utils"
 
 module XMLTool
   class App < Thor
@@ -20,7 +20,7 @@ module XMLTool
     desc "skill CLASS ID ATTRIBUTES", "modify skill"
     def skill(clazz, id, *attrs_raw)
       link = ask("Do you want to apply linked skills? (Y/N)").downcase
-      attrs = parse_attrs(attrs_raw)
+      attrs = AttrUtils.parse_attrs(attrs_raw)
 
       global_config = Config.load_config("config/sources.yml")
       skill = Skill.new(global_config["sources"], clazz, id)
@@ -39,7 +39,7 @@ module XMLTool
 
     desc "area NAME MOB ATTRIBUTES", "modify area"
     def area(name, mob, *attrs_raw)
-      attrs = parse_attrs(attrs_raw)
+      attrs = AttrUtils.parse_attrs(attrs_raw)
       areas = name.split("/")
 
       global_config = Config.load_config("config/sources.yml")

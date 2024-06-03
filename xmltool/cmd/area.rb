@@ -1,7 +1,8 @@
 require "nokogiri"
-require_relative "command_logger"
-require_relative "config"
-require_relative "errors"
+require_relative "../command_logger"
+require_relative "../utils/file_utils"
+require_relative "../config"
+require_relative "../errors"
 
 module XMLTool
   class Area
@@ -69,18 +70,8 @@ module XMLTool
         @file_count += 1
       end
     
-      begin
-      data = read_file(File.join(path, file))
-      rescue FileNotFoundError, FileReadError => e
-        @logger.log_error_and_exit(e.message)
-      end
-
-      begin
-      doc = parse_xml(data)
-      rescue XmlParseError => e
-        @logger.log_error_and_exit(e.message)
-      end
-
+      data = FileUtils.read_file(File.join(path, file))
+      doc = FileUtils.parse_xml(data)
       handle_mob_case(doc, attrs)
     
       File.open(File.join("out/", path, file), "w") { |f| f.write(doc.root.to_xml) }
@@ -95,24 +86,6 @@ module XMLTool
         end
       else
         @sources["server"]
-      end
-    end
-
-    def read_file(file)
-      begin
-        File.read(file)
-      rescue Errno::ENOENT
-        raise FileNotFoundError, "File not found: #{file}"
-      rescue => e
-        raise FileReadError, "Error reading file: #{e.message}"
-      end
-    end
-
-    def parse_xml(data)
-      begin
-        Nokogiri::XML(data)
-      rescue Nokogiri::XML::SyntaxError => e
-        raise XmlParseError, "Error parsing XML: #{e.message}"
       end
     end
 
