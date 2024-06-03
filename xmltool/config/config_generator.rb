@@ -57,7 +57,7 @@ module XMLTool
       xml_base_values = {}
       yaml_obj = {}
 
-      #this determines whether the skill is level 01 and stores the predefined attrs in xml_base_values
+      #determines whether the skill is level 01 and stores the attrs in xml_base_values
       @doc.css("SkillData Skill").select { |node| node["id"][LV_START..LV_END] == "01" }.each do |node|
         id = node["id"]
         xml_base_values[id] = @attrs.each_with_object({"name" => node["name"]}) do |attr, hash|
@@ -91,9 +91,9 @@ module XMLTool
       end
     end
 
-    def generate_skill_data(node, base_values)
+    def generate_skill_data(node, xml_base_values)
       @attrs.each_with_object({"name" => node["name"]}) do |attr, hash|
-        base = base_values[attr]
+        base = xml_base_values[attr]
         value = node[attr]
         next unless value && base
 
