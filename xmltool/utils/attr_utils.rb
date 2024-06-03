@@ -9,5 +9,4 @@ module XMLTool
       attrs_hash
     end
   end
-
 end
