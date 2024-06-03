@@ -102,22 +102,6 @@ module XMLTool
       end
     end
 
-    def calculate_result(base_value, config_value)
-      base = base_value.to_f
-      if config_value
-        mod = config_value.to_f
-        base + base * mod
-      else
-        base
-      end
-    end
-
-    def print_attr(attr, result, config_value)
-      outstr = "    + #{attr}=#{result}".yellow
-      outstr += " " + config_value.light_blue if config_value
-      puts outstr
-    end
-
     def change_attr(node, attr, value)
       case attr
       when "mp", "hp", "anger"
@@ -135,6 +119,22 @@ module XMLTool
       when "totalAtk", "timeRate", "attackRange"
         node[attr] = value
       end
+    end
+
+    def calculate_result(base_value, config_value)
+      base = base_value.to_f
+      if config_value
+        mod = config_value.to_f
+        base + base * mod
+      else
+        base
+      end
+    end
+
+    def print_attr(attr, result, config_value)
+      outstr = "    + #{attr}=#{result}".yellow
+      outstr += " " + config_value.light_blue if config_value
+      puts outstr
     end
   end
 end
