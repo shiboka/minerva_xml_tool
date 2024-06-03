@@ -20,6 +20,8 @@ module XMLTool
       end
     end
 
+    private
+
     def change_attr(node, attr, value)
       case attr
       when "mp", "hp", "anger"

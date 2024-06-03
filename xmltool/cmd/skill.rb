@@ -29,8 +29,9 @@ module XMLTool
         files = files.map { |f| File.join(path, f) }
         files = filter_client_files(files, key)
         @files[key] = files
-        @file_count = @files.values.flatten.count
       end
+      
+      @file_count = @files.values.flatten.count
     end
 
     def change_with(attrs, link)
