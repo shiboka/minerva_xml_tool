@@ -1,4 +1,3 @@
-require "nokogiri"
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_skill"
@@ -30,7 +29,7 @@ module XMLTool
         files = filter_client_files(files, key)
         @files[key] = files
       end
-      
+
       @file_count = @files.values.flatten.count
     end
 

@@ -1,3 +1,4 @@
+require "nokogiri"
 require_relative "../errors"
 
 module XMLTool
