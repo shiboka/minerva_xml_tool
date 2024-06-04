@@ -1,6 +1,5 @@
 require "rspec"
 require_relative "../../xmltool/app"
-require_relative "../../xmltool/command_logger"
 
 describe XMLTool::App do
   let(:logger) { instance_double(XMLTool::CommandLogger) }
