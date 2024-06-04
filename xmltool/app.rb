@@ -28,6 +28,7 @@ module XMLTool
         global_config = ConfigLoader.load_config("config/sources.yml")
       rescue ConfigLoadError => e
         @logger.log_error_and_exit(e.message)
+        return
       end
 
       skill = Skill.new(global_config["sources"], clazz, id)
@@ -36,6 +37,7 @@ module XMLTool
         skill.load_config("config/skill/#{clazz}.yml")
       rescue ConfigLoadError => e
         @logger.log_error_and_exit(e.message)
+        return
       end
 
       skill.select_files
@@ -53,6 +55,7 @@ module XMLTool
         global_config = ConfigLoader.load_config("config/sources.yml")
       rescue ConfigLoadError => e
         @logger.log_error_and_exit(e.message)
+        return
       end
 
       area = Area.new(global_config["sources"], areas, mob)
@@ -61,6 +64,7 @@ module XMLTool
         area.load_config("config/area.yml")
       rescue ConfigLoadError, AreaNotFoundError => e
         @logger.log_error_and_exit(e.message)
+        return
       end
 
       area.change_with(attrs)
@@ -76,6 +80,7 @@ module XMLTool
         global_config = ConfigLoader.load_config("config/sources.yml")
       rescue ConfigLoadError => e
         @logger.log_error_and_exit(e.message)
+        return
       end
 
       stats = Stats.new(global_config["sources"], clazz, race)
@@ -90,6 +95,7 @@ module XMLTool
         global_config = ConfigLoader.load_config("config/sources.yml")
       rescue ConfigLoadError => e
         @logger.log_error_and_exit(e.message)
+        return
       end
 
       config_gen = ConfigGenerator.new(global_config["sources"], clazz)
