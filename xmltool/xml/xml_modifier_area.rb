@@ -17,7 +17,7 @@ module XMLTool
         "id" => -> { handle_id_mob_case(mob, attrs) }
       }
 
-      strategy = strategies[@mob] || strategies["id"]
+      strategy = strategies[mob] || strategies["id"]
       strategy.call
     end
 
