@@ -9,12 +9,12 @@ module XMLTool
 
     def handle_mob_case(mob, attrs)
       strategies = {
-        "small" => -> { change_npc_data("size", mob, attrs) },
-        "medium" => -> { change_npc_data("size", mob, attrs) },
-        "large" => -> { change_npc_data("size", mob, attrs) },
-        "elite" => -> { change_npc_data("elite", "true", attrs) },
+        "small" => -> { change_npc_data(attrs, "size", mob) },
+        "medium" => -> { change_npc_data(attrs, "size", mob) },
+        "large" => -> { change_npc_data(attrs, "size", mob) },
+        "elite" => -> { change_npc_data(attrs, "elite", "true") },
         "all" => -> { handle_all_mob_case(attrs) },
-        "id" => -> { handle_id_mob_case(mob, attrs) }
+        "id" => -> { handle_id_mob_case(attrs, mob) }
       }
 
       strategy = strategies[mob] || strategies["id"]
@@ -27,19 +27,19 @@ module XMLTool
       has_respawn_time = attrs.key? "respawnTime"
       multiple_attrs = attrs.length > 1
 
-      change_territory_data(nil, attrs) if has_respawn_time
-      change_npc_data(nil, nil, attrs) if multiple_attrs || !has_respawn_time
+      change_territory_data(attrs) if has_respawn_time
+      change_npc_data(attrs) if multiple_attrs || !has_respawn_time
     end
 
-    def handle_id_mob_case(mob, attrs)
+    def handle_id_mob_case(attrs, mob)
       has_respawn_time = attrs.key? "respawnTime"
       multiple_attrs = attrs.length > 1
 
-      change_territory_data(mob, attrs) if has_respawn_time
-      change_npc_data("id", mob, attrs) if multiple_attrs || !has_respawn_time
+      change_territory_data(attrs, mob) if has_respawn_time
+      change_npc_data(attrs, "id", mob) if multiple_attrs || !has_respawn_time
     end
 
-    def change_npc_data(comp, comp_value, attrs)
+    def change_npc_data(attrs, comp = nil, comp_value = nil)
       @doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
         @logger.print_id_name_line(node["id"], node["name"], node.line)
         attrs.each do |attr, value|
@@ -48,7 +48,7 @@ module XMLTool
       end
     end
 
-    def change_territory_data(comp_value, attrs)
+    def change_territory_data(attrs, comp_value = nil)
       @doc.css("TerritoryData TerritoryGroup TerritoryList Territory Npc").find_all { |n| comp_value ? n["npcTemplateId"] == comp_value : n }.each do |node|
         @logger.print_id_name_line(node["npcTemplateId"], node["desc"], node.line)
         attrs.each do |attr, value|
