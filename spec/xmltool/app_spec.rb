@@ -2,22 +2,20 @@ require "rspec"
 require_relative "../../xmltool/app"
 
 describe XMLTool::App do
-  let(:logger) { instance_double(XMLTool::CommandLogger) }
   let(:app) { XMLTool::App.new }
-  let(:attrs_raw) { ["attr1=value1", "attr2=value2"] }
-  let(:attrs) { {"attr1" => "value1", "attr2" => "value2"} }
-  let(:global_config) { {"sources" => "some_value"} } # ensure global_config is not nil
+  let(:logger) { instance_double(XMLTool::CommandLogger) }
   let(:skill) { instance_double(XMLTool::Skill) }
   let(:area) { instance_double(XMLTool::Area) }
   let(:stats) { instance_double(XMLTool::Stats) }
-  let(:config_generator) { instance_double("ConfigGenerator") }
-  let(:clazz) { "SomeClass" }
+  let(:global_config) { {"sources" => "value"} }
+  let(:attrs_raw) { ["attr1=value1", "attr2=value2"] }
+  let(:attrs) { {"attr1" => "value1", "attr2" => "value2"} }
   
   before do
     allow(XMLTool::CommandLogger).to receive(:new).and_return(logger)
-
     allow(XMLTool::AttrUtils).to receive(:parse_attrs).and_return(attrs)
     allow(XMLTool::ConfigLoader).to receive(:load_config).and_return(global_config)
+    
     allow(XMLTool::Skill).to receive(:new).and_return(skill)
     allow(skill).to receive(:load_config)
     allow(skill).to receive(:select_files)
@@ -31,9 +29,6 @@ describe XMLTool::App do
     
     allow(XMLTool::Stats).to receive(:new).and_return(stats)
     allow(stats).to receive(:change_with)
-    
-    allow(XMLTool::ConfigGenerator).to receive(:new).and_return(config_generator)
-    allow(config_generator).to receive(:generate_config)
   end
   
   describe "#skill" do
