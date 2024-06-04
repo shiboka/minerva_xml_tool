@@ -29,7 +29,6 @@ describe XMLTool::App do
     allow(XMLTool::Stats).to receive(:new).and_return(stats)
     allow(stats).to receive(:change_with)
     
-    allow(XMLTool::ConfigLoader).to receive(:load_config).and_return(global_config)
     allow(XMLTool::ConfigGenerator).to receive(:new).and_return(config_generator)
     allow(config_generator).to receive(:generate_config)
   end
