@@ -47,7 +47,7 @@ module XMLTool
       skill = Skill.new(global_config["sources"], clazz, id)
 
       begin
-        skill.load_config("config/skill/#{clazz}.yml")
+        skill.load_config("config/skill/#{clazz}.yml", link)
       rescue ConfigLoadError => e
         @logger.log_error_and_exit(e.message)
         return

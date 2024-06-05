@@ -6,6 +6,7 @@ require_relative "../errors"
 
 module XMLTool
   class Skill
+    attr_accessor :config
     attr_reader :file_count
 
     def initialize(sources, clazz, id, logger = CommandLogger.new)
@@ -16,8 +17,8 @@ module XMLTool
       @files = {}
     end
 
-    def load_config(path)
-      @config = ConfigLoader.load_config(path)
+    def load_config(path, link)
+      @config = link == "n" ? {} : ConfigLoader.load_config(path)
     end
 
     def select_files

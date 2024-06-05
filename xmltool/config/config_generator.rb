@@ -98,9 +98,9 @@ module XMLTool
         next unless value && base
 
         modifier = 0
-        modifier = value.to_f / base.to_f - 1 unless base.to_f.zero?
+        modifier = (value.to_f / base.to_f - 1) * 100 unless base.to_f.zero?
 
-        hash[attr] = format("%+0.4f", modifier) unless modifier.negative?
+        hash[attr] = format("%+0.0000f%%", modifier) unless modifier.negative?
       end
     end
   end

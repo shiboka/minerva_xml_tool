@@ -1,4 +1,5 @@
 require_relative "../command_logger"
+require_relative "../utils/math_utils"
 
 module XMLTool
   class XMLModifierSkill
@@ -12,9 +13,16 @@ module XMLTool
         @logger.print_id_name_line(id, node["name"], node.line)
         
         attrs.each do |attr, value|
-          result = calculate_result(value, config_attrs&.dig(attr))
-          change_attr(node, attr, result)
+          config_attr = config_attrs&.dig(attr)
+          
+          begin
+            result = config_attr ? MathUtils.calculate_result(value, config_attr) : format("%.4f", value)
+          rescue ArgumentError => e
+            @logger.log_error_and_exit(e.message)
+            return
+          end
 
+          change_attr(node, attr, result)
           @logger.print_skill_attr(attr, result, config_attrs&.dig(attr))
         end
       end
@@ -38,16 +46,6 @@ module XMLTool
         end
       when "totalAtk", "timeRate", "attackRange"
         node[attr] = value
-      end
-    end
-
-    def calculate_result(base_value, config_value)
-      base = base_value.to_f
-      if config_value
-        mod = config_value.to_f
-        base + base * mod
-      else
-        base
       end
     end
   end
