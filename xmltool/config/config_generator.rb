@@ -84,77 +84,48 @@ module XMLTool
     end
 
     def generate_yaml_from_xml(xml_base_values, yaml_skills, yaml_skills_child)
-      yaml_skills.each do |key, _value|
-        @logger.print_msg("Generating chain for skill #{key}", :light_black, 1)
-        generate_chain(xml_base_values, yaml_skills, key)
-        @logger.print_msg("Generating children for skill #{key}", :light_black, 1)
-        generate_children(xml_base_values, yaml_skills, yaml_skills_child, key)
+      yaml_skills.each_key do |id|
+        @logger.print_msg("Generating chain for skill #{id}", :light_black, 1)
+        generate_chain(xml_base_values, yaml_skills, id)
+        @logger.print_msg("Generating children for skill #{id}", :light_black, 1)
+        generate_children(xml_base_values, yaml_skills, yaml_skills_child, id)
       end
       [yaml_skills, yaml_skills_child]
     end
 
-    def insert_anchors(yaml_data)
-      yaml_string = yaml_data.to_yaml(line_width: -1).gsub(/^---\n/, "")
-      yaml_data["variables"].each_key do |key|
-        yaml_string.gsub!(/('#{key}':)/, "\\1 &#{key}")
-      end
-      yaml_string
-    end
-
-    def insert_aliases(yaml_skills, yaml_skills_child)
-      yaml_string = yaml_skills.to_yaml(line_width: -1).gsub(/^---\n/, "")
-      yaml_skills.each do |key, value|
-        if yaml_skills_child["variables"].key?(key)
-          yaml_string.gsub!(/('#{key}':\n\s*children:) tmp/, "\\1 *#{key}")
-        else
-          yaml_string.gsub!(/('#{key}':)\n\s*children: tmp/, "\\1")
-        end
-        value.each do |k, v|
-          if yaml_skills_child["variables"].key?(k)
-          yaml_string.gsub!(/('#{k}':\n\s*children:) tmp/, "\\1 *#{k}")
-          else
-            yaml_string.gsub!(/('#{k}':)\n\s*children: tmp/, "\\1")
-          end
-        end
-      end
-      yaml_string
-    end
-
-    def generate_children(xml_base_values, yaml_skills, yaml_skills_child, key)
-      (1..MAX_LEVEL).each do |i|
-        new_id = key.chop.chop + i.to_s.rjust(2, "0")
-        node = @doc.at_css("SkillData Skill[id=\"#{new_id}\"]")
-        break unless node
-        yaml_obj = { "name" => node["name"] }
-        yaml_skills_child["variables"][key] = {} unless yaml_skills_child["variables"][key]
-        yaml_skills_child["variables"][key][new_id] = generate_skill_data(node, xml_base_values[key], yaml_obj)
-      end
-      yaml_skills[key].each do |k, v|
-        (1..MAX_LEVEL).each do |i|
-          new_id = k.chop.chop + i.to_s.rjust(2, "0")
-          node = @doc.at_css("SkillData Skill[id=\"#{new_id}\"]")
-          break unless node
-          yaml_obj = { "name" => node["name"] }
-          yaml_skills_child["variables"][k] = {} unless yaml_skills_child["variables"][k]
-          yaml_skills_child["variables"][k][new_id] = generate_skill_data(node, xml_base_values[key], yaml_obj)
-        end
-      end
-    end
-
-    def generate_chain(xml_base_values, yaml_skills, key)
+    def generate_chain(xml_base_values, yaml_skills, id)
       (2..MAX_LEVEL).each do |i|
         level = i.to_s.rjust(2, "0") + "00"
-        new_id = key.dup
+        new_id = id.dup
         new_id[LV_START..LV_END] = level
         node = @doc.at_css("SkillData Skill[id=\"#{new_id}\"]")
         break unless node
-        yaml_obj = { "children" => "tmp", "name" => node["name"] }
-        yaml_skills[key][new_id] = generate_skill_data(node, xml_base_values[key], yaml_obj)
+        initial_obj = { "children" => "tmp", "name" => node["name"] }
+        yaml_skills[id][new_id] = generate_skill_data(node, xml_base_values[id], initial_obj)
       end
     end
 
-    def generate_skill_data(node, xml_base_values, yaml_obj)
-      @attrs.each_with_object(yaml_obj) do |attr, hash|
+    def generate_children(xml_base_values, yaml_skills, yaml_skills_child, base_id)
+      generate_children_levels(xml_base_values, yaml_skills_child, base_id)
+      
+      yaml_skills[base_id].each_key do |child_id|
+        generate_children_levels(xml_base_values, yaml_skills_child, base_id, child_id)
+      end
+    end
+
+    def generate_children_levels(xml_base_values, yaml_skills_child, base_id, child_id = base_id)
+      (1..MAX_LEVEL).each do |i|
+        new_id = child_id.chop.chop + i.to_s.rjust(2, "0")
+        node = @doc.at_css("SkillData Skill[id=\"#{new_id}\"]")
+        break unless node
+        initial_obj = { "name" => node["name"] }
+        yaml_skills_child["variables"][child_id] = {} unless yaml_skills_child["variables"][child_id]
+        yaml_skills_child["variables"][child_id][new_id] = generate_skill_data(node, xml_base_values[base_id], initial_obj)
+      end
+    end
+
+    def generate_skill_data(node, xml_base_values, initial_obj)
+      @attrs.each_with_object(initial_obj) do |attr, hash|
         base = xml_base_values[attr]
         value = node[attr]
         next unless value && base
@@ -166,6 +137,35 @@ module XMLTool
       end
     end
 
+    def insert_anchors(yaml_skills_child)
+      yaml_string = yaml_skills_child.to_yaml(line_width: -1).gsub(/^---\n/, "")
+      yaml_skills_child["variables"].each_key do |key|
+        yaml_string.gsub!(/('#{key}':)/, "\\1 &#{key}")
+      end
+      yaml_string
+    end
+
+    def insert_aliases(yaml_skills, yaml_skills_child)
+      yaml_string = yaml_skills.to_yaml(line_width: -1).gsub(/^---\n/, "")
+
+      yaml_skills.each do |id, value|
+        if yaml_skills_child["variables"].key?(id)
+          yaml_string.gsub!(/('#{id}':\n\s*children:) tmp/, "\\1 *#{id}")
+        else
+          yaml_string.gsub!(/('#{id}':)\n\s*children: tmp/, "\\1")
+        end
+
+        value.each do |k, v|
+          if yaml_skills_child["variables"].key?(k)
+            yaml_string.gsub!(/('#{k}':\n\s*children:) tmp/, "\\1 *#{k}")
+          else
+            yaml_string.gsub!(/('#{k}':)\n\s*children: tmp/, "\\1")
+          end
+        end
+      end
+      yaml_string
+    end
+
     def clean_yaml(yaml_obj)
       yaml_obj.each do |key, value|
         value.each do |k, v|
@@ -173,6 +173,7 @@ module XMLTool
             v.delete("name")
             v.delete("children")
           end
+
           v.delete("name") if v.length == 1 && v.key?("name")
           v.delete_if { |_k, val| val.nil? } if v.is_a?(Hash)
           value.delete(k) if v.empty?
