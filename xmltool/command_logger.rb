@@ -34,13 +34,9 @@ module XMLTool
       @logger.info "#{indent(2)}#{clazz.magenta}: #{race.green}: #{gender.red}: " + "Line #{line}".light_blue
     end
 
-    def print_attr(attr, value)
-      @logger.info "#{indent(3)}- #{attr}=#{value}".yellow
-    end
-
-    def print_skill_attr(attr, value, config_value)
+    def print_attr(attr, value, mod = nil)
       outstr = "#{indent(3)}- #{attr}=#{value} ".yellow
-      outstr += config_value.grey if config_value
+      outstr += mod.grey if mod
       @logger.info outstr
     end
 

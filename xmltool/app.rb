@@ -84,6 +84,10 @@ long_desc <<-LONGDESC
       If your config defined only a top-level area: fey_forest. You can modify the respawnTime of all small mobs in the area like this:
 
       ruby xmltool.rb area fey_forest small respawnTime=100
+
+      Modify by a percentage:
+
+      ruby xmltool.rb area fey_forest medium maxHp=+10%
     LONGDESC
     def area(name, mob, *attrs_raw)
       attrs = AttrUtils.parse_attrs(attrs_raw)

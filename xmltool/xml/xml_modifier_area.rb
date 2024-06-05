@@ -46,13 +46,7 @@ module XMLTool
       @doc.css("NpcData Template").find_all { |n| comp ? n[comp] == comp_value : n }.each do |node|
         @logger.print_id_name_line(node["id"], node["name"], node.line)
         attrs.each do |attr, value|
-          begin
-            result = MathUtils.calculate_result(node[attr], value)
-          rescue ArgumentError
-            result = format("%.4f", value)
-          end
-
-          change_npc_attr(node, attr, result)
+          change_npc_attr(node, attr, value)
         end
       end
     end
@@ -77,21 +71,32 @@ module XMLTool
       case attr
       when "maxHp", "atk", "def"
         node.css("Stat").each do |node|
-          node[attr] = value
-          @logger.print_attr(attr, value)
+          result = calculate_result(node, attr, value)
+          node[attr] = result
+          @logger.print_attr(attr, result, value)
         end
       when "str", "res"
         node.css("Critical").each do |node|
-          node[attr] = value
-          @logger.print_attr(attr, value)
+          result = calculate_result(node, attr, value)
+          node[attr] = result
+          @logger.print_attr(attr, result, value)
         end
       end
     end
 
     def change_territory_attr(node, attr, value)
       if attr == "respawnTime"
-        node[attr] = value
-        @logger.print_attr(attr, value)
+        result = calculate_result(node, attr, value)
+        node[attr] = result
+        @logger.print_attr(attr, result, value)
+      end
+    end
+
+    def calculate_result(node, attr, value)
+      begin
+        MathUtils.calculate_result(node[attr], value)
+      rescue ArgumentError
+        format("%.4f", value)
       end
     end
   end

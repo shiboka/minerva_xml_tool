@@ -23,7 +23,7 @@ module XMLTool
           end
 
           change_attr(node, attr, result)
-          @logger.print_skill_attr(attr, result, config_attrs&.dig(attr))
+          @logger.print_attr(attr, result, config_attrs&.dig(attr))
         end
       end
     end
