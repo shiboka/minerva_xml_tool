@@ -17,8 +17,8 @@ module XMLTool
       @files = {}
     end
 
-    def load_config(path, link)
-      @config = link == "n" ? {} : ConfigLoader.load_config(path)
+    def load_config(clazz, link)
+      @config = link == "n" ? {} : ConfigLoader.load_skill_config("config/skill/children/#{clazz}.yml", "config/skill/#{clazz}.yml")
     end
 
     def select_files
@@ -79,8 +79,16 @@ module XMLTool
       xml_modifier.change_skill_data(@id, attrs)
 
       if link == "y"
+        @config[@id]["children"].each do |config_id, config_attrs|
+          xml_modifier.change_skill_data(config_id, attrs, config_attrs)
+        end if @config[@id]["children"]
+
         @config[@id].each do |config_id, config_attrs|
           xml_modifier.change_skill_data(config_id, attrs, config_attrs)
+
+          config_attrs["children"].each do |config_id, config_attrs|
+            xml_modifier.change_skill_data(config_id, attrs, config_attrs)
+          end if config_attrs["children"]
         end
       end
 

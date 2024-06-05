@@ -1,0 +1,193 @@
+variables:
+  '10100': &10100
+    '10101':
+      name: Popori_F_Warrior_Lv01_Combo_Attack 02
+      totalAtk: "+10%"
+    '10102':
+      name: Popori_F_Warrior_Lv01_Combo_Attack 03
+      totalAtk: "+21%"
+    '10103':
+      name: Popori_F_Warrior_Lv01_Combo_Attack 04
+      totalAtk: "+106%"
+  '190100': &190100
+    '190101':
+      name: Popori_F_Warrior_Lv01_Tenacious Attack_Attack 02
+      totalAtk: "+43%"
+  '10200': &10200
+    '10201':
+      name: Popori_F_Warrior_Lv02_Combo_Attack 02
+      totalAtk: "+51%"
+    '10202':
+      name: Popori_F_Warrior_Lv02_Combo_Attack 03
+      totalAtk: "+65%"
+    '10203':
+      name: Popori_F_Warrior_Lv02_Combo_Attack 04
+      totalAtk: "+183%"
+  '10300': &10300
+    '10301':
+      name: Popori_F_Warrior_Lv03_Combo_Attack 02
+      totalAtk: "+121%"
+    '10302':
+      name: Popori_F_Warrior_Lv03_Combo_Attack 03
+      totalAtk: "+141%"
+    '10303':
+      name: Popori_F_Warrior_Lv03_Combo_Attack 04
+      totalAtk: "+313%"
+  '10400': &10400
+    '10401':
+      name: Popori_F_Warrior_Lv04_Combo_Attack 02
+      totalAtk: "+222%"
+    '10402':
+      name: Popori_F_Warrior_Lv04_Combo_Attack 03
+      totalAtk: "+252%"
+    '10403':
+      name: Popori_F_Warrior_Lv04_Combo_Attack 04
+      totalAtk: "+502%"
+  '10500': &10500
+    '10501':
+      name: Popori_F_Warrior_Lv05_Combo_Attack 02
+      totalAtk: "+370%"
+    '10502':
+      name: Popori_F_Warrior_Lv05_Combo_Attack 03
+      totalAtk: "+414%"
+    '10503':
+      name: Popori_F_Warrior_Lv05_Combo_Attack 04
+      totalAtk: "+778%"
+  '10600': &10600
+    '10601':
+      name: Popori_F_Warrior_Lv06_Combo_Attack 02
+      totalAtk: "+585%"
+    '10602':
+      name: Popori_F_Warrior_Lv06_Combo_Attack 03
+      totalAtk: "+650%"
+    '10603':
+      name: Popori_F_Warrior_Lv06_Combo_Attack 04
+      totalAtk: "+1182%"
+  '10700': &10700
+    '10701':
+      name: Popori_F_Warrior_Lv07_Combo_Attack 02
+      totalAtk: "+900%"
+    '10702':
+      name: Popori_F_Warrior_Lv07_Combo_Attack 03
+      totalAtk: "+994%"
+    '10703':
+      name: Popori_F_Warrior_Lv07_Combo_Attack 04
+      totalAtk: "+1770%"
+  '10800': &10800
+    '10801':
+      name: Popori_F_Warrior_Lv08_Combo_Attack 02
+      totalAtk: "+1359%"
+    '10802':
+      name: Popori_F_Warrior_Lv08_Combo_Attack 03
+      totalAtk: "+1497%"
+    '10803':
+      name: Popori_F_Warrior_Lv08_Combo_Attack 04
+      totalAtk: "+2628%"
+  '10900': &10900
+    '10901':
+      name: Popori_F_Warrior_Lv09_Combo_Attack 02
+      totalAtk: "+2029%"
+    '10902':
+      name: Popori_F_Warrior_Lv09_Combo_Attack 03
+      totalAtk: "+2230%"
+    '10903':
+      name: Popori_F_Warrior_Lv09_Combo_Attack 04
+      totalAtk: "+3881%"
+  '11000': &11000
+    '11001':
+      name: Popori_F_Warrior_Lv10_Combo_Attack 02
+      totalAtk: "+3007%"
+    '11002':
+      name: Popori_F_Warrior_Lv10_Combo_Attack 03
+      totalAtk: "+3300%"
+    '11003':
+      name: Popori_F_Warrior_Lv10_Combo_Attack 04
+      totalAtk: "+5709%"
+  '11100': &11100
+    '11101':
+      name: Popori_F_Warrior_Lv11_Combo_Attack 02
+      totalAtk: "+4433%"
+    '11102':
+      name: Popori_F_Warrior_Lv11_Combo_Attack 03
+      totalAtk: "+4860%"
+    '11103':
+      name: Popori_F_Warrior_Lv11_Combo_Attack 04
+      totalAtk: "+8377%"
+  '11200': &11200
+    '11201':
+      name: Popori_F_Warrior_Lv12_Combo_Attack 02
+      totalAtk: "+6110%"
+    '11202':
+      name: Popori_F_Warrior_Lv12_Combo_Attack 03
+      totalAtk: "+6696%"
+    '11203':
+      name: Popori_F_Warrior_Lv12_Combo_Attack 04
+      totalAtk: "+11514%"
+  '170500': &170500
+    '170501':
+      name: Popori_F_Warrior_Lv05_All Round Slash_Attack Aggro 01
+      totalAtk: "+353%"
+    '170502':
+      name: Popori_F_Warrior_Lv05_All Round Slash_Attack Defence 01
+      totalAtk: "+353%"
+  '170600': &170600
+    '170601':
+      name: Popori_F_Warrior_Lv06_All Round Slash_Attack Aggro 01
+      totalAtk: "+561%"
+    '170602':
+      name: Popori_F_Warrior_Lv06_All Round Slash_Attack Defence 01
+      totalAtk: "+561%"
+  '170700': &170700
+    '170701':
+      name: Popori_F_Warrior_Lv07_All Round Slash_Attack Aggro 01
+      totalAtk: "+806%"
+    '170702':
+      name: Popori_F_Warrior_Lv07_All Round Slash_Attack Defence 01
+      totalAtk: "+806%"
+  '181100': &181100
+    '181101':
+      name: Popori_F_Warrior_Lv11_Aggravating Strike_Attack_Aggro
+      totalAtk: "+4559%"
+    '181102':
+      name: Popori_F_Warrior_Lv11_Aggravating Strike_Attack_Defence
+      totalAtk: "+4559%"
+  '190200': &190200
+    '190201':
+      name: Popori_F_Warrior_Lv02_Tenacious Attack_Attack 02
+      totalAtk: "+109%"
+  '190300': &190300
+    '190301':
+      name: Popori_F_Warrior_Lv03_Tenacious Attack_Attack 02
+      totalAtk: "+205%"
+  '190400': &190400
+    '190401':
+      name: Popori_F_Warrior_Lv04_Tenacious Attack_Attack 02
+      totalAtk: "+345%"
+  '190500': &190500
+    '190501':
+      name: Popori_F_Warrior_Lv05_Tenacious Attack_Attack 02
+      totalAtk: "+550%"
+  '190600': &190600
+    '190601':
+      name: Popori_F_Warrior_Lv06_Tenacious Attack_Attack 02
+      totalAtk: "+848%"
+  '190700': &190700
+    '190701':
+      name: Popori_F_Warrior_Lv07_Tenacious Attack_Attack 02
+      totalAtk: "+1284%"
+  '190800': &190800
+    '190801':
+      name: Popori_F_Warrior_Lv08_Tenacious Attack_Attack 02
+      totalAtk: "+1919%"
+  '190900': &190900
+    '190901':
+      name: Popori_F_Warrior_Lv09_Tenacious Attack_Attack 02
+      totalAtk: "+2846%"
+  '191000': &191000
+    '191001':
+      name: Popori_F_Warrior_Lv10_Tenacious Attack_Attack 02
+      totalAtk: "+4199%"
+  '191100': &191100
+    '191101':
+      name: Popori_F_Warrior_Lv11_Tenacious Attack_Attack 02
+      totalAtk: "+5790%"

@@ -33,10 +33,19 @@ module XMLTool
       end
     end
 
-    def self.write_class_config(yaml_obj, clazz)
+    def self.write_class_config(yaml_string, clazz)
       begin
         Dir.mkdir("config/skill") unless Dir.exist?("config/skill")
-        File.write("config/skill/#{clazz}.yml", yaml_obj.to_yaml)
+        File.write("config/skill/#{clazz}.yml", yaml_string)
+      rescue SystemCallError => e
+        raise FileWriteError, "Error writing file: #{e.message}"
+      end
+    end
+
+    def self.write_class_child_config(yaml_string, clazz)
+      begin
+        Dir.mkdir("config/skill/children") unless Dir.exist?("config/skill/children")
+        File.write("config/skill/children/#{clazz}.yml", yaml_string)
       rescue SystemCallError => e
         raise FileWriteError, "Error writing file: #{e.message}"
       end

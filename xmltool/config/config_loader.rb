@@ -14,5 +14,18 @@ module XMLTool
         raise ConfigLoadError, "Config file not found: #{path}"
       end
     end
+
+    def self.load_skill_config(child, parent)
+      child_data = File.read(child)
+      parent_data = File.read(parent)
+      data = child_data + "\n" + parent_data
+      File.write("out/config_dump.yml", data)
+
+      begin
+        Psych.safe_load(data, aliases: true)
+      rescue Psych::Exception => e
+        raise ConfigLoadError, "Error loading configuration: #{e.message}"
+      end
+    end
   end
 end

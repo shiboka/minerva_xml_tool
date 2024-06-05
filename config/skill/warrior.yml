@@ -1,1308 +1,442 @@
----
 '10100':
+  children: *10100
   '10200':
+    children: *10200
     name: Popori_F_Warrior_Lv02_Combo_Attack 01
     totalAtk: "+37%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '10300':
+    children: *10300
     name: Popori_F_Warrior_Lv03_Combo_Attack 01
     totalAtk: "+100%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '10400':
+    children: *10400
     name: Popori_F_Warrior_Lv04_Combo_Attack 01
     totalAtk: "+192%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '10500':
+    children: *10500
     name: Popori_F_Warrior_Lv05_Combo_Attack 01
     totalAtk: "+326%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '10600':
+    children: *10600
     name: Popori_F_Warrior_Lv06_Combo_Attack 01
     totalAtk: "+521%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '10700':
+    children: *10700
     name: Popori_F_Warrior_Lv07_Combo_Attack 01
     totalAtk: "+806%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '10800':
+    children: *10800
     name: Popori_F_Warrior_Lv08_Combo_Attack 01
     totalAtk: "+1222%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '10900':
+    children: *10900
     name: Popori_F_Warrior_Lv09_Combo_Attack 01
     totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '11000':
+    children: *11000
     name: Popori_F_Warrior_Lv10_Combo_Attack 01
     totalAtk: "+2715%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '11100':
+    children: *11100
     name: Popori_F_Warrior_Lv11_Combo_Attack 01
     totalAtk: "+4008%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '11200':
+    children: *11200
     name: Popori_F_Warrior_Lv12_Combo_Attack 01
     totalAtk: "+5528%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'10101':
-  '10201':
-    name: Popori_F_Warrior_Lv02_Combo_Attack 02
-    totalAtk: "+37%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10301':
-    name: Popori_F_Warrior_Lv03_Combo_Attack 02
-    totalAtk: "+100%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10401':
-    name: Popori_F_Warrior_Lv04_Combo_Attack 02
-    totalAtk: "+192%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10501':
-    name: Popori_F_Warrior_Lv05_Combo_Attack 02
-    totalAtk: "+326%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10601':
-    name: Popori_F_Warrior_Lv06_Combo_Attack 02
-    totalAtk: "+521%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10701':
-    name: Popori_F_Warrior_Lv07_Combo_Attack 02
-    totalAtk: "+806%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10801':
-    name: Popori_F_Warrior_Lv08_Combo_Attack 02
-    totalAtk: "+1222%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10901':
-    name: Popori_F_Warrior_Lv09_Combo_Attack 02
-    totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11001':
-    name: Popori_F_Warrior_Lv10_Combo_Attack 02
-    totalAtk: "+2715%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11101':
-    name: Popori_F_Warrior_Lv11_Combo_Attack 02
-    totalAtk: "+4008%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11201':
-    name: Popori_F_Warrior_Lv12_Combo_Attack 02
-    totalAtk: "+5528%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'10102':
-  '10202':
-    name: Popori_F_Warrior_Lv02_Combo_Attack 03
-    totalAtk: "+37%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10302':
-    name: Popori_F_Warrior_Lv03_Combo_Attack 03
-    totalAtk: "+100%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10402':
-    name: Popori_F_Warrior_Lv04_Combo_Attack 03
-    totalAtk: "+192%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10502':
-    name: Popori_F_Warrior_Lv05_Combo_Attack 03
-    totalAtk: "+326%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10602':
-    name: Popori_F_Warrior_Lv06_Combo_Attack 03
-    totalAtk: "+521%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10702':
-    name: Popori_F_Warrior_Lv07_Combo_Attack 03
-    totalAtk: "+806%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10802':
-    name: Popori_F_Warrior_Lv08_Combo_Attack 03
-    totalAtk: "+1222%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10902':
-    name: Popori_F_Warrior_Lv09_Combo_Attack 03
-    totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11002':
-    name: Popori_F_Warrior_Lv10_Combo_Attack 03
-    totalAtk: "+2715%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11102':
-    name: Popori_F_Warrior_Lv11_Combo_Attack 03
-    totalAtk: "+4008%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11202':
-    name: Popori_F_Warrior_Lv12_Combo_Attack 03
-    totalAtk: "+5528%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'10103':
-  '10203':
-    name: Popori_F_Warrior_Lv02_Combo_Attack 04
-    totalAtk: "+37%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10303':
-    name: Popori_F_Warrior_Lv03_Combo_Attack 04
-    totalAtk: "+100%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10403':
-    name: Popori_F_Warrior_Lv04_Combo_Attack 04
-    totalAtk: "+192%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10503':
-    name: Popori_F_Warrior_Lv05_Combo_Attack 04
-    totalAtk: "+326%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10603':
-    name: Popori_F_Warrior_Lv06_Combo_Attack 04
-    totalAtk: "+521%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10703':
-    name: Popori_F_Warrior_Lv07_Combo_Attack 04
-    totalAtk: "+806%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10803':
-    name: Popori_F_Warrior_Lv08_Combo_Attack 04
-    totalAtk: "+1222%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '10903':
-    name: Popori_F_Warrior_Lv09_Combo_Attack 04
-    totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11003':
-    name: Popori_F_Warrior_Lv10_Combo_Attack 04
-    totalAtk: "+2715%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11103':
-    name: Popori_F_Warrior_Lv11_Combo_Attack 04
-    totalAtk: "+4008%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '11203':
-    name: Popori_F_Warrior_Lv12_Combo_Attack 04
-    totalAtk: "+5528%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'20100': {}
 '30100':
   '30200':
     name: Popori_F_Warrior_Lv02_Dual Sword Dancing_Attack 01
     totalAtk: "+37%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '30300':
     name: Popori_F_Warrior_Lv03_Dual Sword Dancing_Attack 01
     totalAtk: "+76%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '40100':
   '40200':
     name: Popori_F_Warrior_Lv02_Concentrate Attack_Attack_Single 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '40300':
     name: Popori_F_Warrior_Lv03_Concentrate Attack_Attack_Single 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '40400':
     name: Popori_F_Warrior_Lv04_Concentrate Attack_Attack_Single 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '40500':
     name: Popori_F_Warrior_Lv05_Concentrate Attack_Attack_Single 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '40600':
     name: Popori_F_Warrior_Lv06_Concentrate Attack_Attack_Single 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '40700':
     name: Popori_F_Warrior_Lv07_Concentrate Attack_Attack_Single 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '40800':
     name: Popori_F_Warrior_Lv08_Concentrate Attack_Attack_Single 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '40900':
     name: Popori_F_Warrior_Lv09_Concentrate Attack_Attack_Single 01
     totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'40130':
-  '40230':
-    name: Popori_F_Warrior_Lv02_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '40330':
-    name: Popori_F_Warrior_Lv03_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '40430':
-    name: Popori_F_Warrior_Lv04_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '40530':
-    name: Popori_F_Warrior_Lv05_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '40630':
-    name: Popori_F_Warrior_Lv06_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '40730':
-    name: Popori_F_Warrior_Lv07_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '40830':
-    name: Popori_F_Warrior_Lv08_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '40930':
-    name: Popori_F_Warrior_Lv09_Concentrate Attack_Attack_Chain 01
-    totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'50100':
-  '50200':
-    name: Popori_M_Warrior_Lv02_Deafening Roar_Start 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '50300':
-    name: Popori_M_Warrior_Lv03_Deafening Roar_Start 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'70100':
-  '70200':
-    name: Popori_F_Warrior_Lv02_Inspiring Roar_Start 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'80100':
-  '80200':
-    name: Popori_F_Warrior_Lv02_Iron Will Aggro_ON 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '80300':
-    name: Popori_F_Warrior_Lv03_Iron Will Aggro_ON 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '80400':
-    name: Popori_F_Warrior_Lv04_Iron Will Aggro_ON 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'80150':
-  '80250':
-    name: Popori_F_Warrior_Lv02_Iron Will Aggro_OFF 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '80350':
-    name: Popori_F_Warrior_Lv03_Iron Will Aggro_OFF 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '80450':
-    name: Popori_F_Warrior_Lv04_Iron Will Aggro_OFF 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'90100':
-  '90200':
-    name: Popori_F_Warrior_Lv02_Iron Will Defence ON 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'90150':
-  '90250':
-    name: Popori_F_Warrior_Lv02_Iron Will Defence OFF 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '100100':
   '100200':
     name: Popori_F_Warrior_Lv02_Evasion Attack_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '100300':
     name: Popori_F_Warrior_Lv03_Evasion Attack_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '100400':
     name: Popori_F_Warrior_Lv04_Evasion Attack_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '100500':
     name: Popori_F_Warrior_Lv05_Evasion Attack_Attack 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '100600':
     name: Popori_F_Warrior_Lv06_Evasion Attack_Attack 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '100700':
     name: Popori_F_Warrior_Lv07_Evasion Attack_Attack 01
     totalAtk: "+928%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '110100':
   '110200':
     name: Popori_F_Warrior_Lv02_Poison Blow_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '110300':
     name: Popori_F_Warrior_Lv03_Poison Blow_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '110400':
     name: Popori_F_Warrior_Lv04_Poison Blow_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '110500':
     name: Popori_F_Warrior_Lv05_Poison Blow_Attack 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '110600':
     name: Popori_F_Warrior_Lv06_Poison Blow_Attack 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '110700':
     name: Popori_F_Warrior_Lv07_Poison Blow_Attack 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '110800':
     name: Popori_F_Warrior_Lv08_Poison Blow_Attack 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '110900':
     name: Popori_F_Warrior_Lv09_Poison Blow_Attack 01
     totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '111000':
     name: Popori_F_Warrior_Lv10_Poison Blow_Attack 01
     totalAtk: "+2898%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '111100':
     name: Popori_F_Warrior_Lv11_Poison Blow_Attack 01
     totalAtk: "+4008%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '120100':
   '120200':
     name: Popori_F_Warrior_Lv02_Down Blow_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '120300':
     name: Popori_F_Warrior_Lv03_Down Blow_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '120400':
     name: Popori_F_Warrior_Lv04_Down Blow_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '120500':
     name: Popori_F_Warrior_Lv05_Down Blow_Attack 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '120600':
     name: Popori_F_Warrior_Lv06_Down Blow_Attack 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '120700':
     name: Popori_F_Warrior_Lv07_Down Blow_Attack 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '120800':
     name: Popori_F_Warrior_Lv08_Down Blow_Attack 01
     totalAtk: "+1222%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '130100':
   '130200':
     name: Popori_F_Warrior_Lv02_Rising Attack_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '130300':
     name: Popori_F_Warrior_Lv03_Rising Attack_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '130400':
     name: Popori_F_Warrior_Lv04_Rising Attack_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '130500':
     name: Popori_F_Warrior_Lv05_Rising Attack_Attack 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '130600':
     name: Popori_F_Warrior_Lv06_Rising Attack_Attack 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '130700':
     name: Popori_F_Warrior_Lv07_Rising Attack_Attack 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '130800':
     name: Popori_F_Warrior_Lv08_Rising Attack_Attack 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '130900':
     name: Popori_F_Warrior_Lv09_Rising Attack_Attack 01
     totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '131000':
     name: Popori_F_Warrior_Lv10_Rising Attack_Attack 01
     totalAtk: "+2715%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'150100':
-  '150200':
-    name: Popori_F_Warrior_Lv02_MP Refresher_Cast 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'160100':
-  '160200':
-    name: Popori_F_Warrior_Lv02_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160300':
-    name: Popori_F_Warrior_Lv03_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160400':
-    name: Popori_F_Warrior_Lv04_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160500':
-    name: Popori_F_Warrior_Lv05_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160600':
-    name: Popori_F_Warrior_Lv06_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160700':
-    name: Popori_F_Warrior_Lv07_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160800':
-    name: Popori_F_Warrior_Lv08_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160900':
-    name: Popori_F_Warrior_Lv09_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '161000':
-    name: Popori_F_Warrior_Lv10_Rushing Slash_Attack 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'160101':
-  '160201':
-    name: Popori_F_Warrior_Lv02_Rushing Slash_Attack Connect
-    totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160301':
-    name: Popori_F_Warrior_Lv03_Rushing Slash_Attack Connect
-    totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160401':
-    name: Popori_F_Warrior_Lv04_Rushing Slash_Attack Connect
-    totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160501':
-    name: Popori_F_Warrior_Lv05_Rushing Slash_Attack Connect
-    totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160601':
-    name: Popori_F_Warrior_Lv06_Rushing Slash_Attack Connect
-    totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160701':
-    name: Popori_F_Warrior_Lv07_Rushing Slash_Attack Connect
-    totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160801':
-    name: Popori_F_Warrior_Lv08_Rushing Slash_Attack Connect
-    totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '160901':
-    name: Popori_F_Warrior_Lv09_Rushing Slash_Attack Connect
-    totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '161001':
-    name: Popori_F_Warrior_Lv10_Rushing Slash_Attack Connect
-    totalAtk: "+2715%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '170100':
   '170200':
     name: Popori_F_Warrior_Lv02_All Round Slash_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '170300':
     name: Popori_F_Warrior_Lv03_All Round Slash_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '170400':
     name: Popori_F_Warrior_Lv04_All Round Slash_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '170500':
+    children: *170500
     name: Popori_F_Warrior_Lv05_All Round Slash_Attack 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '170600':
+    children: *170600
     name: Popori_F_Warrior_Lv06_All Round Slash_Attack 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '170700':
+    children: *170700
     name: Popori_F_Warrior_Lv07_All Round Slash_Attack 01
     totalAtk: "+806%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '180100':
   '180200':
     name: Popori_F_Warrior_Lv02_Aggravating Strike_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '180300':
     name: Popori_F_Warrior_Lv03_Aggravating Strike_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '180400':
     name: Popori_F_Warrior_Lv04_Aggravating Strike_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '180500':
     name: Popori_F_Warrior_Lv05_Aggravating Strike_Attack 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '180600':
     name: Popori_F_Warrior_Lv06_Aggravating Strike_Attack 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '180700':
     name: Popori_F_Warrior_Lv07_Aggravating Strike_Attack 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '180800':
     name: Popori_F_Warrior_Lv08_Aggravating Strike_Attack 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '180900':
     name: Popori_F_Warrior_Lv09_Aggravating Strike_Attack 01
     totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '181000':
     name: Popori_F_Warrior_Lv10_Aggravating Strike_Attack 01
     totalAtk: "+2898%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '181100':
+    children: *181100
     name: Popori_F_Warrior_Lv11_Aggravating Strike_Attack_Start 01
     totalAtk: "+4559%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '190100':
+  children: *190100
   '190200':
+    children: *190200
     name: Popori_F_Warrior_Lv02_Tenacious Attack_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '190300':
+    children: *190300
     name: Popori_F_Warrior_Lv03_Tenacious Attack_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '190400':
+    children: *190400
     name: Popori_F_Warrior_Lv04_Tenacious Attack_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '190500':
+    children: *190500
     name: Popori_F_Warrior_Lv05_Tenacious Attack_Attack 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '190600':
+    children: *190600
     name: Popori_F_Warrior_Lv06_Tenacious Attack_Attack 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '190700':
+    children: *190700
     name: Popori_F_Warrior_Lv07_Tenacious Attack_Attack 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '190800':
+    children: *190800
     name: Popori_F_Warrior_Lv08_Tenacious Attack_Attack 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '190900':
+    children: *190900
     name: Popori_F_Warrior_Lv09_Tenacious Attack_Attack 01
     totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '191000':
+    children: *191000
     name: Popori_F_Warrior_Lv10_Tenacious Attack_Attack 01
     totalAtk: "+2898%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '191100':
+    children: *191100
     name: Popori_F_Warrior_Lv11_Tenacious Attack_Attack 01
     totalAtk: "+4008%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'190101':
-  '190201':
-    name: Popori_F_Warrior_Lv02_Tenacious Attack_Attack 02
-    totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '190301':
-    name: Popori_F_Warrior_Lv03_Tenacious Attack_Attack 02
-    totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '190401':
-    name: Popori_F_Warrior_Lv04_Tenacious Attack_Attack 02
-    totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '190501':
-    name: Popori_F_Warrior_Lv05_Tenacious Attack_Attack 02
-    totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '190601':
-    name: Popori_F_Warrior_Lv06_Tenacious Attack_Attack 02
-    totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '190701':
-    name: Popori_F_Warrior_Lv07_Tenacious Attack_Attack 02
-    totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '190801':
-    name: Popori_F_Warrior_Lv08_Tenacious Attack_Attack 02
-    totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '190901':
-    name: Popori_F_Warrior_Lv09_Tenacious Attack_Attack 02
-    totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '191001':
-    name: Popori_F_Warrior_Lv10_Tenacious Attack_Attack 02
-    totalAtk: "+2898%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '191101':
-    name: Popori_F_Warrior_Lv11_Tenacious Attack_Attack 02
-    totalAtk: "+4008%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'200100':
-  '200200':
-    name: Popori_F_Warrior_Lv02_Deadly Will_Cast 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '210100':
   '210200':
     name: Popori_F_Warrior_Lv02_Hard Slash_Attack 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '210300':
     name: Popori_F_Warrior_Lv03_Hard Slash_Attack 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '210400':
     name: Popori_F_Warrior_Lv04_Hard Slash_Attack 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '210500':
     name: Popori_F_Warrior_Lv04_Hard Slash_Attack 01
     totalAtk: "+326%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '220100':
   '220200':
     name: Popori_F_Warrior_Lv02_Catch Back Attack_Start 01
     totalAtk: "+231%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '230100':
   '230200':
     name: Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '230300':
     name: Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '230400':
     name: Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '230500':
     name: Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '230600':
     name: Popori_F_Warrior_Lv02_Reversal Turning Attack_Start 01
     totalAtk: "+448%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'240100':
-  '240200':
-    name: Popori_F_Warrior_Lv02_Decoy_Cast 01
-    totalAtk: "+0%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'250100': {}
-'260100': {}
 '270100':
   '270200':
     name: Popori_F_Warrior_Lv02_Heavy Bite_Attack 01
     totalAtk: "+57%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '270300':
     name: Popori_F_Warrior_Lv03_Heavy Bite_Attack 01
     totalAtk: "+135%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '270400':
     name: Popori_F_Warrior_Lv04_Heavy Bite_Attack 01
     totalAtk: "+252%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '270500':
     name: Popori_F_Warrior_Lv05_Heavy Bite_Attack 01
     totalAtk: "+429%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '270600':
     name: Popori_F_Warrior_Lv06_Heavy Bite_Attack 01
     totalAtk: "+508%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '270700':
     name: Popori_F_Warrior_Lv07_Heavy Bite_Attack 01
     totalAtk: "+787%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '270800':
     name: Popori_F_Warrior_Lv08_Heavy Bite_Attack 01
     totalAtk: "+1278%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '270900':
     name: Popori_F_Warrior_Lv09_Heavy Bite_Attack 01
     totalAtk: "+1115%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '271000':
     name: Popori_F_Warrior_Lv10_Heavy Bite_Attack 01
     totalAtk: "+787%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '271100':
     name: Popori_F_Warrior_Lv11_Heavy Bite_Attack 01
     totalAtk: "+787%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '280100':
   '280200':
     name: Popori_F_Warrior_Lv02_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '280300':
     name: Popori_F_Warrior_Lv03_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '280400':
     name: Popori_F_Warrior_Lv04_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '280500':
     name: Popori_F_Warrior_Lv05_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '280600':
     name: Popori_F_Warrior_Lv06_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '280700':
     name: Popori_F_Warrior_Lv07_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '280800':
     name: Popori_F_Warrior_Lv08_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '280900':
     name: Popori_F_Warrior_Lv09_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '281000':
     name: Popori_F_Warrior_Lv10_No Rival Dancing_Rapid Piercing_Single Use Start 01
     totalAtk: "+3522%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'280130':
-  '280230':
-    name: Popori_F_Warrior_Lv02_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '280330':
-    name: Popori_F_Warrior_Lv03_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '280430':
-    name: Popori_F_Warrior_Lv04_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '280530':
-    name: Popori_F_Warrior_Lv05_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '280630':
-    name: Popori_F_Warrior_Lv06_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '280730':
-    name: Popori_F_Warrior_Lv07_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '280830':
-    name: Popori_F_Warrior_Lv08_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '280930':
-    name: Popori_F_Warrior_Lv09_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+1955%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '281030':
-    name: Popori_F_Warrior_Lv10_No Rival Dancing_Rapid Piercing_Chain Use Start 01
-    totalAtk: "+3522%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '290100':
   '290200':
     name: Popori_F_Warrior_Lv02_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '290300':
     name: Popori_F_Warrior_Lv03_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '290400':
     name: Popori_F_Warrior_Lv04_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '290500':
     name: Popori_F_Warrior_Lv05_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '290600':
     name: Popori_F_Warrior_Lv06_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '290700':
     name: Popori_F_Warrior_Lv07_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '290800':
     name: Popori_F_Warrior_Lv08_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '290900':
     name: Popori_F_Warrior_Lv09_No Rival Dancing_Dual Slash_Single Use Start 01
     totalAtk: "+2382%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'290130':
-  '290230':
-    name: Popori_F_Warrior_Lv02_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '290330':
-    name: Popori_F_Warrior_Lv03_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '290430':
-    name: Popori_F_Warrior_Lv04_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '290530':
-    name: Popori_F_Warrior_Lv05_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '290630':
-    name: Popori_F_Warrior_Lv06_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '290730':
-    name: Popori_F_Warrior_Lv07_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '290830':
-    name: Popori_F_Warrior_Lv08_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '290930':
-    name: Popori_F_Warrior_Lv09_No Rival Dancing_Dual Slash_Chain Use Start 01
-    totalAtk: "+2382%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '300100':
   '300200':
     name: Popori_F_Warrior_Lv02_Raker_Single Use Start 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '300300':
     name: Popori_F_Warrior_Lv03_Raker_Single Use Start 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '300400':
     name: Popori_F_Warrior_Lv04_Raker_Single Use Start 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '300500':
     name: Popori_F_Warrior_Lv05_Raker_Single Use Start 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '300600':
     name: Popori_F_Warrior_Lv05_Raker_Single Use Start 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '300700':
     name: Popori_F_Warrior_Lv05_Raker_Single Use Start 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '300800':
     name: Popori_F_Warrior_Lv05_Raker_Single Use Start 01
     totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '300900':
     name: Popori_F_Warrior_Lv05_Raker_Single Use Start 01
     totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'300130':
-  '300230':
-    name: Popori_F_Warrior_Lv02_Raker_Chain Use Start 01
-    totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '300330':
-    name: Popori_F_Warrior_Lv03_Raker_Chain Use Start 01
-    totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '300430':
-    name: Popori_F_Warrior_Lv04_Raker_Chain Use Start 01
-    totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '300530':
-    name: Popori_F_Warrior_Lv05_Raker_Chain Use Start 01
-    totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '300630':
-    name: Popori_F_Warrior_Lv05_Raker_Chain Use Start 01
-    totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '300730':
-    name: Popori_F_Warrior_Lv05_Raker_Chain Use Start 01
-    totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '300830':
-    name: Popori_F_Warrior_Lv05_Raker_Chain Use Start 01
-    totalAtk: "+1308%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '300930':
-    name: Popori_F_Warrior_Lv05_Raker_Chain Use Start 01
-    totalAtk: "+1829%"
-    timeRate: "+0%"
-    attackRange: "+0%"
 '310100':
   '310200':
     name: Popori_F_Warrior_Lv02_Rupture_Single Use Start 01
     totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '310300':
     name: Popori_F_Warrior_Lv03_Rupture_Single Use Start 01
     totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '310400':
     name: Popori_F_Warrior_Lv04_Rupture_Single Use Start 01
     totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '310500':
     name: Popori_F_Warrior_Lv05_Rupture_Single Use Start 01
     totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '310600':
     name: Popori_F_Warrior_Lv06_Rupture_Single Use Start 01
     totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '310700':
     name: Popori_F_Warrior_Lv07_Rupture_Single Use Start 01
     totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
   '310800':
     name: Popori_F_Warrior_Lv08_Rupture_Single Use Start 01
     totalAtk: "+1400%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'310130':
-  '310230':
-    name: Popori_F_Warrior_Lv02_Rupture_Chain Use Start 01
-    totalAtk: "+46%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '310330':
-    name: Popori_F_Warrior_Lv03_Rupture_Chain Use Start 01
-    totalAtk: "+113%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '310430':
-    name: Popori_F_Warrior_Lv04_Rupture_Chain Use Start 01
-    totalAtk: "+211%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '310530':
-    name: Popori_F_Warrior_Lv05_Rupture_Chain Use Start 01
-    totalAtk: "+353%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '310630':
-    name: Popori_F_Warrior_Lv06_Rupture_Chain Use Start 01
-    totalAtk: "+561%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '310730':
-    name: Popori_F_Warrior_Lv07_Rupture_Chain Use Start 01
-    totalAtk: "+865%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-  '310830':
-    name: Popori_F_Warrior_Lv08_Rupture_Chain Use Start 01
-    totalAtk: "+1400%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'320100': {}
 '330100':
   '330200':
     name: Popori_F_Warrior_Lv02_Shadow change Start 01
     totalAtk: "+37%"
-    timeRate: "+0%"
-    attackRange: "+0%"
-'340100': {}
-'350100': {}
-'360100': {}
-'360130': {}
-'370100': {}
-'370130': {}
-'380100': {}
-'380130': {}
-'390100': {}
-'390130': {}
-'400100': {}
-'400110': {}
-'400111': {}
-'400112': {}
-'400119': {}
-'400120': {}
-'400121': {}
-'400122': {}
-'400129': {}
-'410100': {}
-'410130': {}
-'410131': {}
-'410190': {}
-'420100': {}
-'420130': {}
-'9010100': {}
-'9020100': {}
-'9030100': {}
-'9100100': {}

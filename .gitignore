@@ -1,3 +1,8 @@
 data/
 out/
 test.rb
+test.yml
+test.hcl
+test.cue
+test.toml
+xmltool/config/config_generator.rb.old
