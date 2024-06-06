@@ -1,0 +1,26 @@
+name: Zip and Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install zip
+      run: sudo apt install zip
+
+    - name: Zip files
+      run: zip xmltool_scripts.zip xmltool.sh xmltool.bat
+
+    - name: Upload zip file
+      uses: actions/upload-artifact@v2
+      with:
+        name: xmltool_scripts
+        path: xmltool_scripts.zip
