@@ -21,9 +21,6 @@ jobs:
     - name: Zip files
       run: zip xmltool.zip xmltool.sh xmltool.bat
 
-    - name: Checkout code
-      uses: actions/checkout@v2
-
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
