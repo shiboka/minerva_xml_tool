@@ -7,11 +7,21 @@ Download the docker image:
 docker pull ghcr.io/shiboka/xmltool:main
 ```
 
-Download the start scripts:
+#### <u>Download the start scripts:</u>
+
+Linux/Mac
 
 ```
 curl -s https://api.github.com/repos/shiboka/minerva_xml_tool/releases/latest | jq -r '.assets[] | select(.name=="xmltool.zip") | .browser_download_url' | curl -L -O
 ```
+
+Windows Powershell:
+
+```
+(Invoke-WebRequest -Uri "https://api.github.com/repos/shiboka/minerva_xml_tool/releases/latest" -UseBasicParsing).Content | ConvertFrom-Json | % { $_.assets | ? { $_.name -eq "xmltool.zip" } } | % { Invoke-WebRequest -Uri $_.browser_download_url -OutFile "xmltool.zip" }
+```
+
+Scripts will be in xmltool.zip
 
 Run it with:
 
@@ -25,7 +35,7 @@ or
 
 ### Configuration
 
-Edit xmltool.sh/xmltool.bat:
+#### <u>Edit xmltool.sh/xmltool.bat:</u>
 
 Linux/Mac:
 ```
@@ -51,19 +61,21 @@ To generate every single config file:
 
 ```
 ./xmltool.sh rake config
+./xmltool.bat rake config
 ```
 
 To target specific things:
 
 ```
 ./xmltool.sh config warrior
+./xmltool.bat config warrior
 ```
 
 ---
 
 ### Running Locally
 
-To run locally you will have to download the source code, then do this:
+#### <u>To run locally you will have to download the source code, then do this:</u>
 
 In xmltool.sh/xmltool.bat, uncomment this line:
 ```
