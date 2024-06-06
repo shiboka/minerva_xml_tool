@@ -3,7 +3,6 @@ require "psych"
 require_relative "../errors"
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
-require_relative "config_generator_helper"
 
 module XMLTool
   # This class is used for generating skill configuration files from XML
