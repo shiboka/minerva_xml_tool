@@ -61,6 +61,7 @@ To generate every single config file:
 
 ```
 ./xmltool.sh rake config
+or
 ./xmltool.bat rake config
 ```
 
@@ -68,6 +69,7 @@ To target specific things:
 
 ```
 ./xmltool.sh config warrior
+or
 ./xmltool.bat config warrior
 ```
 
