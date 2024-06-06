@@ -5,14 +5,12 @@ require_relative "../command_logger"
 require_relative "../utils/file_utils"
 
 module XMLTool
-  # This class is used for generating skill configuration files from XML
   class ConfigGenerator
-    # Constants for maximum level, and level start and end indices (of the skill ID)
+    # Constants for maximum level of skill/child, and level start and end indices of the skill ID
     MAX_LEVEL = 39
     LV_START = -4
     LV_END = -1
 
-    # Initializes a new instance of the ConfigGenerator class
     def initialize(sources, clazz, logger = CommandLogger.new)
       @logger = logger
       @sources = sources
@@ -111,7 +109,7 @@ module XMLTool
       populate_levels(base_id, child_id, :children, child_skills["variables"], base_values) { |node| { "name" => node["name"] } }
     end
 
-    # Populates a skills hash with the skill data
+    # Populates a the leves/children of a skill with the skill data (attributes)
     def populate_levels(base_id, child_id, strategy, skills, base_values)
       (1..MAX_LEVEL).each do |i|
         new_id = generate_new_id(child_id, i, strategy)
@@ -143,7 +141,7 @@ module XMLTool
       end
     end
 
-    # Generates a hash of attributes based on the base value (parent skill value)
+    # Generates a hash of attributes with values based on the base value (parent skill value)
     # and the attribute value of the current skill
     def generate_skill_data(node, base_values, initial_obj)
       @attrs.each_with_object(initial_obj) do |attr, hash|
@@ -196,14 +194,14 @@ module XMLTool
       yaml_obj.to_yaml(line_width: -1).gsub(/^---\n/, "")
     end
 
-    # Cleans up both the parent skills and child_skills hashes
+    # Cleans up both the parent skills and child_skills
     def clean_both_skills(skills, child_skills)
       @logger.print_msg("Cleaning up YAML", :red, 1)
       clean_skills(skills)
       clean_skills(child_skills["variables"])
     end
 
-    # Main logic for clean_both_skills to clean up a skills hash (remove empty keys and values)
+    # Main logic for cleaning the YAML, removes empty keys and values
     def clean_skills(yaml_obj)
       yaml_obj.each do |key, value|
         value.each do |k, v|
