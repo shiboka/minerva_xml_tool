@@ -28,7 +28,7 @@ Run it with:
 ```
 ./xmltool.sh
 or
-./xmltool.bat
+xmltool.bat
 ```
 
 ---
@@ -62,7 +62,7 @@ To generate every single config file:
 ```
 ./xmltool.sh rake config
 or
-./xmltool.bat rake config
+xmltool.bat rake config
 ```
 
 To target specific things:
@@ -70,7 +70,7 @@ To target specific things:
 ```
 ./xmltool.sh config warrior
 or
-./xmltool.bat config warrior
+xmltool.bat config warrior
 ```
 
 ---
