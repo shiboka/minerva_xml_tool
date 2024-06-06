@@ -75,7 +75,7 @@ And comment this line:
 docker run -e DATASHEET=$DATASHEET -e DATABASE=$DATABASE -e CONFIG=$CONFIG -v $CONFIG:$CONFIG -v $DATASHEET:$DATASHEET -v $DATABASE:$DATABASE -it $IMAGE "$@"
 ```
 
-Make sure you have ruby, make, and gcc installed. Then run this from the source root directory:
+Make sure you have ruby, make, and gcc installed. Then run this from the project root directory:
 
 ```
 gem install bundler
