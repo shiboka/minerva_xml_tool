@@ -13,8 +13,5 @@ RUN apt update && apt install -y make gcc
 # Install any needed packages specified in Gemfile
 RUN bundle install
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
-
 # Set the default command
 ENTRYPOINT ["ruby", "xmltool.rb"]
