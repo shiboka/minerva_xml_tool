@@ -1,6 +1,0 @@
-sources:
-  server: "data/Datasheet"
-  client: "data/Database"
-backup:
-  server: "backup/Datasheet"
-  client: "backup/Database"

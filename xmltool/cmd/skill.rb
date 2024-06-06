@@ -1,3 +1,4 @@
+require_relative "command"
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_skill"
@@ -5,11 +6,12 @@ require_relative "../config/config_loader"
 require_relative "../errors"
 
 module XMLTool
-  class Skill
+  class Skill < Command
     attr_accessor :config
     attr_reader :file_count
 
-    def initialize(sources, clazz, id, logger = CommandLogger.new)
+    def initialize(clazz, id)
+      super()
       @logger = logger
       @sources = sources
       @clazz = clazz
@@ -18,12 +20,12 @@ module XMLTool
     end
 
     def load_config(clazz, link)
-      @config = link == "n" ? {} : ConfigLoader.load_skill_config("config/skill/children/#{clazz}.yml", "config/skill/#{clazz}.yml")
+      @config = link == "n" ? {} : ConfigLoader.load_skill_config(@sources["config"] + "/skill/children/#{clazz}.yml", @sources["config"] + "/skill/#{clazz}.yml")
     end
 
     def select_files
       @sources.each do |key, path|
-        path = key == "server" ? path : File.join(path, "SkillData")
+        path = key == "server" || key == "config" ? path : File.join(path, "SkillData")
         files = Dir.children(path)
         files = filter_files_by_pattern(files, key)
         files = files.map { |f| File.join(path, f) }
@@ -36,7 +38,7 @@ module XMLTool
 
     def change_with(attrs, link)
       @files.each do |key, value|
-        @logger.print_mode(key)
+        @logger.print_mode(key) unless key == "config"
 
         value.each do |file|
           process_file(file, attrs, link)
@@ -92,7 +94,13 @@ module XMLTool
         end
       end
 
-      File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
+      begin
+        @sources.each_value do |source|
+          FileUtils.write_xml(file, doc)
+        end
+      rescue FileWriteError => e
+        @logger.log_error_and_exit(e.message)
+      end
     end
   end
 end

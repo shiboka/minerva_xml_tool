@@ -19,7 +19,6 @@ module XMLTool
       child_data = File.read(child)
       parent_data = File.read(parent)
       data = child_data + "\n" + parent_data
-      File.write("out/config_dump.yml", data)
 
       begin
         Psych.safe_load(data, aliases: true)

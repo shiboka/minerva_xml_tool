@@ -37,14 +37,7 @@ module XMLTool
       link = ask("Do you want to apply linked skills? (Y/N)").downcase
       attrs = AttrUtils.parse_attrs(attrs_raw)
 
-      begin
-        global_config = ConfigLoader.load_config("config/sources.yml")
-      rescue ConfigLoadError => e
-        @logger.log_error_and_exit(e.message)
-        return
-      end
-
-      skill = Skill.new(global_config["sources"], clazz, id)
+      skill = Skill.new(clazz, id)
 
       begin
         skill.load_config(clazz, link)
@@ -93,14 +86,7 @@ long_desc <<-LONGDESC
       attrs = AttrUtils.parse_attrs(attrs_raw)
       areas = name.split("/")
 
-      begin
-        global_config = ConfigLoader.load_config("config/sources.yml")
-      rescue ConfigLoadError => e
-        @logger.log_error_and_exit(e.message)
-        return
-      end
-
-      area = Area.new(global_config["sources"], areas, mob)
+      area = Area.new(areas, mob)
 
       begin
         area.load_config("config/area.yml")
@@ -133,14 +119,7 @@ long_desc <<-LONGDESC
     def stats(clazz, race, *attrs_raw)
       attrs = AttrUtils.parse_attrs(attrs_raw)
 
-      begin
-        global_config = ConfigLoader.load_config("config/sources.yml")
-      rescue ConfigLoadError => e
-        @logger.log_error_and_exit(e.message)
-        return
-      end
-
-      stats = Stats.new(global_config["sources"], clazz, race)
+      stats = Stats.new(clazz, race)
       stats.change_with(attrs)
 
       @logger.print_modified_files(1, attrs.count)
@@ -159,15 +138,13 @@ long_desc <<-LONGDESC
       ruby xmltool.rb config warrior
     LONGDESC
     def config(clazz)
-      begin
-        global_config = ConfigLoader.load_config("config/sources.yml")
-      rescue ConfigLoadError => e
-        @logger.log_error_and_exit(e.message)
-        return
-      end
-
-      config_gen = ConfigGenerator.new(global_config["sources"], clazz)
+      config_gen = ConfigGenerator.new(clazz)
       config_gen.generate_config
+    end
+
+    desc "rake ARGS", "run rake tasks"
+    def rake(*args)
+      system("rake #{args.join(' ')}")
     end
   end
 end

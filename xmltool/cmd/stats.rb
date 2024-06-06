@@ -1,12 +1,14 @@
 require 'nokogiri'
 require 'open-uri'
 require 'colorize'
+require_relative "command"
 require_relative "../xml/xml_modifier_stats"
 require_relative "../command_logger"
 
 module XMLTool
-  class Stats
-    def initialize(sources, clazz, race, logger = CommandLogger.new)
+  class Stats < Command
+    def initialize(clazz, race)
+      super()
       @logger = logger
       @sources = sources
       @clazz = clazz
@@ -34,7 +36,11 @@ module XMLTool
       xml_modifier = XMLModifierStats.new(nodes)
       xml_modifier.change_stats_data(@clazz, @race, attrs)
 
-      File.open(File.join("out/", file), "w") { |f| f.write(doc.root.to_xml) }
+      begin
+        FileUtils.write_xml(file, doc)
+      rescue FileWriteError => e
+        @logger.log_error_and_exit(e.message)
+      end
     end
   end
 end

@@ -1,3 +1,4 @@
+require_relative "command"
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_area"
@@ -5,10 +6,11 @@ require_relative "../config/config_loader"
 require_relative "../errors"
 
 module XMLTool
-  class Area
-    attr_reader :file_count
+  class Area < Command
+    attr_accessor :file_count
 
-    def initialize(sources, areas, mob, logger = CommandLogger.new)
+    def initialize(areas, mob)
+      super()
       @logger = logger
       @sources = sources
       @areas = areas
@@ -30,44 +32,40 @@ module XMLTool
       @config = { @areas.last => @config }
     end
 
-    def change_with(attrs)
-      traverse_config(@config, attrs)
+    def change_with(attrs, config = @config, toggle = true)
+      config.each do |key, value|
+        toggle = handle_toggle(key, toggle)
+        handle_mode_and_area(key)
+        process_value(value, attrs, toggle)
+      end
     end
 
     private
 
-    def traverse_config(cfg, attrs, areas = [], toggle = true)
-      cfg.each do |key, value|
-        toggle = handle_toggle(key, toggle, areas)
-        handle_mode_and_area(key, areas)
-        process_value(value, attrs, areas, toggle)
-      end
-    end
-
-    def handle_toggle(key, toggle, areas)
+    def handle_toggle(key, toggle)
       if toggle && (key == "server" || key == "client")
         toggle = !toggle
-        @logger.print_areas(areas)
+        @logger.print_areas(@areas)
       end
       toggle
     end
 
-    def handle_mode_and_area(key, areas)
+    def handle_mode_and_area(key)
       if key == "server" || key == "client"
         @mode = key
         @logger.print_mode(key)
       else
-        areas.push(key)
+        @areas.push(key)
       end
     end
 
-    def process_value(value, attrs, areas, toggle)
+    def process_value(value, attrs, toggle)
       if value.is_a?(Array)
         value.each { |v| change_attributes(v, attrs) }
       else
-        traverse_config(value, attrs, areas, toggle)
+        change_with(attrs, value, toggle)
       end
-      areas.pop unless @mode
+      @areas.pop unless @mode
     end
 
     def change_attributes(file, attrs)
@@ -83,7 +81,12 @@ module XMLTool
       xml_modifier = XMLModifierArea.new(doc)
       xml_modifier.handle_mob_case(@mob, attrs)
     
-      File.open(File.join("out/", path, file), "w") { |f| f.write(doc.root.to_xml) }
+
+      begin
+        FileUtils.write_xml(File.join(path, file), doc)
+      rescue FileWriteError => e
+        @logger.log_error_and_exit(e.message)
+      end
     end
 
     def should_print_file(file, attrs)

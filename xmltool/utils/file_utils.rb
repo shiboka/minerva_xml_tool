@@ -21,6 +21,14 @@ module XMLTool
       end
     end
 
+    def self.write_xml(file, doc)
+      begin
+        File.open(file, "w") { |f| f.write(doc.root.to_xml) }
+      rescue SystemCallError => e
+        raise FileWriteError, "Error writing file: #{e.message}"
+      end
+    end
+
     def self.determine_path(file, sources, mode)
       if mode == "client"
         if file[/^NpcData/]
@@ -35,8 +43,10 @@ module XMLTool
 
     def self.write_class_config(yaml_string, clazz)
       begin
-        Dir.mkdir("config/skill") unless Dir.exist?("config/skill")
-        File.write("config/skill/#{clazz}.yml", yaml_string)
+        config_path = ENV["CONFIG"] || "config/"
+        skill_path = File.join(config_path, "skill")
+        Dir.mkdir(skill_path) unless Dir.exist?(skill_path)
+        File.write(File.join(skill_path, "#{clazz}.yml"), yaml_string)
       rescue SystemCallError => e
         raise FileWriteError, "Error writing file: #{e.message}"
       end
@@ -44,8 +54,10 @@ module XMLTool
 
     def self.write_class_child_config(yaml_string, clazz)
       begin
-        Dir.mkdir("config/skill/children") unless Dir.exist?("config/skill/children")
-        File.write("config/skill/children/#{clazz}.yml", yaml_string)
+        config_path = ENV["CONFIG"] || "config/"
+        skill_path = File.join(config_path, "skill", "children")
+        Dir.mkdir(skill_path) unless Dir.exist?(skill_path)
+        File.write(File.join(skill_path, "#{clazz}.yml"), yaml_string)
       rescue SystemCallError => e
         raise FileWriteError, "Error writing file: #{e.message}"
       end

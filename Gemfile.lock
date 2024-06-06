@@ -16,6 +16,7 @@ GEM
     nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
     racc (1.8.0)
+    rake (13.2.1)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -42,6 +43,7 @@ PLATFORMS
 DEPENDENCIES
   colorize
   nokogiri
+  rake
   rspec
   thor
 

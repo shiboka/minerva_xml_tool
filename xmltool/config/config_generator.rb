@@ -1,17 +1,19 @@
 require "nokogiri"
 require "psych"
+require_relative "../cmd/command"
 require_relative "../errors"
 require_relative "../command_logger"
 require_relative "../utils/file_utils"
 
 module XMLTool
-  class ConfigGenerator
+  class ConfigGenerator < Command
     # Constants for maximum level of skill/child, and level start and end indices of the skill ID
     MAX_LEVEL = 39
     LV_START = -4
     LV_END = -1
 
-    def initialize(sources, clazz, logger = CommandLogger.new)
+    def initialize(clazz)
+      super()
       @logger = logger
       @sources = sources
       @clazz = clazz
@@ -226,9 +228,9 @@ module XMLTool
     # Writes the parent skills and child skills to the config files
     def write_config_files(skills_string, child_skills_string)
       begin
-        @logger.print_msg("Writing to file config/skill/#{@clazz}.yaml", :yellow)
+        @logger.print_msg("Writing to file #{@sources["config"]}/skill/#{@clazz}.yaml", :yellow)
         FileUtils.write_class_config(skills_string, @clazz)
-        @logger.print_msg("Writing to file config/skill/children/#{@clazz}.yaml", :yellow)
+        @logger.print_msg("Writing to file #{@sources["config"]}/skill/children/#{@clazz}.yaml", :yellow)
         FileUtils.write_class_child_config(child_skills_string, @clazz)
       rescue FileWriteError => e
         @logger.log_error_and_exit("Error writing file: #{e.message}")
