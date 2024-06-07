@@ -1,10 +1,11 @@
 
 require "nokogiri"
-require_relative "../command_logger"
+require_relative "xml_modifier"
 
 module XMLTool
-  class XMLModifierStats
-    def initialize(nodes, logger = CommandLogger.new)
+  class XMLModifierStats < XMLModifier
+    def initialize(nodes)
+      super()
       @logger = logger
       @nodes = nodes
     end

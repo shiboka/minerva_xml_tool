@@ -1,5 +1,4 @@
 require_relative "command"
-require_relative "../command_logger"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_area"
 require_relative "../config/config_loader"

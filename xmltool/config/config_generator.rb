@@ -2,7 +2,6 @@ require "nokogiri"
 require "psych"
 require_relative "../cmd/command"
 require_relative "../errors"
-require_relative "../command_logger"
 require_relative "../utils/file_utils"
 
 module XMLTool

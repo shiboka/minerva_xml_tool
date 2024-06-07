@@ -2,7 +2,7 @@ require "logger"
 require "colorize"
 
 module XMLTool
-  class CommandLogger
+  class CLILogger
     def initialize
       @logger = Logger.new(STDOUT)
       @logger.formatter = proc do |severity, datetime, progname, msg|

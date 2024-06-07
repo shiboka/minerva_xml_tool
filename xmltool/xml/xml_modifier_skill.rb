@@ -1,9 +1,10 @@
-require_relative "../command_logger"
+require_relative "xml_modifier"
 require_relative "../utils/math_utils"
 
 module XMLTool
-  class XMLModifierSkill
-    def initialize(nodes, logger = CommandLogger.new)
+  class XMLModifierSkill < XMLModifier
+    def initialize(nodes)
+      super()
       @logger = logger
       @nodes = nodes
     end

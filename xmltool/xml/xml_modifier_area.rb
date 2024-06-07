@@ -1,11 +1,13 @@
-require_relative "../command_logger"
+require_relative "xml_modifier"
+require_relative "../cli_logger"
 require_relative "../utils/math_utils"
 
 module XMLTool
-  class XMLModifierArea
-    def initialize(doc, logger = CommandLogger.new)
+  class XMLModifierArea < XMLModifier
+    def initialize(doc)
       raise ArgumentError, 'doc must be a Nokogiri::XML::Document' unless doc.is_a?(Nokogiri::XML::Document)
 
+      super()
       @logger = logger
       @doc = doc
     end

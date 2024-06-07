@@ -2,7 +2,7 @@ require "thor"
 require_relative "cmd/skill"
 require_relative "cmd/area"
 require_relative "cmd/stats"
-require_relative "command_logger"
+require_relative "cli_logger"
 require_relative "config/config_loader"
 require_relative "config/config_generator"
 require_relative "errors"
@@ -12,7 +12,7 @@ module XMLTool
   class App < Thor
     def initialize(*args)
       super
-      @logger = CommandLogger.new
+      @logger = CLILogger.new
     end
 
     def self.exit_on_failure?

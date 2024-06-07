@@ -3,7 +3,6 @@ require 'open-uri'
 require 'colorize'
 require_relative "command"
 require_relative "../xml/xml_modifier_stats"
-require_relative "../command_logger"
 
 module XMLTool
   class Stats < Command
