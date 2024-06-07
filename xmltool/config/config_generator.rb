@@ -10,13 +10,13 @@ module XMLTool
     MAX_LEVEL = 39
     LV_START = -4
     LV_END = -1
+    ATTRS = ["totalAtk", "timeRate", "attackRange", "coolTime", "mp", "hp", "anger", "frontCancelEndTime", "rearCancelStartTime", "moveCancelStartTime"].freeze
 
     def initialize(clazz)
       super()
       @logger = logger
       @sources = sources
       @clazz = clazz
-      @attrs = ["totalAtk", "timeRate", "attackRange", "coolTime", "mp", "hp", "anger", "frontCancelEndTime", "rearCancelStartTime", "moveCancelStartTime"]
     end
 
     # Main method to generate the configuration files
@@ -71,7 +71,7 @@ module XMLTool
 
       @doc.css("SkillData Skill").select { |node| node["id"][LV_START..LV_END] == "0100" }.each do |node|
         id = node["id"]
-        base_values[id] = @attrs.each_with_object({"name" => node["name"]}) do |attr, hash|
+        base_values[id] = ATTRS.each_with_object({"name" => node["name"]}) do |attr, hash|
           hash[attr] = node[attr] if node[attr]
         end
         skills[id] = {"children" => "tmp"}
@@ -145,7 +145,7 @@ module XMLTool
     # Generates a hash of attributes with values based on the base value (parent skill value)
     # and the attribute value of the current skill
     def generate_skill_data(node, base_values, initial_obj)
-      @attrs.each_with_object(initial_obj) do |attr, hash|
+      ATTRS.each_with_object(initial_obj) do |attr, hash|
         base = base_values[attr]
         value = node[attr]
         next unless value && base
