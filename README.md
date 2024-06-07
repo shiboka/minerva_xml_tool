@@ -12,13 +12,13 @@ docker pull ghcr.io/shiboka/xmltool:main
 Linux/Mac
 
 ```
-curl -s https://api.github.com/repos/shiboka/minerva_xml_tool/releases/latest | jq -r '.assets[] | select(.name=="xmltool.zip") | .browser_download_url' | curl -L -O
+curl -L -O https://github.com/shiboka/minerva_xml_tool/releases/download/v0.1.0/xmltool.zip
 ```
 
 Windows Powershell:
 
 ```
-(Invoke-WebRequest -Uri "https://api.github.com/repos/shiboka/minerva_xml_tool/releases/latest" -UseBasicParsing).Content | ConvertFrom-Json | % { $_.assets | ? { $_.name -eq "xmltool.zip" } } | % { Invoke-WebRequest -Uri $_.browser_download_url -OutFile "xmltool.zip" }
+Invoke-WebRequest -Uri https://github.com/shiboka/minerva_xml_tool/releases/download/v0.1.0/xmltool.zip -OutFile xmltool.zip
 ```
 
 Scripts will be in xmltool.zip
