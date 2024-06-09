@@ -1,12 +1,11 @@
 require "nokogiri"
-require_relative "xml_modifier"
+require_relative "../shared/logger"
 require_relative "../utils/math_utils"
 
 module XMLTool
-  class XMLModifierSkill < XMLModifier
+  class XMLModifierSkill
     def initialize(nodes)
-      super()
-      @logger = logger
+      @logger = XMLToolLogger.logger
       @nodes = nodes
     end
 

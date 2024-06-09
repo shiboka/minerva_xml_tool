@@ -1,17 +1,17 @@
-require_relative "command"
+require_relative "../shared/logger"
+require_relative "../shared/sources"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_area"
 require_relative "../config/config_loader"
 require_relative "../errors"
 
 module XMLTool
-  class Area < Command
+  class Area
     attr_accessor :file_count
 
     def initialize(areas, mob)
-      super()
-      @logger = logger
-      @sources = sources
+      @logger = XMLToolLogger.logger
+      @sources = XMLToolSources.sources
       @areas = areas
       @mob = mob
       @file_count = 0

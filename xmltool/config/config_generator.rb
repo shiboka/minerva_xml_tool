@@ -1,11 +1,12 @@
 require "nokogiri"
 require "psych"
-require_relative "../cmd/command"
+require_relative "../shared/logger"
+require_relative "../shared/sources"
 require_relative "../errors"
 require_relative "../utils/file_utils"
 
 module XMLTool
-  class ConfigGenerator < Command
+  class ConfigGenerator
     # MAX_LEVEL = maximum level of skill/child
     # LV_START/LV_END = level start and end indices of the skill ID
     MAX_LEVEL = 39
@@ -14,9 +15,8 @@ module XMLTool
     ATTRS = ["totalAtk", "timeRate", "attackRange", "coolTime", "mp", "hp", "anger", "frontCancelEndTime", "rearCancelStartTime", "moveCancelStartTime"].freeze
 
     def initialize(clazz)
-      super()
-      @logger = logger
-      @sources = sources
+      @logger = XMLToolLogger.logger
+      @sources = XMLToolSources.sources
       @clazz = clazz
     end
 

@@ -1,15 +1,15 @@
 require 'nokogiri'
 require 'open-uri'
 require 'colorize'
-require_relative "command"
+require_relative "../shared/logger"
+require_relative "../shared/sources"
 require_relative "../xml/xml_modifier_stats"
 
 module XMLTool
-  class Stats < Command
+  class Stats
     def initialize(clazz, race)
-      super()
-      @logger = logger
-      @sources = sources
+      @logger = XMLToolLogger.logger
+      @sources = XMLToolSources.sources
       @clazz = clazz
       @race = race
     end
