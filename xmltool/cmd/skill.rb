@@ -1,18 +1,18 @@
-require_relative "command"
+require_relative "../shared/logger"
+require_relative "../shared/sources"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_skill"
 require_relative "../config/config_loader"
 require_relative "../errors"
 
 module XMLTool
-  class Skill < Command
+  class Skill
     attr_accessor :config
     attr_reader :file_count
 
     def initialize(clazz, id)
-      super()
-      @logger = logger
-      @sources = sources
+      @logger = XMLToolLogger.logger
+      @sources = XMLToolSources.sources
       @clazz = clazz
       @id = id
       @files = {}

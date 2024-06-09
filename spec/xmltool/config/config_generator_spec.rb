@@ -9,7 +9,7 @@ describe XMLTool::ConfigGenerator do
   end
 
   describe "#generate_config" do
-    let(:logger) { XMLTool::CLILogger.new }
+    let(:logger) { XMLTool::XMLToolLogger.logger }
     let(:sources) { { "server" => "datasheet", "client" => "database", "config" => "config" } }
 
     context "when the class is a Warrior" do

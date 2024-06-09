@@ -3,7 +3,7 @@ require_relative "../../../xmltool/cmd/stats"
 require_relative "../../../xmltool/utils/file_utils"
 
 describe XMLTool::Stats do
-  let(:logger) { XMLTool::CLILogger.new }
+  let(:logger) { XMLTool::XMLToolLogger.logger }
   let(:sources) { { "server" => "datasheet", "client" => "database" } }
   let(:clazz) { "class" }
   let(:race) { "race" }

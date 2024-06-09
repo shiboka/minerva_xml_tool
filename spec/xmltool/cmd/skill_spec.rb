@@ -2,7 +2,7 @@ require "rspec"
 require_relative "../../../xmltool/cmd/skill"
 
 describe XMLTool::Skill do
-  let(:logger) { XMLTool::CLILogger.new }
+  let(:logger) { XMLTool::XMLToolLogger.logger }
   let(:sources) { { "server" => "datasheet", "client" => "database", "config" => "config" } }
   let(:clazz) { "class" }
   let(:id) { "id" }
@@ -18,7 +18,6 @@ describe XMLTool::Skill do
 
     context "when config loads properly" do
       before do
-        allow_any_instance_of(XMLTool::Command).to receive(:sources).and_return(sources)
         allow(XMLTool::ConfigLoader).to receive(:load_skill_config).and_return({})
       end
 

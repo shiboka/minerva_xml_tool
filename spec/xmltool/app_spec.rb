@@ -3,7 +3,7 @@ require_relative "../../xmltool/app"
 
 describe XMLTool::App do
   let(:app) { XMLTool::App.new }
-  let(:logger) { instance_double(XMLTool::CLILogger) }
+  let(:logger) { XMLTool::XMLToolLogger.logger }
   let(:skill) { instance_double(XMLTool::Skill) }
   let(:area) { instance_double(XMLTool::Area) }
   let(:stats) { instance_double(XMLTool::Stats) }
@@ -11,7 +11,6 @@ describe XMLTool::App do
   let(:attrs) { {"attr1" => "value1", "attr2" => "value2"} }
   
   before do
-    allow(XMLTool::CLILogger).to receive(:new).and_return(logger)
     allow(XMLTool::AttrUtils).to receive(:parse_attrs).and_return(attrs)
     
     allow(XMLTool::Skill).to receive(:new).and_return(skill)
