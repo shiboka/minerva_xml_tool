@@ -33,6 +33,7 @@ describe XMLTool::App do
     context "when called with class, id, and attributes" do
       before do
         allow(logger).to receive(:print_modified_files)
+        allow(app).to receive(:ask).and_return("y")
       end
 
       it "calls the necessary methods with the correct arguments" do
@@ -53,6 +54,7 @@ describe XMLTool::App do
 
         it "logs the error and exits" do
           expect(logger).to receive(:log_error_and_exit).with("Error message")
+
           app.skill("class", "id", *attrs_raw)
         end
       end
