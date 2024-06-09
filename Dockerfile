@@ -1,5 +1,5 @@
 # Use an official Ruby runtime as a parent image
-FROM ruby:3.1.6-bookworm
+FROM ruby:3.1.6-slim-bookworm
 
 # Set the working directory in the container to /app
 WORKDIR /app

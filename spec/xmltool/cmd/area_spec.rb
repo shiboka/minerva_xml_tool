@@ -2,11 +2,9 @@ require "rspec"
 require_relative "../../../xmltool/cmd/area"
 
 describe XMLTool::Area do
-  let(:sources) { ["source1", "source2"] }
   let(:areas) { ["area1", "area2"] }
   let(:mob) { "mob1" }
-  let(:logger) { XMLTool::CommandLogger.new }
-  let(:area) { XMLTool::Area.new(sources, areas, mob, logger) }
+  let(:area) { XMLTool::Area.new(areas, mob) }
 
   describe "#load_config" do
     context "when the area is found in the config" do
@@ -31,16 +29,31 @@ describe XMLTool::Area do
     end
   end
 
-  describe '#change_with' do
-    let(:attrs) { { 'key' => 'value' } }
+  describe "#change_with" do
+    let(:attrs) { { "attr1" => "value1", "attr2" => "value2" } }
 
-    before do
-      allow(area).to receive(:traverse_config)
+    context "when the config is not empty" do
+      let(:config) { { "area2" => { "attr1" => "value1" } } }
+
+      it "processes the value with the given attributes" do
+        expect(area).to receive(:handle_toggle).with("area2", true).and_return(true)
+        expect(area).to receive(:handle_mode_and_area).with("area2")
+        expect(area).to receive(:process_value).with({ "attr1" => "value1" }, attrs, true)
+
+        area.change_with(attrs, config)
+      end
     end
 
-    it 'calls traverse_config with the correct arguments' do
-      area.change_with(attrs)
-      expect(area).to have_received(:traverse_config).with(area.instance_variable_get(:@config), attrs)
+    context "when the config is empty" do
+      let(:config) { {} }
+
+      it "does not process the value" do
+        expect(area).not_to receive(:handle_toggle)
+        expect(area).not_to receive(:handle_mode_and_area)
+        expect(area).not_to receive(:process_value)
+
+        area.change_with(attrs, config)
+      end
     end
   end
 end

@@ -1,3 +1,4 @@
+require "nokogiri"
 require_relative "xml_modifier"
 require_relative "../utils/math_utils"
 

@@ -15,8 +15,12 @@ module XMLTool
     end
 
     def change_with(attrs)
-      file = File.join(@sources["server"], "UserData.xml")
-      process_file(file, attrs)
+      begin
+        file = File.join(@sources["server"], "UserData.xml")
+        process_file(file, attrs)
+      rescue TypeError => e
+        @logger.log_error_and_exit(e.message)
+      end
     end
 
     private

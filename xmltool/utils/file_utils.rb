@@ -24,7 +24,9 @@ module XMLTool
     def self.write_xml(file, doc)
       begin
         File.open(file, "w") { |f| f.write(doc.root.to_xml) }
-      rescue SystemCallError => e
+      rescue Errno::ENOENT => e
+        raise FileNotFoundError, "File not found: #{e.message}"
+      rescue => e
         raise FileWriteError, "Error writing file: #{e.message}"
       end
     end
@@ -41,24 +43,18 @@ module XMLTool
       end
     end
 
-    def self.write_class_config(yaml_string, clazz)
+    def self.write_class_config(yaml_string, clazz, child = false)
       begin
         config_path = ENV["CONFIG"] || "config/"
-        skill_path = File.join(config_path, "skill")
-        Dir.mkdir(skill_path) unless Dir.exist?(skill_path)
-        File.write(File.join(skill_path, "#{clazz}.yml"), yaml_string)
-      rescue SystemCallError => e
-        raise FileWriteError, "Error writing file: #{e.message}"
-      end
-    end
+        if child
+          skill_path = File.join(config_path, "skill", "children")
+        else
+          skill_path = File.join(config_path, "skill")
+        end
 
-    def self.write_class_child_config(yaml_string, clazz)
-      begin
-        config_path = ENV["CONFIG"] || "config/"
-        skill_path = File.join(config_path, "skill", "children")
         Dir.mkdir(skill_path) unless Dir.exist?(skill_path)
         File.write(File.join(skill_path, "#{clazz}.yml"), yaml_string)
-      rescue SystemCallError => e
+      rescue => e
         raise FileWriteError, "Error writing file: #{e.message}"
       end
     end

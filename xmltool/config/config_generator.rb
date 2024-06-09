@@ -6,7 +6,8 @@ require_relative "../utils/file_utils"
 
 module XMLTool
   class ConfigGenerator < Command
-    # Constants for maximum level of skill/child, and level start and end indices of the skill ID
+    # MAX_LEVEL = maximum level of skill/child
+    # LV_START/LV_END = level start and end indices of the skill ID
     MAX_LEVEL = 39
     LV_START = -4
     LV_END = -1
@@ -21,19 +22,23 @@ module XMLTool
 
     # Main method to generate the configuration files
     def generate_config
-      file = select_file
-      path = File.join(@sources["server"], file)
+      begin
+        file = select_file
+        path = File.join(@sources["server"], file)
 
-      @doc = parse_file_to_doc(path)
-      base_values, skills, child_skills = parse_base_values_and_init_skills(path)
+        @doc = parse_file_to_doc(path)
+        base_values, skills, child_skills = parse_base_values_and_init_skills(path)
 
-      populate_skills_from_base_values(base_values, skills, child_skills)
-      clean_both_skills(skills, child_skills)
+        populate_skills_from_base_values(base_values, skills, child_skills)
+        clean_both_skills(skills, child_skills)
 
-      skills_string = insert_aliases(skills, child_skills)
-      child_skills_string = insert_anchors(child_skills)
+        skills_string = insert_aliases(skills, child_skills)
+        child_skills_string = insert_anchors(child_skills)
 
-      write_config_files(skills_string, child_skills_string)
+        write_config_files(skills_string, child_skills_string)
+      rescue TypeError => e
+        @logger.log_error_and_exit(e.message)
+      end
     end
 
     private
@@ -230,7 +235,7 @@ module XMLTool
         @logger.print_msg("Writing to file #{@sources["config"]}/skill/#{@clazz}.yaml", :yellow)
         FileUtils.write_class_config(skills_string, @clazz)
         @logger.print_msg("Writing to file #{@sources["config"]}/skill/children/#{@clazz}.yaml", :yellow)
-        FileUtils.write_class_child_config(child_skills_string, @clazz)
+        FileUtils.write_class_config(child_skills_string, @clazz, true)
       rescue FileWriteError => e
         @logger.log_error_and_exit("Error writing file: #{e.message}")
       end

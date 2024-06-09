@@ -19,25 +19,32 @@ module XMLTool
     end
 
     def load_config(clazz, link)
-      @config = link == "n" ? {} : ConfigLoader.load_skill_config(@sources["config"] + "/skill/children/#{clazz}.yml", @sources["config"] + "/skill/#{clazz}.yml")
+      begin
+        @config = link == "n" ? {} : ConfigLoader.load_skill_config(@sources["config"] + "/skill/children/#{clazz}.yml", @sources["config"] + "/skill/#{clazz}.yml")
+      rescue ConfigLoadError, NoMethodError => e
+        @logger.log_error_and_exit(e.message)
+      end
     end
 
     def select_files
-      @sources.each do |key, path|
-        path = key == "server" || key == "config" ? path : File.join(path, "SkillData")
-        files = Dir.children(path)
-        files = filter_files_by_pattern(files, key)
-        files = files.map { |f| File.join(path, f) }
-        files = filter_client_files(files, key)
-        @files[key] = files
+      begin
+        @sources.each do |key, path|
+          path = key == "server" || key == "config" ? path : File.join(path, "SkillData")
+          files = Dir.children(path)
+          files = filter_files_by_pattern(files, key)
+          files = files.map { |f| File.join(path, f) }
+          files = filter_client_files(files, key)
+          @files[key] = files
+        end
+        @file_count = @files.values.flatten.count
+      rescue Errno::ENOENT => e
+        @logger.log_error_and_exit(e.message)
       end
-
-      @file_count = @files.values.flatten.count
     end
 
     def change_with(attrs, link)
       @files.each do |key, value|
-        @logger.print_mode(key) unless key == "config"
+        @logger.print_mode(key) unless key == "config" || value.empty?
 
         value.each do |file|
           process_file(file, attrs, link)
