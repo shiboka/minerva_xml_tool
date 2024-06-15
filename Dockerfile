@@ -16,6 +16,9 @@ ADD . /app
 WORKDIR /app/xmltool/web/frontend
 RUN npm ci
 
+# Build the frontend
+RUN npm run build
+
 # Install Ruby dependencies
 WORKDIR /app
 RUN apt install -y make gcc
