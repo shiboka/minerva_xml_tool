@@ -1,31 +1,39 @@
 require "thor"
-require_relative "cmd/skill"
-require_relative "cmd/area"
-require_relative "cmd/stats"
-require_relative "shared/logger"
-require_relative "config/config_loader"
-require_relative "config/config_generator"
-require_relative "errors"
-require_relative "utils/attr_utils"
+require_relative "../cmd/skill"
+require_relative "../cmd/area"
+require_relative "../cmd/stats"
+require_relative "../config/config_loader"
+require_relative "../config/config_generator"
+require_relative "../errors"
+require_relative "../utils/attr_utils"
+require_relative "logger"
 
 module XMLTool
-  class App < Thor
+  class CLIApp < Thor
+    class << self
+      attr_accessor :logger
+    end
+
     def initialize(*args)
       super
-      @logger = XMLToolLogger.logger
+      if self.class.logger
+        @logger = self.class.logger
+      else
+        @logger = CLILogger.new
+      end
     end
 
     def self.exit_on_failure?
       true
     end
 
-    desc "skill CLASS ID ATTRIBUTES", "modify skill"
+    desc "skill CLASS ID CHAIN ATTRIBUTES", "modify skill"
     long_desc <<-LONGDESC
       Will modify the skill with the given ID for the given class.
 
       The ATTRIBUTES argument should be a list of key-value pairs separated by an equal sign. For example: totalAtk=100.
 
-      The command will prompt you to apply linked skills. If you choose to apply linked skills, the command will modify the linked skills specified in the config as well.
+      The command will prompt you to apply chained skills. If you choose to apply chained skills, the command will modify the chained skills specified in the config as well.
 
       Example:
 
@@ -33,23 +41,12 @@ module XMLTool
 
       ruby xmltool.rb skill warrior 10100 totalAtk=100
     LONGDESC
-    def skill(clazz, id, *attrs_raw)
-      link = ask("Do you want to apply linked skills? (Y/N)").downcase
+    def skill(clazz, id, chain_raw, *attrs_raw)
+      chain = chain_raw.downcase
       attrs = AttrUtils.parse_attrs(attrs_raw)
 
-      skill = Skill.new(clazz, id)
-
-      begin
-        skill.load_config(clazz, link)
-      rescue ConfigLoadError => e
-        @logger.log_error_and_exit(e.message)
-        return
-      end
-
-      skill.select_files
-      skill.change_with(attrs, link)
-
-      @logger.print_modified_files(skill.file_count, attrs.count)
+      skill_cmd = SkillCommand.new(clazz, id, chain, @logger)
+      skill_cmd.run(attrs)
     end
 
     desc "area NAME MOB ATTRIBUTES", "modify area"
@@ -84,20 +81,9 @@ long_desc <<-LONGDESC
     LONGDESC
     def area(name, mob, *attrs_raw)
       attrs = AttrUtils.parse_attrs(attrs_raw)
-      areas = name.split("/")
 
-      area = Area.new(areas, mob)
-
-      begin
-        area.load_config("config/area.yml")
-      rescue ConfigLoadError, AreaNotFoundError => e
-        @logger.log_error_and_exit(e.message)
-        return
-      end
-
-      area.change_with(attrs)
-
-      @logger.print_modified_files(area.file_count, attrs.count)
+      area_cmd = AreaCommand.new(name, mob, @logger)
+      area_cmd.run(attrs)
     end
 
     desc "stats CLASS RACE ATTRIBUTES", "modify player stats"
@@ -119,10 +105,8 @@ long_desc <<-LONGDESC
     def stats(clazz, race, *attrs_raw)
       attrs = AttrUtils.parse_attrs(attrs_raw)
 
-      stats = Stats.new(clazz, race)
-      stats.change_with(attrs)
-
-      @logger.print_modified_files(1, attrs.count)
+      stats_cmd = StatsCommand.new(clazz, race, @logger)
+      stats_cmd.run(attrs)
     end
 
     desc "config CLASS", "generate config for class"
@@ -138,7 +122,7 @@ long_desc <<-LONGDESC
       ruby xmltool.rb config warrior
     LONGDESC
     def config(clazz)
-      config_gen = ConfigGenerator.new(clazz)
+      config_gen = ConfigGenerator.new(clazz, @logger)
       config_gen.generate_config
     end
 

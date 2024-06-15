@@ -1,9 +1,10 @@
 require "nokogiri"
 require "psych"
-require_relative "../shared/logger"
+require_relative "../cli/logger"
 require_relative "../shared/sources"
 require_relative "../errors"
 require_relative "../utils/file_utils"
+require_relative "../shared/game_data"
 
 module XMLTool
   class ConfigGenerator
@@ -12,16 +13,29 @@ module XMLTool
     MAX_LEVEL = 39
     LV_START = -4
     LV_END = -1
-    ATTRS = ["totalAtk", "timeRate", "attackRange", "coolTime", "mp", "hp", "anger", "frontCancelEndTime", "rearCancelStartTime", "moveCancelStartTime"].freeze
+    ATTRS = %w[totalAtk timeRate attackRange coolTime mp hp anger frontCancelEndTime rearCancelStartTime moveCancelStartTime].freeze
 
-    def initialize(clazz)
-      @logger = XMLToolLogger.logger
+    def initialize(clazz, logger = CLILogger.new)
+      @logger = logger
       @sources = XMLToolSources.sources
       @clazz = clazz
     end
 
     # Main method to generate the configuration files
     def generate_config
+      if @clazz == "all"
+        GameData.classes.each do |clazz|
+          @clazz = clazz
+          generate_class_config
+        end
+      else
+        generate_class_config
+      end
+    end
+
+    private
+
+    def generate_class_config
       begin
         file = select_file
         path = File.join(@sources["server"], file)
@@ -40,8 +54,6 @@ module XMLTool
         @logger.log_error_and_exit(e.message)
       end
     end
-
-    private
 
     # Selects the appropriate file based on the class
     def select_file

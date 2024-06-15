@@ -1,26 +1,44 @@
-require_relative "../shared/logger"
 require_relative "../shared/sources"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_skill"
 require_relative "../config/config_loader"
 require_relative "../errors"
+require_relative "../cli/logger"
 
 module XMLTool
-  class Skill
+  class SkillCommand
     attr_accessor :config
     attr_reader :file_count
 
-    def initialize(clazz, id)
-      @logger = XMLToolLogger.logger
+    def initialize(clazz, id, chain, logger = CLILogger.new)
+      @logger = logger
       @sources = XMLToolSources.sources
       @clazz = clazz
       @id = id
+      @chain = chain
       @files = {}
     end
 
-    def load_config(clazz, link)
+    def run(attrs)
+      load_config
+      select_files
+
+      @files.each do |key, value|
+        @logger.print_mode(key) unless key == "config" || value.empty?
+
+        value.each do |file|
+          process_file(file, attrs)
+        end
+      end
+
+      @logger.print_modified_files(@file_count, attrs.count)
+    end
+
+    private
+
+    def load_config
       begin
-        @config = link == "n" ? {} : ConfigLoader.load_skill_config(@sources["config"] + "/skill/children/#{clazz}.yml", @sources["config"] + "/skill/#{clazz}.yml")
+        @config = @chain == "n" ? {} : ConfigLoader.load_skill_config(@sources["config"] + "/skill/children/#{@clazz}.yml", @sources["config"] + "/skill/#{@clazz}.yml")
       rescue ConfigLoadError, NoMethodError => e
         @logger.log_error_and_exit(e.message)
       end
@@ -42,18 +60,6 @@ module XMLTool
       end
     end
 
-    def change_with(attrs, link)
-      @files.each do |key, value|
-        @logger.print_mode(key) unless key == "config" || value.empty?
-
-        value.each do |file|
-          process_file(file, attrs, link)
-        end
-      end
-    end
-
-    private
-
     def filter_files_by_pattern(files, key)
       pattern = key == "server" ? /^UserSkillData_#{@clazz.capitalize}.+\.xml$/ : /^SkillData.+\.xml$/
       files.select { |f| f[pattern] }
@@ -72,7 +78,7 @@ module XMLTool
       end
     end
 
-    def process_file(file, attrs, link)
+    def process_file(file, attrs)
       @logger.print_file(file)
 
       begin
@@ -83,10 +89,10 @@ module XMLTool
       end
 
       nodes = doc.css("Skill")
-      xml_modifier = XMLModifierSkill.new(nodes)
+      xml_modifier = XMLModifierSkill.new(nodes, @logger)
       xml_modifier.change_skill_data(@id, attrs)
 
-      if link == "y"
+      if @chain == "y"
         @config[@id]["children"].each do |config_id, config_attrs|
           xml_modifier.change_skill_data(config_id, attrs, config_attrs)
         end if @config[@id]["children"]

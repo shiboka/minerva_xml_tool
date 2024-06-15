@@ -1,0 +1,10 @@
+#skill-chain-container {
+  margin-bottom: 10px;
+  padding: 5px 10px 0px 10px;
+  width: 116px;
+  background-color: black;
+  color: white;
+  border: 1px solid #333;
+  font-size: 14px;
+  border-radius: 7px;
+}

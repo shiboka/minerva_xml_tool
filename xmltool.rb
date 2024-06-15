@@ -1,3 +1,5 @@
-require_relative "xmltool/app"
+#require_relative "xmltool/cli/app"
+#XMLTool::CLIApp.start(ARGV)
 
-XMLTool::App.start(ARGV)
+require_relative "xmltool/web/app"
+XMLTool::WebApp.run!

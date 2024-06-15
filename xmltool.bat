@@ -9,7 +9,7 @@ REM Docker image
 set IMAGE=ghcr.io/shiboka/xmltool:main
 
 REM Run the container
-docker run -e DATASHEET=%DATASHEET% -e DATABASE=%DATABASE% -e CONFIG=%CONFIG% -v %CONFIG_HOST%:%CONFIG_CONTAINER% -v %DATA_HOST%:%DATA_CONTAINER% -it %IMAGE% %*
+docker run -p 4567:4567 -e DATASHEET=/xmltool/datasheet -e DATABASE=/xmltool/database -e CONFIG=/xmltool/config -v %CONFIG%:/xmltool/config -v %DATASHEET%:/xmltool/datasheet -v %DATABASE%:/xmltool/database -it %IMAGE% %*
 
 REM Run without Docker
 REM ruby xmltool.rb "$@"

@@ -1,0 +1,8 @@
+.rc-tree-node-selected {
+  background-color: black !important;
+  box-shadow: 0 0 0 1px #888 !important;
+}
+
+#tree-container {
+  margin-bottom: 10px;
+}

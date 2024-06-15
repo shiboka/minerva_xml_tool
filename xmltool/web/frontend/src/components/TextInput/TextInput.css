@@ -1,0 +1,26 @@
+#id-input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border: 1px solid #333;
+}
+
+#attr-input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  border: 1px solid #333;
+}
+
+#command-input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  border: 1px solid #333;
+}
