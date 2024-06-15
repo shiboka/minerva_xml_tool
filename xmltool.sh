@@ -9,7 +9,7 @@ export CONFIG=/path/to/xmltool/config
 export IMAGE=ghcr.io/shiboka/xmltool:main
 
 # Run with Docker
-docker run -e DATASHEET=$DATASHEET -e DATABASE=$DATABASE -e CONFIG=$CONFIG -v $CONFIG:$CONFIG -v $DATASHEET:$DATASHEET -v $DATABASE:$DATABASE -it $IMAGE "$@"
+docker run -p 4567:4567 -e DATASHEET=/xmltool/datasheet -e DATABASE=/xmltool/database -e CONFIG=/xmltool/config -v $CONFIG:/xmltool/config -v $DATASHEET:/xmltool/datasheet -v $DATABASE:/xmltool/database -it $IMAGE "$@"
 
 # Run without Docker
 #ruby xmltool.rb "$@"

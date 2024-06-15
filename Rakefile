@@ -1,11 +1,13 @@
 require "rspec/core/rake_task"
+require_relative "xmltool/cli/app"
+require_relative "xmltool/shared/game_data"
 
 task default: %w[test]
 
 task :config do |t, args|
-  classes = ["Warrior", "Berserker", "Slayer", "Archer", "Sorcerer", "Lancer", "Priest", "Elementalist", "Soulless", "Engineer", "Assassin", "Fighter", "Glaiver"]
-    classes.each do |clazz|
-      sh "ruby xmltool.rb config #{clazz}"
+    XMLTool::GameData.classes.each do |clazz|
+      args = ["config", clazz]
+      XMLTool::CLIApp.start(args)
     end
 end
 

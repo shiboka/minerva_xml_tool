@@ -1,23 +1,24 @@
 require 'nokogiri'
 require 'open-uri'
 require 'colorize'
-require_relative "../shared/logger"
+require_relative "../cli/logger"
 require_relative "../shared/sources"
 require_relative "../xml/xml_modifier_stats"
 
 module XMLTool
-  class Stats
-    def initialize(clazz, race)
-      @logger = XMLToolLogger.logger
+  class StatsCommand
+    def initialize(clazz, race, logger = CLILogger.new)
+      @logger = logger
       @sources = XMLToolSources.sources
       @clazz = clazz
       @race = race
     end
 
-    def change_with(attrs)
+    def run(attrs)
       begin
         file = File.join(@sources["server"], "UserData.xml")
         process_file(file, attrs)
+        @logger.print_modified_files(1, attrs.count)
       rescue TypeError => e
         @logger.log_error_and_exit(e.message)
       end
@@ -36,7 +37,7 @@ module XMLTool
       end
 
       nodes = doc.css('UserData Template')
-      xml_modifier = XMLModifierStats.new(nodes)
+      xml_modifier = XMLModifierStats.new(nodes, @logger)
       xml_modifier.change_stats_data(@clazz, @race, attrs)
 
       begin

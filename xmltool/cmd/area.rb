@@ -1,4 +1,4 @@
-require_relative "../shared/logger"
+require_relative "../cli/logger"
 require_relative "../shared/sources"
 require_relative "../utils/file_utils"
 require_relative "../xml/xml_modifier_area"
@@ -6,19 +6,27 @@ require_relative "../config/config_loader"
 require_relative "../errors"
 
 module XMLTool
-  class Area
+  class AreaCommand
     attr_accessor :file_count
 
-    def initialize(areas, mob)
-      @logger = XMLToolLogger.logger
+    def initialize(areas, mob, logger = CLILogger.new)
+      @logger = logger
       @sources = XMLToolSources.sources
-      @areas = areas
+      @areas = areas.split("/")
       @mob = mob
       @file_count = 0
     end
 
-    def load_config(path)
-      @config = ConfigLoader.load_config(path)
+    def run(attrs, toggle = true)
+      load_config
+      run_recursive(attrs, @config, toggle)
+      @logger.print_modified_files(@file_count, attrs.count)
+    end
+
+    private
+
+    def load_config
+      @config = ConfigLoader.load_config(File.join(@sources["config"], "areas.yml"))
 
       @areas.each do |a|
         if @config.key?(a)
@@ -28,43 +36,38 @@ module XMLTool
         end
       end
 
-      @config = { @areas.last => @config }
+      #@config = { @areas.last => @config}
     end
 
-    def change_with(attrs, config = @config, toggle = true)
+    def run_recursive(attrs, config, toggle, path = @areas)
       config.each do |key, value|
-        toggle = handle_toggle(key, toggle)
-        handle_mode_and_area(key)
-        process_value(value, attrs, toggle)
+        new_path = path
+        new_path += [key] unless ["server", "client"].include?(key)
+
+        toggle = handle_toggle_and_mode(key, toggle, new_path)
+        process_value(value, attrs, toggle, new_path)
       end
     end
 
-    private
-
-    def handle_toggle(key, toggle)
-      if toggle && (key == "server" || key == "client")
-        toggle = !toggle
-        @logger.print_areas(@areas)
-      end
-      toggle
-    end
-
-    def handle_mode_and_area(key)
-      if key == "server" || key == "client"
-        @mode = key
-        @logger.print_mode(key)
-      else
-        @areas.push(key)
-      end
-    end
-
-    def process_value(value, attrs, toggle)
+    def process_value(value, attrs, toggle, path)
       if value.is_a?(Array)
         value.each { |v| change_attributes(v, attrs) }
       else
-        change_with(attrs, value, toggle)
+        run_recursive(attrs, value, toggle, path)
       end
-      @areas.pop unless @mode
+    end
+
+    def handle_toggle_and_mode(key, toggle, path)
+      if ["server", "client"].include?(key)
+        if toggle
+          toggle = !toggle
+          @logger.print_areas(path)
+        end
+
+        @mode = key
+        @logger.print_mode(key)
+      end
+      toggle
     end
 
     def change_attributes(file, attrs)
@@ -77,7 +80,7 @@ module XMLTool
     
       data = FileUtils.read_file(File.join(path, file))
       doc = FileUtils.parse_xml(data)
-      xml_modifier = XMLModifierArea.new(doc)
+      xml_modifier = XMLModifierArea.new(doc, @logger)
       xml_modifier.handle_mob_case(@mob, attrs)
     
 
