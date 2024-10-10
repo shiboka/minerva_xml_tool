@@ -8,13 +8,13 @@ services:
             - redis
         volumes:
             - type: bind
-              source: 'C:/Users/daubi/xmltool/datasheet'
+              source: 'C:/path/to/datasheet'
               target: '/xmltool/datasheet'
             - type: bind
-              source: 'C:/Users/daubi/xmltool/Database'
+              source: 'C:/path/to/database'
               target: '/xmltool/database'
             - type: bind
-              source: 'C:/Users/daubi/xmltool/config'
+              source: 'C:/path/to/config'
               target: '/xmltool/config'
         networks:
             - network

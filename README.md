@@ -13,18 +13,18 @@ docker compose up
 
 #### Edit compose.yaml:
 
-Before you run the program you should edit compose.yaml to point to the appropriate location on your pc. You only need to change "source" to point to the right location, do not change target or the program won't work.
+Before you run the program you should edit compose.yaml to point to the appropriate locations on your pc. You only need to change "source" to point to the right locations, do not change target or the program won't work.
 
 ```
 volumes:
     - type: bind
-        source: 'C:/Users/daubi/xmltool/datasheet'
+        source: 'C:/path/to/datasheet'
         target: '/xmltool/datasheet'
     - type: bind
-        source: 'C:/Users/daubi/xmltool/Database'
+        source: 'C:/path/to/Database'
         target: '/xmltool/database'
     - type: bind
-        source: 'C:/Users/daubi/xmltool/config'
+        source: 'C:/path/to/config'
         target: '/xmltool/config'
 ```
 
