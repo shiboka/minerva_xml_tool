@@ -1,6 +1,6 @@
 module XMLTool
   class XMLToolSources
-    @sources = { "server" => ENV["DATASHEET"], "client" => ENV["DATABASE"], "config" => ENV["CONFIG"]}
+    @sources = { "server" => "/xmltool/datasheet", "client" => "/xmltool/database", "config" => "/xmltool/config"}
 
     def self.sources
       @sources

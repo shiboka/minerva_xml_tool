@@ -1,0 +1,34 @@
+services:
+    xmltool:
+        build: .
+        container_name: xmltool
+        ports:
+            - 4567:4567
+        depends_on:
+            - redis
+        volumes:
+            - type: bind
+              source: 'C:/Users/daubi/xmltool/datasheet'
+              target: '/xmltool/datasheet'
+            - type: bind
+              source: 'C:/Users/daubi/xmltool/Database'
+              target: '/xmltool/database'
+            - type: bind
+              source: 'C:/Users/daubi/xmltool/config'
+              target: '/xmltool/config'
+        networks:
+            - network
+    redis:
+        image: redis:bookworm
+        restart: always
+        command: redis-server
+        volumes:
+            - redis:/data
+        networks:
+            - network
+volumes:
+    redis:
+        driver: local
+networks:
+    network:
+        driver: bridge

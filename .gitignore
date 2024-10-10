@@ -3,3 +3,5 @@ xmltool_dev.sh
 test.rb
 test.yml
 development.db
+xmltool.bat
+xmltool.sh
