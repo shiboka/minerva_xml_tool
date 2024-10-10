@@ -3,6 +3,7 @@
 
 ```
 git clone https://github.com/shiboka/minerva_xml_tool
+cd minerva_xml_tool
 docker compose up
 ```
 
