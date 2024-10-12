@@ -1,6 +1,6 @@
 services:
     xmltool:
-        build: .
+        image: ghcr.io/shiboka/xmltool:main
         container_name: xmltool
         ports:
             - 4567:4567
